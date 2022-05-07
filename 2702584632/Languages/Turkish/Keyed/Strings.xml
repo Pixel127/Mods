@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <CTR.pawnconverted>{0} dönüştürüldü, koloniye alınma denemelerine başlanıcak.</CTR.pawnconverted>
+  <CTR.reduceresistance.label>Dönüştürmeden önce direnç gücünü azaltın</CTR.reduceresistance.label>
+  <CTR.reduceresistance.description>Eğer etkinleştirilirse, mahkumların direnci, herhangi bir dönüştürme girişiminden önce azaltılacaktır.</CTR.reduceresistance.description>
+  <CTR.version.label>Yüklenen mod versiyonu: {0}</CTR.version.label>
+</LanguageData>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Simply Bulk Crafting</name>
+  <author>Kiroberos</author>
+  <supportedVersions>
+  <li>1.2</li>
+  <li>1.3</li>
+  </supportedVersions>
+  <description>
+Adds useful bulk crafting recipes for some items in Rimworld while still trying to be balanced but not punishing.
+
+Currently added bulk recipes:
+
+ • Simple meals
+ • Fine meals
+ • Lavish meals
+ • Packaged survival meals
+ • Pemmican
+ • Kibble
+ • Wort
+ • Flake
+ • Go-Juice
+ • Penoxycyline
+ • Psychite tea
+ • Yayo
+ • Smokeleaf joint
+ • Wake-Up
+ • Medicine
+ • Burn apparel
+ • Burn drugs
+ • Stone blocks
+ • Smelt metal from slag
+ • Smelt weapons (surprisingly useful)
+ • Destroy weapons
+ • Chemfuel from wood
+ • Chemfuel from organics
+ • Components
+ • High-explosive shells
+ • Incendiary shells
+ • EMP shells
+ • Advanced Components
+ • Patch leather
+ • Make chemfuel from corpses
+_______________________________________
+
+If you have any balance suggestions or suggestions for new recipes, leave a comment and if you enjoyed the mod give it a thumbs up
+ </description>
+ <packageId>Kiroberos.SimpleBulkCrafting</packageId>
+</ModMetaData>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="ResourceBase">
+		<defName>WoolCloth</defName>
+		<label>wool cloth</label>
+		<description>Wool that has been sheared from an animal and woven into a thick, warm cloth.</description>
+    <graphicData>
+      <texPath>Things/WoolCloth</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <color>(162,157,152)</color>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <MarketValue>1.7</MarketValue>
+      <Mass>0.026</Mass>
+      <Flammability>1.2</Flammability>
+    </statBases>
+
+    <thingCategories>
+      <li>Textiles</li>
+    </thingCategories>
+
+	</ThingDef>
+
+</Defs>

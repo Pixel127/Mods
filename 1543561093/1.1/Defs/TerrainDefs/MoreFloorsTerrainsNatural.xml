@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <TerrainDef Name="TFloorBaseGemstone" Abstract="true">
+    <texturePath>Terrain/Surfaces/GemstoneFloor</texturePath>
+    <layerable>true</layerable>
+    <affordances>
+      <li>Light</li>
+      <li>Medium</li>
+      <li>Heavy</li>
+    </affordances>
+    <tags>
+      <li>FineFloor</li>
+    </tags>
+    <statBases>
+      <WorkToBuild>6000</WorkToBuild>
+      <Beauty>4</Beauty>
+    </statBases>
+    <designationCategory>MoreFloors</designationCategory>
+    <designatorDropdown>TFloor_GemstoneFloor</designatorDropdown>
+    <fertility>0</fertility>
+    <constructEffect>ConstructDirt</constructEffect>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <researchPrerequisites>
+      <li>Stonecutting</li>
+    </researchPrerequisites>
+    <constructionSkillPrerequisite>10</constructionSkillPrerequisite>
+  </TerrainDef>
+
+  <TerrainDef Name="FloorStraw">
+    <defName>FloorStraw</defName>
+    <label>straw floor</label>
+    <description>Simple flooring made with dried haygrass. Highly flammable!</description>
+    <texturePath>Terrain/Surfaces/StrawFloor</texturePath>
+    <edgeType>FadeRough</edgeType>
+    <layerable>true</layerable>
+    <affordances>
+      <li>Light</li>
+      <li>Medium</li>
+      <li>Heavy</li>
+    </affordances>
+    <statBases>
+      <WorkToBuild>75</WorkToBuild>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <costList>
+      <Hay>4</Hay>
+    </costList>
+    <designationCategory>MoreFloors</designationCategory>
+    <fertility>0</fertility>
+    <constructEffect>ConstructDirt</constructEffect>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <burnedDef>BurnedStrawFloor</burnedDef>
+  </TerrainDef>
+
+  <TerrainDef ParentName="BurnedFloorBase">
+    <defName>BurnedStrawFloor</defName>
+    <label>burned straw floor</label>
+    <description>Burned-out straw flooring.</description>
+    <texturePath>Terrain/Surfaces/BurnedStrawFloor</texturePath>
+    <edgeType>FadeRough</edgeType>
+  </TerrainDef>
+
+  <TerrainDef ParentName="TFloorBaseGemstone" Name="FloorJade">
+    <defName>FloorJade</defName>
+    <label>jade floor</label>
+    <description>A stunning floor made from polished slabs of solid jade. You can barely see where the tiles join! Fantastically beautiful but also requires a very long time to build.</description>
+    <costList>
+      <Jade>10</Jade>
+    </costList>
+    <color>(85,118,69)</color>
+  </TerrainDef>
+
+</Defs>

@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	
+	<RecipeDef>
+		<defName>FSFRecipeFertilizer</defName>
+		<label>create fertilizer</label>
+		<description>By refining organic matter you can create a high quality fertilizer.</description>
+		<jobString>Making fertilizer.</jobString>
+		<workAmount>3000</workAmount>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Sculpt</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<recipeUsers>
+			<li>BiofuelRefinery</li>
+		</recipeUsers>
+		<researchPrerequisite><li>FSFRichGardenSoil</li></researchPrerequisite>
+		<ingredients>
+			<li>
+				<filter>
+          			<categories>
+            			<li>PlantFoodRaw</li>
+          			</categories>
+          			<thingDefs>
+            			<li>Hay</li>
+						<li>WoodLog</li>
+          			</thingDefs>
+				</filter>
+				<count>100</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>PlantFoodRaw</li>
+			</categories>
+			<thingDefs>
+				<li>Hay</li>
+				<li>WoodLog</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<FSFItemFertilizer>100</FSFItemFertilizer>
+		</products>
+  	</RecipeDef>
+
+	<RecipeDef>
+		<defName>FSFRecipeEnrichSoilStony</defName>
+		<label>enrich stony soil</label>
+		<description>By mixing stony soil fertilizer together you can enrich the soil making it more fertile.</description>
+		<jobString>Enriching stony soil.</jobString>
+		<workAmount>3000</workAmount>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Sculpt</soundWorking>
+		<recipeUsers>
+			<li>CraftingSpot</li>
+			<li>FSFItemSoilStonyGatherSpot</li>
+			<li>FSFItemSoilGatherSpot</li>
+			<li>FSFItemSoilRichGatherSpot</li>
+		</recipeUsers>
+		<researchPrerequisite><li>FSFRichGardenSoil</li></researchPrerequisite>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>FSFItemSoilStony</li>
+					</thingDefs>
+				</filter>
+				<count>100</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>FSFItemFertilizer</li>
+					</thingDefs>
+				</filter>
+				<count>100</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>FSFItemSoilStony</li>
+				<li>FSFItemFertilizer</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<FSFItemSoil>100</FSFItemSoil>
+		</products>
+  	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>FSFRecipeEnrichSoil</defName>
+		<label>enrich soil</label>
+		<description>By mixing soil fertilizer together you can enrich the soil making it more fertile.</description>
+		<jobString>Enriching soil.</jobString>
+		<workAmount>3000</workAmount>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Sculpt</soundWorking>
+		<recipeUsers>
+			<li>CraftingSpot</li>
+			<li>FSFItemSoilStonyGatherSpot</li>
+			<li>FSFItemSoilGatherSpot</li>
+			<li>FSFItemSoilRichGatherSpot</li>
+		</recipeUsers>
+		<researchPrerequisite><li>FSFRichGardenSoil</li></researchPrerequisite>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>FSFItemSoil</li>
+					</thingDefs>
+				</filter>
+				<count>100</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>FSFItemFertilizer</li>
+					</thingDefs>
+				</filter>
+				<count>100</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>FSFItemSoil</li>
+				<li>FSFItemFertilizer</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<FSFItemSoilRich>100</FSFItemSoilRich>
+		</products>
+  	</RecipeDef>
+	
+  <RecipeDef>
+    <defName>FSFRecipeSoilStony</defName>
+    <label>collect stony soil</label>
+    <description>Dig up and collect stony soil from the ground.</description>
+	<jobString>Digging up stony soil.</jobString>
+    <workAmount>1000</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Mine</effectWorking>
+    <soundWorking>Interact_ConstructDirt</soundWorking>
+    <recipeUsers>
+      <li>FSFItemSoilStonyGatherSpot</li>
+    </recipeUsers>
+    <products>
+      <FSFItemSoilStony>10</FSFItemSoilStony>
+    </products>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>FSFRecipeSoil</defName>
+    <label>collect soil</label>
+    <description>Dig up and collect soil from the ground.</description>
+	<jobString>Digging up soil.</jobString>
+    <workAmount>1000</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Mine</effectWorking>
+    <soundWorking>Interact_ConstructDirt</soundWorking>
+    <recipeUsers>
+      <li>FSFItemSoilGatherSpot</li>
+    </recipeUsers>
+    <products>
+      <FSFItemSoil>10</FSFItemSoil>
+    </products>
+  </RecipeDef>
+	
+  <RecipeDef>
+    <defName>FSFRecipeSoilRich</defName>
+    <label>collect rich soil</label>
+    <description>Dig up and collect rich soil from the ground.</description>
+	<jobString>Digging up rich soil.</jobString>
+    <workAmount>1000</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Mine</effectWorking>
+    <soundWorking>Interact_ConstructDirt</soundWorking>
+    <recipeUsers>
+      <li>FSFItemSoilRichGatherSpot</li>
+    </recipeUsers>
+    <products>
+      <FSFItemSoilRich>10</FSFItemSoilRich>
+    </products>
+  </RecipeDef>
+  
+</Defs>

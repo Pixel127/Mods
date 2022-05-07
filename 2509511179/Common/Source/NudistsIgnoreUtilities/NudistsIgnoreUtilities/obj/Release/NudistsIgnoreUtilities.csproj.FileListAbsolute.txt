@@ -1,0 +1,10 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\PacksAreNotBelts\1.2\Assemblies\NudistsIgnoreUtilities.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\PacksAreNotBelts\1.2\Assemblies\NudistsIgnoreUtilities.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\PacksAreNotBelts\1.2\Source\NudistsIgnoreUtilities\NudistsIgnoreUtilities\obj\Release\NudistsIgnoreUtilities.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\PacksAreNotBelts\1.2\Source\NudistsIgnoreUtilities\NudistsIgnoreUtilities\obj\Release\NudistsIgnoreUtilities.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\PacksAreNotBelts\1.2\Source\NudistsIgnoreUtilities\NudistsIgnoreUtilities\obj\Release\NudistsIgnoreUtilities.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\PacksAreNotBelts\1.2\Source\NudistsIgnoreUtilities\NudistsIgnoreUtilities\obj\Release\NudistsIgnoreUtilities.csprojAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\PacksAreNotBelts\Common\Assemblies\NudistsIgnoreUtilities.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\PacksAreNotBelts\Common\Source\NudistsIgnoreUtilities\NudistsIgnoreUtilities\obj\Release\NudistsIgnoreUtilities.csprojAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\PacksAreNotBelts\Common\Source\NudistsIgnoreUtilities\NudistsIgnoreUtilities\obj\Release\NudistsIgnoreUtilities.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\PacksAreNotBelts\Common\Source\NudistsIgnoreUtilities\NudistsIgnoreUtilities\obj\Release\NudistsIgnoreUtilities.dll

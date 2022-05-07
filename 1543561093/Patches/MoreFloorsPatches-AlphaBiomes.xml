@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <!-- Floors for new stone types in Alpha Biomes - these defs are            -->
+  <!--  patched during load time to remove the Abstract attribute if the      -->
+  <!--  appropriate mod is active, otherwise, they harmlessly disappear into  -->
+  <!--  the ether                                                             -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Alpha Biomes</li>
+    </mods>
+
+    <match Class="PatchOperationAttributeRemove">
+      <xpath>/Defs/TerrainDef[defName="FloorStoneSlabsABRoseQuartz" or
+        defName="FloorStoneSlabsABCragstone" or
+        defName="FloorStoneSlabsABObsidian" or
+        defName="FloorStoneSlabsABMudstone"]</xpath>
+      <attribute>Abstract</attribute>
+    </match>
+  </Operation>
+  
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Alpha Biomes</li>
+    </mods>
+
+    <match Class="PatchOperationAttributeRemove">
+      <xpath>/Defs/TerrainDef[defName="FloorStoneStaggeredABRoseQuartz" or
+        defName="FloorStoneStaggeredABCragstone" or
+        defName="FloorStoneStaggeredABObsidian" or
+        defName="FloorStoneStaggeredABMudstone"]</xpath>
+      <attribute>Abstract</attribute>
+    </match>
+  </Operation>
+  
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Alpha Biomes</li>
+    </mods>
+
+    <match Class="PatchOperationAttributeRemove">
+      <xpath>/Defs/TerrainDef[defName="FloorStoneRoughABRoseQuartz" or
+        defName="FloorStoneRoughABCragstone" or
+        defName="FloorStoneRoughABObsidian" or
+        defName="FloorStoneRoughABMudstone"]</xpath>
+      <attribute>Abstract</attribute>
+    </match>
+  </Operation>
+  
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Alpha Biomes</li>
+    </mods>
+
+    <match Class="PatchOperationAttributeRemove">
+      <xpath>/Defs/TerrainDef[defName="FloorStoneAlternatingABRoseQuartz" or
+        defName="FloorStoneAlternatingABCragstone" or
+        defName="FloorStoneAlternatingABObsidian" or
+        defName="FloorStoneAlternatingABMudstone"]</xpath>
+      <attribute>Abstract</attribute>
+    </match>
+  </Operation>
+  
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Alpha Biomes</li>
+    </mods>
+
+    <match Class="PatchOperationAttributeRemove">
+      <xpath>/Defs/TerrainDef[defName="FloorStoneChequeredABRoseQuartz" or
+        defName="FloorStoneChequeredABCragstone" or
+        defName="FloorStoneChequeredABObsidian" or
+        defName="FloorStoneChequeredABMudstone"]</xpath>
+      <attribute>Abstract</attribute>
+    </match>
+  </Operation>
+  
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Alpha Biomes</li>
+    </mods>
+
+    <match Class="PatchOperationAttributeRemove">
+      <xpath>/Defs/TerrainDef[defName="FloorStoneHerringboneABRoseQuartz" or
+        defName="FloorStoneHerringboneABCragstone" or
+        defName="FloorStoneHerringboneABObsidian" or
+        defName="FloorStoneHerringboneABMudstone"]</xpath>
+      <attribute>Abstract</attribute>
+    </match>
+  </Operation>
+  
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Alpha Biomes</li>
+    </mods>
+
+    <match Class="PatchOperationAttributeRemove">
+      <xpath>/Defs/TerrainDef[defName="FloorStoneHexABRoseQuartz" or
+        defName="FloorStoneHexABCragstone" or
+        defName="FloorStoneHexABObsidian" or
+        defName="FloorStoneHexABMudstone"]</xpath>
+      <attribute>Abstract</attribute>
+    </match>
+  </Operation>
+  
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Alpha Biomes</li>
+    </mods>
+
+    <match Class="PatchOperationAttributeRemove">
+      <xpath>/Defs/TerrainDef[defName="FloorStoneDigitalABRoseQuartz" or
+        defName="FloorStoneDigitalABCragstone" or
+        defName="FloorStoneDigitalABObsidian" or
+        defName="FloorStoneDigitalABMudstone"]</xpath>
+      <attribute>Abstract</attribute>
+    </match>
+  </Operation>
+  
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Alpha Biomes</li>
+    </mods>
+
+    <match Class="PatchOperationAttributeRemove">
+      <xpath>/Defs/TerrainDef[defName="FloorStoneMosaicABRoseQuartz" or
+        defName="FloorStoneMosaicABCragstone" or
+        defName="FloorStoneMosaicABObsidian" or
+        defName="FloorStoneMosaicABMudstone"]</xpath>
+      <attribute>Abstract</attribute>
+    </match>
+  </Operation>
+  
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Alpha Biomes</li>
+    </mods>
+
+    <match Class="PatchOperationAttributeRemove">
+      <xpath>/Defs/TerrainDef[defName="FloorStoneRandomABRoseQuartz" or
+        defName="FloorStoneRandomABCragstone" or
+        defName="FloorStoneRandomABObsidian" or
+        defName="FloorStoneRandomABMudstone"]</xpath>
+      <attribute>Abstract</attribute>
+    </match>
+  </Operation>
+  
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Alpha Biomes</li>
+    </mods>
+
+    <match Class="PatchOperationAttributeRemove">
+      <xpath>/Defs/TerrainDef[defName="FloorStoneDiamondABRoseQuartz" or
+        defName="FloorStoneDiamondABCragstone" or
+        defName="FloorStoneDiamondABObsidian" or
+        defName="FloorStoneDiamondABMudstone"]</xpath>
+      <attribute>Abstract</attribute>
+    </match>
+  </Operation>
+  
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Alpha Biomes</li>
+    </mods>
+
+    <match Class="PatchOperationAttributeRemove">
+      <xpath>/Defs/TerrainDef[defName="FloorStoneArabesqueABRoseQuartz" or
+        defName="FloorStoneArabesqueABCragstone" or
+        defName="FloorStoneArabesqueABObsidian" or
+        defName="FloorStoneArabesqueABMudstone"]</xpath>
+      <attribute>Abstract</attribute>
+    </match>
+  </Operation>
+
+</Patch>

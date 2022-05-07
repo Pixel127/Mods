@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Removable Mt.Rock Roof Patche</name>
+	<author>Proxyer</author>
+	<packageId>Proxyer.RemovableMtRockRoofPatche</packageId>
+	<url/>
+	<supportedVersions>
+		<li>1.0</li>
+		<li>1.1</li>
+		<li>1.2</li>
+		<li>1.3</li>
+	</supportedVersions>
+	<incompatibleWith>
+		<li>machine.rtr</li>
+	</incompatibleWith>
+  <description><![CDATA[
+<color=#87CEFA>Description</color> :
+By patching Core, colonists will be able to remove overhead mountain.
+
+<color=#87CEFA>IMPORTANT</color> :
+If you remove the roof of "overhead mountain" it is the same as when removing the roof of "rock roof (thin)". You can not reinstall the same type of roof. Therefore, the roof you can install is only Rimworld's default constructible roof.
+
+(Briefly, this patch changes "overhead mountain" to "rock roof (thin)". Therefore, the roof can be removed. However, the "rock roof (thin)" cannot prevent the mortar shell and the drop pod from falling.)
+
+It is a simple Mod just to patch Core. Colonists will be able to remove overhead mountain. And using this Mod, at the same time, the effect that "insects infestation" does not occur.
+
+This will greatly reduce the difficulty of the game. If you want to play with high difficulty, we recommend not using this Mod.
+
+
+<b>Mod list order:</b>
+This mod is a patch mod. Therefore, always place it last in the mod list. This is because the patch process is executed after loading the cores and  all other mods. There is no mean in placing it above Core in the mod list.
+
+
+<b>How to Remove thick roofs (overhead mountain):</b>
+
+1. Like the normal (same remove the rock ceiling (thin) ), use the "Remove roof area" tool In the zone (in the architect menu) and draw an orange area.
+
+2. Wait for a pawn to remove roof. Otherwise select a Pawn who allocated construction work  and right click the area and Instruct them to do it right away.
+
+3. Basically like normal removal, they do not mind even thick roofs.
+
+
+ ]]></description>
+</ModMetaData>

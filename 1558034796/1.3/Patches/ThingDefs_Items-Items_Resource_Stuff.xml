@@ -1,0 +1,75 @@
+<Patch>
+
+  <!--=============== Silver ====================-->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>*/ThingDef[defName = "Silver"]/stuffProps/statFactors/Flammability</xpath>
+		<value>
+		 <Flammability>0.001</Flammability>
+		</value>
+		</Operation>
+
+		<Operation Class="PatchOperationReplace">
+		<xpath>*/ThingDef[defName = "Silver"]/stuffProps/statFactors/Beauty</xpath>
+		<value>
+		 <Beauty>3</Beauty>
+		</value>
+		</Operation>
+		
+  <!--=============== Gold ====================-->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>*/ThingDef[defName = "Gold"]/stuffProps/statFactors/Flammability</xpath>
+		<value>
+		 <Flammability>0.002</Flammability>
+		</value>
+		</Operation>
+
+		<Operation Class="PatchOperationReplace">
+		<xpath>*/ThingDef[defName = "Gold"]/stuffProps/statFactors/Beauty</xpath>
+		<value>
+		 <Beauty>6</Beauty>
+		</value>
+		</Operation>
+
+		<Operation Class="PatchOperationReplace">
+		<xpath>*/ThingDef[defName = "Gold"]/stuffProps/statFactors/MeleeWeapon_CooldownMultiplier</xpath>
+		<value>
+        <MeleeWeapon_CooldownMultiplier>1.1</MeleeWeapon_CooldownMultiplier>
+		</value>
+		</Operation>
+		
+  <!--=============== Steel ====================-->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>*/ThingDef[defName = "Steel"]/stuffProps/statFactors/Flammability</xpath>
+		<value>
+		 <Flammability>0.0</Flammability>
+		</value>
+		</Operation>
+
+		<Operation Class="PatchOperationReplace">
+		<xpath>*/ThingDef[defName = "Steel"]/stuffProps/statFactors/MaxHitPoints</xpath>
+		<value>
+		<MaxHitPoints>1.6</MaxHitPoints>
+		</value>
+		</Operation>
+		
+  <!--=============== Plasteel ====================-->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>*/ThingDef[defName = "Plasteel"]/stuffProps/statFactors/Flammability</xpath>
+		<value>
+		 <Flammability>0.0</Flammability>
+		</value>
+		</Operation>
+
+		<Operation Class="PatchOperationReplace">
+		<xpath>*/ThingDef[defName = "Plasteel"]/stuffProps/statFactors/Beauty</xpath>
+		<value>
+        <Beauty>1.2</Beauty>
+		</value>
+		</Operation>
+		
+		
+</Patch>

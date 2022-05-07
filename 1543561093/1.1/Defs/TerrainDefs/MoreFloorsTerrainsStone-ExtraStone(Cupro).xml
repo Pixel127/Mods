@@ -1,0 +1,394 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- Floors with different material def data in [K] Extra Stone (w/ Cupro)  -->
+  <!--  - these defs are patched during load time to remove the Abstract      -->
+  <!--  attribute if the appropriatemod is active, otherwise, they harmlessly -->
+  <!--  disappear into the ether                                              -->
+	<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+
+
+  <!-- Slabs -->
+	<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+  <TerrainDef ParentName="TFloorBaseStoneSlabs" Abstract="true">
+    <defName>FloorStoneSlabsKDarkAndesite</defName>
+    <label>stone slabs (dark andesite)</label>
+    <color>(112,118,118)</color>
+    <costList>
+      <BlocksDarkAndesite>3</BlocksDarkAndesite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneSlabs" Abstract="true">
+    <defName>FloorStoneSlabsKVibrantDunite</defName>
+    <label>stone slabs (vibrant dunite)</label>
+    <color>(153,176,110)</color>
+    <costList>
+      <BlocksVibrantDunite>3</BlocksVibrantDunite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneSlabs" Abstract="true">
+    <defName>FloorStoneSlabsKGreenGabbro</defName>
+    <label>stone slabs (green gabbro)</label>
+    <color>(82,85,66)</color>
+    <costList>
+      <BlocksGreenGabbro>3</BlocksGreenGabbro>
+    </costList>
+  </TerrainDef>
+  
+  
+  
+  <!-- Staggered -->
+	<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+  <TerrainDef ParentName="TFloorBaseStoneStaggered" Abstract="true">
+    <defName>FloorStoneStaggeredKDarkAndesite</defName>
+    <label>staggered stone tiles (dark andesite)</label>
+    <color>(112,118,118)</color>
+    <costList>
+      <BlocksDarkAndesite>3</BlocksDarkAndesite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneStaggered" Abstract="true">
+    <defName>FloorStoneStaggeredKVibrantDunite</defName>
+    <label>staggered stone tiles (vibrant dunite)</label>
+    <color>(153,176,110)</color>
+    <costList>
+      <BlocksVibrantDunite>3</BlocksVibrantDunite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneStaggered" Abstract="true">
+    <defName>FloorStoneStaggeredKGreenGabbro</defName>
+    <label>staggered stone tiles (green gabbro)</label>
+    <color>(82,85,66)</color>
+    <costList>
+      <BlocksGreenGabbro>3</BlocksGreenGabbro>
+    </costList>
+  </TerrainDef>
+  
+  
+  
+  <!-- Rough -->
+	<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+  <TerrainDef ParentName="TFloorBaseStoneRough" Abstract="true">
+    <defName>FloorStoneRoughKDarkAndesite</defName>
+    <label>rough paving (dark andesite)</label>
+    <color>(112,118,118)</color>
+    <costList>
+      <BlocksDarkAndesite>2</BlocksDarkAndesite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneRough" Abstract="true">
+    <defName>FloorStoneRoughKVibrantDunite</defName>
+    <label>rough paving (vibrant dunite)</label>
+    <color>(153,176,110)</color>
+    <costList>
+      <BlocksVibrantDunite>2</BlocksVibrantDunite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneRough" Abstract="true">
+    <defName>FloorStoneRoughKGreenGabbro</defName>
+    <label>rough paving (green gabbro)</label>
+    <color>(82,85,66)</color>
+    <costList>
+      <BlocksGreenGabbro>2</BlocksGreenGabbro>
+    </costList>
+  </TerrainDef>
+  
+  
+  
+  <!-- Alternating -->
+	<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+  <TerrainDef ParentName="TFloorBaseStoneAlternating" Abstract="true">
+    <defName>FloorStoneAlternatingKDarkAndesite</defName>
+    <label>alternating brick paving (dark andesite)</label>
+    <color>(112,118,118)</color>
+    <costList>
+      <BlocksDarkAndesite>3</BlocksDarkAndesite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneAlternating" Abstract="true">
+    <defName>FloorStoneAlternatingKVibrantDunite</defName>
+    <label>alternating brick paving (vibrant dunite)</label>
+    <color>(153,176,110)</color>
+    <costList>
+      <BlocksVibrantDunite>3</BlocksVibrantDunite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneAlternating" Abstract="true">
+    <defName>FloorStoneAlternatingKGreenGabbro</defName>
+    <label>alternating brick paving (green gabbro)</label>
+    <color>(82,85,66)</color>
+    <costList>
+      <BlocksGreenGabbro>3</BlocksGreenGabbro>
+    </costList>
+  </TerrainDef>
+  
+  
+  
+  <!-- Chequered -->
+	<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+  <TerrainDef ParentName="TFloorBaseStoneChequeredSingle" Abstract="true">
+    <defName>FloorStoneChequeredKDarkAndesite</defName>
+    <label>chequered slabs (dark andesite)</label>
+    <color>(112,118,118)</color>
+    <costList>
+      <BlocksDarkAndesite>3</BlocksDarkAndesite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneChequeredSingle" Abstract="true">
+    <defName>FloorStoneChequeredKVibrantDunite</defName>
+    <label>chequered slabs (vibrant dunite)</label>
+    <color>(153,176,110)</color>
+    <costList>
+      <BlocksVibrantDunite>3</BlocksVibrantDunite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneChequeredSingle" Abstract="true">
+    <defName>FloorStoneChequeredKGreenGabbro</defName>
+    <label>chequered slabs (green gabbro)</label>
+    <color>(82,85,66)</color>
+    <costList>
+      <BlocksGreenGabbro>3</BlocksGreenGabbro>
+    </costList>
+  </TerrainDef>
+  
+  
+  
+  <!-- Herringbone -->
+	<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+  <TerrainDef ParentName="TFloorBaseStoneHerringbone" Abstract="true">
+    <defName>FloorStoneHerringboneKDarkAndesite</defName>
+    <label>herringbone paving (dark andesite)</label>
+    <color>(112,118,118)</color>
+    <costList>
+      <BlocksDarkAndesite>3</BlocksDarkAndesite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneHerringbone" Abstract="true">
+    <defName>FloorStoneHerringboneKVibrantDunite</defName>
+    <label>herringbone paving (vibrant dunite)</label>
+    <color>(153,176,110)</color>
+    <costList>
+      <BlocksVibrantDunite>3</BlocksVibrantDunite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneHerringbone" Abstract="true">
+    <defName>FloorStoneHerringboneKGreenGabbro</defName>
+    <label>herringbone paving (green gabbro)</label>
+    <color>(82,85,66)</color>
+    <costList>
+      <BlocksGreenGabbro>3</BlocksGreenGabbro>
+    </costList>
+  </TerrainDef>
+  
+  
+  
+  <!-- Hexagonal -->
+	<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+  <TerrainDef ParentName="TFloorBaseStoneHex" Abstract="true">
+    <defName>FloorStoneHexKDarkAndesite</defName>
+    <label>hex paving (dark andesite)</label>
+    <color>(112,118,118)</color>
+    <costList>
+      <BlocksDarkAndesite>3</BlocksDarkAndesite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneHex" Abstract="true">
+    <defName>FloorStoneHexKVibrantDunite</defName>
+    <label>hex paving (vibrant dunite)</label>
+    <color>(153,176,110)</color>
+    <costList>
+      <BlocksVibrantDunite>3</BlocksVibrantDunite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneHex" Abstract="true">
+    <defName>FloorStoneHexKGreenGabbro</defName>
+    <label>hex paving (green gabbro)</label>
+    <color>(82,85,66)</color>
+    <costList>
+      <BlocksGreenGabbro>3</BlocksGreenGabbro>
+    </costList>
+  </TerrainDef>
+  
+  
+  
+  <!-- Digital -->
+	<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+  <TerrainDef ParentName="TFloorBaseStoneDigital" Abstract="true">
+    <defName>FloorStoneDigitalKDarkAndesite</defName>
+    <label>digital paving (dark andesite)</label>
+    <color>(112,118,118)</color>
+    <costList>
+      <BlocksDarkAndesite>4</BlocksDarkAndesite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneDigital" Abstract="true">
+    <defName>FloorStoneDigitalKVibrantDunite</defName>
+    <label>digital paving (vibrant dunite)</label>
+    <color>(153,176,110)</color>
+    <costList>
+      <BlocksVibrantDunite>4</BlocksVibrantDunite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneDigital" Abstract="true">
+    <defName>FloorStoneDigitalKGreenGabbro</defName>
+    <label>digital paving (green gabbro)</label>
+    <color>(82,85,66)</color>
+    <costList>
+      <BlocksGreenGabbro>4</BlocksGreenGabbro>
+    </costList>
+  </TerrainDef>
+  
+  
+  
+  <!-- Mosaic -->
+	<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+  <TerrainDef ParentName="TFloorBaseStoneMosaic" Abstract="true">
+    <defName>FloorStoneMosaicKDarkAndesite</defName>
+    <label>mosaic paving (dark andesite)</label>
+    <color>(112,118,118)</color>
+    <costList>
+      <BlocksDarkAndesite>5</BlocksDarkAndesite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneMosaic" Abstract="true">
+    <defName>FloorStoneMosaicKVibrantDunite</defName>
+    <label>mosaic paving (vibrant dunite)</label>
+    <color>(153,176,110)</color>
+    <costList>
+      <BlocksVibrantDunite>5</BlocksVibrantDunite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneMosaic" Abstract="true">
+    <defName>FloorStoneMosaicKGreenGabbro</defName>
+    <label>mosaic paving (green gabbro)</label>
+    <color>(82,85,66)</color>
+    <costList>
+      <BlocksGreenGabbro>5</BlocksGreenGabbro>
+    </costList>
+  </TerrainDef>
+  
+  
+  
+  <!-- Random -->
+	<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+  <TerrainDef ParentName="TFloorBaseStoneRandom" Abstract="true">
+    <defName>FloorStoneRandomKDarkAndesite</defName>
+    <label>random paving (dark andesite)</label>
+    <color>(112,118,118)</color>
+    <costList>
+      <BlocksDarkAndesite>4</BlocksDarkAndesite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneRandom" Abstract="true">
+    <defName>FloorStoneRandomKVibrantDunite</defName>
+    <label>random paving (vibrant dunite)</label>
+    <color>(153,176,110)</color>
+    <costList>
+      <BlocksVibrantDunite>4</BlocksVibrantDunite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneRandom" Abstract="true">
+    <defName>FloorStoneRandomKGreenGabbro</defName>
+    <label>random paving (green gabbro)</label>
+    <color>(82,85,66)</color>
+    <costList>
+      <BlocksGreenGabbro>4</BlocksGreenGabbro>
+    </costList>
+  </TerrainDef>
+  
+  
+  
+  <!-- Diamond -->
+	<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+  <TerrainDef ParentName="TFloorBaseStoneDiamond" Abstract="true">
+    <defName>FloorStoneDiamondKDarkAndesite</defName>
+    <label>diamond paving (dark andesite)</label>
+    <color>(112,118,118)</color>
+    <costList>
+      <BlocksDarkAndesite>20</BlocksDarkAndesite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneDiamond" Abstract="true">
+    <defName>FloorStoneDiamondKVibrantDunite</defName>
+    <label>diamond paving (vibrant dunite)</label>
+    <color>(153,176,110)</color>
+    <costList>
+      <BlocksVibrantDunite>20</BlocksVibrantDunite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneDiamond" Abstract="true">
+    <defName>FloorStoneDiamondKGreenGabbro</defName>
+    <label>diamond paving (green gabbro)</label>
+    <color>(82,85,66)</color>
+    <costList>
+      <BlocksGreenGabbro>20</BlocksGreenGabbro>
+    </costList>
+  </TerrainDef>
+  
+  
+  
+  <!-- Arabesque -->
+	<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+  <TerrainDef ParentName="TFloorBaseStoneArabesque" Abstract="true">
+    <defName>FloorStoneArabesqueKDarkAndesite</defName>
+    <label>arabesque flooring (dark andesite)</label>
+    <color>(112,118,118)</color>
+    <costList>
+      <BlocksDarkAndesite>20</BlocksDarkAndesite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneArabesque" Abstract="true">
+    <defName>FloorStoneArabesqueKVibrantDunite</defName>
+    <label>arabesque flooring (vibrant dunite)</label>
+    <color>(153,176,110)</color>
+    <costList>
+      <BlocksVibrantDunite>20</BlocksVibrantDunite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneArabesque" Abstract="true">
+    <defName>FloorStoneArabesqueKGreenGabbro</defName>
+    <label>arabesque flooring (green gabbro)</label>
+    <color>(82,85,66)</color>
+    <costList>
+      <BlocksGreenGabbro>20</BlocksGreenGabbro>
+    </costList>
+  </TerrainDef>
+
+</Defs>

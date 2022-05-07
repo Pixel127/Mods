@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+  <RecipeDef>
+    <defName>FSFRecipeSoil</defName>
+    <label>collect soil</label>
+    <description>Dig up and collect soil from the ground.</description>
+	<jobString>Digging up soil.</jobString>
+    <workAmount>1000</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Mine</effectWorking>
+    <soundWorking>Interact_ConstructDirt</soundWorking>
+    <recipeUsers>
+      <li>FSFItemSoilGatherSpot</li>
+    </recipeUsers>
+    <products>
+      <FSFItemSoil>10</FSFItemSoil>
+    </products>
+  </RecipeDef>
+	
+  <RecipeDef>
+    <defName>FSFRecipeSoilRich</defName>
+    <label>collect rich soil</label>
+    <description>Dig up and collect rich soil from the ground.</description>
+	<jobString>Digging up rich soil.</jobString>
+    <workAmount>1000</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Mine</effectWorking>
+    <soundWorking>Interact_ConstructDirt</soundWorking>
+    <recipeUsers>
+      <li>FSFItemSoilRichGatherSpot</li>
+    </recipeUsers>
+    <products>
+      <FSFItemSoilRich>10</FSFItemSoilRich>
+    </products>
+  </RecipeDef>
+  
+</Defs>

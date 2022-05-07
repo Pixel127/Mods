@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RecipeDef>
+    <defName>BurnApparelBulk</defName>
+    <label>burn apparel in bulk</label>
+    <description>Burn unwanted apparel in bulk to completely destroy it.</description>
+    <jobString>Burning apparel in bulk.</jobString>
+    <workAmount>120</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <requiredGiverWorkType>Hauling</requiredGiverWorkType>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <recipeUsers>
+      <li>ElectricCrematorium</li>
+      <li>Campfire</li>
+      <!-- A lot quicker than trying to patch production buildings -->
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Apparel</li>
+          </categories>
+        </filter>
+        <count>3</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Apparel</li>
+      </categories>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <categories>
+        <li>Apparel</li>
+      </categories>
+      <disallowedThingDefs>
+        <li>Apparel_ShieldBelt</li>
+        <li>Apparel_SmokepopBelt</li>
+      </disallowedThingDefs>
+    </defaultIngredientFilter>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>BurnDrugsBulk</defName>
+    <label>burn drugs in bulk</label>
+    <description>Burn unwanted drugs in bulk to completely destroy them.</description>
+    <jobString>Burning drugs in bulk.</jobString>
+    <workAmount>120</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <requiredGiverWorkType>Hauling</requiredGiverWorkType>
+    <effectWorking>BurnDrug</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <conceptLearned>DrugBurning</conceptLearned>
+    <recipeUsers>
+      <li>ElectricCrematorium</li>
+      <li>Campfire</li>
+      <!-- A lot quicker than trying to patch production buildings -->
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Drugs</li>
+          </categories>
+        </filter>
+        <count>3</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Drugs</li>
+      </categories>
+    </fixedIngredientFilter>
+  </RecipeDef>
+</Defs>

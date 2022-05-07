@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <MainButtonDef>
+    <defName>ChatMenu</defName>
+    <label>Chat</label>
+    <description>Interact with the world</description>
+    <tabWindowClass>OpenWorld.MP_MainTabWindow_Online</tabWindowClass>
+    <order>79</order>
+    <defaultHotKey>H</defaultHotKey>
+  </MainButtonDef>
+</Defs>

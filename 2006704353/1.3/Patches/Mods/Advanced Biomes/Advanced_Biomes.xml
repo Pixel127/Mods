@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+
+	<!-- Advanced Biomes -->
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			
+			<li Class="PatchOperationTest">
+				<xpath>/Defs/TerrainDef[defName = "PoisonSoil"]</xpath>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/TerrainDef[defName = "PoisonSoil"]/affordances</xpath>
+				<value>
+					<li>FSFAffordanceSoil</li>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/TerrainDef[defName = "PoisonMarshyTerrain"]/affordances</xpath>
+				<value>
+					<li>FSFAffordanceSoilStony</li>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/TerrainDef[defName = "PoisonSoilRich"]/affordances</xpath>
+				<value>
+					<li>FSFAffordanceSoilRich</li>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/TerrainDef[defName = "PoisonMossyTerrain"]/affordances</xpath>
+				<value>
+					<li>FSFAffordanceSoil</li>
+				</value>
+			</li>
+			
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			
+			<li Class="PatchOperationTest">
+				<xpath>/Defs/TerrainDef[defName = "SavannaSoil"]</xpath>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/TerrainDef[defName = "SavannaSoil"]/affordances</xpath>
+				<value>
+					<li>FSFAffordanceSoil</li>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/TerrainDef[defName = "SavannaSoilRich"]/affordances</xpath>
+				<value>
+					<li>FSFAffordanceSoilRich</li>
+				</value>
+			</li>
+			
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			
+			<li Class="PatchOperationTest">
+				<xpath>/Defs/TerrainDef[defName = "VolcanoSoil"]</xpath>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/TerrainDef[defName = "VolcanoSoil"]/affordances</xpath>
+				<value>
+					<li>FSFAffordanceSoil</li>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/TerrainDef[defName = "VolcanoSoilRich"]/affordances</xpath>
+				<value>
+					<li>FSFAffordanceSoilRich</li>
+				</value>
+			</li>
+			
+		</operations>
+	</Operation>
+	
+</Patch>

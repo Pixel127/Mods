@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Combat Extended</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+			
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/HediffDef[defName="EPOE_AdvancedDrillArm"]/comps/li[@Class="HediffCompProperties_VerbGiver"]/tools</xpath>
+					<value>
+						<tools>
+							<li Class="CombatExtended.ToolCE">
+								<label>drill arm</label>
+								<capacities>
+									<li>Stab</li>
+								</capacities>
+								<power>9</power>
+								<cooldownTime>1.88</cooldownTime>
+								<armorPenetrationSharp>0.05</armorPenetrationSharp>
+								<armorPenetrationBlunt>0.35</armorPenetrationBlunt>
+								<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+							</li>
+						</tools>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/HediffDef[defName="EPOE_AdvancedFieldHand"]/comps/li[@Class="HediffCompProperties_VerbGiver"]/tools</xpath>
+					<value>
+						<tools>
+							<li Class="CombatExtended.ToolCE">
+								<label>fist</label>
+								<capacities>
+									<li>Blunt</li>
+								</capacities>
+								<power>3.5</power>
+								<cooldownTime>1.66</cooldownTime>
+								<armorPenetrationSharp>0.00</armorPenetrationSharp>
+								<armorPenetrationBlunt>0.80</armorPenetrationBlunt>
+								<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+							</li>
+						</tools>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/HediffDef[defName="EPOE_ScytherHandTalon"]/comps/li[@Class="HediffCompProperties_VerbGiver"]/tools</xpath>
+					<value>
+						<tools>
+							<li Class="CombatExtended.ToolCE">
+								<label>hand talon</label>
+								<capacities>
+									<li>Cut</li>
+								</capacities>
+								<power>7.5</power>
+								<cooldownTime>1.19</cooldownTime>
+								<armorPenetrationBlunt>0.24</armorPenetrationBlunt>
+								<armorPenetrationSharp>0.22</armorPenetrationSharp>
+								<linkedBodyPartsGroup>Blade</linkedBodyPartsGroup>
+								<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+							</li>
+							<li Class="CombatExtended.ToolCE">
+								<label>hand talon</label>
+								<capacities>
+									<li>Stab</li>
+								</capacities>
+								<power>9.5</power>
+								<cooldownTime>1.19</cooldownTime>
+								<armorPenetrationBlunt>0.25</armorPenetrationBlunt>
+								<armorPenetrationSharp>0.39</armorPenetrationSharp>
+								<linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+								<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+							</li>
+						</tools>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/HediffDef[defName="EPOE_AdvancedHandTalon"]/comps/li[@Class="HediffCompProperties_VerbGiver"]/tools</xpath>
+					<value>
+						<tools>
+							<li Class="CombatExtended.ToolCE">
+								<label>hand talon</label>
+								<capacities>
+									<li>Cut</li>
+								</capacities>
+								<power>8</power>
+								<cooldownTime>1.19</cooldownTime>
+								<armorPenetrationBlunt>0.28</armorPenetrationBlunt>
+								<armorPenetrationSharp>0.26</armorPenetrationSharp>
+								<linkedBodyPartsGroup>Blade</linkedBodyPartsGroup>
+								<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+							</li>
+							<li Class="CombatExtended.ToolCE">
+								<label>hand talon</label>
+								<capacities>
+									<li>Stab</li>
+								</capacities>
+								<power>10</power>
+								<cooldownTime>1.19</cooldownTime>
+								<armorPenetrationBlunt>0.3</armorPenetrationBlunt>
+								<armorPenetrationSharp>0.44</armorPenetrationSharp>
+								<linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+								<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+							</li>
+						</tools>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/HediffDef[defName="EPOE_ScytherElbowBlade"]/comps/li[@Class="HediffCompProperties_VerbGiver"]/tools</xpath>
+					<value>
+						<tools>
+							<li Class="CombatExtended.ToolCE">
+								<label>elbow blade</label>
+								<capacities>
+									<li>Cut</li>
+								</capacities>
+								<power>9</power>
+								<cooldownTime>1.19</cooldownTime>
+								<armorPenetrationBlunt>0.24</armorPenetrationBlunt>
+								<armorPenetrationSharp>0.22</armorPenetrationSharp>
+								<linkedBodyPartsGroup>Blade</linkedBodyPartsGroup>
+								<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+							</li>
+						</tools>
+					</value>
+				</li>
+				
+				
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/HediffDef[defName="EPOE_AdvancedElbowBlade"]/comps/li[@Class="HediffCompProperties_VerbGiver"]/tools</xpath>
+					<value>
+						<tools>
+							<li Class="CombatExtended.ToolCE">
+								<label>elbow blade</label>
+								<capacities>
+									<li>Cut</li>
+								</capacities>
+								<power>10</power>
+								<cooldownTime>1.19</cooldownTime>
+								<armorPenetrationBlunt>0.28</armorPenetrationBlunt>
+								<armorPenetrationSharp>0.26</armorPenetrationSharp>
+								<linkedBodyPartsGroup>Blade</linkedBodyPartsGroup>
+								<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+							</li>
+						</tools>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/HediffDef[defName="EPOE_ScytherKneeSpike"]/comps/li[@Class="HediffCompProperties_VerbGiver"]/tools</xpath>
+					<value>
+						<tools>
+							<li Class="CombatExtended.ToolCE">
+								<label>knee spike</label>
+								<capacities>
+									<li>Stab</li>
+								</capacities>
+								<power>14</power>
+								<cooldownTime>1.18</cooldownTime>
+								<armorPenetrationBlunt>0.606</armorPenetrationBlunt>
+								<armorPenetrationSharp>0.61</armorPenetrationSharp>
+								<linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+								<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+							</li>
+						</tools>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/HediffDef[defName="EPOE_AdvancedKneeSpike"]/comps/li[@Class="HediffCompProperties_VerbGiver"]/tools</xpath>
+					<value>
+						<tools>
+							<li Class="CombatExtended.ToolCE">
+								<label>knee spike</label>
+								<capacities>
+									<li>Stab</li>
+								</capacities>
+								<power>15</power>
+								<cooldownTime>1.18</cooldownTime>
+								<armorPenetrationBlunt>0.636</armorPenetrationBlunt>
+								<armorPenetrationSharp>0.64</armorPenetrationSharp>
+								<linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+								<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+							</li>
+						</tools>
+					</value>
+				</li>
+				
+			</operations>
+		</match>
+	</Operation>
+	
+</Patch>

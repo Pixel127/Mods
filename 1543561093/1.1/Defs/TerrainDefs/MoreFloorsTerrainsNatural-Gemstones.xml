@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Floors for new gem types in Gemstones - these defs are patched during  -->
+  <!--  load time to remove the Abstract attribute if the appropriate mod is  -->
+  <!--  active, otherwise, they harmlessly disappear into the ether           -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+
+
+  <TerrainDef ParentName="TFloorBaseGemstone" Name="TFloorGemstoneZAmethyst" Abstract="true">
+    <defName>TFloorGemstoneZAmethyst</defName>
+    <label>amethyst floor</label>
+    <description>A stunning floor made from polished amethyst. You can barely see where the tiles join! Fantastically beautiful but also requires a very long time to build.</description>
+    <costList>
+      <Z_Amethyst>10</Z_Amethyst>
+    </costList>
+    <color>(162, 118, 174)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="TFloorBaseGemstone" Name="TFloorGemstoneZChalcedony" Abstract="true">
+    <defName>TFloorGemstoneZChalcedony</defName>
+    <label>chalcedony floor</label>
+    <description>A stunning floor made from polished chalcedony. You can barely see where the tiles join! Fantastically beautiful but also requires a very long time to build.</description>
+    <costList>
+      <Z_Chalcedony>10</Z_Chalcedony>
+    </costList>
+    <color>(152, 175, 202)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="TFloorBaseGemstone" Name="TFloorGemstoneZCitrine" Abstract="true">
+    <defName>TFloorGemstoneZCitrine</defName>
+    <label>citrine floor</label>
+    <description>A stunning floor made from polished citrine. You can barely see where the tiles join! Fantastically beautiful but also requires a very long time to build.</description>
+    <costList>
+      <Z_Citrine>10</Z_Citrine>
+    </costList>
+    <color>(231, 190, 68)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="TFloorBaseGemstone" Name="TFloorGemstoneZDiamond" Abstract="true">
+    <defName>TFloorGemstoneZDiamond</defName>
+    <label>diamond floor</label>
+    <description>A stunning floor made from polished diamond. You can barely see where the tiles join! Fantastically beautiful but also requires a very long time to build.</description>
+    <costList>
+      <Z_Diamond>10</Z_Diamond>
+    </costList>
+    <color>(255, 255, 255)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="TFloorBaseGemstone" Name="TFloorGemstoneZEmerald" Abstract="true">
+    <defName>TFloorGemstoneZEmerald</defName>
+    <label>emerald floor</label>
+    <description>A stunning floor made from polished emerald. You can barely see where the tiles join! Fantastically beautiful but also requires a very long time to build.</description>
+    <costList>
+      <Z_Emerald>10</Z_Emerald>
+    </costList>
+    <color>(0, 174, 127)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="TFloorBaseGemstone" Name="TFloorGemstoneZGarnet" Abstract="true">
+    <defName>TFloorGemstoneZGarnet</defName>
+    <label>garnet floor</label>
+    <description>A stunning floor made from polished garnet. You can barely see where the tiles join! Fantastically beautiful but also requires a very long time to build.</description>
+    <costList>
+      <Z_Garnet>10</Z_Garnet>
+    </costList>
+    <color>(56,7,28)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="TFloorBaseGemstone" Name="TFloorGemstoneZLapis" Abstract="true">
+    <defName>TFloorGemstoneZLapis</defName>
+    <label>lapis floor</label>
+    <description>A stunning floor made from polished lapis. You can barely see where the tiles join! Fantastically beautiful but also requires a very long time to build.</description>
+    <costList>
+      <Z_Lapis>10</Z_Lapis>
+    </costList>
+    <color>(30, 45, 112)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="TFloorBaseGemstone" Name="TFloorGemstoneZQuartz" Abstract="true">
+    <defName>TFloorGemstoneZQuartz</defName>
+    <label>quartz floor</label>
+    <description>A stunning floor made from polished quartz. You can barely see where the tiles join! Fantastically beautiful but also requires a very long time to build.</description>
+    <costList>
+      <Z_Quartz>10</Z_Quartz>
+    </costList>
+    <color>(231, 212, 212)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="TFloorBaseGemstone" Name="TFloorGemstoneZRuby" Abstract="true">
+    <defName>TFloorGemstoneZRuby</defName>
+    <label>ruby floor</label>
+    <description>A stunning floor made from polished ruby. You can barely see where the tiles join! Fantastically beautiful but also requires a very long time to build.</description>
+    <costList>
+      <Z_Ruby>10</Z_Ruby>
+    </costList>
+    <color>(224, 16, 30)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="TFloorBaseGemstone" Name="TFloorGemstoneZSapphire" Abstract="true">
+    <defName>TFloorGemstoneZSapphire</defName>
+    <label>sapphire floor</label>
+    <description>A stunning floor made from polished sapphire. You can barely see where the tiles join! Fantastically beautiful but also requires a very long time to build.</description>
+    <costList>
+      <Z_Sapphire>10</Z_Sapphire>
+    </costList>
+    <color>(1,58,227)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="TFloorBaseGemstone" Name="TFloorGemstoneZSerpentine" Abstract="true">
+    <defName>TFloorGemstoneZSerpentine</defName>
+    <label>serpentine floor</label>
+    <description>A stunning floor made from polished serpentine. You can barely see where the tiles join! Fantastically beautiful but also requires a very long time to build.</description>
+    <costList>
+      <Z_Serpentine>10</Z_Serpentine>
+    </costList>
+    <color>(188, 200, 121)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="TFloorBaseGemstone" Name="TFloorGemstoneZTurquoise" Abstract="true">
+    <defName>TFloorGemstoneZTurquoise</defName>
+    <label>turquoise floor</label>
+    <description>A stunning floor made from polished turquoise. You can barely see where the tiles join! Fantastically beautiful but also requires a very long time to build.</description>
+    <costList>
+      <Z_Turquoise>10</Z_Turquoise>
+    </costList>
+    <color>(87, 231, 221)</color>
+  </TerrainDef>
+
+</Defs>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Detoxifier enhancer -->
+
+  <EPOE_DetoxifierEnhancer.label>Entgiftungsverstärker</EPOE_DetoxifierEnhancer.label>
+  <EPOE_DetoxifierEnhancer.description>Ein Analysecomputer inspiziert den Blutkreislauf, klassifiziert schädliche toxische Substanzen und fordert das natürliche Immunsystem des Körpers schneller auf zu reagieren. Dies verringert die Anfälligkeit für toxische Wirkungen.</EPOE_DetoxifierEnhancer.description>
+
+
+  <!-- Synthetic detoxifier liver -->
+
+  <EPOE_DetoxifierSyntheticLiver.label>Synthetische Entgiftungsleber</EPOE_DetoxifierSyntheticLiver.label>
+  <EPOE_DetoxifierSyntheticLiver.description>Eine verbesserte Leber, die mit synthetischen Fasern angereichert ist, um die Abstoßungsrate zu verringern. Durch Integration des Entgiftungsverstärkers wird dieser Effekt weiter verbessert.</EPOE_DetoxifierSyntheticLiver.description>
+
+
+  <!-- Synthetic immunoenhanced kidney -->
+
+  <EPOE_ImmunoenhancerSyntheticKidney.label>Synthetische immunverstärkte Niere</EPOE_ImmunoenhancerSyntheticKidney.label>
+  <EPOE_ImmunoenhancerSyntheticKidney.description>Eine verbesserte Niere, die mit synthetischen Fasern angereichert ist, um die Abstoßungsrate zu verringern. Durch Integration des Immunverstärkers wird dieser Effekt weiter verbessert.</EPOE_ImmunoenhancerSyntheticKidney.description>
+
+
+</LanguageData>

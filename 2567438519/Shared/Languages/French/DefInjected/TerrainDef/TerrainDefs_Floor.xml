@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: granite gravel -->
+  <LTS_GravelGranite.label>graviers de granite</LTS_GravelGranite.label>
+  <!-- EN: Rocks and more rocks make a perfect path. -->
+  <LTS_GravelGranite.description>Des rochers et encore des rochers forment un sol parfait.</LTS_GravelGranite.description>
+  
+  <!-- EN: limestone gravel -->
+  <LTS_GravelLimestone.label>graviers de calcaire</LTS_GravelLimestone.label>
+  <!-- EN: Rocks and more rocks make a perfect path. -->
+  <LTS_GravelLimestone.description>Des rochers et encore des rochers forment un sol parfait.</LTS_GravelLimestone.description>
+  
+  <!-- EN: marble gravel -->
+  <LTS_GravelMarble.label>graviers de marbre</LTS_GravelMarble.label>
+  <!-- EN: Rocks and more rocks make a perfect path. -->
+  <LTS_GravelMarble.description>Des rochers et encore des rochers forment un sol parfait.</LTS_GravelMarble.description>
+  
+  <!-- EN: sandstone gravel -->
+  <LTS_GravelSandstone.label>graviers de grès</LTS_GravelSandstone.label>
+  <!-- EN: Rocks and more rocks make a perfect path. -->
+  <LTS_GravelSandstone.description>Des rochers et encore des rochers forment un sol parfait.</LTS_GravelSandstone.description>
+  
+  <!-- EN: slate tile -->
+  <LTS_GravelSlate.label>graviers d'ardoise</LTS_GravelSlate.label>
+  <!-- EN: Rocks and more rocks make a perfect path. -->
+  <LTS_GravelSlate.description>Des rochers et encore des rochers forment un sol parfait.</LTS_GravelSlate.description>
+  
+  <!-- EN: granite large tile -->
+  <LTS_PatternEvenGranite.label>carrelage large en granite</LTS_PatternEvenGranite.label>
+  <!-- EN: Carefully-cut and fit stone tiles for a castle feeling. They are pretty to look at, but they take a long time to lay. -->
+  <LTS_PatternEvenGranite.description>Des carreaux de pierre taillés et ajustés avec soin pour une sensation de château. Ils sont jolis à regarder, mais ils prennent beaucoup de temps à poser.</LTS_PatternEvenGranite.description>
+  
+  <!-- EN: limestone large tile -->
+  <LTS_PatternEvenLimestone.label>carrelage large en calcaire</LTS_PatternEvenLimestone.label>
+  <!-- EN: Carefully-cut and fit stone tiles for a castle feeling. They are pretty to look at, but they take a long time to lay. -->
+  <LTS_PatternEvenLimestone.description>Des carreaux de pierre taillés et ajustés avec soin pour une sensation de château. Ils sont jolis à regarder, mais ils prennent beaucoup de temps à poser.</LTS_PatternEvenLimestone.description>
+  
+  <!-- EN: marble large tile -->
+  <LTS_PatternEvenMarble.label>carrelage large en marbre</LTS_PatternEvenMarble.label>
+  <!-- EN: Carefully-cut and fit stone tiles for a castle feeling. They are pretty to look at, but they take a long time to lay. -->
+  <LTS_PatternEvenMarble.description>Des carreaux de pierre taillés et ajustés avec soin pour une sensation de château. Ils sont jolis à regarder, mais ils prennent beaucoup de temps à poser.</LTS_PatternEvenMarble.description>
+  
+  <!-- EN: sandstone large tile -->
+  <LTS_PatternEvenSandstone.label>carrelage large en grès</LTS_PatternEvenSandstone.label>
+  <!-- EN: Carefully-cut and fit stone tiles for a castle feeling. They are pretty to look at, but they take a long time to lay. -->
+  <LTS_PatternEvenSandstone.description>Des carreaux de pierre taillés et ajustés avec soin pour une sensation de château. Ils sont jolis à regarder, mais ils prennent beaucoup de temps à poser.</LTS_PatternEvenSandstone.description>
+  
+  <!-- EN: slate large tile -->
+  <LTS_PatternEvenSlate.label>carrelage large en ardoise</LTS_PatternEvenSlate.label>
+  <!-- EN: Carefully-cut and fit stone tiles for a castle feeling. They are pretty to look at, but they take a long time to lay. -->
+  <LTS_PatternEvenSlate.description>Des carreaux de pierre taillés et ajustés avec soin pour une sensation de château. Ils sont jolis à regarder, mais ils prennent beaucoup de temps à poser.</LTS_PatternEvenSlate.description>
+  
+  <!-- EN: granite elaborate tile -->
+  <LTS_PatternUnevenGranite.label>carrelage élaboré en granite</LTS_PatternUnevenGranite.label>
+  <!-- EN: Carefully-cut and fit stone tiles for a castle feeling. They are pretty to look at, but they take a long time to lay. -->
+  <LTS_PatternUnevenGranite.description>Des carreaux de pierre taillés et ajustés avec soin pour une sensation de château. Ils sont jolis à regarder, mais ils prennent beaucoup de temps à poser.</LTS_PatternUnevenGranite.description>
+  
+  <!-- EN: limestone elaborate tile -->
+  <LTS_PatternUnevenLimestone.label>carrelage élaboré en calcaire</LTS_PatternUnevenLimestone.label>
+  <!-- EN: Carefully-cut and fit stone tiles for a castle feeling. They are pretty to look at, but they take a long time to lay. -->
+  <LTS_PatternUnevenLimestone.description>Des carreaux de pierre taillés et ajustés avec soin pour une sensation de château. Ils sont jolis à regarder, mais ils prennent beaucoup de temps à poser.</LTS_PatternUnevenLimestone.description>
+  
+  <!-- EN: marble elaborate tile -->
+  <LTS_PatternUnevenMarble.label>carrelage élaboré en marbre</LTS_PatternUnevenMarble.label>
+  <!-- EN: Carefully-cut and fit stone tiles for a castle feeling. They are pretty to look at, but they take a long time to lay. -->
+  <LTS_PatternUnevenMarble.description>Des carreaux de pierre taillés et ajustés avec soin pour une sensation de château. Ils sont jolis à regarder, mais ils prennent beaucoup de temps à poser.</LTS_PatternUnevenMarble.description>
+  
+  <!-- EN: sandstone elaborate tile -->
+  <LTS_PatternUnevenSandstone.label>carrelage élaboré en grès</LTS_PatternUnevenSandstone.label>
+  <!-- EN: Carefully-cut and fit stone tiles for a castle feeling. They are pretty to look at, but they take a long time to lay. -->
+  <LTS_PatternUnevenSandstone.description>Des carreaux de pierre taillés et ajustés avec soin pour une sensation de château. Ils sont jolis à regarder, mais ils prennent beaucoup de temps à poser.</LTS_PatternUnevenSandstone.description>
+  
+  <!-- EN: slate elaborate tile -->
+  <LTS_PatternUnevenSlate.label>carrelage élaboré en ardoise</LTS_PatternUnevenSlate.label>
+  <!-- EN: Carefully-cut and fit stone tiles for a castle feeling. They are pretty to look at, but they take a long time to lay. -->
+  <LTS_PatternUnevenSlate.description>Des carreaux de pierre taillés et ajustés avec soin pour une sensation de château. Ils sont jolis à regarder, mais ils prennent beaucoup de temps à poser.</LTS_PatternUnevenSlate.description>
+  
+  <!-- EN: plank floor -->
+  <LTS_PlankFloor.label>parquet horizontal</LTS_PlankFloor.label>
+  <!-- EN: Wood plank flooring for that warm, homey feeling. While it is quick to lay, it is also very flammable. -->
+  <LTS_PlankFloor.description>Plancher de bois pour une sensation chaleureuse et intime. S'il est rapide à poser, il est également très inflammable.</LTS_PlankFloor.description>
+  
+  <!-- EN: larger plank floor -->
+  <LTS_PlankFloorLarge.label>parquet vertical</LTS_PlankFloorLarge.label>
+  <!-- EN: Wood plank flooring for that warm, homey feeling. While it is quick to lay, it is also very flammable. -->
+  <LTS_PlankFloorLarge.description>Plancher de bois pour une sensation chaleureuse et intime. S'il est rapide à poser, il est également très inflammable.</LTS_PlankFloorLarge.description>
+  
+  <!-- EN: larger plank floor -->
+  <LTS_PlankFloorLargeTwo.label>parquet horizontal large</LTS_PlankFloorLargeTwo.label>
+  <!-- EN: Wood plank flooring for that warm, homey feeling. While it is quick to lay, it is also very flammable. -->
+  <LTS_PlankFloorLargeTwo.description>Plancher de bois pour une sensation chaleureuse et intime. S'il est rapide à poser, il est également très inflammable.</LTS_PlankFloorLargeTwo.description>
+  
+  <!-- EN: plank floor -->
+  <LTS_PlankFloorTwo.label>parquet vertical large</LTS_PlankFloorTwo.label>
+  <!-- EN: Wood plank flooring for that warm, homey feeling. While it is quick to lay, it is also very flammable. -->
+  <LTS_PlankFloorTwo.description>Plancher de bois pour une sensation chaleureuse et intime. S'il est rapide à poser, il est également très inflammable.</LTS_PlankFloorTwo.description>
+  
+</LanguageData>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>OgreStack</name>
+	<author>Ogre</author>
+	<supportedVersions>
+		<li>1.1</li>
+		<li>1.2</li>
+		<li>1.3</li>
+	</supportedVersions>
+	<packageId>Ogre.OgreStack</packageId>
+	<description>Mod for customizing stack sizes. As well as the ability to target specific items.
+
+Improvements for v1.0:
+ - Stack changes now do NOT require a game reload, if a stack is modified 
+   below a set stack size the stack is split up into smaller stacks.
+   Should still save your game after every stack size adjustment; because
+   if you adjust stacks, dont save, then reload a game, you could lose items.
+
+ - Custom in game menu lets you pick between different modes ( scalar / fixed )
+  + scalar : multiplies the base count by the number specified
+  + fixed : simply sets the stack size to the number
+
+ - Removed HugsLib dep since the hugs settings is no longer used.
+
+ - Attempted to make it more clear how to set individual overrides
+   via the Overrides.xml file.
+
+Load Order:
+ - It hopefully won't matter. The stack modification code attempts to run after
+   initial processing is complete. But if you have problems. Try moving
+   OgreStack to last place.
+
+Defaults:
+(Groups)
+ - Small Volume Resources : x30 - ( gold, uranium, ... )
+ - Resources : 1000 ( steel, wood, plasteel, ... )
+ - Raw Food : 1000 ( corn, rice, ... )
+ - Raw Meat : 1000 ( meat, eggs, ... )
+ - Raw Plants : 2000 ( smokeleaf leaves, ... )
+ - Meals : 150 ( fine meal, lavish meal, ... )
+ - Animal Food : 2000 ( kibble, hay, ... )
+ - Foods : 1000 ( pemmican, chocolate, ... )
+ - Items : 20 ( horns, mech serums, ... )
+ - Body Parts &amp; Implants : 5 ( arms, bionics, ... )
+ - Textiles : 1000 ( cloth, wool, ... )
+ - Leather : 1000 ( leather )
+ - Stone Blocks : 2500 ( granite, marble, ... )
+ - Manufactured : x10.0 ( components, wort, chemfuel, ... )
+ - Medicine : 75 ( herbal, glitter, ... )
+ - Drugs : 4000 ( smokeleaf joints, yayo, ... )
+ - Mortar Shells : 25 ( antigrain, high explosive, ... )
+ - Artifacts : 10 ( psychic lances, ... )
+ - Other Stackables : x10 ( other items that stack but do not use vanilla game categories )
+
+(Advanced - Individual ItemDefs)
+ - AIPersonaCore : 1
+ - TechprofSubpersonaCore : 1
+
+GitHub: https://github.com/cmdprompt/OgreStack
+</description>
+</ModMetaData>

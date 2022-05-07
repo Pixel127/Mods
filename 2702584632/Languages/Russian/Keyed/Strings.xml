@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <CTR.pawnconverted>{0} обращен, начинаем вербовку.</CTR.pawnconverted>
+  <CTR.reduceresistance.label>Ослаблять сопротивление перед обращением</CTR.reduceresistance.label>
+  <CTR.reduceresistance.description>Если включено, надзиратель будет ослаблять сопротивление пленника перед любой попыткой обращения</CTR.reduceresistance.description>
+  <CTR.version.label>Установлена версия мода: {0}</CTR.version.label>
+</LanguageData>

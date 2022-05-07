@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Bionic hand talon (Formerly Scyther hand talon before Royalty hotfix changed hand talons to implant status) -->
+
+  <EPOE_ScytherHandTalon.label>Bionische Krallenhand</EPOE_ScytherHandTalon.label>
+  <EPOE_ScytherHandTalon.description>Eine messerscharfe Kralle, die sich aus einer verborgenen Öffnung zwischen Mittel- und Ringfinger erstreckt. Die Kralle ist länger als die Handfläche, wird jedoch beim Zurückziehen flexibel, sodass der Benutzer sie zusammenrollen und in der Handfläche der bionischen Hand verbergen kann.\n\nDieses Waffensystem wurde in eine kleine bionische Hand integriert auf Kosten der Effizienz der ursprünglichen bionischen Hand. Die Handkrallen müssen nicht mehr vorsichtig sein, um die biologische Hand des Benutzers nicht zu verletzen. Sie sind jetzt schärfer als je zuvor.</EPOE_ScytherHandTalon.description>
+
+
+  <!-- Bionic elbow blade (Formerly Scyther elbow blade before Royalty hotfix changed elbow blades to implant status) -->
+
+  <EPOE_ScytherElbowBlade.label>Bionische Ellenbogenklinge</EPOE_ScytherElbowBlade.label>
+  <EPOE_ScytherElbowBlade.description>Eine messerscharfe Klinge, die sich nach Belieben aus einer verborgenen Öffnung am Ende der Ulna erstreckt. Sie erscheint ohne Vorwarnung und kann für verheerende Angriffe verwendet werden.\n\nDieses Waffensystem wurde auf Kosten der Effizienz des ursprünglichen bionischen Arms in einen bionischen Arm integriert. Die Ellbogenklinge muss nicht mehr vorsichtig sein, um den biologischen Arm des Benutzers nicht zu verletzen. Sie ist jetzt schärfer als je zuvor.</EPOE_ScytherElbowBlade.description>
+
+
+  <!-- Bionic knee spike (Formerly Scyther knee spike before Royalty hotfix changed knee spike to implant status) -->
+
+  <EPOE_ScytherKneeSpike.label>Bionischer Knie-Stachel</EPOE_ScytherKneeSpike.label>
+  <EPOE_ScytherKneeSpike.description>Ein Dorn, der sich nach Belieben aus einer verborgenen Öffnung an der Vorderseite des bionischen Knies erstreckt. Er erscheint ohne Vorwarnung und kann für verheerende Stichangriffe verwendet werden.\n\nDieses Waffensystem wurde auf Kosten der Effizienz des ursprünglichen bionischen Beins in ein bionisches Bein integriert.</EPOE_ScytherKneeSpike.description>
+
+
+  <!-- Circadian Refresher -->
+
+  <EPIA_CircadianRefresher.label>Circadianische Auffrischung</EPIA_CircadianRefresher.label>
+  <EPIA_CircadianRefresher.description>Eine künstliche Drüse. Produziert Chemikalien und Nanomaschinen, die die Toxinbildung aus dem Gehirn entfernen, wenn der Benutzer schläft und dadurch die Schlafqualität verbesseren.</EPIA_CircadianRefresher.description>
+
+
+</LanguageData>

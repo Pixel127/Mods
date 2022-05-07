@@ -1,0 +1,6 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\PacksAreNotBelts\Common\Assemblies\HeavyWeaponsAcceptAllUtilities.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\PacksAreNotBelts\Common\Assemblies\HeavyWeaponsAcceptAllUtilities.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\PacksAreNotBelts\Common\Source\HeavyWeaponsAcceptAllUtilities\HeavyWeaponsAcceptAllUtilities\obj\Release\HeavyWeaponsAcceptAllUtilities.csprojAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\PacksAreNotBelts\Common\Source\HeavyWeaponsAcceptAllUtilities\HeavyWeaponsAcceptAllUtilities\obj\Release\HeavyWeaponsAcceptAllUtilities.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\PacksAreNotBelts\Common\Source\HeavyWeaponsAcceptAllUtilities\HeavyWeaponsAcceptAllUtilities\obj\Release\HeavyWeaponsAcceptAllUtilities.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\PacksAreNotBelts\Common\Source\HeavyWeaponsAcceptAllUtilities\HeavyWeaponsAcceptAllUtilities\obj\Release\HeavyWeaponsAcceptAllUtilities.pdb

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <CTR.pawnconverted>{0} has converted, will start recruiting.</CTR.pawnconverted>
+  <CTR.reduceresistance.label>Reduce resistance before converting</CTR.reduceresistance.label>
+  <CTR.reduceresistance.description>If enabled prisoners will have their resistance reduced before any converting attempt</CTR.reduceresistance.description>
+  <CTR.version.label>Installed mod-version: {0}</CTR.version.label>
+</LanguageData>

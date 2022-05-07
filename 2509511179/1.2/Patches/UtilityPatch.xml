@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+	<!--Royalty-->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Royalty</li>
+		</mods>
+		
+		<match Class="PatchOperationSequence">
+			
+			<operations>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="Apparel_PackJump"]/apparel/bodyPartGroups</xpath>
+					<value>
+						<bodyPartGroups>
+							<li>Torso</li>
+						</bodyPartGroups>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="Apparel_PackBroadshield"]/apparel/bodyPartGroups</xpath>
+					<value>
+						<bodyPartGroups>
+							<li>Torso</li>
+						</bodyPartGroups>
+					</value>
+				</li>
+			</operations>
+			
+		</match>
+		
+	</Operation>
+	
+	<!--VWE heavy-->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Weapons Expanded - Heavy Weapons</li>
+		</mods>
+		
+		<match Class="PatchOperationSequence">
+			
+			<operations>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="VWE_Apparel_Exoframe"]/apparel/layers</xpath>
+					<value>
+						<layers>
+							<li>PacksAreNotBelts_Exoskeleton</li>
+						</layers>
+					</value>
+				</li>
+			</operations>
+			
+		</match>
+		
+	</Operation>
+	
+	<!--Utility packs-->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>More Utility Packs</li>
+		</mods>
+		
+		<match Class="PatchOperationSequence">
+			
+			<operations>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="SGC_Apparel_RoboticRig"]/apparel/bodyPartGroups</xpath>
+					<value>
+						<bodyPartGroups>
+							<li>Torso</li>
+						</bodyPartGroups>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="SGC_Apparel_TraumaKit"]/apparel/bodyPartGroups</xpath>
+					<value>
+						<bodyPartGroups>
+							<li>Torso</li>
+						</bodyPartGroups>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="SGC_Apparel_SurvivalPack"]/apparel/bodyPartGroups</xpath>
+					<value>
+						<bodyPartGroups>
+							<li>Torso</li>
+						</bodyPartGroups>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="SGC_Apparel_RescueFrame"]/apparel/bodyPartGroups</xpath>
+					<value>
+						<bodyPartGroups>
+							<li>Torso</li>
+						</bodyPartGroups>
+					</value>
+				</li>
+				<!--Support for packs that require royalty-->
+				<li Class="PatchOperationFindMod">
+					<mods>
+						<li>Royalty</li>
+					</mods>
+					<match Class="PatchOperationSequence">
+						<operations>
+							<li Class="PatchOperationReplace">
+								<xpath>/Defs/ThingDef[defName="SGC_Apparel_Jetpack"]/apparel/bodyPartGroups</xpath>
+								<value>
+									<bodyPartGroups>
+										<li>Torso</li>
+									</bodyPartGroups>
+								</value>
+							</li>
+					
+							<li Class="PatchOperationReplace">
+								<xpath>/Defs/ThingDef[defName="SGC_Apparel_CommandTower"]/apparel/bodyPartGroups</xpath>
+								<value>
+									<bodyPartGroups>
+										<li>Torso</li>
+									</bodyPartGroups>
+								</value>
+							</li>
+						</operations>
+					</match>
+				</li>
+				<!--Support for mech packs-->
+				<li Class="PatchOperationFindMod">
+					<mods>
+						<li>Vanilla Factions Expanded - Mechanoids</li>
+					</mods>
+					<match Class="PatchOperationSequence">
+						<success>Always</success>
+						<operations>
+							<li Class="PatchOperationFindMod">
+								<mods>
+									<li>Vanilla Armour Expanded</li>
+								</mods>
+								<match Class="PatchOperationSequence">
+									<operations>
+										<li Class="PatchOperationReplace">
+											<xpath>/Defs/ThingDef[defName="SGC_Apparel_CombatMechPack"]/apparel/bodyPartGroups</xpath>
+											<value>
+												<bodyPartGroups>
+													<li>Torso</li>
+												</bodyPartGroups>
+											</value>
+										</li>
+								
+										<li Class="PatchOperationReplace">
+											<xpath>/Defs/ThingDef[defName="SGC_Apparel_INDMechPack"]/apparel/bodyPartGroups</xpath>
+											<value>
+												<bodyPartGroups>
+													<li>Torso</li>
+												</bodyPartGroups>
+											</value>
+										</li>
+									</operations>
+								</match>
+							</li>
+						</operations>
+					</match>
+				</li>
+			</operations>
+		
+		</match>
+		
+	</Operation>
+	
+	<!--Dub's Rimkit-->
+	<!--Since these packs are inhereted from an abstract def, we need to add bodyPartGroups instead of replace them.-->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Dubs Rimkit</li>
+		</mods>
+		
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="MedicineBag"]/apparel</xpath>
+					<value>
+						<bodyPartGroups Inherit="False">
+							<li>Torso</li>
+						</bodyPartGroups>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="MedicalKit"]/apparel</xpath>
+					<value>
+						<bodyPartGroups Inherit="False">
+							<li>Torso</li>
+						</bodyPartGroups>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="UltraMedKit"]/apparel</xpath>
+					<value>
+						<bodyPartGroups Inherit="False">
+							<li>Torso</li>
+						</bodyPartGroups>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="DubsRepairKit"]/apparel</xpath>
+					<value>
+						<bodyPartGroups Inherit="False">
+							<li>Torso</li>
+						</bodyPartGroups>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+	
+	<!--Rimmu-Nation-->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<!--We have to use the packageID for this one for some reason.-->
+			<li>[CP] Rimmu-Nation - Clothing</li>
+		</mods>
+		
+		<match Class="PatchOperationSequence">
+			<operations>
+				<!--Move backpacks away from the arms so that they work with exoskeletons, because apparently CP thinks shoulder slings are sleeves-->
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="RNApparel_Backpack_Civilian"]/apparel/bodyPartGroups</xpath>
+					<value>
+						<bodyPartGroups>
+							<li>Torso</li>
+							<li>Shoulders</li>
+						</bodyPartGroups>
+					</value>
+				</li>
+				<!--No offense CP, love your work : )-->
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="RNApparel_Backpack_Tactical"]/apparel/bodyPartGroups</xpath>
+					<value>
+						<bodyPartGroups>
+							<li>Torso</li>
+							<li>Shoulders</li>
+							<!--Arms-->
+						</bodyPartGroups>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="RNApparel_Backpack_Tactical_Sling"]/apparel/bodyPartGroups</xpath>
+					<value>
+						<bodyPartGroups>
+							<li>Torso</li>
+							<li>Shoulders</li>
+							<!--Arms-->
+						</bodyPartGroups>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="RNApparel_Backpack_PegasusEliteOps"]/apparel/bodyPartGroups</xpath>
+					<value>
+						<bodyPartGroups>
+							<li>Torso</li>
+							<li>Shoulders</li>
+							<!--Arms-->
+						</bodyPartGroups>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="RNApparel_Backpack_Military"]/apparel/bodyPartGroups</xpath>
+					<value>
+						<bodyPartGroups>
+							<li>Torso</li>
+							<li>Shoulders</li>
+							<!--Arms-->
+						</bodyPartGroups>
+					</value>
+				</li>
+				<!--Now to move things away from the torso-->
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="RNApparel_Harness_MOLLE"]/apparel/bodyPartGroups</xpath>
+					<value>
+						<bodyPartGroups>
+							<li>Shoulders</li>
+							<!--Torso-->
+							<!--Arms-->
+						</bodyPartGroups>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="RNApparel_Harness_ALICE"]/apparel/bodyPartGroups</xpath>
+					<value>
+						<bodyPartGroups>
+							<li>Shoulders</li>
+							<!--Torso-->
+							<!--Arms-->
+						</bodyPartGroups>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="RNApparel_Holsters_Shoulder"]/apparel/bodyPartGroups</xpath>
+					<value>
+						<bodyPartGroups>
+							<li>Shoulders</li>
+							<!--Torso-->
+							<!--Arms-->
+						</bodyPartGroups>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+</Patch>

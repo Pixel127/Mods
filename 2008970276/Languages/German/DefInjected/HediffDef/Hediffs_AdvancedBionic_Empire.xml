@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Advanced drill arm -->
+
+  <EPOE_AdvancedDrillArm.label>Fortschrittlicher Bohrarm</EPOE_AdvancedDrillArm.label>
+  <EPOE_AdvancedDrillArm.description>Ein installierter fortschrittlicher Bohrarm.</EPOE_AdvancedDrillArm.description>
+  <EPOE_AdvancedDrillArm.comps.0.tools.0.label>Bohrer</EPOE_AdvancedDrillArm.comps.0.tools.0.label>
+  <EPOE_AdvancedDrillArm.labelNoun>Ein fortschrittlicher Bohrarm</EPOE_AdvancedDrillArm.labelNoun>
+
+
+  <!-- Advanced field hand -->
+
+  <EPOE_AdvancedFieldHand.label>Fortschrittliche Feldhand</EPOE_AdvancedFieldHand.label>
+  <EPOE_AdvancedFieldHand.description>Eine installierte fortschrittliche Feldhand.</EPOE_AdvancedFieldHand.description>
+  <EPOE_AdvancedFieldHand.comps.0.tools.0.label>Knöchel</EPOE_AdvancedFieldHand.comps.0.tools.0.label>
+  <EPOE_AdvancedFieldHand.labelNoun>Eine fortschrittliche Feldhand</EPOE_AdvancedFieldHand.labelNoun>
+
+
+  <!-- Advanced hand talon (Ironic this version now uses the Scyther blades to make, rather then the previous def version.) -->
+
+  <EPOE_AdvancedHandTalon.label>Fortschrittliche bionische Krallenhand</EPOE_AdvancedHandTalon.label>
+  <EPOE_AdvancedHandTalon.description>Eine installierte fortschrittliche bionische Krallenhand.</EPOE_AdvancedHandTalon.description>
+  <EPOE_AdvancedHandTalon.comps.0.tools.0.label>Kralle</EPOE_AdvancedHandTalon.comps.0.tools.0.label>
+  <EPOE_AdvancedHandTalon.labelNoun>Eine fortschrittliche bionische Krallenhand</EPOE_AdvancedHandTalon.labelNoun>
+
+
+  <!-- Advanced elbow blade (Ironic this version now uses the Scyther blades to make, rather then the previous def version.) -->
+
+  <EPOE_AdvancedElbowBlade.label>Fortschrittliche bionische Ellenbogenklinge</EPOE_AdvancedElbowBlade.label>
+  <EPOE_AdvancedElbowBlade.description>Eine installierte fortschrittliche bionische Ellenbogenklinge.</EPOE_AdvancedElbowBlade.description>
+  <EPOE_AdvancedElbowBlade.comps.0.tools.0.label>Schnitt</EPOE_AdvancedElbowBlade.comps.0.tools.0.label>
+  <EPOE_AdvancedElbowBlade.labelNoun>Eine fortschrittliche bionische Ellenbogenklinge</EPOE_AdvancedElbowBlade.labelNoun>
+
+
+  <!-- Advanced knee spike (Ironic this version now uses the Scyther blades to make, rather then the previous def version.) -->
+
+  <EPOE_AdvancedKneeSpike.label>Fortschrittlicher bionischer Knie-Stachel</EPOE_AdvancedKneeSpike.label>
+  <EPOE_AdvancedKneeSpike.description>Ein installierter fortschrittlicher bionischer Knie-Stachel.</EPOE_AdvancedKneeSpike.description>
+  <EPOE_AdvancedKneeSpike.comps.0.tools.0.label>Stich</EPOE_AdvancedKneeSpike.comps.0.tools.0.label>
+  <EPOE_AdvancedKneeSpike.labelNoun>Ein fortschrittlicher bionischer Knie-Stachel</EPOE_AdvancedKneeSpike.labelNoun>
+
+
+</LanguageData>

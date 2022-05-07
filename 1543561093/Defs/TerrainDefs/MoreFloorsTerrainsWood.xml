@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <TerrainDef Name="TFloorBaseWood" Abstract="True">
+    <layerable>true</layerable>
+    <affordances>
+      <li>Light</li>
+      <li>Medium</li>
+      <li>Heavy</li>
+    </affordances>
+    <statBases>
+      <Flammability>0.22</Flammability>
+    </statBases>
+    <designationCategory>MoreFloors</designationCategory>
+    <fertility>0</fertility>
+    <constructEffect>ConstructWood</constructEffect>
+    <acceptTerrainSourceFilth>True</acceptTerrainSourceFilth>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <burnedDef>BurnedWoodPlankFloor</burnedDef>
+  </TerrainDef>
+
+
+
+  <TerrainDef ParentName="TFloorBaseWood">
+    <defName>FloorWoodRustic</defName>
+    <label>wooden floorboards</label>
+    <statBases>
+      <WorkToBuild>140</WorkToBuild>
+      <Beauty>1</Beauty>
+    </statBases>
+    <costList>
+      <WoodLog>6</WoodLog>
+    </costList>
+    <renderPrecedence>250</renderPrecedence>
+    <description>Rustic wooden floorboards, finely polished and with splinters removed. Nice to look at but somewhat slow to build.</description>
+    <texturePath>Terrain/Surfaces/WoodFloor1</texturePath>
+  </TerrainDef>
+
+  <TerrainDef ParentName="TFloorBaseWood">
+    <defName>FloorWoodWide</defName>
+    <label>wide wooden floorboards</label>
+    <statBases>
+      <WorkToBuild>60</WorkToBuild>
+    </statBases>
+    <costList>
+      <WoodLog>2</WoodLog>
+    </costList>
+    <renderPrecedence>249</renderPrecedence>
+    <description>Wide, plain-looking floorboards for that minimalistic feel. Easy to build.</description>
+    <texturePath>Terrain/Surfaces/WoodFloor2</texturePath>
+  </TerrainDef>
+
+  <TerrainDef ParentName="TFloorBaseWood">
+    <defName>FloorWoodLight</defName>
+    <label>light wood floor</label>
+    <statBases>
+      <WorkToBuild>120</WorkToBuild>
+      <Beauty>1</Beauty>
+    </statBases>
+    <costList>
+      <WoodLog>5</WoodLog>
+    </costList>
+    <renderPrecedence>248</renderPrecedence>
+    <description>Light-coloured polished wooden floorboards in a pleasant interlocking pattern.</description>
+    <texturePath>Terrain/Surfaces/WoodFloor3</texturePath>
+  </TerrainDef>
+
+  <TerrainDef ParentName="TFloorBaseWood">
+    <defName>FloorWoodMosaic</defName>
+    <label>mosaic wood floor</label>
+    <statBases>
+      <WorkToBuild>200</WorkToBuild>
+      <Beauty>2</Beauty>
+    </statBases>
+    <costList>
+      <WoodLog>9</WoodLog>
+    </costList>
+    <renderPrecedence>247</renderPrecedence>
+    <description>A wooden floor with planks laid in a mosaic-like pattern - beautiful, but needs a lot of wood and is time-consuming to build.</description>
+    <texturePath>Terrain/Surfaces/WoodFloor4</texturePath>
+  </TerrainDef>
+
+  <TerrainDef ParentName="TFloorBaseWood">
+    <defName>FloorWoodVertical</defName>
+    <label>vertical wood floor</label>
+    <statBases>
+      <WorkToBuild>85</WorkToBuild>
+    </statBases>
+    <costList>
+      <WoodLog>3</WoodLog>
+    </costList>
+    <renderPrecedence>246</renderPrecedence>
+    <description>Dark wooden floorboards.</description>
+    <texturePath>Terrain/Surfaces/WoodFloor5</texturePath>
+  </TerrainDef>
+
+  <TerrainDef ParentName="TFloorBaseWood">
+    <defName>FloorWoodBarn</defName>
+    <label>barn board floor</label>
+    <statBases>
+      <WorkToBuild>50</WorkToBuild>
+    </statBases>
+    <costList>
+      <WoodLog>2</WoodLog>
+    </costList>
+    <edgeType>FadeRough</edgeType>
+    <renderPrecedence>245</renderPrecedence>
+    <description>Rough barn board flooring. Quick to build.</description>
+    <texturePath>Terrain/Surfaces/WoodFloor6</texturePath>
+  </TerrainDef>
+
+</Defs>

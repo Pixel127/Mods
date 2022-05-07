@@ -1,0 +1,843 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+	<!--Royalty-->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Royalty</li>
+		</mods>
+		
+		<match Class="PatchOperationSequence">
+			
+			<operations>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="Apparel_PackJump"]/apparel/bodyPartGroups</xpath>
+					<value>
+						<bodyPartGroups>
+							<li>Torso</li>
+						</bodyPartGroups>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="Apparel_PackBroadshield"]/apparel/bodyPartGroups</xpath>
+					<value>
+						<bodyPartGroups>
+							<li>Torso</li>
+						</bodyPartGroups>
+					</value>
+				</li>
+			</operations>
+			
+		</match>
+		
+	</Operation>
+	
+	<!--VWE heavy-->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Weapons Expanded - Heavy Weapons</li>
+		</mods>
+		
+		<match Class="PatchOperationSequence">
+			
+			<operations>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="VWE_Apparel_Exoframe"]/apparel/layers</xpath>
+					<value>
+						<layers>
+							<li>PacksAreNotBelts_Exoskeleton</li>
+						</layers>
+					</value>
+				</li>
+			</operations>
+			
+		</match>
+		
+	</Operation>
+	
+	<!-- Industrial armory -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Industrial Melee</li>
+		</mods>
+		
+		<match Class="PatchOperationSequence">
+		
+			<operations>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="IM_Apparel_IndustrialExoFrame"]/apparel/layers</xpath>
+					<value>
+						<layers>
+							<li>PacksAreNotBelts_Exoskeleton</li>
+						</layers>
+					</value>
+				</li>
+			</operations>
+		
+		</match>
+	</Operation>
+	
+	<!--Utility packs-->
+	<!-- All packs from this mod were oficially moved to the torso as of 2021-10-16, so this patch is obsolete -->
+	<!--
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>More Utility Packs</li>
+		</mods>
+		
+		<match Class="PatchOperationSequence">
+			
+			<operations>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="SGC_Apparel_RoboticRig"]/apparel/bodyPartGroups</xpath>
+					<value>
+						<bodyPartGroups>
+							<li>Torso</li>
+						</bodyPartGroups>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="SGC_Apparel_TraumaKit"]/apparel/bodyPartGroups</xpath>
+					<value>
+						<bodyPartGroups>
+							<li>Torso</li>
+						</bodyPartGroups>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="SGC_Apparel_SurvivalPack"]/apparel/bodyPartGroups</xpath>
+					<value>
+						<bodyPartGroups>
+							<li>Torso</li>
+						</bodyPartGroups>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="SGC_Apparel_RescueFrame"]/apparel/bodyPartGroups</xpath>
+					<value>
+						<bodyPartGroups>
+							<li>Torso</li>
+						</bodyPartGroups>
+					</value>
+				</li>
+				<!Support for packs that require royalty >
+				<li Class="PatchOperationFindMod">
+					<mods>
+						<li>Royalty</li>
+					</mods>
+					<match Class="PatchOperationSequence">
+						<operations>
+							<li Class="PatchOperationReplace">
+								<xpath>/Defs/ThingDef[defName="SGC_Apparel_Jetpack"]/apparel/bodyPartGroups</xpath>
+								<value>
+									<bodyPartGroups>
+										<li>Torso</li>
+									</bodyPartGroups>
+								</value>
+							</li>
+					
+							<li Class="PatchOperationReplace">
+								<xpath>/Defs/ThingDef[defName="SGC_Apparel_CommandTower"]/apparel/bodyPartGroups</xpath>
+								<value>
+									<bodyPartGroups>
+										<li>Torso</li>
+									</bodyPartGroups>
+								</value>
+							</li>
+						</operations>
+					</match>
+				</li>
+				<!Support for mech packs>
+				<li Class="PatchOperationFindMod">
+					<mods>
+						<li>Vanilla Factions Expanded - Mechanoids</li>
+					</mods>
+					<match Class="PatchOperationSequence">
+						<success>Always</success>
+						<operations>
+							<li Class="PatchOperationFindMod">
+								<mods>
+									<li>Vanilla Armour Expanded</li>
+								</mods>
+								<match Class="PatchOperationSequence">
+									<operations>
+										<li Class="PatchOperationReplace">
+											<xpath>/Defs/ThingDef[defName="SGC_Apparel_CombatMechPack"]/apparel/bodyPartGroups</xpath>
+											<value>
+												<bodyPartGroups>
+													<li>Torso</li>
+												</bodyPartGroups>
+											</value>
+										</li>
+								
+										<li Class="PatchOperationReplace">
+											<xpath>/Defs/ThingDef[defName="SGC_Apparel_INDMechPack"]/apparel/bodyPartGroups</xpath>
+											<value>
+												<bodyPartGroups>
+													<li>Torso</li>
+												</bodyPartGroups>
+											</value>
+										</li>
+									</operations>
+								</match>
+							</li>
+						</operations>
+					</match>
+				</li>
+			</operations>
+		
+		</match>
+		
+	</Operation>
+	-->
+	
+	<!--Dub's Rimkit-->
+	<!--Since these packs are inhereted from an abstract def, we need to add bodyPartGroups instead of replace them.-->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Dubs Rimkit</li>
+		</mods>
+		
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="MedicineBag"]/apparel</xpath>
+					<value>
+						<bodyPartGroups Inherit="False">
+							<li>Torso</li>
+						</bodyPartGroups>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="MedicalKit"]/apparel</xpath>
+					<value>
+						<bodyPartGroups Inherit="False">
+							<li>Torso</li>
+						</bodyPartGroups>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="UltraMedKit"]/apparel</xpath>
+					<value>
+						<bodyPartGroups Inherit="False">
+							<li>Torso</li>
+						</bodyPartGroups>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="DubsRepairKit"]/apparel</xpath>
+					<value>
+						<bodyPartGroups Inherit="False">
+							<li>Torso</li>
+						</bodyPartGroups>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+	
+	<!--Rimmu-Nation-->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<!--We have to use the packageID for this one for some reason.-->
+			<li>[CP] Rimmu-Nation - Clothing</li>
+		</mods>
+		
+		<match Class="PatchOperationSequence">
+			<operations>
+				<!--Move backpacks away from the arms so that they work with exoskeletons, because apparently CP thinks shoulder slings are sleeves-->
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="RNApparel_Backpack_Civilian"]/apparel/bodyPartGroups</xpath>
+					<value>
+						<bodyPartGroups>
+							<li>Torso</li>
+							<li>Shoulders</li>
+						</bodyPartGroups>
+					</value>
+				</li>
+				<!--No offense CP, love your work : )-->
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="RNApparel_Backpack_Tactical"]/apparel/bodyPartGroups</xpath>
+					<value>
+						<bodyPartGroups>
+							<li>Torso</li>
+							<li>Shoulders</li>
+							<!--Arms-->
+						</bodyPartGroups>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="RNApparel_Backpack_Tactical_Sling"]/apparel/bodyPartGroups</xpath>
+					<value>
+						<bodyPartGroups>
+							<li>Torso</li>
+							<li>Shoulders</li>
+							<!--Arms-->
+						</bodyPartGroups>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="RNApparel_Backpack_PegasusEliteOps"]/apparel/bodyPartGroups</xpath>
+					<value>
+						<bodyPartGroups>
+							<li>Torso</li>
+							<li>Shoulders</li>
+							<!--Arms-->
+						</bodyPartGroups>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="RNApparel_Backpack_Military"]/apparel/bodyPartGroups</xpath>
+					<value>
+						<bodyPartGroups>
+							<li>Torso</li>
+							<li>Shoulders</li>
+							<!--Arms-->
+						</bodyPartGroups>
+					</value>
+				</li>
+				<!--Now to move things away from the torso-->
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="RNApparel_Harness_MOLLE"]/apparel/bodyPartGroups</xpath>
+					<value>
+						<bodyPartGroups>
+							<li>Shoulders</li>
+							<!--Torso-->
+							<!--Arms-->
+						</bodyPartGroups>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="RNApparel_Harness_ALICE"]/apparel/bodyPartGroups</xpath>
+					<value>
+						<bodyPartGroups>
+							<li>Shoulders</li>
+							<!--Torso-->
+							<!--Arms-->
+						</bodyPartGroups>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="RNApparel_Holsters_Shoulder"]/apparel/bodyPartGroups</xpath>
+					<value>
+						<bodyPartGroups>
+							<li>Shoulders</li>
+							<!--Torso-->
+							<!--Arms-->
+						</bodyPartGroups>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+	
+	
+	<!--VWE Heavy-->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Weapons Expanded - Heavy Weapons</li>
+		</mods>
+		
+		<!--Exoskeleton Frame-->
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationConditional">
+					<xpath>/Defs/ThingDef[defName="VWE_Apparel_Exoframe"]/apparel/countsAsClothingForNudity</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>/Defs/ThingDef[defName="VWE_Apparel_Exoframe"]/apparel</xpath>
+						<value>
+							<countsAsClothingForNudity>false</countsAsClothingForNudity>
+						</value>
+					</nomatch>
+					<match Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="VWE_Apparel_Exoframe"]/apparel/countsAsClothingForNudity</xpath>
+						<value>
+							<countsAsClothingForNudity>false</countsAsClothingForNudity>
+						</value>
+					</match>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+	
+	<!--Utility Packs-->
+	<!-- This doesn't work any more for some reason, so I've just disabled it.
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>More Utility Packs</li>
+		</mods>
+		<success>Always</success>
+		
+		<match Class="PatchOperationSequence">
+			<operations>
+				<!Robotic Rig>
+				<li Class="PatchOperationConditional">
+					<xpath>/Defs/ThingDef[defName="SGC_Apparel_RoboticRig"]/apparel/countsAsClothingForNudity</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>/Defs/ThingDef[defName="SGC_Apparel_RoboticRig"]/apparel</xpath>
+						<value>
+							<countsAsClothingForNudity>false</countsAsClothingForNudity>
+						</value>
+					</nomatch>
+					<match Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SGC_Apparel_RoboticRig"]/apparel/countsAsClothingForNudity</xpath>
+						<value>
+							<countsAsClothingForNudity>false</countsAsClothingForNudity>
+						</value>
+					</match>
+				</li>
+				
+				<!Trauma Kit>
+				<li Class="PatchOperationConditional">
+					<xpath>/Defs/ThingDef[defName="SGC_Apparel_TraumaKit"]/apparel/countsAsClothingForNudity</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>/Defs/ThingDef[defName="SGC_Apparel_TraumaKit"]/apparel</xpath>
+						<value>
+							<countsAsClothingForNudity>false</countsAsClothingForNudity>
+						</value>
+					</nomatch>
+					<match Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SGC_Apparel_TraumaKit"]/apparel/countsAsClothingForNudity</xpath>
+						<value>
+							<countsAsClothingForNudity>false</countsAsClothingForNudity>
+						</value>
+					</match>
+				</li>
+				
+				<!Survival Pack>
+				<li Class="PatchOperationConditional">
+					<xpath>/Defs/ThingDef[defName="SGC_Apparel_SurvivalPack"]/apparel/countsAsClothingForNudity</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>/Defs/ThingDef[defName="SGC_Apparel_SurvivalPack"]/apparel</xpath>
+						<value>
+							<countsAsClothingForNudity>false</countsAsClothingForNudity>
+						</value>
+					</nomatch>
+					<match Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SGC_Apparel_SurvivalPack"]/apparel/countsAsClothingForNudity</xpath>
+						<value>
+							<countsAsClothingForNudity>false</countsAsClothingForNudity>
+						</value>
+					</match>
+				</li>
+				
+				<!Rescue Frame>
+				<li Class="PatchOperationConditional">
+					<xpath>/Defs/ThingDef[defName="SGC_Apparel_RescueFrame"]/apparel/countsAsClothingForNudity</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>/Defs/ThingDef[defName="SGC_Apparel_RescueFrame"]/apparel</xpath>
+						<value>
+							<countsAsClothingForNudity>false</countsAsClothingForNudity>
+						</value>
+					</nomatch>
+					<match Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SGC_Apparel_RescueFrame"]/apparel/countsAsClothingForNudity</xpath>
+						<value>
+							<countsAsClothingForNudity>false</countsAsClothingForNudity>
+						</value>
+					</match>
+				</li>
+				
+				<! 2021-10-16 changed body parts, but left out nudity >
+				<! Glitter Forklift >
+				<li Class="PatchOperationConditional">
+					<xpath>/Defs/ThingDef[defName="SGC_Apparel_Forklift"]/apparel/countsAsClothingForNudity</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>/Defs/ThingDef[defName="SGC_Apparel_Forklift"]/apparel</xpath>
+						<value>
+							<countsAsClothingForNudity>false</countsAsClothingForNudity>
+						</value>
+					</nomatch>
+					<match Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SGC_Apparel_Forklift"]/apparel/countsAsClothingForNudity</xpath>
+						<value>
+							<countsAsClothingForNudity>false</countsAsClothingForNudity>
+						</value>
+					</match>
+				</li>
+				
+				<! Portable Mortar >
+				<li Class="PatchOperationConditional">
+					<xpath>/Defs/ThingDef[defName="SGC_Apparel_FieldMortar"]/apparel/countsAsClothingForNudity</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>/Defs/ThingDef[defName="SGC_Apparel_FieldMortar"]/apparel</xpath>
+						<value>
+							<countsAsClothingForNudity>false</countsAsClothingForNudity>
+						</value>
+					</nomatch>
+					<match Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="SGC_Apparel_FieldMortar"]/apparel/countsAsClothingForNudity</xpath>
+						<value>
+							<countsAsClothingForNudity>false</countsAsClothingForNudity>
+						</value>
+					</match>
+				</li>
+				
+				<!Support for packs that require royalty>
+				<li Class="PatchOperationFindMod">
+					<mods>
+						<li>Royalty</li>
+					</mods>
+					<success>Always</success>
+					<match Class="PatchOperationSequence">
+						<operations>
+							<!Archotech Jumppack / Grav-Pack>
+							<li Class="PatchOperationConditional">
+								<xpath>/Defs/ThingDef[defName="SGC_Apparel_Jetpack"]/apparel/countsAsClothingForNudity</xpath>
+								<nomatch Class="PatchOperationAdd">
+									<xpath>/Defs/ThingDef[defName="SGC_Apparel_Jetpack"]/apparel</xpath>
+									<value>
+										<countsAsClothingForNudity>false</countsAsClothingForNudity>
+									</value>
+								</nomatch>
+								<match Class="PatchOperationReplace">
+									<xpath>/Defs/ThingDef[defName="SGC_Apparel_Jetpack"]/apparel/countsAsClothingForNudity</xpath>
+									<value>
+										<countsAsClothingForNudity>false</countsAsClothingForNudity>
+									</value>
+								</match>
+							</li>
+							
+							<!Command Tower>
+							<li Class="PatchOperationConditional">
+								<xpath>/Defs/ThingDef[defName="SGC_Apparel_CommandTower"]/apparel/countsAsClothingForNudity</xpath>
+								<nomatch Class="PatchOperationAdd">
+									<xpath>/Defs/ThingDef[defName="SGC_Apparel_CommandTower"]/apparel</xpath>
+									<value>
+										<countsAsClothingForNudity>false</countsAsClothingForNudity>
+									</value>
+								</nomatch>
+								<match Class="PatchOperationReplace">
+									<xpath>/Defs/ThingDef[defName="SGC_Apparel_CommandTower"]/apparel/countsAsClothingForNudity</xpath>
+									<value>
+										<countsAsClothingForNudity>false</countsAsClothingForNudity>
+									</value>
+								</match>
+							</li>
+						</operations>
+					</match>
+				</li>
+				
+				<!Support for mech packs>
+				<li Class="PatchOperationFindMod">
+					<mods>
+						<li>Vanilla Factions Expanded - Mechanoids</li>
+					</mods>
+					<success>Always</success>
+					<match Class="PatchOperationSequence">
+						<success>Always</success>
+						<operations>
+							<li Class="PatchOperationFindMod">
+								<mods>
+									<! Changed from Vanilla Armor Expanded after 2021-10-16 >
+									<li>Vanilla Apparel Expanded — Accessories</li>
+								</mods>
+								<success>Always</success>
+								<match Class="PatchOperationSequence">
+									<operations>
+										<!Combat Mech Pack>
+										<li Class="PatchOperationConditional">
+											<xpath>/Defs/ThingDef[defName="MechUtility"]/apparel/countsAsClothingForNudity</xpath>
+											<nomatch Class="PatchOperationAdd">
+												<xpath>/Defs/ThingDef[defName="MechUtility"]/apparel</xpath>
+												<value>
+													<countsAsClothingForNudity>false</countsAsClothingForNudity>
+												</value>
+											</nomatch>
+											<match Class="PatchOperationReplace">
+												<xpath>/Defs/ThingDef[defName="MechUtility"]/apparel/countsAsClothingForNudity</xpath>
+												<value>
+													<countsAsClothingForNudity>false</countsAsClothingForNudity>
+												</value>
+											</match>
+										</li>
+										
+										<!Industry Mech Pack>
+										<li Class="PatchOperationConditional">
+											<xpath>/Defs/ThingDef[defName="SGC_Apparel_INDMechPack"]/apparel/countsAsClothingForNudity</xpath>
+											<nomatch Class="PatchOperationAdd">
+												<xpath>/Defs/ThingDef[defName="SGC_Apparel_INDMechPack"]/apparel</xpath>
+												<value>
+													<countsAsClothingForNudity>false</countsAsClothingForNudity>
+												</value>
+											</nomatch>
+											<match Class="PatchOperationReplace">
+												<xpath>/Defs/ThingDef[defName="SGC_Apparel_INDMechPack"]/apparel/countsAsClothingForNudity</xpath>
+												<value>
+													<countsAsClothingForNudity>false</countsAsClothingForNudity>
+												</value>
+											</match>
+										</li>
+										<! Packs that are mech packs and require Royalty. This is getting spicy. >
+										<li Class="PatchOperationFindMod">
+											<mods>
+												<li>Royalty</li>
+											</mods>
+											<success>Always</success>
+											<! Mech Jet >
+											<! There's only 1 pack here, so we can jump straight to our conditional. This will need to be a sequence if more royalty-specific packs are added. >
+											<match Class="PatchOperationConditional">
+												<xpath>/Defs/ThingDef[defName="SGC_Apparel_INDMechPack"]/apparel/countsAsClothingForNudity</xpath>
+												<nomatch Class="PatchOperationAdd">
+													<xpath>/Defs/ThingDef[defName="SGC_Apparel_INDMechPack"]/apparel</xpath>
+													<value>
+														<countsAsClothingForNudity>false</countsAsClothingForNudity>
+													</value>
+												</nomatch>
+												<match Class="PatchOperationReplace">
+													<xpath>/Defs/ThingDef[defName="SGC_Apparel_INDMechPack"]/apparel/countsAsClothingForNudity</xpath>
+													<value>
+														<countsAsClothingForNudity>false</countsAsClothingForNudity>
+													</value>
+												</match>
+											</match>
+										</li>
+									</operations>
+								</match>
+							</li>
+						</operations>
+					</match>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+	-->
+	
+	<!--Dub's Rimkit-->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Dubs Rimkit</li>
+		</mods>
+		
+		<match Class="PatchOperationSequence">
+			<operations>
+				<!--Medicine Bag-->
+				<li Class="PatchOperationConditional">
+					<xpath>/Defs/ThingDef[defName="MedicineBag"]/apparel/countsAsClothingForNudity</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>/Defs/ThingDef[defName="MedicineBag"]/apparel</xpath>
+						<value>
+							<countsAsClothingForNudity Inherit="False">false</countsAsClothingForNudity>
+						</value>
+					</nomatch>
+					<match Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="MedicineBag"]/apparel/countsAsClothingForNudity</xpath>
+						<value>
+							<countsAsClothingForNudity Inherit="False">false</countsAsClothingForNudity>
+						</value>
+					</match>
+				</li>
+				
+				<!--Medkit-->
+				<li Class="PatchOperationConditional">
+					<xpath>/Defs/ThingDef[defName="MedicalKit"]/apparel/countsAsClothingForNudity</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>/Defs/ThingDef[defName="MedicalKit"]/apparel</xpath>
+						<value>
+							<countsAsClothingForNudity Inherit="False">false</countsAsClothingForNudity>
+						</value>
+					</nomatch>
+					<match Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="MedicalKit"]/apparel/countsAsClothingForNudity</xpath>
+						<value>
+							<countsAsClothingForNudity Inherit="False">false</countsAsClothingForNudity>
+						</value>
+					</match>
+				</li>
+				
+				<!--Glitter Medkit-->
+				<li Class="PatchOperationConditional">
+					<xpath>/Defs/ThingDef[defName="UltraMedKit"]/apparel/countsAsClothingForNudity</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>/Defs/ThingDef[defName="UltraMedKit"]/apparel</xpath>
+						<value>
+							<countsAsClothingForNudity Inherit="False">false</countsAsClothingForNudity>
+						</value>
+					</nomatch>
+					<match Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="UltraMedKit"]/apparel/countsAsClothingForNudity</xpath>
+						<value>
+							<countsAsClothingForNudity Inherit="False">false</countsAsClothingForNudity>
+						</value>
+					</match>
+				</li>
+				
+				<!--Repair Kit-->
+				<li Class="PatchOperationConditional">
+					<xpath>/Defs/ThingDef[defName="DubsRepairKit"]/apparel/countsAsClothingForNudity</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>/Defs/ThingDef[defName="DubsRepairKit"]/apparel</xpath>
+						<value>
+							<countsAsClothingForNudity Inherit="False">false</countsAsClothingForNudity>
+						</value>
+					</nomatch>
+					<match Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="DubsRepairKit"]/apparel/countsAsClothingForNudity</xpath>
+						<value>
+							<countsAsClothingForNudity Inherit="False">false</countsAsClothingForNudity>
+						</value>
+					</match>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+	
+	<!--Rimmu-Nation-->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>[CP] Rimmu-Nation - Clothing</li>
+		</mods>
+		
+		<match Class="PatchOperationSequence">
+			<operations>
+				<!--Civilian Backpack-->
+				<li Class="PatchOperationConditional">
+					<xpath>/Defs/ThingDef[defName="RNApparel_Backpack_Civilian"]/apparel/countsAsClothingForNudity</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>/Defs/ThingDef[defName="RNApparel_Backpack_Civilian"]/apparel</xpath>
+						<value>
+							<countsAsClothingForNudity>false</countsAsClothingForNudity>
+						</value>
+					</nomatch>
+					<match Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="RNApparel_Backpack_Civilian"]/apparel/countsAsClothingForNudity</xpath>
+						<value>
+							<countsAsClothingForNudity>false</countsAsClothingForNudity>
+						</value>
+					</match>
+				</li>
+				
+				<!--Tactical Backpack-->
+				<li Class="PatchOperationConditional">
+					<xpath>/Defs/ThingDef[defName="RNApparel_Backpack_Tactical"]/apparel/countsAsClothingForNudity</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>/Defs/ThingDef[defName="RNApparel_Backpack_Tactical"]/apparel</xpath>
+						<value>
+							<countsAsClothingForNudity>false</countsAsClothingForNudity>
+						</value>
+					</nomatch>
+					<match Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="RNApparel_Backpack_Tactical"]/apparel/countsAsClothingForNudity</xpath>
+						<value>
+							<countsAsClothingForNudity>false</countsAsClothingForNudity>
+						</value>
+					</match>
+				</li>
+				
+				<!--Tactical Sling-->
+				<li Class="PatchOperationConditional">
+					<xpath>/Defs/ThingDef[defName="RNApparel_Backpack_Tactical_Sling"]/apparel/countsAsClothingForNudity</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>/Defs/ThingDef[defName="RNApparel_Backpack_Tactical_Sling"]/apparel</xpath>
+						<value>
+							<countsAsClothingForNudity>false</countsAsClothingForNudity>
+						</value>
+					</nomatch>
+					<match Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="RNApparel_Backpack_Tactical_Sling"]/apparel/countsAsClothingForNudity</xpath>
+						<value>
+							<countsAsClothingForNudity>false</countsAsClothingForNudity>
+						</value>
+					</match>
+				</li>
+				
+				<!--Pegasus Elite-->
+				<li Class="PatchOperationConditional">
+					<xpath>/Defs/ThingDef[defName="RNApparel_Backpack_PegasusEliteOps"]/apparel/countsAsClothingForNudity</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>/Defs/ThingDef[defName="RNApparel_Backpack_PegasusEliteOps"]/apparel</xpath>
+						<value>
+							<countsAsClothingForNudity>false</countsAsClothingForNudity>
+						</value>
+					</nomatch>
+					<match Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="RNApparel_Backpack_PegasusEliteOps"]/apparel/countsAsClothingForNudity</xpath>
+						<value>
+							<countsAsClothingForNudity>false</countsAsClothingForNudity>
+						</value>
+					</match>
+				</li>
+				
+				<!--Military Backpack-->
+				<li Class="PatchOperationConditional">
+					<xpath>/Defs/ThingDef[defName="RNApparel_Backpack_Military"]/apparel/countsAsClothingForNudity</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>/Defs/ThingDef[defName="RNApparel_Backpack_Military"]/apparel</xpath>
+						<value>
+							<countsAsClothingForNudity>false</countsAsClothingForNudity>
+						</value>
+					</nomatch>
+					<match Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="RNApparel_Backpack_Military"]/apparel/countsAsClothingForNudity</xpath>
+						<value>
+							<countsAsClothingForNudity>false</countsAsClothingForNudity>
+						</value>
+					</match>
+				</li>
+				
+				<!--MOLLE-->
+				<li Class="PatchOperationConditional">
+					<xpath>/Defs/ThingDef[defName="RNApparel_Harness_MOLLE"]/apparel/countsAsClothingForNudity</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>/Defs/ThingDef[defName="RNApparel_Harness_MOLLE"]/apparel</xpath>
+						<value>
+							<countsAsClothingForNudity>false</countsAsClothingForNudity>
+						</value>
+					</nomatch>
+					<match Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="RNApparel_Harness_MOLLE"]/apparel/countsAsClothingForNudity</xpath>
+						<value>
+							<countsAsClothingForNudity>false</countsAsClothingForNudity>
+						</value>
+					</match>
+				</li>
+				
+				<!--ALICE-->
+				<li Class="PatchOperationConditional">
+					<xpath>/Defs/ThingDef[defName="RNApparel_Harness_ALICE"]/apparel/countsAsClothingForNudity</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>/Defs/ThingDef[defName="RNApparel_Harness_ALICE"]/apparel</xpath>
+						<value>
+							<countsAsClothingForNudity>false</countsAsClothingForNudity>
+						</value>
+					</nomatch>
+					<match Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="RNApparel_Harness_ALICE"]/apparel/countsAsClothingForNudity</xpath>
+						<value>
+							<countsAsClothingForNudity>false</countsAsClothingForNudity>
+						</value>
+					</match>
+				</li>
+				
+				<!--Shoulder Holsters-->
+				<li Class="PatchOperationConditional">
+					<xpath>/Defs/ThingDef[defName="RNApparel_Holsters_Shoulder"]/apparel/countsAsClothingForNudity</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>/Defs/ThingDef[defName="RNApparel_Holsters_Shoulder"]/apparel</xpath>
+						<value>
+							<countsAsClothingForNudity>false</countsAsClothingForNudity>
+						</value>
+					</nomatch>
+					<match Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="RNApparel_Holsters_Shoulder"]/apparel/countsAsClothingForNudity</xpath>
+						<value>
+							<countsAsClothingForNudity>false</countsAsClothingForNudity>
+						</value>
+					</match>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>

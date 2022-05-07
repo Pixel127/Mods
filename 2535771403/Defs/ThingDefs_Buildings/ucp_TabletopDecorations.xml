@@ -1,0 +1,1520 @@
+<Defs>
+    
+  <!-- ======================== Workshop ======================= -->
+  
+  <DesignatorDropdownGroupDef>
+    <defName>ucp_Workshop</defName>
+  </DesignatorDropdownGroupDef>
+  
+
+
+
+  <ThingDef ParentName="BuildingBase">
+  <defName>ucp_vise</defName>
+    <label>vise</label>
+    <description>A vise for holding things. No, not that.</description>
+	<thingClass>Building</thingClass>
+	<clearBuildingArea>false</clearBuildingArea>
+	<minifiedDef>MinifiedThing</minifiedDef>
+	<thingCategories>
+			<li>BuildingsFurniture</li>
+		</thingCategories>
+    <graphicData>
+      <texPath>Things/Vise/ucp_visenorth</texPath>
+	  <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>(1,1)</drawSize>
+	  <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+	<fillPercent>0.15</fillPercent>
+	<designationCategory>Furniture</designationCategory>
+	<uiIconPath>UI/ucp_vise_ui</uiIconPath>
+	<blockWind>false</blockWind>
+	<altitudeLayer>BuildingOnTop</altitudeLayer>
+	<building>
+		<isEdifice>false</isEdifice>
+		<canPlaceOverWall>true</canPlaceOverWall>
+	</building>
+	<passability>Standable</passability>
+	<stuffCategories>
+		<li>Metallic</li>				
+	</stuffCategories>
+	<costStuffCount>20</costStuffCount>
+	<pathCost>8</pathCost>
+	<researchPrerequisites Inherit="False">
+      <li>Machining</li>
+    </researchPrerequisites>
+	<statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>500</WorkToBuild>
+      <Mass>1.5</Mass>
+      <Flammability>1</Flammability>
+    </statBases>
+	<rotatable>false</rotatable>
+	<comps>
+      <li Class="CompProperties_Facility">
+        <statOffsets>
+          <WorkTableWorkSpeedFactor>0.01</WorkTableWorkSpeedFactor>
+        </statOffsets>
+		<maxSimultaneous>1</maxSimultaneous>
+		<maxDistance>15</maxDistance>
+      </li>
+    </comps>
+	<placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+  </ThingDef>
+  
+  
+  
+  <ThingDef ParentName="BuildingBase">
+  <defName>ucp_remote</defName>
+    <label>TV Remote</label>
+    <description>A remote for controlling your television. This one didn't include batteries.</description>
+	<thingClass>Building</thingClass>
+	<designatorDropdown>ucp_TableTools</designatorDropdown>
+	<clearBuildingArea>false</clearBuildingArea>
+	<minifiedDef>MinifiedThing</minifiedDef>
+	<thingCategories>
+			<li>BuildingsFurniture</li>
+		</thingCategories>
+    <graphicData>
+      <texPath>Things/ucp_remote</texPath>
+	  <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>(1,1)</drawSize>
+    </graphicData>
+	<fillPercent>0.15</fillPercent>
+	<designationCategory>Furniture</designationCategory>
+	<uiIconPath>UI/ucp_remote_ui</uiIconPath>
+	<blockWind>false</blockWind>
+	<altitudeLayer>BuildingOnTop</altitudeLayer>
+	<costList>
+      <Steel>1</Steel>
+	  <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+	<building>
+		<isEdifice>false</isEdifice>
+		<canPlaceOverWall>true</canPlaceOverWall>
+	</building>
+	<passability>Standable</passability>
+	<pathCost>8</pathCost>
+	<researchPrerequisites Inherit="False">
+      <li>Electricity</li>
+    </researchPrerequisites>
+	<statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Mass>0.1</Mass>
+      <Flammability>1</Flammability>
+	  <Beauty>5</Beauty>
+    </statBases>
+	<rotatable>true</rotatable>
+  </ThingDef>
+  
+  
+  
+  <ThingDef ParentName="BuildingBase">
+  <defName>ucp_register</defName>
+    <label>Cash Register</label>
+    <description>A cash register for registering cash. Come to think of it, this probably won't hold much silver.</description>
+	<thingClass>Building</thingClass>
+	<clearBuildingArea>false</clearBuildingArea>
+    <graphicData>
+      <texPath>Things/Register/ucp_register</texPath>
+	  <graphicClass>Graphic_Multi</graphicClass>
+	  <drawSize>(1,1)</drawSize>
+    </graphicData>
+	<fillPercent>0.15</fillPercent>
+	<minifiedDef>MinifiedThing</minifiedDef>
+	<thingCategories>
+			<li>BuildingsFurniture</li>
+		</thingCategories>
+	<designationCategory>Furniture</designationCategory>
+	<uiIconPath>UI/ucp_register_ui</uiIconPath>
+	<blockWind>false</blockWind>
+	<altitudeLayer>BuildingOnTop</altitudeLayer>
+	<costList>
+      <Steel>10</Steel>
+    </costList>
+	<building>
+		<isEdifice>false</isEdifice>
+		<canPlaceOverWall>true</canPlaceOverWall>
+	</building>
+	<passability>Standable</passability>
+	<pathCost>8</pathCost>
+	<researchPrerequisites Inherit="False">
+      <li>Electricity</li>
+    </researchPrerequisites>
+	<statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>500</WorkToBuild>
+      <Mass>0.1</Mass>
+      <Flammability>1</Flammability>
+	  <Beauty>5</Beauty>
+    </statBases>
+  </ThingDef>
+  
+  
+  <ThingDef ParentName="BuildingBase">
+  <defName>ucp_toolbox</defName>
+    <label>Toolbox</label>
+    <description>A box that contains your tools. I have to have my tools!</description>
+	<thingClass>Building</thingClass>
+	<clearBuildingArea>false</clearBuildingArea>
+	<minifiedDef>MinifiedThing</minifiedDef>
+	<thingCategories>
+			<li>BuildingsFurniture</li>
+		</thingCategories>
+    <graphicData>
+      <texPath>Things/Toolbox/ucp_toolbox</texPath>
+	  <graphicClass>Graphic_Multi</graphicClass>
+	  <drawSize>(1.2,1.2)</drawSize>
+	  <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+	<fillPercent>0.15</fillPercent>
+	<designationCategory>Furniture</designationCategory>
+	<uiIconPath>UI/ucp_toolbox_ui</uiIconPath>
+	<blockWind>false</blockWind>
+	<altitudeLayer>BuildingOnTop</altitudeLayer>
+	<stuffCategories>
+		<li>Metallic</li>				
+	</stuffCategories>
+	<costStuffCount>30</costStuffCount>
+	<building>
+		<isEdifice>false</isEdifice>
+		<canPlaceOverWall>true</canPlaceOverWall>
+	</building>
+	<passability>Standable</passability>
+	<pathCost>8</pathCost>
+	<researchPrerequisites Inherit="False">
+      <li>Machining</li>
+    </researchPrerequisites>
+	<statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>500</WorkToBuild>
+      <Mass>0.1</Mass>
+      <Flammability>1</Flammability>
+    </statBases>
+		<comps>
+      <li Class="CompProperties_Facility">
+        <statOffsets>
+          <WorkTableWorkSpeedFactor>0.01</WorkTableWorkSpeedFactor>
+        </statOffsets>
+		<maxSimultaneous>1</maxSimultaneous>
+		<maxDistance>15</maxDistance>
+      </li>
+    </comps>
+	<placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+  </ThingDef>
+  
+  
+  
+  
+  <ThingDef ParentName="BuildingBase">
+  <defName>ucp_workmat</defName>
+    <label>Workmat</label>
+    <description>It's like a placemat but for oil and grease instead of dinner with the Queen.</description>
+	<thingClass>Building</thingClass>
+	<clearBuildingArea>false</clearBuildingArea>
+	<minifiedDef>MinifiedThing</minifiedDef>
+	<thingCategories>
+			<li>BuildingsFurniture</li>
+		</thingCategories>
+    <graphicData>
+      <texPath>Things/Workmat/ucp_workmat</texPath>
+	  <graphicClass>Graphic_Multi</graphicClass>
+	  <drawSize>(1,1)</drawSize>
+    </graphicData>
+	<fillPercent>0.15</fillPercent>
+	<designationCategory>Furniture</designationCategory>
+	<uiIconPath>UI/ucp_workmat_ui</uiIconPath>
+	<blockWind>false</blockWind>
+	<altitudeLayer>BuildingOnTop</altitudeLayer>
+	<stuffCategories>
+		<li>Fabric</li>
+        <li>Leathery</li>				
+	</stuffCategories>
+	<costStuffCount>5</costStuffCount>
+	<building>
+		<isEdifice>false</isEdifice>
+		<canPlaceOverWall>true</canPlaceOverWall>
+	</building>
+	<passability>Standable</passability>
+	<pathCost>8</pathCost>
+	<statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>500</WorkToBuild>
+      <Mass>0.1</Mass>
+      <Flammability>1</Flammability>
+	  <Beauty>2</Beauty>
+    </statBases>
+	<researchPrerequisites>
+		<li>CarpetMaking</li>
+	</researchPrerequisites>
+  </ThingDef>
+  
+  
+  
+  <ThingDef ParentName="BuildingBase">
+  <defName>ucp_workmatlong</defName>
+    <label>Workmat (Long)</label>
+    <description>Iiiit's like a plaaaacemaaaat but for ooooil and greeeease insteeeead of diiiinner wiiiith the Queeeeen.</description>
+	<thingClass>Building</thingClass>
+	<clearBuildingArea>false</clearBuildingArea>
+	<minifiedDef>MinifiedThing</minifiedDef>
+	<thingCategories>
+			<li>BuildingsFurniture</li>
+		</thingCategories>
+    <graphicData>
+      <texPath>Things/Workmat/ucp_workmatlong</texPath>
+	  <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>(1.75, 1)</drawSize>
+    </graphicData>
+	<fillPercent>0.15</fillPercent>
+	<designationCategory>Furniture</designationCategory>
+	<uiIconPath>UI/ucp_workmatlong_ui</uiIconPath>
+	<blockWind>false</blockWind>
+	<altitudeLayer>BuildingOnTop</altitudeLayer>
+	<stuffCategories>
+		<li>Fabric</li>
+        <li>Leathery</li>				
+	</stuffCategories>
+	<costStuffCount>10</costStuffCount>
+	<building>
+		<isEdifice>false</isEdifice>
+		<canPlaceOverWall>true</canPlaceOverWall>
+	</building>
+	<passability>Standable</passability>
+	<pathCost>8</pathCost>
+	<statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>500</WorkToBuild>
+      <Mass>0.1</Mass>
+      <Flammability>1</Flammability>
+	  <Beauty>4</Beauty>
+    </statBases>
+	<rotatable>true</rotatable>
+	<size>(2, 1)</size>
+	<researchPrerequisites>
+		<li>CarpetMaking</li>
+	</researchPrerequisites>
+  </ThingDef>
+  
+  
+  
+  <ThingDef ParentName="BuildingBase">
+  <defName>ucp_screwdrivers</defName>
+    <label>screwdriver rack</label>
+    <description>A rack for holding screwdrivers.</description>
+	<thingClass>Building</thingClass>
+	<clearBuildingArea>false</clearBuildingArea>
+	<minifiedDef>MinifiedThing</minifiedDef>
+	<thingCategories>
+			<li>BuildingsFurniture</li>
+	</thingCategories>
+    <graphicData>
+      <texPath>Things/Screwdrivers/ucp_screwdrivers</texPath>
+	  <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>(1,1)</drawSize>
+	  <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+	<fillPercent>0.15</fillPercent>
+	<designationCategory>Furniture</designationCategory>
+	<uiIconPath>UI/ucp_screwdrivers_ui</uiIconPath>
+	<blockWind>false</blockWind>
+	<altitudeLayer>BuildingOnTop</altitudeLayer>
+	<building>
+		<isEdifice>false</isEdifice>
+		<canPlaceOverWall>true</canPlaceOverWall>
+	</building>
+	<passability>Standable</passability>
+	<stuffCategories>
+		<li>Metallic</li>	
+		<li>Woody</li>
+	</stuffCategories>
+	<costStuffCount>3</costStuffCount>
+	<costList>
+      <Steel>1</Steel>
+    </costList>
+	<pathCost>8</pathCost>
+	<researchPrerequisites Inherit="False">
+      <li>Machining</li>
+    </researchPrerequisites>
+	<statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>500</WorkToBuild>
+      <Mass>1.5</Mass>
+      <Flammability>1</Flammability>
+    </statBases>
+	<rotatable>false</rotatable>
+		<comps>
+      <li Class="CompProperties_Facility">
+        <statOffsets>
+          <WorkTableWorkSpeedFactor>0.01</WorkTableWorkSpeedFactor>
+        </statOffsets>
+		<maxSimultaneous>1</maxSimultaneous>
+		<maxDistance>15</maxDistance>
+      </li>
+    </comps>
+	<placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+  </ThingDef>
+  
+  
+  
+  <ThingDef ParentName="BuildingBase">
+  <defName>ucp_hammer</defName>
+    <label>Hammer</label>
+    <description>For solving problems with violence.</description>
+	<thingClass>Building</thingClass>
+	<designatorDropdown>ucp_TableTools</designatorDropdown>
+	<clearBuildingArea>false</clearBuildingArea>
+	<minifiedDef>MinifiedThing</minifiedDef>
+	<thingCategories>
+			<li>BuildingsFurniture</li>
+		</thingCategories>
+    <graphicData>
+      <texPath>Things/ucp_hammer</texPath>
+	  <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>(1,1)</drawSize>
+    </graphicData>
+	<fillPercent>0.15</fillPercent>
+	<designationCategory>Furniture</designationCategory>
+	<uiIconPath>UI/ucp_hammer_ui</uiIconPath>
+	<blockWind>false</blockWind>
+	<altitudeLayer>BuildingOnTop</altitudeLayer>
+	<costList>
+      <Steel>4</Steel>
+    </costList>
+	<building>
+		<isEdifice>false</isEdifice>
+		<canPlaceOverWall>true</canPlaceOverWall>
+	</building>
+	<passability>Standable</passability>
+	<pathCost>8</pathCost>
+	<statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>500</WorkToBuild>
+      <Mass>0.1</Mass>
+      <Flammability>1</Flammability>
+    </statBases>
+		<researchPrerequisites Inherit="False">
+      <li>Machining</li>
+    </researchPrerequisites>
+	<rotatable>true</rotatable>
+		<comps>
+      <li Class="CompProperties_Facility">
+        <statOffsets>
+          <WorkTableWorkSpeedFactor>0.01</WorkTableWorkSpeedFactor>
+        </statOffsets>
+		<maxSimultaneous>1</maxSimultaneous>
+		<maxDistance>15</maxDistance>
+      </li>
+    </comps>
+	<placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+  </ThingDef>
+  
+  
+  
+  <ThingDef ParentName="BuildingBase">
+  <defName>ucp_measure</defName>
+    <label>Tape measure</label>
+    <description>For measuring WORKPLACE-APPROPRIATE things.</description>
+	<thingClass>Building</thingClass>
+	<designatorDropdown>ucp_TableTools</designatorDropdown>
+	<clearBuildingArea>false</clearBuildingArea>
+	<minifiedDef>MinifiedThing</minifiedDef>
+	<thingCategories>
+			<li>BuildingsFurniture</li>
+		</thingCategories>
+    <graphicData>
+      <texPath>Things/ucp_measure</texPath>
+	  <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>(1,1)</drawSize>
+    </graphicData>
+	<fillPercent>0.15</fillPercent>
+	<designationCategory>Furniture</designationCategory>
+	<uiIconPath>UI/ucp_measure_ui</uiIconPath>
+	<blockWind>false</blockWind>
+	<altitudeLayer>BuildingOnTop</altitudeLayer>
+	<costList>
+      <Steel>3</Steel>
+    </costList>
+	<building>
+		<isEdifice>false</isEdifice>
+		<canPlaceOverWall>true</canPlaceOverWall>
+	</building>
+	<passability>Standable</passability>
+	<pathCost>8</pathCost>
+	<statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>500</WorkToBuild>
+      <Mass>0.1</Mass>
+      <Flammability>1</Flammability>
+    </statBases>
+	<rotatable>false</rotatable>
+		<researchPrerequisites Inherit="False">
+      <li>Machining</li>
+    </researchPrerequisites>
+		<comps>
+      <li Class="CompProperties_Facility">
+        <statOffsets>
+          <WorkTableWorkSpeedFactor>0.01</WorkTableWorkSpeedFactor>
+        </statOffsets>
+		<maxSimultaneous>1</maxSimultaneous>
+		<maxDistance>15</maxDistance>
+      </li>
+    </comps>
+	<placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+  </ThingDef>
+  
+  
+  
+  <ThingDef ParentName="BuildingBase">
+  <defName>ucp_aerosol</defName>
+    <label>aerosol can</label>
+    <description>The sun burned the label's text off, I wonder what's inside?</description>
+	<thingClass>Building</thingClass>
+	<clearBuildingArea>false</clearBuildingArea>
+	<minifiedDef>MinifiedThing</minifiedDef>
+	<thingCategories>
+			<li>BuildingsFurniture</li>
+	</thingCategories>
+    <graphicData>
+      <texPath>Things/ucp_aerosol</texPath>
+	  <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>(1,1)</drawSize>
+	  <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+	<fillPercent>0.15</fillPercent>
+	<designationCategory>Furniture</designationCategory>
+	<uiIconPath>UI/ucp_aerosol_ui</uiIconPath>
+	<blockWind>false</blockWind>
+	<altitudeLayer>BuildingOnTop</altitudeLayer>
+	<building>
+		<isEdifice>false</isEdifice>
+		<canPlaceOverWall>true</canPlaceOverWall>
+	</building>
+	<passability>Standable</passability>
+	<stuffCategories>
+		<li>Metallic</li>
+	</stuffCategories>
+	<costStuffCount>1</costStuffCount>
+	<costList>
+      <Steel>3</Steel>
+    </costList>
+	<pathCost>8</pathCost>
+	<researchPrerequisites Inherit="False">
+      <li>Machining</li>
+    </researchPrerequisites>
+	<statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>500</WorkToBuild>
+      <Mass>1.5</Mass>
+      <Flammability>1</Flammability>
+    </statBases>
+	<rotatable>false</rotatable>
+		<comps>
+      <li Class="CompProperties_Facility">
+        <statOffsets>
+          <WorkTableWorkSpeedFactor>0.01</WorkTableWorkSpeedFactor>
+        </statOffsets>
+		<maxSimultaneous>1</maxSimultaneous>
+		<maxDistance>15</maxDistance>
+      </li>
+    </comps>
+	<placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+  </ThingDef>
+  
+  
+  
+  
+  <ThingDef ParentName="BuildingBase">
+  <defName>ucp_tablelamp</defName>
+    <label>Table Lamp</label>
+    <description>It's like a standing lamp except it stands on a table.</description>
+	<thingClass>Building</thingClass>
+	<clearBuildingArea>false</clearBuildingArea>
+	<minifiedDef>MinifiedThing</minifiedDef>
+	<thingCategories>
+			<li>BuildingsFurniture</li>
+	</thingCategories>
+    <graphicData>
+      <texPath>Things/ucp_tablelamp</texPath>
+	  <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>(1.2,1.2)</drawSize>
+    </graphicData>
+	<fillPercent>0.15</fillPercent>
+	<designationCategory>Furniture</designationCategory>
+	<uiIconPath>UI/ucp_tablelamp_ui</uiIconPath>
+	<blockWind>false</blockWind>
+	<altitudeLayer>BuildingOnTop</altitudeLayer>
+	<building>
+		<isEdifice>false</isEdifice>
+		<canPlaceOverWall>true</canPlaceOverWall>
+	</building>
+	<passability>Standable</passability>
+	<costList>
+      <Steel>20</Steel>
+    </costList>
+	<pathCost>8</pathCost>
+	<researchPrerequisites Inherit="False">
+      <li>Electricity</li>
+    </researchPrerequisites>
+	<statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>500</WorkToBuild>
+      <Mass>1.5</Mass>
+      <Flammability>1</Flammability>
+    </statBases>
+	<comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>12</glowRadius>
+        <glowColor>(217,217,208,0)</glowColor>
+      </li>
+	  <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>30</basePowerConsumption>
+      </li>
+    </comps>
+	<rotatable>false</rotatable>
+  </ThingDef>
+  
+  
+  
+  <ThingDef ParentName="BuildingBase">
+  <defName>ucp_viseautopistol</defName>
+    <label>Vise pistol</label>
+    <description>In vanilla it's just a vise holding a gun, but if you have a texture mod this vise is holding an ancient relic from the past.</description>
+	<thingClass>Building</thingClass>
+	<clearBuildingArea>false</clearBuildingArea>
+	<minifiedDef>MinifiedThing</minifiedDef>
+	<thingCategories>
+			<li>BuildingsFurniture</li>
+		</thingCategories>
+    <graphicData>
+      <texPath>Things/ucp_viseautopistol</texPath>
+	  <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>(1,1)</drawSize>
+    </graphicData>
+	<fillPercent>0.15</fillPercent>
+	<designationCategory>Furniture</designationCategory>
+	<uiIconPath>UI/ucp_viseautopistol_ui</uiIconPath>
+	<blockWind>false</blockWind>
+	<altitudeLayer>BuildingOnTop</altitudeLayer>
+	<costList>
+      <Steel>45</Steel>
+    </costList>
+	<building>
+		<isEdifice>false</isEdifice>
+		<canPlaceOverWall>true</canPlaceOverWall>
+	</building>
+	<passability>Standable</passability>
+	<pathCost>8</pathCost>
+	<statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>500</WorkToBuild>
+      <Mass>0.1</Mass>
+      <Flammability>1</Flammability>
+	  <Beauty>5</Beauty>
+    </statBases>
+	<rotatable>false</rotatable>
+	<researchPrerequisites Inherit="False">
+      <li>BlowbackOperation</li>
+    </researchPrerequisites>
+  </ThingDef>
+  
+  
+  <DesignatorDropdownGroupDef>
+    <defName>ucp_Picnic</defName>
+</DesignatorDropdownGroupDef>
+
+  <DesignatorDropdownGroupDef>
+    <defName>ucp_TableTools</defName>
+</DesignatorDropdownGroupDef>
+  
+
+  <ThingDef ParentName="BuildingBase">
+  <defName>ucp_picnic2x1c</defName>
+    <label>Picnic Blanket 1x2 (horizontal)</label>
+    <description>Any meal served on this is instantly declared "quaint".</description>
+	<thingClass>Building</thingClass>
+	<designatorDropdown>ucp_Picnic</designatorDropdown>
+	<clearBuildingArea>false</clearBuildingArea>
+	<minifiedDef>MinifiedThing</minifiedDef>
+	<thingCategories>
+			<li>BuildingsFurniture</li>
+		</thingCategories>
+    <graphicData>
+      <texPath>Things/Picnic/ucp_picnicblanket2x1c</texPath>
+	  <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>(2.4, 1.2)</drawSize>
+    </graphicData>
+	<fillPercent>0.15</fillPercent>
+	<designationCategory>Furniture</designationCategory>
+	<uiIconPath>UI/ucp_picnic_ui</uiIconPath>
+	<blockWind>false</blockWind>
+	<altitudeLayer>BuildingOnTop</altitudeLayer>
+	<costList>
+      <Cloth>70</Cloth>
+    </costList>
+	<building>
+		<isEdifice>false</isEdifice>
+		<canPlaceOverWall>true</canPlaceOverWall>
+	</building>
+	<passability>Standable</passability>
+	<pathCost>8</pathCost>
+	<statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>500</WorkToBuild>
+      <Mass>0.1</Mass>
+      <Flammability>1</Flammability>
+	  <Beauty>8</Beauty>
+    </statBases>
+	<rotatable>true</rotatable>
+	<size>(2, 1)</size>
+	<researchPrerequisites>
+		<li>CarpetMaking</li>
+	</researchPrerequisites>
+  </ThingDef>
+  
+  
+  <ThingDef ParentName="BuildingBase">
+  <defName>ucp_picnic1x2c</defName>
+    <label>Picnic Blanket 1x2 (vertical)</label>
+    <description>Any meal served on this is instantly declared "quaint".</description>
+	<thingClass>Building</thingClass>
+	<designatorDropdown>ucp_Picnic</designatorDropdown>
+	<clearBuildingArea>false</clearBuildingArea>
+	<minifiedDef>MinifiedThing</minifiedDef>
+	<thingCategories>
+			<li>BuildingsFurniture</li>
+		</thingCategories>
+    <graphicData>
+      <texPath>Things/Picnic/ucp_picnicblanket1x2c</texPath>
+	  <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>(1.2, 2.4)</drawSize>
+    </graphicData>
+	<fillPercent>0.15</fillPercent>
+	<designationCategory>Furniture</designationCategory>
+	<uiIconPath>UI/ucp_picnic_ui</uiIconPath>
+	<blockWind>false</blockWind>
+	<altitudeLayer>BuildingOnTop</altitudeLayer>
+	<costList>
+      <Cloth>70</Cloth>
+    </costList>
+	<building>
+		<isEdifice>false</isEdifice>
+		<canPlaceOverWall>true</canPlaceOverWall>
+	</building>
+	<passability>Standable</passability>
+	<pathCost>8</pathCost>
+	<statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>500</WorkToBuild>
+      <Mass>0.1</Mass>
+      <Flammability>1</Flammability>
+	  <Beauty>8</Beauty>
+    </statBases>
+	<rotatable>true</rotatable>
+	<size>(1, 2)</size>
+	<researchPrerequisites>
+		<li>CarpetMaking</li>
+	</researchPrerequisites>
+  </ThingDef>
+  
+  
+  <ThingDef ParentName="BuildingBase">
+  <defName>ucp_picnic1x1c</defName>
+    <label>Picnic Blanket 1x1</label>
+    <description>Any meal served on this is instantly declared "quaint".</description>
+	<thingClass>Building</thingClass>
+	<designatorDropdown>ucp_Picnic</designatorDropdown>
+	<clearBuildingArea>false</clearBuildingArea>
+	<minifiedDef>MinifiedThing</minifiedDef>
+	<thingCategories>
+			<li>BuildingsFurniture</li>
+		</thingCategories>
+    <graphicData>
+      <texPath>Things/Picnic/ucp_picnicblanket1x1c</texPath>
+	  <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>(1.2, 1.2)</drawSize>
+    </graphicData>
+	<fillPercent>0.15</fillPercent>
+	<designationCategory>Furniture</designationCategory>
+	<uiIconPath>UI/ucp_picnic_ui</uiIconPath>
+	<blockWind>false</blockWind>
+	<altitudeLayer>BuildingOnTop</altitudeLayer>
+	<costList>
+      <Cloth>35</Cloth>
+    </costList>
+	<building>
+		<isEdifice>false</isEdifice>
+		<canPlaceOverWall>true</canPlaceOverWall>
+	</building>
+	<passability>Standable</passability>
+	<pathCost>8</pathCost>
+	<statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>500</WorkToBuild>
+      <Mass>0.1</Mass>
+      <Flammability>1</Flammability>
+	  <Beauty>4</Beauty>
+    </statBases>
+	<rotatable>true</rotatable>
+	<size>(1, 1)</size>
+	<researchPrerequisites>
+		<li>CarpetMaking</li>
+	</researchPrerequisites>
+  </ThingDef>
+  
+  
+  
+  <ThingDef ParentName="BuildingBase">
+  <defName>ucp_picnic2x2c</defName>
+    <label>Picnic Blanket 2x2</label>
+    <description>Any meal served on this is instantly declared "quaint".</description>
+	<thingClass>Building</thingClass>
+	<designatorDropdown>ucp_Picnic</designatorDropdown>
+	<clearBuildingArea>false</clearBuildingArea>
+	<minifiedDef>MinifiedThing</minifiedDef>
+	<thingCategories>
+			<li>BuildingsFurniture</li>
+		</thingCategories>
+    <graphicData>
+      <texPath>Things/Picnic/ucp_picnicblanket2x2c</texPath>
+	  <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>(2.4, 2.4)</drawSize>
+    </graphicData>
+	<fillPercent>0.15</fillPercent>
+	<designationCategory>Furniture</designationCategory>
+	<uiIconPath>UI/ucp_picnic_ui</uiIconPath>
+	<blockWind>false</blockWind>
+	<altitudeLayer>BuildingOnTop</altitudeLayer>
+	<costList>
+      <Cloth>140</Cloth>
+    </costList>
+	<building>
+		<isEdifice>false</isEdifice>
+		<canPlaceOverWall>true</canPlaceOverWall>
+	</building>
+	<passability>Standable</passability>
+	<pathCost>8</pathCost>
+	<statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>500</WorkToBuild>
+      <Mass>0.1</Mass>
+      <Flammability>1</Flammability>
+	  <Beauty>12</Beauty>
+    </statBases>
+	<rotatable>true</rotatable>
+	<size>(2, 2)</size>
+	<researchPrerequisites>
+		<li>CarpetMaking</li>
+	</researchPrerequisites>
+  </ThingDef>
+  
+  
+  
+  <ThingDef ParentName="BuildingBase">
+  <defName>ucp_picnic4x2c</defName>
+    <label>Picnic Blanket 2x4 (Horizontal)</label>
+    <description>Any meal served on this is instantly declared "quaint".</description>
+	<thingClass>Building</thingClass>
+	<designatorDropdown>ucp_Picnic</designatorDropdown>
+	<clearBuildingArea>false</clearBuildingArea>
+	<minifiedDef>MinifiedThing</minifiedDef>
+	<thingCategories>
+			<li>BuildingsFurniture</li>
+		</thingCategories>
+    <graphicData>
+      <texPath>Things/Picnic/ucp_picnicblanket4x2c</texPath>
+	  <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>(4.8, 2.4)</drawSize>
+    </graphicData>
+	<fillPercent>0.15</fillPercent>
+	<designationCategory>Furniture</designationCategory>
+	<uiIconPath>UI/ucp_picnic_ui</uiIconPath>
+	<blockWind>false</blockWind>
+	<altitudeLayer>BuildingOnTop</altitudeLayer>
+	<costList>
+      <Cloth>280</Cloth>
+    </costList>
+	<building>
+		<isEdifice>false</isEdifice>
+		<canPlaceOverWall>true</canPlaceOverWall>
+	</building>
+	<passability>Standable</passability>
+	<pathCost>8</pathCost>
+	<statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>500</WorkToBuild>
+      <Mass>0.1</Mass>
+      <Flammability>1</Flammability>
+	  <Beauty>24</Beauty>
+    </statBases>
+	<rotatable>true</rotatable>
+	<size>(2, 4)</size>
+	<researchPrerequisites>
+		<li>CarpetMaking</li>
+	</researchPrerequisites>
+  </ThingDef>
+  
+  
+  
+  <ThingDef ParentName="BuildingBase">
+  <defName>ucp_picnic2x4c</defName>
+    <label>Picnic Blanket 2x4 (Vertical)</label>
+    <description>Any meal served on this is instantly declared "quaint".</description>
+	<thingClass>Building</thingClass>
+	<designatorDropdown>ucp_Picnic</designatorDropdown>
+	<clearBuildingArea>false</clearBuildingArea>
+	<minifiedDef>MinifiedThing</minifiedDef>
+	<thingCategories>
+			<li>BuildingsFurniture</li>
+		</thingCategories>
+    <graphicData>
+      <texPath>Things/Picnic/ucp_picnicblanket2x4c</texPath>
+	  <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>(2.4, 4.8)</drawSize>
+    </graphicData>
+	<fillPercent>0.15</fillPercent>
+	<designationCategory>Furniture</designationCategory>
+	<uiIconPath>UI/ucp_picnic_ui</uiIconPath>
+	<blockWind>false</blockWind>
+	<altitudeLayer>BuildingOnTop</altitudeLayer>
+	<costList>
+      <Cloth>280</Cloth>
+    </costList>
+	<building>
+		<isEdifice>false</isEdifice>
+		<canPlaceOverWall>true</canPlaceOverWall>
+	</building>
+	<passability>Standable</passability>
+	<pathCost>8</pathCost>
+	<statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>500</WorkToBuild>
+      <Mass>0.1</Mass>
+      <Flammability>1</Flammability>
+	  <Beauty>24</Beauty>
+    </statBases>
+	<rotatable>true</rotatable>
+	<size>(2, 4)</size>
+	<researchPrerequisites>
+		<li>CarpetMaking</li>
+	</researchPrerequisites>
+  </ThingDef>
+  
+  
+  
+  <ThingDef ParentName="BuildingBase">
+  <defName>ucp_picniclamp</defName>
+    <label>Picnic dresser (Lamp)</label>
+    <description>It's like a standing lamp except it stands on a very quaint table.</description>
+	<thingClass>Building</thingClass>
+	<designatorDropdown>ucp_Picnic</designatorDropdown>
+	<clearBuildingArea>false</clearBuildingArea>
+	<minifiedDef>MinifiedThing</minifiedDef>
+	<thingCategories>
+			<li>BuildingsFurniture</li>
+	</thingCategories>
+    <graphicData>
+      <texPath>Things/Picnic/ucp_picniclamp</texPath>
+	  <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>(1.2,1.2)</drawSize>
+    </graphicData>
+	<fillPercent>0.15</fillPercent>
+	<designationCategory>Furniture</designationCategory>
+	<uiIconPath>UI/ucp_picniclamp_ui</uiIconPath>
+	<blockWind>false</blockWind>
+	<altitudeLayer>BuildingOnTop</altitudeLayer>
+	<building>
+		<isEdifice>false</isEdifice>
+		<canPlaceOverWall>true</canPlaceOverWall>
+	</building>
+	<passability>Standable</passability>
+	<costList>
+      <Cloth>35</Cloth>
+	  <Steel>20</Steel>
+    </costList>
+	<pathCost>8</pathCost>
+	<researchPrerequisites Inherit="False">
+      <li>Electricity</li>
+	  <li>CarpetMaking</li>
+    </researchPrerequisites>
+	<statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>500</WorkToBuild>
+      <Mass>1.5</Mass>
+      <Flammability>1</Flammability>
+	  <Beauty>4</Beauty>
+    </statBases>
+	<comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>12</glowRadius>
+        <glowColor>(217,217,208,0)</glowColor>
+      </li>
+	  <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>30</basePowerConsumption>
+      </li>
+    </comps>
+	<rotatable>false</rotatable>
+  </ThingDef>
+  
+  
+  
+  <ThingDef ParentName="BuildingBase">
+  <defName>ucp_picnicdresser</defName>
+    <label>Picnic Dresser</label>
+    <description>This will increase the coziness of a room to near toxic levels.</description>
+	<thingClass>Building</thingClass>
+	<designatorDropdown>ucp_Picnic</designatorDropdown>
+	<clearBuildingArea>false</clearBuildingArea>
+	<minifiedDef>MinifiedThing</minifiedDef>
+	<thingCategories>
+			<li>BuildingsFurniture</li>
+		</thingCategories>
+    <graphicData>
+      <texPath>Things/Picnic/ucp_picnicdresser</texPath>
+	  <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>(1.2, 1.2)</drawSize>
+    </graphicData>
+	<fillPercent>0.15</fillPercent>
+	<designationCategory>Furniture</designationCategory>
+	<uiIconPath>UI/ucp_picnic_ui</uiIconPath>
+	<blockWind>false</blockWind>
+	<altitudeLayer>BuildingOnTop</altitudeLayer>
+	<costList>
+      <Cloth>35
+	  </Cloth>
+    </costList>
+	<building>
+		<isEdifice>false</isEdifice>
+		<canPlaceOverWall>true</canPlaceOverWall>
+	</building>
+	<passability>Standable</passability>
+	<pathCost>8</pathCost>
+	<statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>500</WorkToBuild>
+      <Mass>0.1</Mass>
+      <Flammability>1</Flammability>
+	  <Beauty>4</Beauty>
+    </statBases>
+	<rotatable>true</rotatable>
+	<size>(1, 1)</size>
+	<researchPrerequisites>
+		<li>CarpetMaking</li>
+	</researchPrerequisites>
+  </ThingDef>
+  
+  
+  
+  <ThingDef ParentName="BuildingBase">
+  <defName>ucp_bullets</defName>
+    <label>Bullets</label>
+    <description>Do you know what popper fireworks are? I wonder if you can use these like those. Rotate for more graphics.</description>
+	<thingClass>Building</thingClass>
+	<designatorDropdown>ucp_TableTools</designatorDropdown>
+	<clearBuildingArea>false</clearBuildingArea>
+	<minifiedDef>MinifiedThing</minifiedDef>
+	<thingCategories>
+			<li>BuildingsFurniture</li>
+		</thingCategories>
+    <graphicData>
+      <texPath>Things/Bullets/ucp_bullets</texPath>
+	  <graphicClass>Graphic_Multi</graphicClass>
+	  <drawSize>(1,1)</drawSize>
+    </graphicData>
+	<fillPercent>0.15</fillPercent>
+	<designationCategory>Furniture</designationCategory>
+	<uiIconPath>UI/ucp_bullets_ui</uiIconPath>
+	<blockWind>false</blockWind>
+	<altitudeLayer>BuildingOnTop</altitudeLayer>
+	<costList>
+      <Steel>1</Steel>
+    </costList>
+	<building>
+		<isEdifice>false</isEdifice>
+		<canPlaceOverWall>true</canPlaceOverWall>
+	</building>
+	<passability>Standable</passability>
+	<pathCost>8</pathCost>
+	<statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>500</WorkToBuild>
+      <Mass>0.1</Mass>
+      <Flammability>1</Flammability>
+	  <Beauty>2</Beauty>
+    </statBases>
+	<researchPrerequisites Inherit="False">
+      <li>Machining</li>
+    </researchPrerequisites>
+  </ThingDef>
+  
+  
+  
+  <ThingDef ParentName="BuildingBase">
+  <defName>ucp_tongs</defName>
+    <label>Tongs</label>
+    <description>For things you wouldn't touch with a ten foot pole. Or, I guess you would in this scenario.</description>
+	<thingClass>Building</thingClass>
+	<designatorDropdown>ucp_TableTools</designatorDropdown>
+	<clearBuildingArea>false</clearBuildingArea>
+	<minifiedDef>MinifiedThing</minifiedDef>
+	<thingCategories>
+			<li>BuildingsFurniture</li>
+		</thingCategories>
+    <graphicData>
+      <texPath>Things/ucp_tongs</texPath>
+	  <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>(1,1)</drawSize>
+    </graphicData>
+	<fillPercent>0.15</fillPercent>
+	<designationCategory>Furniture</designationCategory>
+	<uiIconPath>Things/ucp_tongs</uiIconPath>
+	<blockWind>false</blockWind>
+	<altitudeLayer>BuildingOnTop</altitudeLayer>
+	<costList>
+      <Steel>3</Steel>
+    </costList>
+	<building>
+		<isEdifice>false</isEdifice>
+		<canPlaceOverWall>true</canPlaceOverWall>
+	</building>
+	<passability>Standable</passability>
+	<pathCost>8</pathCost>
+	<statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>500</WorkToBuild>
+      <Mass>0.1</Mass>
+      <Flammability>1</Flammability>
+    </statBases>
+	<rotatable>true</rotatable>
+	<researchPrerequisites Inherit="False">
+      <li>Smithing</li>
+    </researchPrerequisites>
+		<comps>
+      <li Class="CompProperties_Facility">
+        <statOffsets>
+          <WorkTableWorkSpeedFactor>0.01</WorkTableWorkSpeedFactor>
+        </statOffsets>
+		<maxSimultaneous>1</maxSimultaneous>
+		<maxDistance>15</maxDistance>
+      </li>
+    </comps>
+	<placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+  </ThingDef>
+  
+  <ThingDef ParentName="BuildingBase">
+  <defName>ucp_ballpeen</defName>
+    <label>Ballpeen</label>
+    <description>pfffft haaahahahahahahahaaa. Ball peen. What do you even use this for?</description>
+	<thingClass>Building</thingClass>
+	<designatorDropdown>ucp_TableTools</designatorDropdown>
+	<clearBuildingArea>false</clearBuildingArea>
+	<minifiedDef>MinifiedThing</minifiedDef>
+	<thingCategories>
+			<li>BuildingsFurniture</li>
+		</thingCategories>
+    <graphicData>
+      <texPath>Things/ucp_ballpeen</texPath>
+	  <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>(1,1)</drawSize>
+    </graphicData>
+	<fillPercent>0.15</fillPercent>
+	<designationCategory>Furniture</designationCategory>
+	<uiIconPath>Things/ucp_ballpeen</uiIconPath>
+	<blockWind>false</blockWind>
+	<altitudeLayer>BuildingOnTop</altitudeLayer>
+	<costList>
+      <Steel>2</Steel>
+	  <WoodLog>1</WoodLog>
+    </costList>
+	<building>
+		<isEdifice>false</isEdifice>
+		<canPlaceOverWall>true</canPlaceOverWall>
+	</building>
+	<passability>Standable</passability>
+	<pathCost>8</pathCost>
+	<statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>500</WorkToBuild>
+      <Mass>0.1</Mass>
+      <Flammability>1</Flammability>
+    </statBases>
+	<rotatable>true</rotatable>
+	<researchPrerequisites Inherit="False">
+      <li>Smithing</li>
+    </researchPrerequisites>
+		<comps>
+      <li Class="CompProperties_Facility">
+        <statOffsets>
+          <WorkTableWorkSpeedFactor>0.01</WorkTableWorkSpeedFactor>
+        </statOffsets>
+		<maxSimultaneous>1</maxSimultaneous>
+		<maxDistance>15</maxDistance>
+      </li>
+    </comps>
+	<placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+  </ThingDef>
+  
+  
+  
+  <ThingDef ParentName="BuildingBase">
+  <defName>ucp_scraps</defName>
+    <label>Textile Scraps</label>
+    <description>It's all trash, unless you have a hole in your pants.</description>
+	<thingClass>Building</thingClass>
+	<clearBuildingArea>false</clearBuildingArea>
+	<minifiedDef>MinifiedThing</minifiedDef>
+	<thingCategories>
+			<li>BuildingsFurniture</li>
+		</thingCategories>
+    <graphicData>
+      <texPath>Things/ucp_scraps</texPath>
+	  <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>(1,1)</drawSize>
+    </graphicData>
+	<fillPercent>0.15</fillPercent>
+	<designationCategory>Furniture</designationCategory>
+	<uiIconPath>Things/ucp_scraps</uiIconPath>
+	<blockWind>false</blockWind>
+	<altitudeLayer>BuildingOnTop</altitudeLayer>
+	<costList>
+      <Cloth>7</Cloth>
+    </costList>
+	<building>
+		<isEdifice>false</isEdifice>
+		<canPlaceOverWall>true</canPlaceOverWall>
+	</building>
+	<passability>Standable</passability>
+	<pathCost>8</pathCost>
+	<statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>500</WorkToBuild>
+      <Mass>0.1</Mass>
+      <Flammability>1</Flammability>
+    </statBases>
+	<rotatable>true</rotatable>
+	    <researchPrerequisites>
+      <li>ComplexClothing</li>
+    </researchPrerequisites>
+			<comps>
+      <li Class="CompProperties_Facility">
+        <statOffsets>
+          <WorkTableWorkSpeedFactor>0.01</WorkTableWorkSpeedFactor>
+        </statOffsets>
+		<maxSimultaneous>1</maxSimultaneous>
+		<maxDistance>15</maxDistance>
+      </li>
+    </comps>
+	<placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+  </ThingDef>
+  
+  
+  
+  <ThingDef ParentName="BuildingBase">
+  <defName>ucp_textileroll</defName>
+    <label>textileroll</label>
+    <description>It's like normal cloth except you can't use it.</description>
+	<thingClass>Building</thingClass>
+	<clearBuildingArea>false</clearBuildingArea>
+	<minifiedDef>MinifiedThing</minifiedDef>
+	<thingCategories>
+			<li>BuildingsFurniture</li>
+	</thingCategories>
+    <graphicData>
+      <texPath>Things/ucp_textileroll</texPath>
+	  <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>(1,1)</drawSize>
+	  <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+	<fillPercent>0.15</fillPercent>
+	<designationCategory>Furniture</designationCategory>
+	<uiIconPath>Things/ucp_textileroll</uiIconPath>
+	<blockWind>false</blockWind>
+	<altitudeLayer>BuildingOnTop</altitudeLayer>
+	<building>
+		<isEdifice>false</isEdifice>
+		<canPlaceOverWall>true</canPlaceOverWall>
+	</building>
+	<passability>Standable</passability>
+	<stuffCategories>
+		<li>Fabric</li>
+        <li>Leathery</li>				
+	</stuffCategories>
+	<costStuffCount>75</costStuffCount>
+    <costList>
+      <WoodLog>1</WoodLog>
+    </costList>
+	<pathCost>8</pathCost>
+    <researchPrerequisites>
+      <li>ComplexClothing</li>
+    </researchPrerequisites>
+	<statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>500</WorkToBuild>
+      <Mass>1.5</Mass>
+      <Flammability>1</Flammability>
+    </statBases>
+	<rotatable>false</rotatable>
+			<comps>
+      <li Class="CompProperties_Facility">
+        <statOffsets>
+          <WorkTableWorkSpeedFactor>0.01</WorkTableWorkSpeedFactor>
+        </statOffsets>
+		<maxSimultaneous>1</maxSimultaneous>
+		<maxDistance>15</maxDistance>
+      </li>
+    </comps>
+	<placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+  </ThingDef>
+  
+  
+  
+  <ThingDef ParentName="BuildingBase">
+  <defName>ucp_blueprint</defName>
+    <label>Blueprint</label>
+    <description>Why's it always blue?</description>
+	<thingClass>Building</thingClass>
+	<designatorDropdown>ucp_TableTools</designatorDropdown>
+	<clearBuildingArea>false</clearBuildingArea>
+	<minifiedDef>MinifiedThing</minifiedDef>
+	<thingCategories>
+			<li>BuildingsFurniture</li>
+		</thingCategories>
+    <graphicData>
+      <texPath>Things/Blueprint/ucp_blueprint</texPath>
+	  <graphicClass>Graphic_Multi</graphicClass>
+	  <drawSize>(1,1)</drawSize>
+    </graphicData>
+	<fillPercent>0.15</fillPercent>
+	<designationCategory>Furniture</designationCategory>
+	<uiIconPath>UI/ucp_blueprint_ui</uiIconPath>
+	<blockWind>false</blockWind>
+	<altitudeLayer>BuildingOnTop</altitudeLayer>
+	<costList>
+      <Cloth>5</Cloth>
+    </costList>
+	<building>
+		<isEdifice>false</isEdifice>
+		<canPlaceOverWall>true</canPlaceOverWall>
+	</building>
+	<passability>Standable</passability>
+	<pathCost>8</pathCost>
+	<statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>500</WorkToBuild>
+      <Mass>0.1</Mass>
+      <Flammability>1</Flammability>
+    </statBases>
+		<researchPrerequisites Inherit="False">
+      <li>Machining</li>
+    </researchPrerequisites>
+			<comps>
+      <li Class="CompProperties_Facility">
+        <statOffsets>
+          <WorkTableWorkSpeedFactor>0.02</WorkTableWorkSpeedFactor>
+        </statOffsets>
+		<maxSimultaneous>1</maxSimultaneous>
+		<maxDistance>15</maxDistance>
+      </li>
+    </comps>
+	<placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+  </ThingDef>
+  
+  
+  
+ <ThingDef ParentName="BuildingBase">
+  <defName>ucp_pencil</defName>
+    <label>Pencil</label>
+    <description>A tool for transcribing your dreams and imaginations onto paper. Or for math homework.</description>
+	<thingClass>Building</thingClass>
+	<designatorDropdown>ucp_TableTools</designatorDropdown>
+	<clearBuildingArea>false</clearBuildingArea>
+	<minifiedDef>MinifiedThing</minifiedDef>
+	<thingCategories>
+			<li>BuildingsFurniture</li>
+		</thingCategories>
+    <graphicData>
+      <texPath>Things/ucp_pencil</texPath>
+	  <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>(1,1)</drawSize>
+    </graphicData>
+	<fillPercent>0.15</fillPercent>
+	<designationCategory>Furniture</designationCategory>
+	<uiIconPath>UI/ucp_pencil_ui</uiIconPath>
+	<blockWind>false</blockWind>
+	<altitudeLayer>BuildingOnTop</altitudeLayer>
+	<costList>
+	  <WoodLog>2</WoodLog>
+    </costList>
+	<building>
+		<isEdifice>false</isEdifice>
+		<canPlaceOverWall>true</canPlaceOverWall>
+	</building>
+	<passability>Standable</passability>
+	<pathCost>8</pathCost>
+	<statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>500</WorkToBuild>
+      <Mass>0.1</Mass>
+      <Flammability>1</Flammability>
+    </statBases>
+		<researchPrerequisites Inherit="False">
+      <li>Machining</li>
+    </researchPrerequisites>
+	<rotatable>true</rotatable>
+		<comps>
+      <li Class="CompProperties_Facility">
+        <statOffsets>
+          <WorkTableWorkSpeedFactor>0.01</WorkTableWorkSpeedFactor>
+        </statOffsets>
+		<maxSimultaneous>1</maxSimultaneous>
+		<maxDistance>15</maxDistance>
+      </li>
+    </comps>
+	<placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+  </ThingDef>
+  
+  
+  
+  <ThingDef ParentName="BuildingBase">
+  <defName>ucp_wrench</defName>
+    <label>Wrench</label>
+    <description>In America, we call this a Monkey Wrench. That was the solution to a puzzle in a Monkey Island game. Imagine not being American and trying to solve that puzzle!</description>
+	<thingClass>Building</thingClass>
+	<designatorDropdown>ucp_TableTools</designatorDropdown>
+	<clearBuildingArea>false</clearBuildingArea>
+	<minifiedDef>MinifiedThing</minifiedDef>
+	<thingCategories>
+			<li>BuildingsFurniture</li>
+		</thingCategories>
+    <graphicData>
+      <texPath>Things/ucp_wrench</texPath>
+	  <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>(1,1)</drawSize>
+    </graphicData>
+	<fillPercent>0.15</fillPercent>
+	<designationCategory>Furniture</designationCategory>
+	<uiIconPath>UI/ucp_wrench_ui</uiIconPath>
+	<blockWind>false</blockWind>
+	<altitudeLayer>BuildingOnTop</altitudeLayer>
+	<costList>
+      <Steel>3</Steel>
+    </costList>
+	<building>
+		<isEdifice>false</isEdifice>
+		<canPlaceOverWall>true</canPlaceOverWall>
+	</building>
+	<passability>Standable</passability>
+	<pathCost>8</pathCost>
+	<statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>500</WorkToBuild>
+      <Mass>0.1</Mass>
+      <Flammability>1</Flammability>
+    </statBases>
+		<researchPrerequisites Inherit="False">
+      <li>Machining</li>
+    </researchPrerequisites>
+	<rotatable>true</rotatable>
+	<comps>
+      <li Class="CompProperties_Facility">
+        <statOffsets>
+          <WorkTableWorkSpeedFactor>0.01</WorkTableWorkSpeedFactor>
+        </statOffsets>
+		<maxSimultaneous>1</maxSimultaneous>
+		<maxDistance>15</maxDistance>
+      </li>
+    </comps>
+	<placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+  </ThingDef>
+  
+  
+  
+    <ThingDef ParentName="BuildingBase">
+  <defName>ucp_roboarm</defName>
+    <label>Robot Arm</label>
+    <description>Still think Santa has elves to make his toys? No way. He has a load of these.</description>
+	<thingClass>Building</thingClass>
+	<clearBuildingArea>false</clearBuildingArea>
+	<minifiedDef>MinifiedThing</minifiedDef>
+	<thingCategories>
+			<li>BuildingsFurniture</li>
+	</thingCategories>
+    <graphicData>
+      <texPath>Things/Roboarm/ucp_roboarm</texPath>
+	  <graphicClass>Graphic_Multi</graphicClass>
+	  <drawSize>(1.2,1.2)</drawSize>
+	  <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+	<fillPercent>0.15</fillPercent>
+	<designationCategory>Furniture</designationCategory>
+	<uiIconPath>UI/ucp_roboarm_ui</uiIconPath>
+	<blockWind>false</blockWind>
+	<altitudeLayer>BuildingOnTop</altitudeLayer>
+	<building>
+		<isEdifice>false</isEdifice>
+		<canPlaceOverWall>true</canPlaceOverWall>
+	</building>
+	<passability>Standable</passability>
+	<stuffCategories>
+		<li>Metallic</li>
+	</stuffCategories>
+	<costStuffCount>15</costStuffCount>
+	<costList>
+      <Steel>30</Steel>
+	  <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+	<pathCost>8</pathCost>
+    <researchPrerequisites>
+      <li>Fabrication</li>
+    </researchPrerequisites>
+	<statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>500</WorkToBuild>
+      <Mass>1.5</Mass>
+      <Flammability>1</Flammability>
+	  <Beauty>5</Beauty>
+    </statBases>
+		<comps>
+      <li Class="CompProperties_Facility">
+        <statOffsets>
+          <WorkTableWorkSpeedFactor>0.02</WorkTableWorkSpeedFactor>
+        </statOffsets>
+		<maxSimultaneous>1</maxSimultaneous>
+		<maxDistance>10</maxDistance>
+      </li>
+    </comps>
+	<placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+  </ThingDef>
+  
+  </Defs>

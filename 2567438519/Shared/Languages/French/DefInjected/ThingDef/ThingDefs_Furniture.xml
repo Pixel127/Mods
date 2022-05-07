@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: arkelstorp -->
+  <LTS_Arkelstorp.label>table arkelstorp</LTS_Arkelstorp.label>
+  <!-- EN: People eat off tables when chairs are placed facing them. -->
+  <LTS_Arkelstorp.description>Les gens mangent sur les tables quand les chaises sont placées face à eux.</LTS_Arkelstorp.description>
+  
+  <!-- EN: klimpfjäll -->
+  <LTS_Klimpfjall.label>chaise klimpfjäll</LTS_Klimpfjall.label>
+  <!-- EN: A comfortable and attractive chair with a strange scandinavian name. Can be used at tables, work stations, and elsewhere. -->
+  <LTS_Klimpfjall.description>Une chaise confortable et attrayante avec un nom scandinave étrange. Peut être utilisée avec les tables, les postes de travail et ailleurs.</LTS_Klimpfjall.description>
+  
+  <!-- EN: Mullfjället -->
+  <LTS_Mullfjallet.label>chaise de bureau Mullfjället</LTS_Mullfjallet.label>
+  <!-- EN: An office chair with a strange scandinavian name. Great for relaxation. Can be used at tables, work stations, and elsewhere. -->
+  <LTS_Mullfjallet.description>Une chaise de bureau au nom scandinave étrange. Idéal pour se détendre. Peut être utilisé avec les tables, les postes de travail et ailleurs.</LTS_Mullfjallet.description>
+  
+  <!-- EN: Norraryd -->
+  <LTS_Norraryd.label>table Norraryd</LTS_Norraryd.label>
+  <!-- EN: People eat off tables when chairs are placed facing them. -->
+  <LTS_Norraryd.description>Les gens mangent sur les tables quand les chaises sont placées face à eux.</LTS_Norraryd.description>
+
+  <!-- EN: Kivik -->
+<LTS_Kivik.label>Canapé Kivik</LTS_Kivik.label>
+<LTS_Kivik.description>Un canapé à plusieurs places avec un nom scandinave étrange pour ces soirées cinéma romantiques lorsque les tueries à l'extérieur se calment.</LTS_Kivik.description>
+
+ <!-- EN: counter -->
+ <LTS_Counter.label>comptoir</LTS_Counter.label>
+ <!-- EN: A counter for storage of kitchen utensils. Can work as a table as well. -->
+ <LTS_Counter.description>Un comptoir pour ranger les ustensiles de cuisine. Peut également servir de table.</LTS_Counter.description>
+ 
+<LTS_HangingBed.label>lit suspendu</LTS_HangingBed.label> 
+<LTS_HangingBed.description>Un lit suspendu, pas aussi confortable qu'un lit ordinaire mais meilleur que le sol. Souvent utilisé pour cette sensation de prison pour montrer aux gens qu'ils ne sont pas dignes d'un vrai lit. Certains l'aiment pourtant.</LTS_HangingBed.description>
+ 
+</LanguageData>

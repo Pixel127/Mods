@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <!-- Floors for new stone types in RimNauts - these defs are                -->
+  <!--  patched during load time to remove the Abstract attribute if the      -->
+  <!--  appropriate mod is active, otherwise, they harmlessly disappear into  -->
+  <!--  the ether                                                             -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>RimNauts</li>
+    </mods>
+
+    <match Class="PatchOperationAttributeRemove">
+      <xpath>/Defs/TerrainDef[defName="FloorStoneSlabsRNHighland" or
+        defName="FloorStoneSlabsRNMaria"]</xpath>
+      <attribute>Abstract</attribute>
+    </match>
+  </Operation>
+  
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>RimNauts</li>
+    </mods>
+
+    <match Class="PatchOperationAttributeRemove">
+      <xpath>/Defs/TerrainDef[defName="FloorStoneStaggeredRNHighland" or
+        defName="FloorStoneStaggeredRNMaria"]</xpath>
+      <attribute>Abstract</attribute>
+    </match>
+  </Operation>
+  
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>RimNauts</li>
+    </mods>
+
+    <match Class="PatchOperationAttributeRemove">
+      <xpath>/Defs/TerrainDef[defName="FloorStoneRoughRNHighland" or
+        defName="FloorStoneRoughRNMaria"]</xpath>
+      <attribute>Abstract</attribute>
+    </match>
+  </Operation>
+  
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>RimNauts</li>
+    </mods>
+
+    <match Class="PatchOperationAttributeRemove">
+      <xpath>/Defs/TerrainDef[defName="FloorStoneAlternatingRNHighland" or
+        defName="FloorStoneAlternatingRNMaria"]</xpath>
+      <attribute>Abstract</attribute>
+    </match>
+  </Operation>
+  
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>RimNauts</li>
+    </mods>
+
+    <match Class="PatchOperationAttributeRemove">
+      <xpath>/Defs/TerrainDef[defName="FloorStoneChequeredRNHighland" or
+        defName="FloorStoneChequeredRNMaria"]</xpath>
+      <attribute>Abstract</attribute>
+    </match>
+  </Operation>
+  
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>RimNauts</li>
+    </mods>
+
+    <match Class="PatchOperationAttributeRemove">
+      <xpath>/Defs/TerrainDef[defName="FloorStoneHerringboneRNHighland" or
+        defName="FloorStoneHerringboneRNMaria"]</xpath>
+      <attribute>Abstract</attribute>
+    </match>
+  </Operation>
+  
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>RimNauts</li>
+    </mods>
+
+    <match Class="PatchOperationAttributeRemove">
+      <xpath>/Defs/TerrainDef[defName="FloorStoneHexRNHighland" or
+        defName="FloorStoneHexRNMaria"]</xpath>
+      <attribute>Abstract</attribute>
+    </match>
+  </Operation>
+  
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>RimNauts</li>
+    </mods>
+
+    <match Class="PatchOperationAttributeRemove">
+      <xpath>/Defs/TerrainDef[defName="FloorStoneDigitalRNHighland" or
+        defName="FloorStoneDigitalRNMaria"]</xpath>
+      <attribute>Abstract</attribute>
+    </match>
+  </Operation>
+  
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>RimNauts</li>
+    </mods>
+
+    <match Class="PatchOperationAttributeRemove">
+      <xpath>/Defs/TerrainDef[defName="FloorStoneMosaicRNHighland" or
+        defName="FloorStoneMosaicRNMaria"]</xpath>
+      <attribute>Abstract</attribute>
+    </match>
+  </Operation>
+  
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>RimNauts</li>
+    </mods>
+
+    <match Class="PatchOperationAttributeRemove">
+      <xpath>/Defs/TerrainDef[defName="FloorStoneRandomRNHighland" or
+        defName="FloorStoneRandomRNMaria"]</xpath>
+      <attribute>Abstract</attribute>
+    </match>
+  </Operation>
+  
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>RimNauts</li>
+    </mods>
+
+    <match Class="PatchOperationAttributeRemove">
+      <xpath>/Defs/TerrainDef[defName="FloorStoneDiamondRNHighland" or
+        defName="FloorStoneDiamondRNMaria"]</xpath>
+      <attribute>Abstract</attribute>
+    </match>
+  </Operation>
+  
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>RimNauts</li>
+    </mods>
+
+    <match Class="PatchOperationAttributeRemove">
+      <xpath>/Defs/TerrainDef[defName="FloorStoneArabesqueRNHighland" or
+        defName="FloorStoneArabesqueRNMaria"]</xpath>
+      <attribute>Abstract</attribute>
+    </match>
+  </Operation>
+
+</Patch>

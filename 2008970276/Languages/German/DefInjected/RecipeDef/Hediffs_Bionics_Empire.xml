@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Bionic hand talon (Formerly Scyther hand talon before Royalty hotfix changed hand talons to implant status) -->
+
+  <EPIA_UpgradeBionicHandTalon.label>Stelle Bionische Krallenhand her</EPIA_UpgradeBionicHandTalon.label>
+  <EPIA_UpgradeBionicHandTalon.description>Verbessere eine Krallenhand zu einer bionischen Krallenhand.</EPIA_UpgradeBionicHandTalon.description>
+  <EPIA_UpgradeBionicHandTalon.jobString>Stellt Bionische Krallenhand her.</EPIA_UpgradeBionicHandTalon.jobString>
+
+  <InstallEPOE_ScytherHandTalon.label>Implantiere Bionische Krallenhand</InstallEPOE_ScytherHandTalon.label>
+  <InstallEPOE_ScytherHandTalon.description>Implantiere eine bionische Krallenhand.</InstallEPOE_ScytherHandTalon.description>
+  <InstallEPOE_ScytherHandTalon.jobString>Implantiert Bionische Handkralle.</InstallEPOE_ScytherHandTalon.jobString>
+
+
+  <!-- Bionic elbow blade (Formerly Scyther elbow blade before Royalty hotfix changed elbow blades to implant status) -->
+
+  <EPIA_UpgradeBionicElbowBlade.label>Stelle Bionische Ellenbogenklinge her</EPIA_UpgradeBionicElbowBlade.label>
+  <EPIA_UpgradeBionicElbowBlade.description>Verbessere eine Ellenbogenklinge zu einer bionischen Ellenbogenklinge.</EPIA_UpgradeBionicElbowBlade.description>
+  <EPIA_UpgradeBionicElbowBlade.jobString>Stellt Bionische Ellenbogenklinge her.</EPIA_UpgradeBionicElbowBlade.jobString>
+
+  <InstallEPOE_ScytherElbowBlade.label>Implantiere Bionische Ellenbogenklinge</InstallEPOE_ScytherElbowBlade.label>
+  <InstallEPOE_ScytherElbowBlade.description>Implantiere eine bionische Ellenbogenklinge.</InstallEPOE_ScytherElbowBlade.description>
+  <InstallEPOE_ScytherElbowBlade.jobString>Implantiert Bionische Ellenbogenklinge.</InstallEPOE_ScytherElbowBlade.jobString>
+
+
+  <!-- Bionic knee spike (Formerly Scyther knee spike before Royalty hotfix changed knee spike to implant status) -->
+
+  <EPIA_UpgradeBionicKneeSpike.label>Stelle Bionischer Knie-Stachel her</EPIA_UpgradeBionicKneeSpike.label>
+  <EPIA_UpgradeBionicKneeSpike.description>Verbessere einen Knie-Stachel zu einem Bionischen Knie-Stachel.</EPIA_UpgradeBionicKneeSpike.description>
+  <EPIA_UpgradeBionicKneeSpike.jobString>Stellt Bionischer Knie-Stachel her.</EPIA_UpgradeBionicKneeSpike.jobString>
+
+  <InstallEPOE_ScytherKneeSpike.label>Implantiere Bionischer Knie-Stachel</InstallEPOE_ScytherKneeSpike.label>
+  <InstallEPOE_ScytherKneeSpike.description>Implantiere einen bionischen Knie-Stachel.</InstallEPOE_ScytherKneeSpike.description>
+  <InstallEPOE_ScytherKneeSpike.jobString>Implantiert Bionischer Knie-Stachel.</InstallEPOE_ScytherKneeSpike.jobString>
+
+
+  <!-- Circadian Refresher -->
+
+  <EPIA_InstallCircadianRefresher.label>Installiere Circadianische Auffrischung</EPIA_InstallCircadianRefresher.label>
+  <EPIA_InstallCircadianRefresher.description>Installiere eine circadianische Auffrischung.</EPIA_InstallCircadianRefresher.description>
+  <EPIA_InstallCircadianRefresher.jobString>Installiert Circadianische Auffrischung.</EPIA_InstallCircadianRefresher.jobString>
+
+  <EPIA_RemoveCircadianRefresher.label>Entferne Circadianische Auffrischung</EPIA_RemoveCircadianRefresher.label>
+  <EPIA_RemoveCircadianRefresher.description>Entferne eine circadianische Auffrischung.</EPIA_RemoveCircadianRefresher.description>
+  <EPIA_RemoveCircadianRefresher.jobString>Entfernt Circadianische Auffrischung.</EPIA_RemoveCircadianRefresher.jobString>
+
+
+</LanguageData>

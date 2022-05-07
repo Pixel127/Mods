@@ -1,0 +1,4 @@
+C:\Users\rikar\Desktop\GIT\LTSMods\[LTS]Furnishing\v1.3\Assemblies\Furnishing.dll
+C:\Users\rikar\Desktop\GIT\LTSMods\[LTS]Furnishing\Source\obj\Debug\Furnishing.csproj.CoreCompileInputs.cache
+C:\Users\rikar\Desktop\GIT\LTSMods\[LTS]Furnishing\Source\obj\Debug\Furnishing.dll
+C:\Users\rikar\Desktop\GIT\LTSMods\[LTS]Furnishing\Source\obj\Debug\Furnishing.csprojAssemblyReference.cache

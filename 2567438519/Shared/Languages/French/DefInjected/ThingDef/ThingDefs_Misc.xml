@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: round path -->
+  <LTS_PathA.label>dalles polies</LTS_PathA.label>
+  <!-- EN: An elaborate path laid upon the ground. -->
+  <LTS_PathA.description>Un chemin élaboré posé sur le sol.</LTS_PathA.description>
+  
+  <!-- EN: rock path -->
+  <LTS_PathB.label>dalles brutes</LTS_PathB.label>
+  <!-- EN: An elaborate path laid upon the ground. -->
+  <LTS_PathB.description>Un chemin élaboré posé sur le sol.</LTS_PathB.description>
+  
+</LanguageData>

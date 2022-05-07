@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationSequence">
+	<success>Always</success>
+	<operations>
+		<li Class="PatchOperationTest">
+			<xpath>Defs/ThingDef[defName="EPIA_ScytherBlade"]</xpath>
+			<success>Invert</success>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="EPOE_AdvancedHandTalon"]/costList/EPIA_ScytherBlade</xpath>
+			<value>
+				<ScytherBlade>1</ScytherBlade>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/RecipeDef[defName="EPIA_UpgradeAdvancedHandTalon"]/ingredients/li/filter/thingDefs[li="EPIA_ScytherBlade"]</xpath>
+			<value>
+				<thingDefs>
+					<li>ScytherBlade</li>
+				</thingDefs>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/RecipeDef[defName="EPIA_UpgradeAdvancedHandTalon"]/fixedIngredientFilter/thingDefs</xpath>
+			<value>
+				<thingDefs>
+					<li>EPOE_ScytherHandTalon</li>
+					<li>ScytherBlade</li>
+					<li>ComponentSpacer</li>
+				</thingDefs>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="EPOE_AdvancedElbowBlade"]/costList/EPIA_ScytherBlade</xpath>
+			<value>
+				<ScytherBlade>1</ScytherBlade>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/RecipeDef[defName="EPIA_UpgradeAdvancedElbowBlade"]/ingredients/li/filter/thingDefs[li="EPIA_ScytherBlade"]</xpath>
+			<value>
+				<thingDefs>
+					<li>ScytherBlade</li>
+				</thingDefs>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/RecipeDef[defName="EPIA_UpgradeAdvancedElbowBlade"]/fixedIngredientFilter/thingDefs</xpath>
+			<value>
+				<thingDefs>
+					<li>EPOE_ScytherElbowBlade</li>
+					<li>ScytherBlade</li>
+					<li>ComponentSpacer</li>
+				</thingDefs>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="EPOE_AdvancedKneeSpike"]/costList/EPIA_ScytherBlade</xpath>
+			<value>
+				<ScytherBlade>1</ScytherBlade>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/RecipeDef[defName="EPIA_UpgradeAdvancedKneeSpike"]/ingredients/li/filter/thingDefs[li="EPIA_ScytherBlade"]</xpath>
+			<value>
+				<thingDefs>
+					<li>ScytherBlade</li>
+				</thingDefs>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/RecipeDef[defName="EPIA_UpgradeAdvancedKneeSpike"]/fixedIngredientFilter/thingDefs</xpath>
+			<value>
+				<thingDefs>
+					<li>EPOE_ScytherKneeSpike</li>
+					<li>ScytherBlade</li>
+					<li>ComponentSpacer</li>
+				</thingDefs>
+			</value>
+		</li>
+	</operations>
+</Operation>
+
+
+</Patch>

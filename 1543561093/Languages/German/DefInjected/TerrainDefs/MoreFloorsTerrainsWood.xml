@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <FloorWood1.label>Holzbohlen</FloorWood1.label>
+  <FloorWood2.label>Weiße Holzbohlen</FloorWood2.label>
+  <FloorWood3.label>Heller Holzboden</FloorWood3.label>
+  <FloorWood4.label>Mosaik Holzboden</FloorWood4.label>
+  <FloorWood5.label>Vertikaler Holzboden</FloorWood5.label>
+  <FloorWood6.label>Stallboden</FloorWood6.label>
+
+  <FloorWood1.description>Rustikale Holzbohlen, fein poliert und von Splittern befreit. Schön anzusehen, aber langsam zu verlegen.</FloorWood1.description>
+  <FloorWood2.description>Weiße, schlichte Holzbohlen für einen minimalistischen Stil. Leicht zu bauen.</FloorWood2.description>
+  <FloorWood3.description>Heller, polierter Holzfußboden in einem schön angelegten Muster.</FloorWood3.description>
+  <FloorWood4.description>Ein Holzboden mit einem Mosaikmuster. Wunderschön, aber er benötigt viel Holz und es braucht lange, um ihn zu verlegen.</FloorWood4.description>
+  <FloorWood5.description>Dunkler Holzboden.</FloorWood5.description>
+  <FloorWood6.description>Rauer Stallboden. Schnell zu bauen.</FloorWood6.description>
+
+</LanguageData>

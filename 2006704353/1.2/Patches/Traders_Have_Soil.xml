@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			
+	<!-- Add Soil and Fertilizer to Outlander Bulk Goods -->
+				
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/TraderKindDef[defName = "Caravan_Outlander_BulkGoods"]/stockGenerators</xpath>
+				<value>
+					<li Class="StockGenerator_SingleDef">
+						<thingDef>FSFItemFertilizer</thingDef>
+						<countRange>300~600</countRange>
+					</li>
+					<li Class="StockGenerator_SingleDef">
+						<thingDef>FSFItemSoil</thingDef>
+						<countRange>400~600</countRange>
+					</li>
+					<li Class="StockGenerator_SingleDef">
+						<thingDef>FSFItemSoilRich</thingDef>
+						<countRange>200~600</countRange>
+					</li>
+				</value>
+			</li>
+			
+		</operations>
+	</Operation>
+	
+	
+	
+	
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			
+	<!-- Add Soil and Fertilizer to Neolithic Bulk Goods -->
+				
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/TraderKindDef[defName = "Caravan_Neolithic_BulkGoods"]/stockGenerators</xpath>
+				<value>
+					<li Class="StockGenerator_SingleDef">
+						<thingDef>FSFItemFertilizer</thingDef>
+						<countRange>300~600</countRange>
+					</li>
+					<li Class="StockGenerator_SingleDef">
+						<thingDef>FSFItemSoil</thingDef>
+						<countRange>400~600</countRange>
+					</li>
+					<li Class="StockGenerator_SingleDef">
+						<thingDef>FSFItemSoilRich</thingDef>
+						<countRange>200~600</countRange>
+					</li>
+				</value>
+			</li>
+			
+		</operations>
+	</Operation>
+	
+	
+	
+	
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			
+	<!-- Add Soil and Fertilizer to Orbital Bulk Goods -->
+				
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/TraderKindDef[defName = "Orbital_BulkGoods"]/stockGenerators</xpath>
+				<value>
+					<li Class="StockGenerator_SingleDef">
+						<thingDef>FSFItemFertilizer</thingDef>
+						<countRange>800~1200</countRange>
+					</li>
+					<li Class="StockGenerator_SingleDef">
+						<thingDef>FSFItemSoil</thingDef>
+						<countRange>800~1200</countRange>
+					</li>
+					<li Class="StockGenerator_SingleDef">
+						<thingDef>FSFItemSoilRich</thingDef>
+						<countRange>800~1200</countRange>
+					</li>
+				</value>
+			</li>
+			
+		</operations>
+	</Operation>
+	
+	
+	
+	
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			
+	<!-- Add Soil and Fertilizer to Neolithic Bases -->
+				
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/TraderKindDef[defName = "Base_Neolithic_Standard"]/stockGenerators</xpath>
+				<value>
+					<li Class="StockGenerator_SingleDef">
+						<thingDef>FSFItemFertilizer</thingDef>
+						<countRange>800~1200</countRange>
+					</li>
+					<li Class="StockGenerator_SingleDef">
+						<thingDef>FSFItemSoil</thingDef>
+						<countRange>800~1200</countRange>
+					</li>
+					<li Class="StockGenerator_SingleDef">
+						<thingDef>FSFItemSoilRich</thingDef>
+						<countRange>800~1200</countRange>
+					</li>
+				</value>
+			</li>
+			
+		</operations>
+	</Operation>
+	
+	
+	
+	
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			
+	<!-- Add Soil and Fertilizer to Outlander Bases -->
+				
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/TraderKindDef[defName = "Base_Outlander_Standard"]/stockGenerators</xpath>
+				<value>
+					<li Class="StockGenerator_SingleDef">
+						<thingDef>FSFItemFertilizer</thingDef>
+						<countRange>800~1200</countRange>
+					</li>
+					<li Class="StockGenerator_SingleDef">
+						<thingDef>FSFItemSoil</thingDef>
+						<countRange>800~1200</countRange>
+					</li>
+					<li Class="StockGenerator_SingleDef">
+						<thingDef>FSFItemSoilRich</thingDef>
+						<countRange>800~1200</countRange>
+					</li>
+				</value>
+			</li>
+			
+		</operations>
+	</Operation>
+	
+	
+	
+	
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			
+	<!-- Add Soil and Fertilizer to Royalty DLC Empire Bases -->
+		
+			<li Class="PatchOperationTest">
+				<xpath>/Defs/TraderKindDef[defName = "Base_Empire_Standard"]</xpath>
+			</li>
+		
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/TraderKindDef[defName = "Base_Empire_Standard"]/stockGenerators</xpath>
+				<value>
+					<li Class="StockGenerator_SingleDef">
+						<thingDef>FSFItemFertilizer</thingDef>
+						<countRange>800~1200</countRange>
+					</li>
+					<li Class="StockGenerator_SingleDef">
+						<thingDef>FSFItemSoilRich</thingDef>
+						<countRange>800~1200</countRange>
+					</li>
+				</value>
+			</li>
+			
+		</operations>
+	</Operation>
+	
+	
+	
+	
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			
+	<!-- Add Soil and Fertilizer to Orbital Farming -->
+		
+			<li Class="PatchOperationTest">
+				<xpath>/Defs/TraderKindDef[defName = "Orbital_Farming"]</xpath>
+			</li>
+		
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/TraderKindDef[defName = "Orbital_Farming"]/stockGenerators</xpath>
+				<value>
+					<li Class="StockGenerator_SingleDef">
+						<thingDef>FSFItemFertilizer</thingDef>
+						<countRange>800~1200</countRange>
+					</li>
+					<li Class="StockGenerator_SingleDef">
+						<thingDef>FSFItemSoil</thingDef>
+						<countRange>800~1200</countRange>
+					</li>
+					<li Class="StockGenerator_SingleDef">
+						<thingDef>FSFItemSoilRich</thingDef>
+						<countRange>800~1200</countRange>
+					</li>
+				</value>
+			</li>
+			
+		</operations>
+	</Operation>
+	
+	
+	
+	
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			
+	<!-- Add Soil and Fertilizer to Outlander Farming -->
+		
+			<li Class="PatchOperationTest">
+				<xpath>/Defs/TraderKindDef[defName = "Caravan_Outlander_Farming"]</xpath>
+			</li>
+		
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/TraderKindDef[defName = "Caravan_Outlander_Farming"]/stockGenerators</xpath>
+				<value>
+					<li Class="StockGenerator_SingleDef">
+						<thingDef>FSFItemFertilizer</thingDef>
+						<countRange>300~600</countRange>
+					</li>
+					<li Class="StockGenerator_SingleDef">
+						<thingDef>FSFItemSoil</thingDef>
+						<countRange>400~600</countRange>
+					</li>
+					<li Class="StockGenerator_SingleDef">
+						<thingDef>FSFItemSoilRich</thingDef>
+						<countRange>200~600</countRange>
+					</li>
+				</value>
+			</li>
+			
+		</operations>
+	</Operation>
+	
+	
+	
+	
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			
+	<!-- Add Soil and Fertilizer to Neolithic Farming -->
+		
+			<li Class="PatchOperationTest">
+				<xpath>/Defs/TraderKindDef[defName = "Caravan_Neolithic_Farming"]</xpath>
+			</li>
+		
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/TraderKindDef[defName = "Caravan_Neolithic_Farming"]/stockGenerators</xpath>
+				<value>
+					<li Class="StockGenerator_SingleDef">
+						<thingDef>FSFItemFertilizer</thingDef>
+						<countRange>300~600</countRange>
+					</li>
+					<li Class="StockGenerator_SingleDef">
+						<thingDef>FSFItemSoil</thingDef>
+						<countRange>400~600</countRange>
+					</li>
+					<li Class="StockGenerator_SingleDef">
+						<thingDef>FSFItemSoilRich</thingDef>
+						<countRange>200~600</countRange>
+					</li>
+				</value>
+			</li>
+			
+		</operations>
+	</Operation>
+	
+</Patch>

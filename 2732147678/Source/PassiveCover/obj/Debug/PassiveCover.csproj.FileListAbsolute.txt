@@ -1,0 +1,4 @@
+Y:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\PassiveCover\Assemblies\PassiveCover.dll
+Y:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\PassiveCover\Source\PassiveCover\obj\Debug\PassiveCover.csproj.AssemblyReference.cache
+Y:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\PassiveCover\Source\PassiveCover\obj\Debug\PassiveCover.csproj.CoreCompileInputs.cache
+Y:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\PassiveCover\Source\PassiveCover\obj\Debug\PassiveCover.dll

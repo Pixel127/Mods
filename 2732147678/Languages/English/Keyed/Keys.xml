@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<PassiveCover_ModName>Passive Cover</PassiveCover_ModName>
+	
+	<PassiveCover_OptionEffectivenessTitle>Passive Cover Effectiveness</PassiveCover_OptionEffectivenessTitle>
+	<PassiveCover_OptionEffectivenessDesc>Adjust how effective cover is when used passively as opposed to actively. You'd likely want this to be below 100% to reflect that pawns aren't actively taking cover behind these things. If you have Use Best Only enabled, you may want to increase this number as less passive cover will be taken into account.</PassiveCover_OptionEffectivenessDesc>
+	<PassiveCover_OptionEffectiveness>Effectiveness percent</PassiveCover_OptionEffectiveness>
+	
+	<PassiveCover_OptionUseBestOnlyTitle>Use Best Only</PassiveCover_OptionUseBestOnlyTitle>
+	<PassiveCover_OptionUseBestOnlyDesc>If enabled, only the single most protective passive cover will be accounted for in the calculations. Use if you want to minimize the number of things factored in to the hit chances.</PassiveCover_OptionUseBestOnlyDesc>
+	<PassiveCover_OptionUseBestOnly>Enabled</PassiveCover_OptionUseBestOnly>
+	
+	<PassiveCover_OptionNegateIfActiveTitle>Only Apply When Not Actively Taking Cover</PassiveCover_OptionNegateIfActiveTitle>
+	<PassiveCover_OptionNegateIfActiveDesc>If enabled, passive cover will only be taken into consideration when the target isn't already actively taking cover behind something (and also benefiting from said cover). Depending on how you've configured other options, this could mean you unintentionally make them worse off for using cover! If using this, it's recommended to enable "Use Best Only" to help mitigate that problem.</PassiveCover_OptionNegateIfActiveDesc>
+	<PassiveCover_OptionNegateIfActive>Enabled</PassiveCover_OptionNegateIfActive>
+	
+	<PassiveCover_OptionNegateRangeTitle>Ignore Passive Cover Within Range</PassiveCover_OptionNegateRangeTitle>
+	<PassiveCover_OptionNegateRangeDesc>Any cover within this distance from the shooter will be disregarded as potential passive cover (you probably wouldn't want their own cover getting in the way, for example). Even if the cover isn't disregarded by this, the effectiveness of cover is still altered based on proximity as in the standard cover calculations.</PassiveCover_OptionNegateRangeDesc>
+	<PassiveCover_OptionNegateRange>Negation range</PassiveCover_OptionNegateRange>
+	
+	<PassiveCover_OptionCategoryAllowedTitle>Allowed Types</PassiveCover_OptionCategoryAllowedTitle>
+	<PassiveCover_OptionCategoryAllowedDesc>Configure the sorts of items that can act as passive cover.</PassiveCover_OptionCategoryAllowedDesc>
+	
+	<PassiveCover_OptionAllowSecurity>Allow security buildings (e.g. sandbags, barricades)</PassiveCover_OptionAllowSecurity>
+	<PassiveCover_OptionAllowNatural>Allow natural things (e.g. trees, rock chunks)</PassiveCover_OptionAllowNatural>
+	<PassiveCover_OptionAllowOther>Allow anything not part of above categories (e.g. furniture, walls)</PassiveCover_OptionAllowOther>
+	
+	<PassiveCover_OptionPerformanceModeTitle>Performance Mode</PassiveCover_OptionPerformanceModeTitle>
+	<PassiveCover_OptionPerformanceModeDesc>Enabling performance mode can help mitigate some of the slowdown that can occur with large numbers of combatants by mostly restricting passive cover calculations to only when shooting. This means that for most other purposes the AI won't factor in passive cover for things like taking cover or manoeuvring to a position where their shots will hit (meaning they might try to take shots they can't hit if the cover is sufficiently high). To account for this, it's recommended to also set the "Cover Cap" value to below 100%.</PassiveCover_OptionPerformanceModeDesc>
+	<PassiveCover_OptionPerformanceMode>Enabled</PassiveCover_OptionPerformanceMode>
+	
+	<PassiveCover_OptionCoverCapTitle>Cover Cap</PassiveCover_OptionCoverCapTitle>
+	<PassiveCover_OptionCoverCapDesc>Prevents the protection chance of cover exceeding this value (100 being 100% protection), but only in cases where passive cover is being provided.</PassiveCover_OptionCoverCapDesc>
+	<PassiveCover_OptionCoverCap>Cover cap percent</PassiveCover_OptionCoverCap>
+
+</LanguageData>

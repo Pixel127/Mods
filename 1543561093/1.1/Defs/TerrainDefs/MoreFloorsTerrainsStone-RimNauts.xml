@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Floors with different material def data in RimNauts                    -->
+  <!--  - these defs are patched during load time to remove the Abstract      -->
+  <!--  attribute if the appropriate mod is active, otherwise, they           -->
+  <!--  harmlessly disappear into the ether                                   -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+
+
+  <!-- Slabs -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  
+  <TerrainDef ParentName="TFloorBaseStoneSlabs" Abstract="true">
+    <defName>FloorStoneSlabsRNHighland</defName>
+    <label>stone slabs (lunar highland rock)</label>
+    <color>(210,210,210)</color>
+    <costList>
+      <BiomesNEO_BlocksHighland>3</BiomesNEO_BlocksHighland>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneSlabs" Abstract="true">
+    <defName>FloorStoneSlabsRNMaria</defName>
+    <label>stone slabs (lunar maria rock)</label>
+    <color>(74,67,59)</color>
+    <costList>
+      <BiomesNEO_BlocksMaria>3</BiomesNEO_BlocksMaria>
+    </costList>
+  </TerrainDef>
+  
+  
+  
+  <!-- Staggered -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  
+  <TerrainDef ParentName="TFloorBaseStoneStaggered" Abstract="true">
+    <defName>FloorStoneStaggeredRNHighland</defName>
+    <label>staggered stone tiles (lunar highland rock)</label>
+    <color>(210,210,210)</color>
+    <costList>
+      <BiomesNEO_BlocksHighland>3</BiomesNEO_BlocksHighland>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneStaggered" Abstract="true">
+    <defName>FloorStoneStaggeredRNMaria</defName>
+    <label>staggered stone tiles (lunar maria rock)</label>
+    <color>(74,67,59)</color>
+    <costList>
+      <BiomesNEO_BlocksMaria>3</BiomesNEO_BlocksMaria>
+    </costList>
+  </TerrainDef>
+  
+  
+  
+  <!-- Rough -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  
+    <TerrainDef ParentName="TFloorBaseStoneRough" Abstract="true">
+    <defName>FloorStoneRoughRNHighland</defName>
+    <label>rough paving (lunar highland rock)</label>
+    <color>(210,210,210)</color>
+    <costList>
+      <BiomesNEO_BlocksHighland>2</BiomesNEO_BlocksHighland>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneRough" Abstract="true">
+    <defName>FloorStoneRoughRNMaria</defName>
+    <label>rough paving (lunar maria rock)</label>
+    <color>(74,67,59)</color>
+    <costList>
+      <BiomesNEO_BlocksMaria>2</BiomesNEO_BlocksMaria>
+    </costList>
+  </TerrainDef>
+  
+  
+  
+  <!-- Alternating -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  
+  <TerrainDef ParentName="TFloorBaseStoneAlternating" Abstract="true">
+    <defName>FloorStoneAlternatingRNHighland</defName>
+    <label>alternating brick paving (lunar highland rock)</label>
+    <color>(210,210,210)</color>
+    <costList>
+      <BiomesNEO_BlocksHighland>3</BiomesNEO_BlocksHighland>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneAlternating" Abstract="true">
+    <defName>FloorStoneAlternatingRNMaria</defName>
+    <label>alternating brick paving (lunar maria rock)</label>
+    <color>(74,67,59)</color>
+    <costList>
+      <BiomesNEO_BlocksMaria>3</BiomesNEO_BlocksMaria>
+    </costList>
+  </TerrainDef>
+  
+  
+  
+  <!-- Chequered -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  
+  <TerrainDef ParentName="TFloorBaseStoneChequeredSingle" Abstract="true">
+    <defName>FloorStoneChequeredRNHighland</defName>
+    <label>chequered slabs (lunar highland rock)</label>
+    <color>(210,210,210)</color>
+    <costList>
+      <BiomesNEO_BlocksHighland>3</BiomesNEO_BlocksHighland>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneChequeredSingle" Abstract="true">
+    <defName>FloorStoneChequeredRNMaria</defName>
+    <label>chequered slabs (lunar maria rock)</label>
+    <color>(74,67,59)</color>
+    <costList>
+      <BiomesNEO_BlocksMaria>3</BiomesNEO_BlocksMaria>
+    </costList>
+  </TerrainDef>
+  
+  
+  
+  <!-- Herringbone -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  
+  <TerrainDef ParentName="TFloorBaseStoneHerringbone" Abstract="true">
+    <defName>FloorStoneHerringboneRNHighland</defName>
+    <label>herringbone paving (lunar highland rock)</label>
+    <color>(210,210,210)</color>
+    <costList>
+      <BiomesNEO_BlocksHighland>3</BiomesNEO_BlocksHighland>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneHerringbone" Abstract="true">
+    <defName>FloorStoneHerringboneRNMaria</defName>
+    <label>herringbone paving (lunar maria rock)</label>
+    <color>(74,67,59)</color>
+    <costList>
+      <BiomesNEO_BlocksMaria>3</BiomesNEO_BlocksMaria>
+    </costList>
+  </TerrainDef>
+  
+  
+  
+  <!-- Hexagonal -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  
+  <TerrainDef ParentName="TFloorBaseStoneHex" Abstract="true">
+    <defName>FloorStoneHexRNHighland</defName>
+    <label>hex paving (lunar highland rock)</label>
+    <color>(210,210,210)</color>
+    <costList>
+      <BiomesNEO_BlocksHighland>3</BiomesNEO_BlocksHighland>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneHex" Abstract="true">
+    <defName>FloorStoneHexRNMaria</defName>
+    <label>hex paving (lunar maria rock)</label>
+    <color>(74,67,59)</color>
+    <costList>
+      <BiomesNEO_BlocksMaria>3</BiomesNEO_BlocksMaria>
+    </costList>
+  </TerrainDef>
+  
+  
+  
+  <!-- Digital -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  
+  <TerrainDef ParentName="TFloorBaseStoneDigital" Abstract="true">
+    <defName>FloorStoneDigitalRNHighland</defName>
+    <label>digital paving (lunar highland rock)</label>
+    <color>(210,210,210)</color>
+    <costList>
+      <BiomesNEO_BlocksHighland>4</BiomesNEO_BlocksHighland>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneDigital" Abstract="true">
+    <defName>FloorStoneDigitalRNMaria</defName>
+    <label>digital paving (lunar maria rock)</label>
+    <color>(74,67,59)</color>
+    <costList>
+      <BiomesNEO_BlocksMaria>4</BiomesNEO_BlocksMaria>
+    </costList>
+  </TerrainDef>
+  
+  
+  
+  <!-- Mosaic -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  
+  <TerrainDef ParentName="TFloorBaseStoneMosaic" Abstract="true">
+    <defName>FloorStoneMosaicRNHighland</defName>
+    <label>mosaic paving (lunar highland rock)</label>
+    <color>(210,210,210)</color>
+    <costList>
+      <BiomesNEO_BlocksHighland>5</BiomesNEO_BlocksHighland>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneMosaic" Abstract="true">
+    <defName>FloorStoneMosaicRNMaria</defName>
+    <label>mosaic paving (lunar maria rock)</label>
+    <color>(74,67,59)</color>
+    <costList>
+      <BiomesNEO_BlocksMaria>5</BiomesNEO_BlocksMaria>
+    </costList>
+  </TerrainDef>
+  
+  
+  
+  <!-- Random -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  
+  <TerrainDef ParentName="TFloorBaseStoneRandom" Abstract="true">
+    <defName>FloorStoneRandomRNHighland</defName>
+    <label>random paving (lunar highland rock)</label>
+    <color>(210,210,210)</color>
+    <costList>
+      <BiomesNEO_BlocksHighland>4</BiomesNEO_BlocksHighland>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneRandom" Abstract="true">
+    <defName>FloorStoneRandomRNMaria</defName>
+    <label>random paving (lunar maria rock)</label>
+    <color>(74,67,59)</color>
+    <costList>
+      <BiomesNEO_BlocksMaria>4</BiomesNEO_BlocksMaria>
+    </costList>
+  </TerrainDef>
+  
+  
+  
+  <!-- Diamond -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  
+  <TerrainDef ParentName="TFloorBaseStoneDiamond" Abstract="true">
+    <defName>FloorStoneDiamondRNHighland</defName>
+    <label>diamond paving (lunar highland rock)</label>
+    <color>(210,210,210)</color>
+    <costList>
+      <BiomesNEO_BlocksHighland>20</BiomesNEO_BlocksHighland>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneDiamond" Abstract="true">
+    <defName>FloorStoneDiamondRNMaria</defName>
+    <label>diamond paving (lunar maria rock)</label>
+    <color>(74,67,59)</color>
+    <costList>
+      <BiomesNEO_BlocksMaria>20</BiomesNEO_BlocksMaria>
+    </costList>
+  </TerrainDef>
+  
+  
+  
+  <!-- Arabesque -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  
+  <TerrainDef ParentName="TFloorBaseStoneArabesque" Abstract="true">
+    <defName>FloorStoneArabesqueRNHighland</defName>
+    <label>arabesque flooring (lunar highland rock)</label>
+    <color>(210,210,210)</color>
+    <costList>
+      <BiomesNEO_BlocksHighland>20</BiomesNEO_BlocksHighland>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneArabesque" Abstract="true">
+    <defName>FloorStoneArabesqueRNMaria</defName>
+    <label>arabesque flooring (lunar maria rock)</label>
+    <color>(74,67,59)</color>
+    <costList>
+      <BiomesNEO_BlocksMaria>20</BiomesNEO_BlocksMaria>
+    </costList>
+  </TerrainDef>
+
+</Defs>

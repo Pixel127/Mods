@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+	<!-- Regular Soil -->
+
+  <TerrainDef>
+    <defName>FSFSoil</defName>
+    <label>soil</label>
+    <description>Basic soil with a rather bland dirt taste.</description>
+	<designatorDropdown>FSF_SimplySoil</designatorDropdown>
+    <researchPrerequisites>
+		<li>FSFRegularGardenSoil</li>
+	</researchPrerequisites>
+    <texturePath>Terrain/Surfaces/Soil</texturePath>
+    <edgeType>FadeRough</edgeType>
+    <renderPrecedence>340</renderPrecedence>
+    <pathCost>2</pathCost>
+    <statBases>
+      <Beauty>-1</Beauty>
+      <Cleanliness>-1</Cleanliness>
+      <WorkToBuild>800</WorkToBuild>
+    </statBases>
+    <costList>
+      <FSFItemSoil>10</FSFItemSoil>
+    </costList>
+    <scatterType>Rocky</scatterType>
+    <designationCategory>Floors</designationCategory>
+    <constructEffect>ConstructDirt</constructEffect>
+    <affordances>
+      <li>Light</li>
+      <li>Medium</li>
+      <li>Heavy</li>
+      <li>GrowSoil</li>
+      <li>Diggable</li>
+    </affordances>
+	<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <layerable>true</layerable>
+    <generatedFilth>Filth_Dirt</generatedFilth>
+	<filthAcceptanceMask>
+		<li>Unnatural</li>
+	</filthAcceptanceMask>
+    <fertility>1.0</fertility>
+    <takeFootprints>True</takeFootprints>
+    <tools>
+      <li>
+        <label>dirt</label>
+        <capacities>
+          <li>KickMaterialInEyes</li>
+        </capacities>
+        <hediff>DirtInEyes</hediff>
+        <cooldownTime>1.5</cooldownTime>
+      </li>
+    </tools>
+  </TerrainDef>
+
+	<!-- Rich Soil -->
+
+  <TerrainDef>
+    <defName>FSFSoilRich</defName>
+    <label>rich soil</label>
+    <description>Rich soil with a delectable rich dirt taste.</description>
+	<designatorDropdown>FSF_SimplySoil</designatorDropdown>
+    <researchPrerequisites>
+		<li>FSFRichGardenSoil</li>
+	</researchPrerequisites>
+    <texturePath>Terrain/Surfaces/SoilRich</texturePath>
+    <edgeType>FadeRough</edgeType>
+    <renderPrecedence>335</renderPrecedence>
+    <pathCost>2</pathCost>
+    <statBases>
+      <Beauty>-1</Beauty>
+      <Cleanliness>-1</Cleanliness>
+      <WorkToBuild>800</WorkToBuild>
+    </statBases>
+    <costList>
+      <FSFItemSoilRich>10</FSFItemSoilRich>
+    </costList>
+    <designationCategory>Floors</designationCategory>
+    <constructEffect>ConstructDirt</constructEffect>
+    <affordances>
+      <li>Light</li>
+      <li>Medium</li>
+      <li>Heavy</li>
+      <li>GrowSoil</li>
+      <li>Diggable</li>
+    </affordances>
+	<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <layerable>true</layerable>
+    <generatedFilth>Filth_Dirt</generatedFilth>
+	<filthAcceptanceMask>
+		<li>Unnatural</li>
+	</filthAcceptanceMask>
+    <fertility>1.4</fertility>
+    <takeFootprints>True</takeFootprints>
+    <tools>
+      <li>
+        <label>dirt</label>
+        <capacities>
+          <li>KickMaterialInEyes</li>
+        </capacities>
+        <hediff>DirtInEyes</hediff>
+        <cooldownTime>1.5</cooldownTime>
+      </li>
+    </tools>
+  </TerrainDef>
+
+</Defs>

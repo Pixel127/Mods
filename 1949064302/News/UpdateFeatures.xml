@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<HugsLib.UpdateFeatureDef Abstract="true" Name="UpdateFeatureBase">
+		<modNameReadable>EPOE-Forked</modNameReadable>
+		<modIdentifier>EPIA_EPOE_Forked</modIdentifier>
+		<linkUrl>https://steamcommunity.com/workshop/filedetails/?id=1949064302</linkUrl>
+	</HugsLib.UpdateFeatureDef>
+
+	<HugsLib.UpdateFeatureDef ParentName="UpdateFeatureBase">
+		<defName>EPOE_Forked_4_2_5</defName>
+		<assemblyVersion>4.2.5</assemblyVersion>
+		<content>Minor balance update, and removal of Basic Prosthetic research. With this removal, it brings it more back in line with vanilla as it did not require research.
+Neuro-cure framework now has a lower market value to that of healer mech serums, greatly increasing the viability of getting and using one.
+The Auxiliary AI: Sharpshooter has received a noticeable buff, as the Commando version is generally seen as the far greater superior choice that covers more areas and has that fantastic -15% aim delay factor.
+		
+|Patch notes:
+* Neuro-cure framework materials cost reduced from 15 Glitterworld medicine to 8 and removed advanced component.
+* Synthetic skin cost increased from 1 Glitterworld medicine to 2 Glitterworld medicine.
+* Basic Prosthetic research removed. All wooden prosthetic available by default to all faction style just like in vanilla.
+* Hook hand and Steel arm now requires Smithing research. (Their workstation needs that as minimum already, so no real difference.)
+* Protective exoskeleton incoming damage factor improved from 85% to 80%.
+* Auxiliary AI: Sharpshooter buffed. Gained -10% Aiming delay, and removed melee dodge penalty.
+* Updated DE Surgery patch
+* New XML Extensions to toggle EMP weakness of EPOE-Forked implants.</content>
+	</HugsLib.UpdateFeatureDef>
+
+	<HugsLib.UpdateFeatureDef ParentName="UpdateFeatureBase">
+		<defName>EPOE_Forked_4_2_2</defName>
+		<assemblyVersion>4.2.2</assemblyVersion>
+		<content>Small update adding synthetic bones, a new XML extension settings to allow forcefully remove limbs, and a patch that removes beauty tag from the tongue.
+Any jaws added body parts, including base game's dentures, technically removes the tongue, but the opinion of disfigurement still happens. This is why we made the decision to remove the beauty tag. A setting option can disable this patch if you do disagree with this.
+
+A decision for a RBSE overlapping content removal patch was made because of how terribly it was written, and having received numerous avoidable bug reports due to ignoring incompatibilty warnings, this experimental patch has been made.
+It is still highly unrecommended to have both EPOE-Forked and RBSE running at the same time, as they cover too much similar areas and can lead to serious conflicts.
+
+|Patch notes:
+* New synthetic bone added. Used as a bone replacement similar to how synthetic tissue works for healing scars.
+* Torso associated bones that were previously handled by neuromuscular framework is now handled by the synthetic bone surgeries.
+* XML Extensions slight rewrite into Def form.
+* Added patch to remove beauty tag from the tongue body part. This patch can be disabled with XML Extensions.
+* New settings for forced removal of arm, legs, hands and feet. For your war crime needs.
+* Added a patch to remove overlapping RBSE content if people ignore the incompatibility warning. Incomplete and experimental, but looks more consistent at least. May stop certain settings from applying correctly.</content>
+	</HugsLib.UpdateFeatureDef>	
+
+	<HugsLib.UpdateFeatureDef ParentName="UpdateFeatureBase">
+		<defName>EPOE_Forked_4_2_1</defName>
+		<assemblyVersion>4.2.1</assemblyVersion>
+		<content>Small update to bring workbenches a more in line with vanilla, now needing construction levels.
+Three new options available with XML Extensions mod, and now able to receive translations.
+
+|Patch notes:
+* Updated some details about the workbenches to match vanilla's layout.
+* Prosthetic table now requires level 4 construction, bionic workbench and synthetic nano printer now requires level 6 construction.
+
+|XML Extension mod related patch notes:
+* New settings for wooden prosthesis needing research or not.
+* New settings for organs rotting and needing refridgeration.
+* New settings for transhumanists' opinion about the organic and instinct optimizers.
+* Added translation keys for all the settings.
+* Made a TranslatorPackage folder, containing everything for a translator to easily start their work.</content>
+	</HugsLib.UpdateFeatureDef>	
+
+	<HugsLib.UpdateFeatureDef ParentName="UpdateFeatureBase">
+		<defName>EPOE_Forked_4_2_0</defName>
+		<assemblyVersion>4.2.0</assemblyVersion>
+		<content>New set of updates not seen with EPOE-Forked until now. Firstly, HugsLib news feature will now be utilized to keep players up to date, and new mod settings being available with the assistance of the XML Extensions mod.
+|img:newsimages/XML_Extensions|caption:XML Extensions mod, made by Imranfish, extends the functionality of XML patch operations, and allows for the easy creation of mod settings.
+
+With XML Extensions active in your mod list, the following EPOE-Forked's add-on modules are now included in the settings, and no longer needs the actual side-mods to customize your game:
+- Allow direct crafting
+- Direct crafting only
+- Remove workbenches
+- Legacy mode (written up in a new way to patch)
+
+|New additional settings are:
+- Changing between this mod's or vanilla's item textures for artifical body part items
+- Disabling the bionic eyes on the colonist's face
+- Original EPOE migration mode, to keep the old prosthetic workbench for converting.
+
+The prosthetic workbench from original EPOE is renamed to "Original EPOE workbench (debug)", which can be deconstructed or destroyed and you will receive a prosthetic workbench and bionic workbench. Be sure to claim and rearrange your converted workbenches.
+
+|Once you have finished switching over, you should untick the migration mode to remove the redundant building from being loaded anymore when you launch the game.
+
+Rest of patch notes for v4.2.0:
+* Correctly assigning the component and advanced component bills to the synthetic nano printer instead of the prosthetic workbench.
+* Prosthesis trader now trades synthread, hyperweave, components, advanced components and MA-AI chips.
+* Prosthesis trader's inventory of available artificial body parts for sale have been increased in size.</content>
+	</HugsLib.UpdateFeatureDef>	
+
+</Defs>

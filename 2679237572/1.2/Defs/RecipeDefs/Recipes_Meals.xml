@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RecipeDef ParentName="CookMealBase">
+    <defName>CookMealSimpleBulk</defName>
+    <label>cook simple meals in bulk</label>
+    <description>Cook a straightforward meal in bulk from one ingredient.</description>
+    <jobString>Cooking simple meal.</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <recipeUsers>
+      <!-- A lot quicker than trying to patch production buildings -->
+      <li>ElectricStove</li>
+      <li>FueledStove</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>FoodRaw</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+    </ingredients>
+    <products>
+      <MealSimple>4</MealSimple>
+    </products>
+    <workSkill>Cooking</workSkill>
+    <skillRequirements>
+      <Cooking>6</Cooking>
+    </skillRequirements>
+  </RecipeDef>
+  <RecipeDef ParentName="CookMealBase">
+    <defName>CookMealFineBulk</defName>
+    <label>cook fine meals in bulk</label>
+    <description>Cook a somewhat complex meal in bulk from a combination of meat and plant ingredients.</description>
+    <jobString>Cooking fine meal.</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <recipeUsers>
+      <!-- A lot quicker than trying to patch production buildings -->
+      <li>ElectricStove</li>
+      <li>FueledStove</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>MeatRaw</li>
+            <li>AnimalProductRaw</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <categories>
+            <li>PlantFoodRaw</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <MealFine>4</MealFine>
+    </products>
+    <skillRequirements>
+      <Cooking>8</Cooking>
+    </skillRequirements>
+  </RecipeDef>
+  <RecipeDef ParentName="CookMealBase">
+    <defName>CookMealLavishBulk</defName>
+    <label>cook lavish meals in bulk</label>
+    <description>Cook a very complex meal in bulk from a combination of meat and plant ingredients. Much of the ingredients are wasted.</description>
+    <jobString>Cooking lavish meal.</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <recipeUsers>
+      <!-- A lot quicker than trying to patch production buildings -->
+      <li>ElectricStove</li>
+      <li>FueledStove</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>MeatRaw</li>
+            <li>AnimalProductRaw</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <categories>
+            <li>PlantFoodRaw</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <MealLavish>2</MealLavish>
+    </products>
+    <skillRequirements>
+      <Cooking>10</Cooking>
+    </skillRequirements>
+  </RecipeDef>
+  <RecipeDef ParentName="CookMealBase">
+    <defName>CookMealSurvivalBulk</defName>
+    <label>cook packaged survival meals in bulk</label>
+    <description>Prepare a packaged survival meal in bulk from a combination of meat and plant ingredients. Much of the ingredients are wasted in the preservation process.</description>
+    <jobString>Cooking survival meal.</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <recipeUsers>
+      <!-- A lot quicker than trying to patch production buildings -->
+      <li>ElectricStove</li>
+      <li>FueledStove</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>MeatRaw</li>
+            <li>AnimalProductRaw</li>
+          </categories>
+        </filter>
+        <count>0.90</count>
+      </li>
+      <li>
+        <filter>
+          <categories>
+            <li>PlantFoodRaw</li>
+          </categories>
+        </filter>
+        <count>0.90</count>
+      </li>
+    </ingredients>
+    <products>
+      <MealSurvivalPack>3</MealSurvivalPack>
+    </products>
+    <skillRequirements>
+      <Cooking>10</Cooking>
+    </skillRequirements>
+    <researchPrerequisite>PackagedSurvivalMeal</researchPrerequisite>
+  </RecipeDef>
+</Defs>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Detoxifier enhancer -->
+
+  <EPOE_DetoxifierEnhancer.label>Entgiftungsverstärker</EPOE_DetoxifierEnhancer.label>
+  <EPOE_DetoxifierEnhancer.description>Ein installierter Entgiftungsverstärker.</EPOE_DetoxifierEnhancer.description>
+  <EPOE_DetoxifierEnhancer.labelNoun>Ein Entgiftungsverstärker</EPOE_DetoxifierEnhancer.labelNoun>
+
+
+  <!-- Synthetic detoxifier liver -->
+
+  <EPOE_DetoxifierSyntheticLiver.label>Synthetische Entgiftungsleber</EPOE_DetoxifierSyntheticLiver.label>
+  <EPOE_DetoxifierSyntheticLiver.description>Eine installierte synthetische Entgiftungsleber.</EPOE_DetoxifierSyntheticLiver.description>
+  <EPOE_DetoxifierSyntheticLiver.labelNoun>Eine synthetische Entgiftungsleber</EPOE_DetoxifierSyntheticLiver.labelNoun>
+
+
+  <!-- Synthetic immunoenhanced kidney -->
+
+  <EPOE_ImmunoenhancerSyntheticKidney.label>Synthetische immunverstärkte Niere</EPOE_ImmunoenhancerSyntheticKidney.label>
+  <EPOE_ImmunoenhancerSyntheticKidney.description>Eine installierte synthetische immunverstärkte Niere.</EPOE_ImmunoenhancerSyntheticKidney.description>
+  <EPOE_ImmunoenhancerSyntheticKidney.labelNoun>Eine synthetische immunverstärkte Niere</EPOE_ImmunoenhancerSyntheticKidney.labelNoun>
+
+
+</LanguageData>

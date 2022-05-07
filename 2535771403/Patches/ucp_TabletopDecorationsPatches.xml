@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationConditional">
+		<xpath>*/ThingDef[defName = "TableMachining"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>*/ThingDef[defName = "TableMachining"]</xpath>
+			<value>
+				<comps>
+					<li Class="CompProperties_AffectedByFacilities">
+						<linkableFacilities>
+					<li>ucp_vise</li>
+					<li>ucp_toolbox</li>
+					<li>ucp_screwdrivers</li>
+					<li>ucp_hammer</li>
+					<li>ucp_aerosol</li>
+					<li>ucp_wrench</li>
+						</linkableFacilities>
+					</li>
+				</comps>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>*/ThingDef[defName = "TableMachining"]/comps/li[@Class = "CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+			<value>
+		<li>ucp_vise</li>
+		<li>ucp_toolbox</li>
+		<li>ucp_screwdrivers</li>
+		<li>ucp_hammer</li>
+		<li>ucp_aerosol</li>
+		<li>ucp_wrench</li>
+			</value>
+		</match>
+	</Operation>
+	
+	
+	
+	<Operation Class="PatchOperationConditional">
+		<xpath>*/ThingDef[defName = "FabricationBench"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>*/ThingDef[defName = "FabricationBench"]</xpath>
+			<value>
+				<comps>
+					<li Class="CompProperties_AffectedByFacilities">
+						<linkableFacilities>
+					<li>ucp_aerosol</li>
+					<li>ucp_blueprint</li>
+					<li>ucp_roboarm</li>
+					<!--	<li></li> -->
+						</linkableFacilities>
+					</li>
+				</comps>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>*/ThingDef[defName = "FabricationBench"]/comps/li[@Class = "CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+			<value>
+			<li>ucp_aerosol</li>
+			<li>ucp_blueprint</li>
+			<li>ucp_roboarm</li>
+			<!--	<li></li> -->
+			<!--	<li></li> -->
+			</value>
+		</match>
+	</Operation>
+	
+	
+	<!-- DO THIS WITH HAND TAILOR AFTER DONE -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>*/ThingDef[defName = "ElectricTailoringBench"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>*/ThingDef[defName = "ElectricTailoringBench"]</xpath>
+			<value>
+				<comps>
+					<li Class="CompProperties_AffectedByFacilities">
+						<linkableFacilities>
+					<li>ucp_measure</li>
+					<li>ucp_scraps</li>
+					<li>ucp_textileroll</li>
+					<li>ucp_pencil</li>
+					<!--	<li></li> -->
+					<!--	<li></li> -->
+					<!--	<li></li> -->
+						</linkableFacilities>
+					</li>
+				</comps>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>*/ThingDef[defName = "ElectricTailoringBench"]/comps/li[@Class = "CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+			<value>
+		<li>ucp_measure</li>
+		<li>ucp_scraps</li>
+		<li>ucp_textileroll</li>
+		<li>ucp_pencil</li>
+		<!--	<li></li> -->
+		<!--	<li></li> -->
+		<!--	<li></li> -->
+			</value>
+		</match>
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+		<xpath>*/ThingDef[defName = "HandTailoringBench"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>*/ThingDef[defName = "HandTailoringBench"]</xpath>
+			<value>
+				<comps>
+					<li Class="CompProperties_AffectedByFacilities">
+						<linkableFacilities>
+					<li>ucp_measure</li>
+					<li>ucp_scraps</li>
+					<li>ucp_textileroll</li>
+					<li>ucp_pencil</li>
+					<!--	<li></li> -->
+					<!--	<li></li> -->
+					<!--	<li></li> -->
+						</linkableFacilities>
+					</li>
+				</comps>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>*/ThingDef[defName = "HandTailoringBench"]/comps/li[@Class = "CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+			<value>
+		<li>ucp_measure</li>
+		<li>ucp_scraps</li>
+		<li>ucp_textileroll</li>
+		<li>ucp_pencil</li>
+		<!--	<li></li> -->
+		<!--	<li></li> -->
+		<!--	<li></li> -->
+			</value>
+		</match>
+	</Operation>
+	
+	
+		<!-- DO THIS WITH HAND SMITHY AFTER DONE -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>*/ThingDef[defName = "ElectricSmithy"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>*/ThingDef[defName = "ElectricSmithy"]</xpath>
+			<value>
+				<comps>
+					<li Class="CompProperties_AffectedByFacilities">
+						<linkableFacilities>
+					<li>ucp_tongs</li>
+					<li>ucp_ballpeen</li>
+					<!--	<li></li> -->
+					<!--	<li></li> -->
+					<!--	<li></li> -->
+					<!--	<li></li> -->
+						</linkableFacilities>
+					</li>
+				</comps>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>*/ThingDef[defName = "ElectricSmithy"]/comps/li[@Class = "CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+			<value>
+		<li>ucp_tongs</li>
+		<li>ucp_ballpeen</li>
+		<!--	<li></li> -->
+		<!--	<li></li> -->
+		<!--	<li></li> -->
+		<!--	<li></li> -->
+			</value>
+		</match>
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+		<xpath>*/ThingDef[defName = "FueledSmithy"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>*/ThingDef[defName = "FueledSmithy"]</xpath>
+			<value>
+				<comps>
+					<li Class="CompProperties_AffectedByFacilities">
+						<linkableFacilities>
+					<li>ucp_tongs</li>
+					<li>ucp_ballpeen</li>
+					<!--	<li></li> -->
+					<!--	<li></li> -->
+					<!--	<li></li> -->
+					<!--	<li></li> -->
+						</linkableFacilities>
+					</li>
+				</comps>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>*/ThingDef[defName = "FueledSmithy"]/comps/li[@Class = "CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+			<value>
+		<li>ucp_tongs</li>
+		<li>ucp_ballpeen</li>
+		<!--	<li></li> -->
+		<!--	<li></li> -->
+		<!--	<li></li> -->
+		<!--	<li></li> -->
+			</value>
+		</match>
+	</Operation>
+
+<!-- PROPS EXPANDED PATCHES -->
+
+<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Furniture Expanded - Props and Decor</li>
+		</mods>
+
+		<match Class="PatchOperationSequence">
+			<operations>
+
+
+
+
+				<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ThingDef[defName="ucp_vise"]/designationCategory</xpath>
+					<value>
+						<designationCategory>PropsandDecor</designationCategory>
+
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ThingDef[defName="ucp_remote"]/designationCategory</xpath>
+					<value>
+						<designationCategory>PropsandDecor</designationCategory>
+
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ThingDef[defName="ucp_register"]/designationCategory</xpath>
+					<value>
+						<designationCategory>PropsandDecor</designationCategory>
+
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ThingDef[defName="ucp_toolbox"]/designationCategory</xpath>
+					<value>
+						<designationCategory>PropsandDecor</designationCategory>
+
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ThingDef[defName="ucp_workmat"]/designationCategory</xpath>
+					<value>
+						<designationCategory>PropsandDecor</designationCategory>
+
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ThingDef[defName="ucp_workmatlong"]/designationCategory</xpath>
+					<value>
+						<designationCategory>PropsandDecor</designationCategory>
+
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ThingDef[defName="ucp_screwdrivers"]/designationCategory</xpath>
+					<value>
+						<designationCategory>PropsandDecor</designationCategory>
+
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ThingDef[defName="ucp_hammer"]/designationCategory</xpath>
+					<value>
+						<designationCategory>PropsandDecor</designationCategory>
+
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ThingDef[defName="ucp_measure"]/designationCategory</xpath>
+					<value>
+						<designationCategory>PropsandDecor</designationCategory>
+
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ThingDef[defName="ucp_aerosol"]/designationCategory</xpath>
+					<value>
+						<designationCategory>PropsandDecor</designationCategory>
+
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ThingDef[defName="ucp_tablelamp"]/designationCategory</xpath>
+					<value>
+						<designationCategory>PropsandDecor</designationCategory>
+
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ThingDef[defName="ucp_viseautopistol"]/designationCategory</xpath>
+					<value>
+						<designationCategory>PropsandDecor</designationCategory>
+
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ThingDef[defName="ucp_picnic2x1c"]/designationCategory</xpath>
+					<value>
+						<designationCategory>PropsandDecor</designationCategory>
+
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ThingDef[defName="ucp_picnic1x2c"]/designationCategory</xpath>
+					<value>
+						<designationCategory>PropsandDecor</designationCategory>
+
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ThingDef[defName="ucp_picnic1x1c"]/designationCategory</xpath>
+					<value>
+						<designationCategory>PropsandDecor</designationCategory>
+
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ThingDef[defName="ucp_picnic2x2c"]/designationCategory</xpath>
+					<value>
+						<designationCategory>PropsandDecor</designationCategory>
+
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ThingDef[defName="ucp_picnic4x2c"]/designationCategory</xpath>
+					<value>
+						<designationCategory>PropsandDecor</designationCategory>
+
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ThingDef[defName="ucp_picnic2x4c"]/designationCategory</xpath>
+					<value>
+						<designationCategory>PropsandDecor</designationCategory>
+
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ThingDef[defName="ucp_picniclamp"]/designationCategory</xpath>
+					<value>
+						<designationCategory>PropsandDecor</designationCategory>
+
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ThingDef[defName="ucp_picnicdresser"]/designationCategory</xpath>
+					<value>
+						<designationCategory>PropsandDecor</designationCategory>
+
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ThingDef[defName="ucp_bullets"]/designationCategory</xpath>
+					<value>
+						<designationCategory>PropsandDecor</designationCategory>
+
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ThingDef[defName="ucp_tongs"]/designationCategory</xpath>
+					<value>
+						<designationCategory>PropsandDecor</designationCategory>
+
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ThingDef[defName="ucp_ballpeen"]/designationCategory</xpath>
+					<value>
+						<designationCategory>PropsandDecor</designationCategory>
+
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ThingDef[defName="ucp_scraps"]/designationCategory</xpath>
+					<value>
+						<designationCategory>PropsandDecor</designationCategory>
+
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ThingDef[defName="ucp_textileroll"]/designationCategory</xpath>
+					<value>
+						<designationCategory>PropsandDecor</designationCategory>
+
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ThingDef[defName="ucp_blueprint"]/designationCategory</xpath>
+					<value>
+						<designationCategory>PropsandDecor</designationCategory>
+
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ThingDef[defName="ucp_pencil"]/designationCategory</xpath>
+					<value>
+						<designationCategory>PropsandDecor</designationCategory>
+
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ThingDef[defName="ucp_wrench"]/designationCategory</xpath>
+					<value>
+						<designationCategory>PropsandDecor</designationCategory>
+
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ThingDef[defName="ucp_roboarm"]/designationCategory</xpath>
+					<value>
+						<designationCategory>PropsandDecor</designationCategory>
+
+					</value>
+				</li>
+				
+			</operations>
+		</match>
+	</Operation>
+
+</Patch>

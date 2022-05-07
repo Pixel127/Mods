@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Floors for new gem types in Kura's Extra Gems - these defs are patched -->
+  <!--  during load time to remove the Abstract attribute if the appropriate  -->
+  <!--  mod is active, otherwise, they harmlessly disappear into the ether    -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+
+
+  <TerrainDef ParentName="TFloorBaseGemstone" Name="TFloorGemstoneAmethyst" Abstract="true">
+    <defName>TFloorGemstoneAmethyst</defName>
+    <label>amethyst floor</label>
+    <description>A stunning floor made from polished amethyst. You can barely see where the tiles join! Fantastically beautiful but also requires a very long time to build.</description>
+    <costList>
+      <Amethyst>10</Amethyst>
+    </costList>
+    <color>(78,44,104)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="TFloorBaseGemstone" Name="TFloorGemstoneAmber" Abstract="true">
+    <defName>TFloorGemstoneAmber</defName>
+    <label>amber floor</label>
+    <description>A stunning floor made from polished amber. You can barely see where the tiles join! Fantastically beautiful but also requires a very long time to build.</description>
+    <costList>
+      <Amber>10</Amber>
+    </costList>
+    <color>(217,126,0)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="TFloorBaseGemstone" Name="TFloorGemstoneAquamarine" Abstract="true">
+    <defName>TFloorGemstoneAquamarine</defName>
+    <label>aquamarine floor</label>
+    <description>A stunning floor made from polished aquamarine. You can barely see where the tiles join! Fantastically beautiful but also requires a very long time to build.</description>
+    <costList>
+      <Aquamarine>10</Aquamarine>
+    </costList>
+    <color>(93,167,218)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="TFloorBaseGemstone" Name="TFloorGemstoneBenitoite" Abstract="true">
+    <defName>TFloorGemstoneBenitoite</defName>
+    <label>benitoite floor</label>
+    <description>A stunning floor made from polished benitoite. You can barely see where the tiles join! Fantastically beautiful but also requires a very long time to build.</description>
+    <costList>
+      <Benitoite>10</Benitoite>
+    </costList>
+    <color>(37,53,131)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="TFloorBaseGemstone" Name="TFloorGemstoneBixbite" Abstract="true">
+    <defName>TFloorGemstoneBixbite</defName>
+    <label>bixbite floor</label>
+    <description>A stunning floor made from polished bixbite. You can barely see where the tiles join! Fantastically beautiful but also requires a very long time to build.</description>
+    <costList>
+      <Bixbite>10</Bixbite>
+    </costList>
+    <color>(173,47,82)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="TFloorBaseGemstone" Name="TFloorGemstoneDiamond" Abstract="true">
+    <defName>TFloorGemstoneDiamond</defName>
+    <label>diamond floor</label>
+    <description>A stunning floor made from polished diamond. You can barely see where the tiles join! Fantastically beautiful but also requires a very long time to build.</description>
+    <costList>
+      <Diamond>10</Diamond>
+    </costList>
+    <color>(240,240,240)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="TFloorBaseGemstone" Name="TFloorGemstoneDioptase" Abstract="true">
+    <defName>TFloorGemstoneDioptase</defName>
+    <label>dioptase floor</label>
+    <description>A stunning floor made from polished dioptase. You can barely see where the tiles join! Fantastically beautiful but also requires a very long time to build.</description>
+    <costList>
+      <Dioptase>10</Dioptase>
+    </costList>
+    <color>(33,129,118)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="TFloorBaseGemstone" Name="TFloorGemstoneEkanite" Abstract="true">
+    <defName>TFloorGemstoneEkanite</defName>
+    <label>ekanite floor</label>
+    <description>A stunning floor made from polished ekanite. You can barely see where the tiles join! Fantastically beautiful but also requires a very long time to build.</description>
+    <costList>
+      <Ekanite>10</Ekanite>
+    </costList>
+    <color>(84,103,15)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="TFloorBaseGemstone" Name="TFloorGemstoneEmerald" Abstract="true">
+    <defName>TFloorGemstoneEmerald</defName>
+    <label>emerald floor</label>
+    <description>A stunning floor made from polished emerald. You can barely see where the tiles join! Fantastically beautiful but also requires a very long time to build.</description>
+    <costList>
+      <Emerald>10</Emerald>
+    </costList>
+    <color>(43,135,26)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="TFloorBaseGemstone" Name="TFloorGemstoneGarnet" Abstract="true">
+    <defName>TFloorGemstoneGarnet</defName>
+    <label>garnet floor</label>
+    <description>A stunning floor made from polished garnet. You can barely see where the tiles join! Fantastically beautiful but also requires a very long time to build.</description>
+    <costList>
+      <Garnet>10</Garnet>
+    </costList>
+    <color>(98,25,18)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="TFloorBaseGemstone" Name="TFloorGemstoneHeliodor" Abstract="true">
+    <defName>TFloorGemstoneHeliodor</defName>
+    <label>heliodor floor</label>
+    <description>A stunning floor made from polished heliodor. You can barely see where the tiles join! Fantastically beautiful but also requires a very long time to build.</description>
+    <costList>
+      <Heliodor>10</Heliodor>
+    </costList>
+    <color>(200,188,76)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="TFloorBaseGemstone" Name="TFloorGemstoneKunzite" Abstract="true">
+    <defName>TFloorGemstoneKunzite</defName>
+    <label>kunzite floor</label>
+    <description>A stunning floor made from polished kunzite. You can barely see where the tiles join! Fantastically beautiful but also requires a very long time to build.</description>
+    <costList>
+      <Kunzite>10</Kunzite>
+    </costList>
+    <color>(203,132,202)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="TFloorBaseGemstone" Name="TFloorGemstoneLarimar" Abstract="true">
+    <defName>TFloorGemstoneLarimar</defName>
+    <label>larimar floor</label>
+    <description>A stunning floor made from polished larimar. You can barely see where the tiles join! Fantastically beautiful but also requires a very long time to build.</description>
+    <costList>
+      <Larimar>10</Larimar>
+    </costList>
+    <color>(123,198,204)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="TFloorBaseGemstone" Name="TFloorGemstoneIolite" Abstract="true">
+    <defName>TFloorGemstoneIolite</defName>
+    <label>iolite floor</label>
+    <description>A stunning floor made from polished iolite. You can barely see where the tiles join! Fantastically beautiful but also requires a very long time to build.</description>
+    <costList>
+      <Iolite>10</Iolite>
+    </costList>
+    <color>(88,77,145)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="TFloorBaseGemstone" Name="TFloorGemstoneMalachite" Abstract="true">
+    <defName>TFloorGemstoneMalachite</defName>
+    <label>malachite floor</label>
+    <description>A stunning floor made from polished malachite. You can barely see where the tiles join! Fantastically beautiful but also requires a very long time to build.</description>
+    <costList>
+      <Malachite>10</Malachite>
+    </costList>
+    <color>(28,119,78)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="TFloorBaseGemstone" Name="TFloorGemstoneMorganite" Abstract="true">
+    <defName>TFloorGemstoneMorganite</defName>
+    <label>morganite floor</label>
+    <description>A stunning floor made from polished morganite. You can barely see where the tiles join! Fantastically beautiful but also requires a very long time to build.</description>
+    <costList>
+      <Morganite>10</Morganite>
+    </costList>
+    <color>(193,155,154)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="TFloorBaseGemstone" Name="TFloorGemstonePadparadscha" Abstract="true">
+    <defName>TFloorGemstonePadparadscha</defName>
+    <label>padparadscha floor</label>
+    <description>A stunning floor made from polished padparadscha. You can barely see where the tiles join! Fantastically beautiful but also requires a very long time to build.</description>
+    <costList>
+      <Padparadscha>10</Padparadscha>
+    </costList>
+    <color>(214,139,133)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="TFloorBaseGemstone" Name="TFloorGemstonePeridot" Abstract="true">
+    <defName>TFloorGemstonePeridot</defName>
+    <label>peridot floor</label>
+    <description>A stunning floor made from polished peridot. You can barely see where the tiles join! Fantastically beautiful but also requires a very long time to build.</description>
+    <costList>
+      <Peridot>10</Peridot>
+    </costList>
+    <color>(160,190,60)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="TFloorBaseGemstone" Name="TFloorGemstonePrasiolite" Abstract="true">
+    <defName>TFloorGemstonePrasiolite</defName>
+    <label>prasiolite floor</label>
+    <description>A stunning floor made from polished prasiolite. You can barely see where the tiles join! Fantastically beautiful but also requires a very long time to build.</description>
+    <costList>
+      <Prasiolite>10</Prasiolite>
+    </costList>
+    <color>(186,209,181)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="TFloorBaseGemstone" Name="TFloorGemstoneQuartz" Abstract="true">
+    <defName>TFloorGemstoneQuartz</defName>
+    <label>quartz floor</label>
+    <description>A stunning floor made from polished quartz. You can barely see where the tiles join! Fantastically beautiful but also requires a very long time to build.</description>
+    <costList>
+      <Quartz>10</Quartz>
+    </costList>
+    <color>(230,230,230)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="TFloorBaseGemstone" Name="TFloorGemstoneRuby" Abstract="true">
+    <defName>TFloorGemstoneRuby</defName>
+    <label>ruby floor</label>
+    <description>A stunning floor made from polished ruby. You can barely see where the tiles join! Fantastically beautiful but also requires a very long time to build.</description>
+    <costList>
+      <Ruby>10</Ruby>
+    </costList>
+    <color>(169,46,42)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="TFloorBaseGemstone" Name="TFloorGemstoneSapphire" Abstract="true">
+    <defName>TFloorGemstoneSapphire</defName>
+    <label>sapphire floor</label>
+    <description>A stunning floor made from polished sapphire. You can barely see where the tiles join! Fantastically beautiful but also requires a very long time to build.</description>
+    <costList>
+      <Sapphire>10</Sapphire>
+    </costList>
+    <color>(37,85,170)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="TFloorBaseGemstone" Name="TFloorGemstoneScapolite" Abstract="true">
+    <defName>TFloorGemstoneScapolite</defName>
+    <label>scapolite floor</label>
+    <description>A stunning floor made from polished scapolite. You can barely see where the tiles join! Fantastically beautiful but also requires a very long time to build.</description>
+    <costList>
+      <Scapolite>10</Scapolite>
+    </costList>
+    <color>(228,219,152)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="TFloorBaseGemstone" Name="TFloorGemstoneSunstone" Abstract="true">
+    <defName>TFloorGemstoneSunstone</defName>
+    <label>sunstone floor</label>
+    <description>A stunning floor made from polished sunstone. You can barely see where the tiles join! Fantastically beautiful but also requires a very long time to build.</description>
+    <costList>
+      <Sunstone>10</Sunstone>
+    </costList>
+    <color>(229,86,43)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="TFloorBaseGemstone" Name="TFloorGemstoneTanzanite" Abstract="true">
+    <defName>TFloorGemstoneTanzanite</defName>
+    <label>tanzanite floor</label>
+    <description>A stunning floor made from polished tanzanite. You can barely see where the tiles join! Fantastically beautiful but also requires a very long time to build.</description>
+    <costList>
+      <Tanzanite>10</Tanzanite>
+    </costList>
+    <color>(85,88,185)</color>
+  </TerrainDef>
+
+  <TerrainDef ParentName="TFloorBaseGemstone" Name="TFloorGemstoneTsavorite" Abstract="true">
+    <defName>TFloorGemstoneTsavorite</defName>
+    <label>tsavorite floor</label>
+    <description>A stunning floor made from polished tsavorite. You can barely see where the tiles join! Fantastically beautiful but also requires a very long time to build.</description>
+    <costList>
+      <Tsavorite>10</Tsavorite>
+    </costList>
+    <color>(85,118,69)</color>
+  </TerrainDef>
+
+</Defs>

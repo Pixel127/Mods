@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="BenchBase">
+		<defName>BenchWoolLoom</defName>
+		<label>wool loom</label>
+		<thingClass>Building_WorkTable</thingClass>
+		<description>A bench with looms to weave wool into a strong and warm cloth.</description>
+    <graphicData>
+      <texPath>Things/BenchWoolLoom</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3.5,1.5)</drawSize>
+      <shadowData>
+        <volume>(2.9, 0.3, 0.5)</volume>
+        <offset>(0, 0, 0)</offset>
+      </shadowData>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <costList>
+      <Steel>20</Steel>
+      <WoodLog>40</WoodLog>
+    </costList>
+		<altitudeLayer>Building</altitudeLayer>
+    <fillPercent>0.5</fillPercent>
+		<useHitPoints>True</useHitPoints>
+    <statBases>
+      <WorkToBuild>750</WorkToBuild>
+      <MaxHitPoints>180</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+    </statBases>
+		<size>(3,1)</size>
+		<designationCategory>Production</designationCategory>
+		<passability>PassThroughOnly</passability>
+    <pathCost>60</pathCost>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<surfaceType>Item</surfaceType>
+		<recipes>
+			<li>MakeWoolCloth</li>
+		</recipes>
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
+    <building>
+		<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+    </building>
+    <researchPrerequisites><li>CarpetMaking</li></researchPrerequisites>
+	</ThingDef>
+
+</Defs>

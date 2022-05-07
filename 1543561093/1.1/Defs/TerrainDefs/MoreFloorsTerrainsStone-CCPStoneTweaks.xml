@@ -1,0 +1,394 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Floors with different material def data in CCP's Stone Tweaks          -->
+  <!--  - these defs are patched during load time to remove the Abstract      -->
+  <!--  attribute if the appropriate mod is active, otherwise, they           -->
+  <!--  harmlessly disappear into the ether                                   -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+
+
+  <!-- Slabs -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+  <TerrainDef ParentName="TFloorBaseStoneSlabs" Abstract="true">
+    <defName>FloorStoneSlabsCCPPinkMarble</defName>
+    <label>stone slabs (pink marble)</label>
+    <color>(255,235,255)</color>
+    <costList>
+      <BlocksPinkMarble>3</BlocksPinkMarble>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneSlabs" Abstract="true">
+    <defName>FloorStoneSlabsCCPBlueGranite</defName>
+    <label>stone slabs (blue granite)</label>
+    <color>(108,122,135)</color>
+    <costList>
+      <BlocksBlueGranite>3</BlocksBlueGranite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneSlabs" Abstract="true">
+    <defName>FloorStoneSlabsCCPGreenMarble</defName>
+    <label>stone slabs (green marble)</label>
+    <color>(130,145,110)</color>
+    <costList>
+      <BlocksGreenMarble>3</BlocksGreenMarble>
+    </costList>
+  </TerrainDef>
+  
+  
+  
+  <!-- Staggered -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+  <TerrainDef ParentName="TFloorBaseStoneStaggered" Abstract="true">
+    <defName>FloorStoneStaggeredCCPPinkMarble</defName>
+    <label>staggered stone tiles (pink marble)</label>
+    <color>(255,235,255)</color>
+    <costList>
+      <BlocksPinkMarble>3</BlocksPinkMarble>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneStaggered" Abstract="true">
+    <defName>FloorStoneStaggeredCCPBlueGranite</defName>
+    <label>staggered stone tiles (blue granite)</label>
+    <color>(108,122,135)</color>
+    <costList>
+      <BlocksBlueGranite>3</BlocksBlueGranite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneStaggered" Abstract="true">
+    <defName>FloorStoneStaggeredCCPGreenMarble</defName>
+    <label>staggered stone tiles (green marble)</label>
+    <color>(130,145,110)</color>
+    <costList>
+      <BlocksGreenMarble>3</BlocksGreenMarble>
+    </costList>
+  </TerrainDef>
+  
+  
+  
+  <!-- Rough -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+  <TerrainDef ParentName="TFloorBaseStoneRough" Abstract="true">
+    <defName>FloorStoneRoughCCPPinkMarble</defName>
+    <label>rough paving (pink marble)</label>
+    <color>(255,235,255)</color>
+    <costList>
+      <BlocksPinkMarble>2</BlocksPinkMarble>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneRough" Abstract="true">
+    <defName>FloorStoneRoughCCPBlueGranite</defName>
+    <label>rough paving (blue granite)</label>
+    <color>(108,122,135)</color>
+    <costList>
+      <BlocksBlueGranite>2</BlocksBlueGranite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneRough" Abstract="true">
+    <defName>FloorStoneRoughCCPGreenMarble</defName>
+    <label>rough paving (green marble)</label>
+    <color>(130,145,110)</color>
+    <costList>
+      <BlocksGreenMarble>2</BlocksGreenMarble>
+    </costList>
+  </TerrainDef>
+  
+  
+  
+  <!-- Alternating -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+  <TerrainDef ParentName="TFloorBaseStoneAlternating" Abstract="true">
+    <defName>FloorStoneAlternatingCCPPinkMarble</defName>
+    <label>alternating brick paving (pink marble)</label>
+    <color>(255,235,255)</color>
+    <costList>
+      <BlocksPinkMarble>3</BlocksPinkMarble>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneAlternating" Abstract="true">
+    <defName>FloorStoneAlternatingCCPBlueGranite</defName>
+    <label>alternating brick paving (blue granite)</label>
+    <color>(108,122,135)</color>
+    <costList>
+      <BlocksBlueGranite>3</BlocksBlueGranite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneAlternating" Abstract="true">
+    <defName>FloorStoneAlternatingCCPGreenMarble</defName>
+    <label>alternating brick paving (green marble)</label>
+    <color>(130,145,110)</color>
+    <costList>
+      <BlocksGreenMarble>3</BlocksGreenMarble>
+    </costList>
+  </TerrainDef>
+  
+
+
+  <!-- Chequered -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+  <TerrainDef ParentName="TFloorBaseStoneChequeredSingle" Abstract="true">
+    <defName>FloorStoneChequeredCCPPinkMarble</defName>
+    <label>chequered slabs (pink marble)</label>
+    <color>(255,235,255)</color>
+    <costList>
+      <BlocksPinkMarble>3</BlocksPinkMarble>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneChequeredSingle" Abstract="true">
+    <defName>FloorStoneChequeredCCPBlueGranite</defName>
+    <label>chequered slabs (blue granite)</label>
+    <color>(108,122,135)</color>
+    <costList>
+      <BlocksBlueGranite>3</BlocksBlueGranite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneChequeredSingle" Abstract="true">
+    <defName>FloorStoneChequeredCCPGreenMarble</defName>
+    <label>chequered slabs (green marble)</label>
+    <color>(130,145,110)</color>
+    <costList>
+      <BlocksGreenMarble>3</BlocksGreenMarble>
+    </costList>
+  </TerrainDef>
+  
+  
+  
+  <!-- Herringbone -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+  <TerrainDef ParentName="TFloorBaseStoneHerringbone" Abstract="true">
+    <defName>FloorStoneHerringboneCCPPinkMarble</defName>
+    <label>herringbone paving (pink marble)</label>
+    <color>(255,235,255)</color>
+    <costList>
+      <BlocksPinkMarble>3</BlocksPinkMarble>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneHerringbone" Abstract="true">
+    <defName>FloorStoneHerringboneCCPBlueGranite</defName>
+    <label>herringbone paving (blue granite)</label>
+    <color>(108,122,135)</color>
+    <costList>
+      <BlocksBlueGranite>3</BlocksBlueGranite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneHerringbone" Abstract="true">
+    <defName>FloorStoneHerringboneCCPGreenMarble</defName>
+    <label>herringbone paving (green marble)</label>
+    <color>(130,145,110)</color>
+    <costList>
+      <BlocksGreenMarble>3</BlocksGreenMarble>
+    </costList>
+  </TerrainDef>
+  
+  
+  
+  <!-- Hexagonal -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+  <TerrainDef ParentName="TFloorBaseStoneHex" Abstract="true">
+    <defName>FloorStoneHexCCPPinkMarble</defName>
+    <label>hex paving (pink marble)</label>
+    <color>(255,235,255)</color>
+    <costList>
+      <BlocksPinkMarble>3</BlocksPinkMarble>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneHex" Abstract="true">
+    <defName>FloorStoneHexCCPBlueGranite</defName>
+    <label>hex paving (blue granite)</label>
+    <color>(108,122,135)</color>
+    <costList>
+      <BlocksBlueGranite>3</BlocksBlueGranite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneHex" Abstract="true">
+    <defName>FloorStoneHexCCPGreenMarble</defName>
+    <label>hex paving (green marble)</label>
+    <color>(130,145,110)</color>
+    <costList>
+      <BlocksGreenMarble>3</BlocksGreenMarble>
+    </costList>
+  </TerrainDef>
+  
+  
+  
+  <!-- Digital -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+  <TerrainDef ParentName="TFloorBaseStoneDigital" Abstract="true">
+    <defName>FloorStoneDigitalCCPPinkMarble</defName>
+    <label>digital paving (pink marble)</label>
+    <color>(255,235,255)</color>
+    <costList>
+      <BlocksPinkMarble>4</BlocksPinkMarble>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneDigital" Abstract="true">
+    <defName>FloorStoneDigitalCCPBlueGranite</defName>
+    <label>digital paving (blue granite)</label>
+    <color>(108,122,135)</color>
+    <costList>
+      <BlocksBlueGranite>4</BlocksBlueGranite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneDigital" Abstract="true">
+    <defName>FloorStoneDigitalCCPGreenMarble</defName>
+    <label>digital paving (green marble)</label>
+    <color>(130,145,110)</color>
+    <costList>
+      <BlocksGreenMarble>4</BlocksGreenMarble>
+    </costList>
+  </TerrainDef>
+  
+  
+  
+  <!-- Mosaic -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+  <TerrainDef ParentName="TFloorBaseStoneMosaic" Abstract="true">
+    <defName>FloorStoneMosaicCCPPinkMarble</defName>
+    <label>mosaic paving (pink marble)</label>
+    <color>(255,235,255)</color>
+    <costList>
+      <BlocksPinkMarble>5</BlocksPinkMarble>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneMosaic" Abstract="true">
+    <defName>FloorStoneMosaicCCPBlueGranite</defName>
+    <label>mosaic paving (blue granite)</label>
+    <color>(108,122,135)</color>
+    <costList>
+      <BlocksBlueGranite>5</BlocksBlueGranite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneMosaic" Abstract="true">
+    <defName>FloorStoneMosaicCCPGreenMarble</defName>
+    <label>mosaic paving (green marble)</label>
+    <color>(130,145,110)</color>
+    <costList>
+      <BlocksGreenMarble>5</BlocksGreenMarble>
+    </costList>
+  </TerrainDef>
+  
+  
+  
+  <!-- Random -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+  <TerrainDef ParentName="TFloorBaseStoneRandom" Abstract="true">
+    <defName>FloorStoneRandomCCPPinkMarble</defName>
+    <label>random paving (pink marble)</label>
+    <color>(255,235,255)</color>
+    <costList>
+      <BlocksPinkMarble>4</BlocksPinkMarble>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneRandom" Abstract="true">
+    <defName>FloorStoneRandomCCPBlueGranite</defName>
+    <label>random paving (blue granite)</label>
+    <color>(108,122,135)</color>
+    <costList>
+      <BlocksBlueGranite>4</BlocksBlueGranite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneRandom" Abstract="true">
+    <defName>FloorStoneRandomCCPGreenMarble</defName>
+    <label>random paving (green marble)</label>
+    <color>(130,145,110)</color>
+    <costList>
+      <BlocksGreenMarble>4</BlocksGreenMarble>
+    </costList>
+  </TerrainDef>
+  
+  
+  
+  <!-- Diamond -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+  <TerrainDef ParentName="TFloorBaseStoneDiamond" Abstract="true">
+    <defName>FloorStoneDiamondCCPPinkMarble</defName>
+    <label>diamond paving (pink marble)</label>
+    <color>(255,235,255)</color>
+    <costList>
+      <BlocksPinkMarble>4</BlocksPinkMarble>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneDiamond" Abstract="true">
+    <defName>FloorStoneDiamondCCPBlueGranite</defName>
+    <label>diamond paving (blue granite)</label>
+    <color>(108,122,135)</color>
+    <costList>
+      <BlocksBlueGranite>4</BlocksBlueGranite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneDiamond" Abstract="true">
+    <defName>FloorStoneDiamondCCPGreenMarble</defName>
+    <label>diamond paving (green marble)</label>
+    <color>(130,145,110)</color>
+    <costList>
+      <BlocksGreenMarble>4</BlocksGreenMarble>
+    </costList>
+  </TerrainDef>
+  
+  
+  
+  <!-- Arabesque -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+  <TerrainDef ParentName="TFloorBaseStoneArabesque" Abstract="true">
+    <defName>FloorStoneArabesqueCCPPinkMarble</defName>
+    <label>arabesque flooring (pink marble)</label>
+    <color>(255,235,255)</color>
+    <costList>
+      <BlocksPinkMarble>4</BlocksPinkMarble>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneArabesque" Abstract="true">
+    <defName>FloorStoneArabesqueCCPBlueGranite</defName>
+    <label>arabesque flooring (blue granite)</label>
+    <color>(108,122,135)</color>
+    <costList>
+      <BlocksBlueGranite>4</BlocksBlueGranite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneArabesque" Abstract="true">
+    <defName>FloorStoneArabesqueCCPGreenMarble</defName>
+    <label>arabesque flooring (green marble)</label>
+    <color>(130,145,110)</color>
+    <costList>
+      <BlocksGreenMarble>4</BlocksGreenMarble>
+    </costList>
+  </TerrainDef>
+
+</Defs>

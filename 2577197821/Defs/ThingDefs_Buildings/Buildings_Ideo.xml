@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <ThingDef ParentName="BuildingBase">
+    <defName>BiosculpterPod</defName>
+    <label>biosculpter pod</label>
+    <description>An immersive pod equipped with a biosculpting fluid injector and attached control system. It can perform a variety of biological alterations including age reversal and pleasure-giving. Each pod becomes biotuned to its user, and cannot be used by anyone else. Biotuning resets after 60 days. Believers in transhumanism believe biosculpter pods are of critical importance in their quest to transcend normal human physical limitations.</description>
+    <graphicData>
+      <texPath>Things/Building/Misc/BiosculpterPod/BiosculpterPod</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shadowData>
+        <volume>(2.9,0.6,1.9)</volume>
+      </shadowData>
+      <drawSize>(3, 2)</drawSize>
+    </graphicData>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <researchPrerequisites>
+      <li>Biosculpting</li>
+    </researchPrerequisites>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>42</pathCost>
+    <blockWind>true</blockWind>
+    <fillPercent>0.5</fillPercent>
+    <canOverlapZones>false</canOverlapZones>
+    <statBases>
+      <MaxHitPoints>250</MaxHitPoints>
+      <WorkToBuild>28000</WorkToBuild>
+      <Mass>50</Mass>
+      <Flammability>0.5</Flammability>
+      <BiosculpterPodSpeedFactor>1</BiosculpterPodSpeedFactor>
+      <Beauty>-5</Beauty>
+    </statBases>
+    <size>(3,2)</size>
+    <interactionCellOffset>(0,0,2)</interactionCellOffset>
+    <hasInteractionCell>true</hasInteractionCell>
+    <costList>
+      <Steel>120</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+    <building>
+      <destroySound>BuildingDestroyed_Metal_Big</destroySound>
+      <haulToContainerDuration>120</haulToContainerDuration>
+      <fixedStorageSettings>
+        <filter>
+          <categories>
+            <li>Foods</li>
+          </categories>
+          <specialFiltersToDisallow>
+            <li>AllowPlantFood</li>
+          </specialFiltersToDisallow>
+        </filter>
+      </fixedStorageSettings>
+      <defaultStorageSettings>
+        <filter>
+          <categories>
+            <li>Foods</li>
+          </categories>
+          <disallowedCategories>
+            <li>EggsFertilized</li>
+          </disallowedCategories>
+          <disallowedThingDefs>
+            <li>InsectJelly</li>
+            <li>MealLavish</li>
+            <li>MealLavish_Veg</li>
+            <li>MealLavish_Meat</li>
+          </disallowedThingDefs>
+        </filter>
+      </defaultStorageSettings>
+    </building>
+    <designationCategory>Misc</designationCategory>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <neverMultiSelect>true</neverMultiSelect>
+    <thingCategories>
+      <li>BuildingsMisc</li>
+    </thingCategories>
+    <tickerType>Normal</tickerType>
+    <inspectorTabs>
+      <li>ITab_BiosculpterNutritionStorage</li>
+    </inspectorTabs>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>150</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_BiosculpterPod">
+        <enterSound>BiosculpterPod_Enter</enterSound>
+        <exitSound>BiosculpterPod_Exit</exitSound>
+        <operatingEffecter>BiosculpterPod_Operating</operatingEffecter>
+        <readyEffecter>BiosculpterPod_Ready</readyEffecter>
+      </li>
+      <li Class="CompProperties_BiosculpterPod_HealingCycle">
+        <compClass>CompBiosculpterPod_MedicCycle</compClass>
+        <key>medic</key>
+        <label>medic</label>
+        <description>Heal all fresh wounds, blood loss, and one random infectious disease.</description>
+        <iconPath>UI/Gizmos/BiosculpterCycleHealing</iconPath>
+        <nutritionRequired>5</nutritionRequired>
+        <durationDays>2.5</durationDays>
+        <operatingColor>(0.554,0.887,1.000)</operatingColor>
+        <conditionsToPossiblyCure>
+          <li>Malaria</li>
+          <li>SleepingSickness</li>
+          <li>Flu</li>
+          <li>Plague</li>
+          <li>GutWorms</li>
+          <li>MuscleParasites</li>
+          <li>WoundInfection</li>
+        </conditionsToPossiblyCure>
+      </li>
+      <li Class="CompProperties_BiosculpterPod_HealingCycle">
+        <compClass>CompBiosculpterPod_RegenerationCycle</compClass>
+        <key>bioregeneration</key>
+        <label>bioregeneration</label>
+        <description>Heal all fresh wounds, heal one random permanent injury, and restore small missing body parts like fingers and toes.</description>
+        <iconPath>UI/Gizmos/BiosculpterCycleHealing</iconPath>
+        <nutritionRequired>30</nutritionRequired>
+        <durationDays>5</durationDays>
+        <operatingColor>(0.554,0.887,1.000)</operatingColor>
+        <requiredResearch>
+          <li>Bioregeneration</li>
+        </requiredResearch>
+        <bodyPartsToRestore>
+          <li>Eye</li>
+          <li>Ear</li>
+          <li>Nose</li>
+          <li>Finger</li>
+          <li>Toe</li>
+          <li>Tongue</li>
+        </bodyPartsToRestore>
+        <conditionsToPossiblyCure>
+          <li>Asthma</li>
+          <li>BadBack</li>
+          <li>Cataract</li>
+          <li>Frail</li>
+          <li>HearingLoss</li>
+          <li>HeartArteryBlockage</li>
+        </conditionsToPossiblyCure>
+      </li>
+      <li Class="CompProperties_BiosculpterPod_AgeReversalCycle">
+        <key>ageReversal</key>
+        <label>age reversal</label>
+        <description>Reverse one year of aging.</description>
+        <iconPath>UI/Gizmos/BiosculpterCycleAgeReversal</iconPath>
+        <nutritionRequired>5</nutritionRequired>
+        <durationDays>2.5</durationDays>
+        <gainThoughtOnCompletion>AgeReversalReceived</gainThoughtOnCompletion>
+        <operatingColor>(1.000,0.585,0.158)</operatingColor>
+      </li>
+      <li Class="CompProperties_BiosculpterPod_PleasureCycle">
+        <key>pleasure</key>
+        <label>pleasure</label>
+        <description>Temporarily reshape the nervous system to deliver elevated levels of happiness for a time.</description>
+        <iconPath>UI/Gizmos/BiosculpterCyclePleasure</iconPath>
+        <nutritionRequired>5</nutritionRequired>
+        <durationDays>2</durationDays>
+        <operatingColor>(1.000,0.918,0.000)</operatingColor>
+      </li>
+    </comps>
+    <placeWorkers>
+      <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+    </placeWorkers>
+  </ThingDef>
+
+</Defs>

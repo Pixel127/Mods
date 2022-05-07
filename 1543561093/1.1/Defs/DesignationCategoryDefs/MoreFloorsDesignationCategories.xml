@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <designationCategoryDef>
+    <defName>MoreFloors</defName>
+    <label>more Floors</label>
+    <description>More flooring styles added by [T] MoreFloors.</description>
+    <order>195</order>
+    <specialDesignatorClasses>
+      <li>Designator_Cancel</li>
+      <li>Designator_SmoothSurface</li>
+      <li>Designator_RemoveFloor</li>
+    </specialDesignatorClasses>
+  </designationCategoryDef>
+  
+</Defs>

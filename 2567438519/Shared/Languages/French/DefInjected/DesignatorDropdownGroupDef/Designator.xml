@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: gravel -->
+  <LTS_Gravel.label>graviers</LTS_Gravel.label>
+  
+  <!-- EN: plank -->
+  <LTS_Plank.label>plancher</LTS_Plank.label>
+  
+  <!-- EN: tiles -->
+  <LTS_StoneEven.label>carrelage</LTS_StoneEven.label>
+  
+  <!-- EN: tiles -->
+  <LTS_StoneUneven.label>carrelages</LTS_StoneUneven.label>
+  
+</LanguageData>

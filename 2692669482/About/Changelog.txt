@@ -1,0 +1,36 @@
+# Changelog for RelevantStatsInDescription
+
+1.3.5 - Added showing of tech-level
+
+
+1.3.4 - Added support for 1.2, made wealth display a bit nicer
+
+
+1.3.3 - Added wealth
+
+
+1.3.2 - Added joy-kind
+
+
+1.3.1 - German translation added, thanks Dimos!
+
+
+1.0.5.0 - Fixed the work to build not being displayed in seconds as it is in the in-game info
+Fixed affordance needed and work to build not taking the stuffDef into account
+Thanks jadziax for the report!
+
+
+1.0.4.0 - Updated VersionFromManifest-file to not get the 'loading is already in progress' error with some mods
+
+
+1.0.3.0 - Added support for Helixien gas from VFE Power and Chemfuel from Rimefeller
+
+
+1.0.2.0 - Added cleanliness and included floors in beauty-display
+
+
+1.0.1.0 - Added work-amount and relative work-amount. Removed faulty 1.2 tag
+
+
+1.0.0.0 - First publish
+

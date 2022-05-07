@@ -1,0 +1,1149 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Floors for new stone types in Cupro's Stones - these defs are patched  -->
+  <!--  during load time to remove the Abstract attribute if the appropriate  -->
+  <!--  mod is active, otherwise, they harmlessly disappear into the ether    -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+
+
+  <!-- Slabs -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+  <TerrainDef ParentName="TFloorBaseStoneSlabs" Abstract="true">
+    <defName>FloorStoneSlabsClaystone</defName>
+    <label>stone slabs (claystone)</label>
+    <color>(228,188,147)</color>
+    <costList>
+      <BlocksClaystone>3</BlocksClaystone>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneSlabs" Abstract="true">
+    <defName>FloorStoneSlabsAndesite</defName>
+    <label>stone slabs (andesite)</label>
+    <color>(155,164,166)</color>
+    <costList>
+      <BlocksAndesite>3</BlocksAndesite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneSlabs" Abstract="true">
+    <defName>FloorStoneSlabsSyenite</defName>
+    <label>stone slabs (syenite)</label>
+    <color>(186,126,121)</color>
+    <costList>
+      <BlocksSyenite>3</BlocksSyenite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneSlabs" Abstract="true">
+    <defName>FloorStoneSlabsGneiss</defName>
+    <label>stone slabs (gneiss)</label>
+    <color>(146,138,104)</color>
+    <costList>
+      <BlocksGneiss>3</BlocksGneiss>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneSlabs" Abstract="true">
+    <defName>FloorStoneSlabsQuartzite</defName>
+    <label>stone slabs (quartzite)</label>
+    <color>(155,156,160)</color>
+    <costList>
+      <BlocksQuartzite>3</BlocksQuartzite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneSlabs" Abstract="true">
+    <defName>FloorStoneSlabsSchist</defName>
+    <label>stone slabs (schist)</label>
+    <color>(105,124,102)</color>
+    <costList>
+      <BlocksSchist>3</BlocksSchist>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneSlabs" Abstract="true">
+    <defName>FloorStoneSlabsGabbro</defName>
+    <label>stone slabs (gabbro)</label>
+    <color>(122,122,122)</color>
+    <costList>
+      <BlocksGabbro>3</BlocksGabbro>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneSlabs" Abstract="true">
+    <defName>FloorStoneSlabsDiorite</defName>
+    <label>stone slabs (diorite)</label>
+    <color>(204,204,204)</color>
+    <costList>
+      <BlocksDiorite>3</BlocksDiorite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneSlabs" Abstract="true">
+    <defName>FloorStoneSlabsDunite</defName>
+    <label>stone slabs (dunite)</label>
+    <color>(154,162,126)</color>
+    <costList>
+      <BlocksDunite>3</BlocksDunite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneSlabs" Abstract="true">
+    <defName>FloorStoneSlabsPegmatite</defName>
+    <label>stone slabs (pegmatite)</label>
+    <color>(201,150,115)</color>
+    <costList>
+      <BlocksPegmatite>3</BlocksPegmatite>
+    </costList>
+  </TerrainDef>
+  
+  
+  
+  <!-- Staggered -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+  <TerrainDef ParentName="TFloorBaseStoneStaggered" Abstract="true">
+    <defName>FloorStoneStaggeredClaystone</defName>
+    <label>staggered stone tiles (claystone)</label>
+    <color>(228,188,147)</color>
+    <costList>
+      <BlocksClaystone>3</BlocksClaystone>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneStaggered" Abstract="true">
+    <defName>FloorStoneStaggeredAndesite</defName>
+    <label>staggered stone tiles (andesite)</label>
+    <color>(155,164,166)</color>
+    <costList>
+      <BlocksAndesite>3</BlocksAndesite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneStaggered" Abstract="true">
+    <defName>FloorStoneStaggeredSyenite</defName>
+    <label>staggered stone tiles (syenite)</label>
+    <color>(186,126,121)</color>
+    <costList>
+      <BlocksSyenite>3</BlocksSyenite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneStaggered" Abstract="true">
+    <defName>FloorStoneStaggeredGneiss</defName>
+    <label>staggered stone tiles (gneiss)</label>
+    <color>(146,138,104)</color>
+    <costList>
+      <BlocksGneiss>3</BlocksGneiss>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneStaggered" Abstract="true">
+    <defName>FloorStoneStaggeredQuartzite</defName>
+    <label>staggered stone tiles (quartzite)</label>
+    <color>(155,156,160)</color>
+    <costList>
+      <BlocksQuartzite>3</BlocksQuartzite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneStaggered" Abstract="true">
+    <defName>FloorStoneStaggeredSchist</defName>
+    <label>staggered stone tiles (schist)</label>
+    <color>(105,124,102)</color>
+    <costList>
+      <BlocksSchist>3</BlocksSchist>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneStaggered" Abstract="true">
+    <defName>FloorStoneStaggeredGabbro</defName>
+    <label>staggered stone tiles (gabbro)</label>
+    <color>(122,122,122)</color>
+    <costList>
+      <BlocksGabbro>3</BlocksGabbro>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneStaggered" Abstract="true">
+    <defName>FloorStoneStaggeredDiorite</defName>
+    <label>staggered stone tiles (diorite)</label>
+    <color>(204,204,204)</color>
+    <costList>
+      <BlocksDiorite>3</BlocksDiorite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneStaggered" Abstract="true">
+    <defName>FloorStoneStaggeredDunite</defName>
+    <label>staggered stone tiles (dunite)</label>
+    <color>(154,162,126)</color>
+    <costList>
+      <BlocksDunite>3</BlocksDunite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneStaggered" Abstract="true">
+    <defName>FloorStoneStaggeredPegmatite</defName>
+    <label>staggered stone tiles (pegmatite)</label>
+    <color>(201,150,115)</color>
+    <costList>
+      <BlocksPegmatite>3</BlocksPegmatite>
+    </costList>
+  </TerrainDef>
+  
+  
+  
+  <!-- Rough -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+  <TerrainDef ParentName="TFloorBaseStoneRough" Abstract="true">
+    <defName>FloorStoneRoughClaystone</defName>
+    <label>rough paving (claystone)</label>
+    <color>(228,188,147)</color>
+    <costList>
+      <BlocksClaystone>2</BlocksClaystone>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneRough" Abstract="true">
+    <defName>FloorStoneRoughAndesite</defName>
+    <label>rough paving (andesite)</label>
+    <color>(155,164,166)</color>
+    <costList>
+      <BlocksAndesite>2</BlocksAndesite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneRough" Abstract="true">
+    <defName>FloorStoneRoughSyenite</defName>
+    <label>rough paving (syenite)</label>
+    <color>(186,126,121)</color>
+    <costList>
+      <BlocksSyenite>2</BlocksSyenite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneRough" Abstract="true">
+    <defName>FloorStoneRoughGneiss</defName>
+    <label>rough paving (gneiss)</label>
+    <color>(146,138,104)</color>
+    <costList>
+      <BlocksGneiss>2</BlocksGneiss>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneRough" Abstract="true">
+    <defName>FloorStoneRoughQuartzite</defName>
+    <label>rough paving (quartzite)</label>
+    <color>(155,156,160)</color>
+    <costList>
+      <BlocksQuartzite>2</BlocksQuartzite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneRough" Abstract="true">
+    <defName>FloorStoneRoughSchist</defName>
+    <label>rough paving (schist)</label>
+    <color>(105,124,102)</color>
+    <costList>
+      <BlocksSchist>2</BlocksSchist>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneRough" Abstract="true">
+    <defName>FloorStoneRoughGabbro</defName>
+    <label>rough paving (gabbro)</label>
+    <color>(122,122,122)</color>
+    <costList>
+      <BlocksGabbro>2</BlocksGabbro>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneRough" Abstract="true">
+    <defName>FloorStoneRoughDiorite</defName>
+    <label>rough paving (diorite)</label>
+    <color>(204,204,204)</color>
+    <costList>
+      <BlocksDiorite>2</BlocksDiorite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneRough" Abstract="true">
+    <defName>FloorStoneRoughDunite</defName>
+    <label>rough paving (dunite)</label>
+    <color>(154,162,126)</color>
+    <costList>
+      <BlocksDunite>2</BlocksDunite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneRough" Abstract="true">
+    <defName>FloorStoneRoughPegmatite</defName>
+    <label>rough paving (pegmatite)</label>
+    <color>(201,150,115)</color>
+    <costList>
+      <BlocksPegmatite>2</BlocksPegmatite>
+    </costList>
+  </TerrainDef>
+  
+  
+  
+  <!-- Alternating -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+  <TerrainDef ParentName="TFloorBaseStoneAlternating" Abstract="true">
+    <defName>FloorStoneAlternatingClaystone</defName>
+    <label>alternating brick paving (claystone)</label>
+    <color>(228,188,147)</color>
+    <costList>
+      <BlocksClaystone>3</BlocksClaystone>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneAlternating" Abstract="true">
+    <defName>FloorStoneAlternatingAndesite</defName>
+    <label>alternating brick paving (andesite)</label>
+    <color>(155,164,166)</color>
+    <costList>
+      <BlocksAndesite>3</BlocksAndesite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneAlternating" Abstract="true">
+    <defName>FloorStoneAlternatingSyenite</defName>
+    <label>alternating brick paving (syenite)</label>
+    <color>(186,126,121)</color>
+    <costList>
+      <BlocksSyenite>3</BlocksSyenite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneAlternating" Abstract="true">
+    <defName>FloorStoneAlternatingGneiss</defName>
+    <label>alternating brick paving (gneiss)</label>
+    <color>(146,138,104)</color>
+    <costList>
+      <BlocksGneiss>3</BlocksGneiss>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneAlternating" Abstract="true">
+    <defName>FloorStoneAlternatingQuartzite</defName>
+    <label>alternating brick paving (quartzite)</label>
+    <color>(155,156,160)</color>
+    <costList>
+      <BlocksQuartzite>3</BlocksQuartzite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneAlternating" Abstract="true">
+    <defName>FloorStoneAlternatingSchist</defName>
+    <label>alternating brick paving (schist)</label>
+    <color>(105,124,102)</color>
+    <costList>
+      <BlocksSchist>3</BlocksSchist>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneAlternating" Abstract="true">
+    <defName>FloorStoneAlternatingGabbro</defName>
+    <label>alternating brick paving (gabbro)</label>
+    <color>(122,122,122)</color>
+    <costList>
+      <BlocksGabbro>3</BlocksGabbro>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneAlternating" Abstract="true">
+    <defName>FloorStoneAlternatingDiorite</defName>
+    <label>alternating brick paving (diorite)</label>
+    <color>(204,204,204)</color>
+    <costList>
+      <BlocksDiorite>3</BlocksDiorite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneAlternating" Abstract="true">
+    <defName>FloorStoneAlternatingDunite</defName>
+    <label>alternating brick paving (dunite)</label>
+    <color>(154,162,126)</color>
+    <costList>
+      <BlocksDunite>3</BlocksDunite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneAlternating" Abstract="true">
+    <defName>FloorStoneAlternatingPegmatite</defName>
+    <label>alternating brick paving (pegmatite)</label>
+    <color>(201,150,115)</color>
+    <costList>
+      <BlocksPegmatite>3</BlocksPegmatite>
+    </costList>
+  </TerrainDef>
+  
+  
+  
+  <!-- Chequered -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+  <TerrainDef ParentName="TFloorBaseStoneChequeredSingle" Abstract="true">
+    <defName>FloorStoneChequeredClaystone</defName>
+    <label>chequered slabs (claystone)</label>
+    <color>(228,188,147)</color>
+    <costList>
+      <BlocksClaystone>3</BlocksClaystone>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneChequeredSingle" Abstract="true">
+    <defName>FloorStoneChequeredAndesite</defName>
+    <label>chequered slabs (andesite)</label>
+    <color>(155,164,166)</color>
+    <costList>
+      <BlocksAndesite>3</BlocksAndesite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneChequeredSingle" Abstract="true">
+    <defName>FloorStoneChequeredSyenite</defName>
+    <label>chequered slabs (syenite)</label>
+    <color>(186,126,121)</color>
+    <costList>
+      <BlocksSyenite>3</BlocksSyenite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneChequeredSingle" Abstract="true">
+    <defName>FloorStoneChequeredGneiss</defName>
+    <label>chequered slabs (gneiss)</label>
+    <color>(146,138,104)</color>
+    <costList>
+      <BlocksGneiss>3</BlocksGneiss>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneChequeredSingle" Abstract="true">
+    <defName>FloorStoneChequeredQuartzite</defName>
+    <label>chequered slabs (quartzite)</label>
+    <color>(155,156,160)</color>
+    <costList>
+      <BlocksQuartzite>3</BlocksQuartzite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneChequeredSingle" Abstract="true">
+    <defName>FloorStoneChequeredSchist</defName>
+    <label>chequered slabs (schist)</label>
+    <color>(105,124,102)</color>
+    <costList>
+      <BlocksSchist>3</BlocksSchist>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneChequeredSingle" Abstract="true">
+    <defName>FloorStoneChequeredGabbro</defName>
+    <label>chequered slabs (gabbro)</label>
+    <color>(122,122,122)</color>
+    <costList>
+      <BlocksGabbro>3</BlocksGabbro>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneChequeredSingle" Abstract="true">
+    <defName>FloorStoneChequeredDiorite</defName>
+    <label>chequered slabs (diorite)</label>
+    <color>(204,204,204)</color>
+    <costList>
+      <BlocksDiorite>3</BlocksDiorite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneChequeredSingle" Abstract="true">
+    <defName>FloorStoneChequeredDunite</defName>
+    <label>chequered slabs (dunite)</label>
+    <color>(154,162,126)</color>
+    <costList>
+      <BlocksDunite>3</BlocksDunite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneChequeredSingle" Abstract="true">
+    <defName>FloorStoneChequeredPegmatite</defName>
+    <label>chequered slabs (pegmatite)</label>
+    <color>(201,150,115)</color>
+    <costList>
+      <BlocksPegmatite>3</BlocksPegmatite>
+    </costList>
+  </TerrainDef>
+  
+  
+  
+  <!-- Herringbone -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+  <TerrainDef ParentName="TFloorBaseStoneHerringbone" Abstract="true">
+    <defName>FloorStoneHerringboneClaystone</defName>
+    <label>herringbone paving (claystone)</label>
+    <color>(228,188,147)</color>
+    <costList>
+      <BlocksClaystone>3</BlocksClaystone>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneHerringbone" Abstract="true">
+    <defName>FloorStoneHerringboneAndesite</defName>
+    <label>herringbone paving (andesite)</label>
+    <color>(155,164,166)</color>
+    <costList>
+      <BlocksAndesite>3</BlocksAndesite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneHerringbone" Abstract="true">
+    <defName>FloorStoneHerringboneSyenite</defName>
+    <label>herringbone paving (syenite)</label>
+    <color>(186,126,121)</color>
+    <costList>
+      <BlocksSyenite>3</BlocksSyenite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneHerringbone" Abstract="true">
+    <defName>FloorStoneHerringboneGneiss</defName>
+    <label>herringbone paving (gneiss)</label>
+    <color>(146,138,104)</color>
+    <costList>
+      <BlocksGneiss>3</BlocksGneiss>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneHerringbone" Abstract="true">
+    <defName>FloorStoneHerringboneQuartzite</defName>
+    <label>herringbone paving (quartzite)</label>
+    <color>(155,156,160)</color>
+    <costList>
+      <BlocksQuartzite>3</BlocksQuartzite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneHerringbone" Abstract="true">
+    <defName>FloorStoneHerringboneSchist</defName>
+    <label>herringbone paving (schist)</label>
+    <color>(105,124,102)</color>
+    <costList>
+      <BlocksSchist>3</BlocksSchist>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneHerringbone" Abstract="true">
+    <defName>FloorStoneHerringboneGabbro</defName>
+    <label>herringbone paving (gabbro)</label>
+    <color>(122,122,122)</color>
+    <costList>
+      <BlocksGabbro>3</BlocksGabbro>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneHerringbone" Abstract="true">
+    <defName>FloorStoneHerringboneDiorite</defName>
+    <label>herringbone paving (diorite)</label>
+    <color>(204,204,204)</color>
+    <costList>
+      <BlocksDiorite>3</BlocksDiorite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneHerringbone" Abstract="true">
+    <defName>FloorStoneHerringboneDunite</defName>
+    <label>herringbone paving (dunite)</label>
+    <color>(154,162,126)</color>
+    <costList>
+      <BlocksDunite>3</BlocksDunite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneHerringbone" Abstract="true">
+    <defName>FloorStoneHerringbonePegmatite</defName>
+    <label>herringbone paving (pegmatite)</label>
+    <color>(201,150,115)</color>
+    <costList>
+      <BlocksPegmatite>3</BlocksPegmatite>
+    </costList>
+  </TerrainDef>
+  
+  
+  
+  <!-- Hexagonal -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+  <TerrainDef ParentName="TFloorBaseStoneHex" Abstract="true">
+    <defName>FloorStoneHexClaystone</defName>
+    <label>hex paving (claystone)</label>
+    <color>(228,188,147)</color>
+    <costList>
+      <BlocksClaystone>3</BlocksClaystone>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneHex" Abstract="true">
+    <defName>FloorStoneHexAndesite</defName>
+    <label>hex paving (andesite)</label>
+    <color>(155,164,166)</color>
+    <costList>
+      <BlocksAndesite>3</BlocksAndesite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneHex" Abstract="true">
+    <defName>FloorStoneHexSyenite</defName>
+    <label>hex paving (syenite)</label>
+    <color>(186,126,121)</color>
+    <costList>
+      <BlocksSyenite>3</BlocksSyenite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneHex" Abstract="true">
+    <defName>FloorStoneHexGneiss</defName>
+    <label>hex paving (gneiss)</label>
+    <color>(146,138,104)</color>
+    <costList>
+      <BlocksGneiss>3</BlocksGneiss>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneHex" Abstract="true">
+    <defName>FloorStoneHexQuartzite</defName>
+    <label>hex paving (quartzite)</label>
+    <color>(155,156,160)</color>
+    <costList>
+      <BlocksQuartzite>3</BlocksQuartzite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneHex" Abstract="true">
+    <defName>FloorStoneHexSchist</defName>
+    <label>hex paving (schist)</label>
+    <color>(105,124,102)</color>
+    <costList>
+      <BlocksSchist>3</BlocksSchist>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneHex" Abstract="true">
+    <defName>FloorStoneHexGabbro</defName>
+    <label>hex paving (gabbro)</label>
+    <color>(122,122,122)</color>
+    <costList>
+      <BlocksGabbro>3</BlocksGabbro>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneHex" Abstract="true">
+    <defName>FloorStoneHexDiorite</defName>
+    <label>hex paving (diorite)</label>
+    <color>(204,204,204)</color>
+    <costList>
+      <BlocksDiorite>3</BlocksDiorite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneHex" Abstract="true">
+    <defName>FloorStoneHexDunite</defName>
+    <label>hex paving (dunite)</label>
+    <color>(154,162,126)</color>
+    <costList>
+      <BlocksDunite>3</BlocksDunite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneHex" Abstract="true">
+    <defName>FloorStoneHexPegmatite</defName>
+    <label>hex paving (pegmatite)</label>
+    <color>(201,150,115)</color>
+    <costList>
+      <BlocksPegmatite>3</BlocksPegmatite>
+    </costList>
+  </TerrainDef>
+  
+  
+  
+  <!-- Digital -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+  <TerrainDef ParentName="TFloorBaseStoneDigital" Abstract="true">
+    <defName>FloorStoneDigitalClaystone</defName>
+    <label>digital paving (claystone)</label>
+    <color>(228,188,147)</color>
+    <costList>
+      <BlocksClaystone>4</BlocksClaystone>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneDigital" Abstract="true">
+    <defName>FloorStoneDigitalAndesite</defName>
+    <label>digital paving (andesite)</label>
+    <color>(155,164,166)</color>
+    <costList>
+      <BlocksAndesite>4</BlocksAndesite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneDigital" Abstract="true">
+    <defName>FloorStoneDigitalSyenite</defName>
+    <label>digital paving (syenite)</label>
+    <color>(186,126,121)</color>
+    <costList>
+      <BlocksSyenite>4</BlocksSyenite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneDigital" Abstract="true">
+    <defName>FloorStoneDigitalGneiss</defName>
+    <label>digital paving (gneiss)</label>
+    <color>(146,138,104)</color>
+    <costList>
+      <BlocksGneiss>4</BlocksGneiss>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneDigital" Abstract="true">
+    <defName>FloorStoneDigitalQuartzite</defName>
+    <label>digital paving (quartzite)</label>
+    <color>(155,156,160)</color>
+    <costList>
+      <BlocksQuartzite>4</BlocksQuartzite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneDigital" Abstract="true">
+    <defName>FloorStoneDigitalSchist</defName>
+    <label>digital paving (schist)</label>
+    <color>(105,124,102)</color>
+    <costList>
+      <BlocksSchist>4</BlocksSchist>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneDigital" Abstract="true">
+    <defName>FloorStoneDigitalGabbro</defName>
+    <label>digital paving (gabbro)</label>
+    <color>(122,122,122)</color>
+    <costList>
+      <BlocksGabbro>4</BlocksGabbro>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneDigital" Abstract="true">
+    <defName>FloorStoneDigitalDiorite</defName>
+    <label>digital paving (diorite)</label>
+    <color>(204,204,204)</color>
+    <costList>
+      <BlocksDiorite>4</BlocksDiorite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneDigital" Abstract="true">
+    <defName>FloorStoneDigitalDunite</defName>
+    <label>digital paving (dunite)</label>
+    <color>(154,162,126)</color>
+    <costList>
+      <BlocksDunite>4</BlocksDunite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneDigital" Abstract="true">
+    <defName>FloorStoneDigitalPegmatite</defName>
+    <label>digital paving (pegmatite)</label>
+    <color>(201,150,115)</color>
+    <costList>
+      <BlocksPegmatite>4</BlocksPegmatite>
+    </costList>
+  </TerrainDef>
+  
+  
+  
+  <!-- Mosaic -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+  <TerrainDef ParentName="TFloorBaseStoneMosaic" Abstract="true">
+    <defName>FloorStoneMosaicClaystone</defName>
+    <label>mosaic paving (claystone)</label>
+    <color>(228,188,147)</color>
+    <costList>
+      <BlocksClaystone>5</BlocksClaystone>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneMosaic" Abstract="true">
+    <defName>FloorStoneMosaicAndesite</defName>
+    <label>mosaic paving (andesite)</label>
+    <color>(155,164,166)</color>
+    <costList>
+      <BlocksAndesite>5</BlocksAndesite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneMosaic" Abstract="true">
+    <defName>FloorStoneMosaicSyenite</defName>
+    <label>mosaic paving (syenite)</label>
+    <color>(186,126,121)</color>
+    <costList>
+      <BlocksSyenite>5</BlocksSyenite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneMosaic" Abstract="true">
+    <defName>FloorStoneMosaicGneiss</defName>
+    <label>mosaic paving (gneiss)</label>
+    <color>(146,138,104)</color>
+    <costList>
+      <BlocksGneiss>5</BlocksGneiss>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneMosaic" Abstract="true">
+    <defName>FloorStoneMosaicQuartzite</defName>
+    <label>mosaic paving (quartzite)</label>
+    <color>(155,156,160)</color>
+    <costList>
+      <BlocksQuartzite>5</BlocksQuartzite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneMosaic" Abstract="true">
+    <defName>FloorStoneMosaicSchist</defName>
+    <label>mosaic paving (schist)</label>
+    <color>(105,124,102)</color>
+    <costList>
+      <BlocksSchist>5</BlocksSchist>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneMosaic" Abstract="true">
+    <defName>FloorStoneMosaicGabbro</defName>
+    <label>mosaic paving (gabbro)</label>
+    <color>(122,122,122)</color>
+    <costList>
+      <BlocksGabbro>5</BlocksGabbro>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneMosaic" Abstract="true">
+    <defName>FloorStoneMosaicDiorite</defName>
+    <label>mosaic paving (diorite)</label>
+    <color>(204,204,204)</color>
+    <costList>
+      <BlocksDiorite>5</BlocksDiorite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneMosaic" Abstract="true">
+    <defName>FloorStoneMosaicDunite</defName>
+    <label>mosaic paving (dunite)</label>
+    <color>(154,162,126)</color>
+    <costList>
+      <BlocksDunite>5</BlocksDunite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneMosaic" Abstract="true">
+    <defName>FloorStoneMosaicPegmatite</defName>
+    <label>mosaic paving (pegmatite)</label>
+    <color>(201,150,115)</color>
+    <costList>
+      <BlocksPegmatite>5</BlocksPegmatite>
+    </costList>
+  </TerrainDef>
+  
+  
+  
+  <!-- Random -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+  <TerrainDef ParentName="TFloorBaseStoneRandom" Abstract="true">
+    <defName>FloorStoneRandomClaystone</defName>
+    <label>random paving (claystone)</label>
+    <color>(228,188,147)</color>
+    <costList>
+      <BlocksClaystone>4</BlocksClaystone>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneRandom" Abstract="true">
+    <defName>FloorStoneRandomAndesite</defName>
+    <label>random paving (andesite)</label>
+    <color>(155,164,166)</color>
+    <costList>
+      <BlocksAndesite>4</BlocksAndesite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneRandom" Abstract="true">
+    <defName>FloorStoneRandomSyenite</defName>
+    <label>random paving (syenite)</label>
+    <color>(186,126,121)</color>
+    <costList>
+      <BlocksSyenite>4</BlocksSyenite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneRandom" Abstract="true">
+    <defName>FloorStoneRandomGneiss</defName>
+    <label>random paving (gneiss)</label>
+    <color>(146,138,104)</color>
+    <costList>
+      <BlocksGneiss>4</BlocksGneiss>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneRandom" Abstract="true">
+    <defName>FloorStoneRandomQuartzite</defName>
+    <label>random paving (quartzite)</label>
+    <color>(155,156,160)</color>
+    <costList>
+      <BlocksQuartzite>4</BlocksQuartzite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneRandom" Abstract="true">
+    <defName>FloorStoneRandomSchist</defName>
+    <label>random paving (schist)</label>
+    <color>(105,124,102)</color>
+    <costList>
+      <BlocksSchist>4</BlocksSchist>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneRandom" Abstract="true">
+    <defName>FloorStoneRandomGabbro</defName>
+    <label>random paving (gabbro)</label>
+    <color>(122,122,122)</color>
+    <costList>
+      <BlocksGabbro>4</BlocksGabbro>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneRandom" Abstract="true">
+    <defName>FloorStoneRandomDiorite</defName>
+    <label>random paving (diorite)</label>
+    <color>(204,204,204)</color>
+    <costList>
+      <BlocksDiorite>4</BlocksDiorite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneRandom" Abstract="true">
+    <defName>FloorStoneRandomDunite</defName>
+    <label>random paving (dunite)</label>
+    <color>(154,162,126)</color>
+    <costList>
+      <BlocksDunite>4</BlocksDunite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneRandom" Abstract="true">
+    <defName>FloorStoneRandomPegmatite</defName>
+    <label>random paving (pegmatite)</label>
+    <color>(201,150,115)</color>
+    <costList>
+      <BlocksPegmatite>4</BlocksPegmatite>
+    </costList>
+  </TerrainDef>
+  
+  
+  
+  <!-- Diamond -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+  <TerrainDef ParentName="TFloorBaseStoneDiamond" Abstract="true">
+    <defName>FloorStoneDiamondClaystone</defName>
+    <label>diamond paving (claystone)</label>
+    <color>(228,188,147)</color>
+    <costList>
+      <BlocksClaystone>4</BlocksClaystone>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneDiamond" Abstract="true">
+    <defName>FloorStoneDiamondAndesite</defName>
+    <label>diamond paving (andesite)</label>
+    <color>(155,164,166)</color>
+    <costList>
+      <BlocksAndesite>4</BlocksAndesite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneDiamond" Abstract="true">
+    <defName>FloorStoneDiamondSyenite</defName>
+    <label>diamond paving (syenite)</label>
+    <color>(186,126,121)</color>
+    <costList>
+      <BlocksSyenite>4</BlocksSyenite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneDiamond" Abstract="true">
+    <defName>FloorStoneDiamondGneiss</defName>
+    <label>diamond paving (gneiss)</label>
+    <color>(146,138,104)</color>
+    <costList>
+      <BlocksGneiss>4</BlocksGneiss>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneDiamond" Abstract="true">
+    <defName>FloorStoneDiamondQuartzite</defName>
+    <label>diamond paving (quartzite)</label>
+    <color>(155,156,160)</color>
+    <costList>
+      <BlocksQuartzite>4</BlocksQuartzite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneDiamond" Abstract="true">
+    <defName>FloorStoneDiamondSchist</defName>
+    <label>diamond paving (schist)</label>
+    <color>(105,124,102)</color>
+    <costList>
+      <BlocksSchist>4</BlocksSchist>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneDiamond" Abstract="true">
+    <defName>FloorStoneDiamondGabbro</defName>
+    <label>diamond paving (gabbro)</label>
+    <color>(122,122,122)</color>
+    <costList>
+      <BlocksGabbro>4</BlocksGabbro>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneDiamond" Abstract="true">
+    <defName>FloorStoneDiamondDiorite</defName>
+    <label>diamond paving (diorite)</label>
+    <color>(204,204,204)</color>
+    <costList>
+      <BlocksDiorite>4</BlocksDiorite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneDiamond" Abstract="true">
+    <defName>FloorStoneDiamondDunite</defName>
+    <label>diamond paving (dunite)</label>
+    <color>(154,162,126)</color>
+    <costList>
+      <BlocksDunite>4</BlocksDunite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneDiamond" Abstract="true">
+    <defName>FloorStoneDiamondPegmatite</defName>
+    <label>diamond paving (pegmatite)</label>
+    <color>(201,150,115)</color>
+    <costList>
+      <BlocksPegmatite>4</BlocksPegmatite>
+    </costList>
+  </TerrainDef>
+  
+  
+  
+  <!-- Arabesque -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+  <TerrainDef ParentName="TFloorBaseStoneArabesque" Abstract="true">
+    <defName>FloorStoneArabesqueClaystone</defName>
+    <label>arabesque flooring (claystone)</label>
+    <color>(228,188,147)</color>
+    <costList>
+      <BlocksClaystone>4</BlocksClaystone>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneArabesque" Abstract="true">
+    <defName>FloorStoneArabesqueAndesite</defName>
+    <label>arabesque flooring (andesite)</label>
+    <color>(155,164,166)</color>
+    <costList>
+      <BlocksAndesite>4</BlocksAndesite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneArabesque" Abstract="true">
+    <defName>FloorStoneArabesqueSyenite</defName>
+    <label>arabesque flooring (syenite)</label>
+    <color>(186,126,121)</color>
+    <costList>
+      <BlocksSyenite>4</BlocksSyenite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneArabesque" Abstract="true">
+    <defName>FloorStoneArabesqueGneiss</defName>
+    <label>arabesque flooring (gneiss)</label>
+    <color>(146,138,104)</color>
+    <costList>
+      <BlocksGneiss>4</BlocksGneiss>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneArabesque" Abstract="true">
+    <defName>FloorStoneArabesqueQuartzite</defName>
+    <label>arabesque flooring (quartzite)</label>
+    <color>(155,156,160)</color>
+    <costList>
+      <BlocksQuartzite>4</BlocksQuartzite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneArabesque" Abstract="true">
+    <defName>FloorStoneArabesqueSchist</defName>
+    <label>arabesque flooring (schist)</label>
+    <color>(105,124,102)</color>
+    <costList>
+      <BlocksSchist>4</BlocksSchist>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneArabesque" Abstract="true">
+    <defName>FloorStoneArabesqueGabbro</defName>
+    <label>arabesque flooring (gabbro)</label>
+    <color>(122,122,122)</color>
+    <costList>
+      <BlocksGabbro>4</BlocksGabbro>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneArabesque" Abstract="true">
+    <defName>FloorStoneArabesqueDiorite</defName>
+    <label>arabesque flooring (diorite)</label>
+    <color>(204,204,204)</color>
+    <costList>
+      <BlocksDiorite>4</BlocksDiorite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneArabesque" Abstract="true">
+    <defName>FloorStoneArabesqueDunite</defName>
+    <label>arabesque flooring (dunite)</label>
+    <color>(154,162,126)</color>
+    <costList>
+      <BlocksDunite>4</BlocksDunite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneArabesque" Abstract="true">
+    <defName>FloorStoneArabesquePegmatite</defName>
+    <label>arabesque flooring (pegmatite)</label>
+    <color>(201,150,115)</color>
+    <costList>
+      <BlocksPegmatite>4</BlocksPegmatite>
+    </costList>
+  </TerrainDef>
+
+</Defs>

@@ -1,0 +1,25 @@
+2021-08-11
+    - Added stone border and corner.
+    - Arkelstorp and Norraryd requires Complex Furniture Research.
+    - Counters moved to furniture tab.
+    - Added growing pits
+
+2021-08-09
+    - Added more french - kudos Qux
+    - Added a stool Kyrre!
+    - Added a description for Arkelstorp
+    - Made lightpost unrotable as it cannot rotate.
+    - Fixed the name for slate gravel.
+    - fixed the Bed defname of the hanging bed - Kudos Valid
+
+2021-08-08
+    - Added french translation - kudos Qux
+    - Added a sofa, Kivra!
+    - Added a hanging bed!
+    - Added a pillar!
+    - Lowered price of bars from 15 -> 5    
+    - Increased health of bars from 150 -> 250
+    - Bars and the Bar gate now correctly encloses areas.
+    - Lowered price of ornate fences from 15 -> 2
+    - Increased health of ornate fences from 75 -> 100
+    

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="GroundPenetratingScanner"]/comps/li[@Class="CompProperties_ScannerMineralsDeep"]</xpath>
+		<value>
+      <li Class="CompProperties_ScannerMineralsDeep">
+        <scanSpeedStat>ResearchSpeed</scanSpeedStat>
+        <scanFindMtbDays>1</scanFindMtbDays>
+        <scanFindGuaranteedDays>2</scanFindGuaranteedDays>
+        <soundWorking>ScannerGroundPenetrating_Ambience</soundWorking>
+      </li>
+		</value>
+	</Operation>
+</Patch>

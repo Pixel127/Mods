@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+	
+	<!-- Stony Soil -->
+
+  <TerrainDef>
+    <defName>FSFSoilStony</defName>
+    <label>stony soil</label>
+    <description>Poor quality stony soil with a rather awful gravel taste.</description>
+	<designatorDropdown>FSF_SimplySoilFloor</designatorDropdown>
+    <researchPrerequisites>
+		<li>FSFResearchGardenSoil</li>
+	</researchPrerequisites>
+    <texturePath>Terrain/Surfaces/Gravel</texturePath>
+    <edgeType>Hard</edgeType>
+    <renderPrecedence>320</renderPrecedence>
+    <pathCost>2</pathCost>
+    <statBases>
+      <Beauty>0</Beauty>
+      <Cleanliness>-1</Cleanliness>
+      <WorkToBuild>800</WorkToBuild>
+	  <FilthMultiplier>0.05</FilthMultiplier>
+    </statBases>
+    <costList>
+      <FSFItemSoilStony>10</FSFItemSoilStony>
+    </costList>
+    <scatterType>Rocky</scatterType>
+    <designationCategory>Floors</designationCategory>
+    <constructEffect>ConstructDirt</constructEffect>
+    <affordances>
+      <li>Light</li>
+      <li>Medium</li>
+      <li>Heavy</li>
+      <li>GrowSoil</li>
+      <li>Diggable</li>
+    </affordances>
+	<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <layerable>true</layerable>
+	<filthAcceptanceMask>
+		<li>Unnatural</li>
+	</filthAcceptanceMask>
+    <fertility>0.7</fertility>
+    <takeFootprints>True</takeFootprints>
+    <tools>
+      <li>
+        <label>gravel</label>
+        <capacities>
+          <li>KickMaterialInEyes</li>
+        </capacities>
+        <hediff>GravelInEyes</hediff>
+        <cooldownTime>1.5</cooldownTime>
+      </li>
+    </tools>
+    <tags>
+      <li>Soil</li>
+    </tags>
+  </TerrainDef>
+	
+	<!-- Regular Soil -->
+
+  <TerrainDef>
+    <defName>FSFSoil</defName>
+    <label>soil</label>
+    <description>Basic soil with a rather bland dirt taste.</description>
+	<designatorDropdown>FSF_SimplySoilFloor</designatorDropdown>
+    <researchPrerequisites>
+		<li>FSFResearchGardenSoil</li>
+	</researchPrerequisites>
+    <texturePath>Terrain/Surfaces/Soil</texturePath>
+    <edgeType>Hard</edgeType>
+    <renderPrecedence>340</renderPrecedence>
+    <pathCost>2</pathCost>
+    <statBases>
+      <Beauty>0</Beauty>
+      <Cleanliness>-1</Cleanliness>
+      <WorkToBuild>800</WorkToBuild>
+	  <FilthMultiplier>0.05</FilthMultiplier>
+    </statBases>
+    <costList>
+      <FSFItemSoil>10</FSFItemSoil>
+    </costList>
+    <scatterType>Rocky</scatterType>
+    <designationCategory>Floors</designationCategory>
+    <constructEffect>ConstructDirt</constructEffect>
+    <affordances>
+      <li>Light</li>
+      <li>Medium</li>
+      <li>Heavy</li>
+      <li>GrowSoil</li>
+      <li>Diggable</li>
+    </affordances>
+	<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <layerable>true</layerable>
+	<filthAcceptanceMask>
+		<li>Unnatural</li>
+	</filthAcceptanceMask>
+    <fertility>1.0</fertility>
+    <takeFootprints>True</takeFootprints>
+    <tools>
+      <li>
+        <label>dirt</label>
+        <capacities>
+          <li>KickMaterialInEyes</li>
+        </capacities>
+        <hediff>DirtInEyes</hediff>
+        <cooldownTime>1.5</cooldownTime>
+      </li>
+    </tools>
+    <tags>
+      <li>Soil</li>
+    </tags>
+  </TerrainDef>
+
+	<!-- Rich Soil -->
+
+  <TerrainDef>
+    <defName>FSFSoilRich</defName>
+    <label>rich soil</label>
+    <description>Rich soil with a delectable rich dirt taste.</description>
+	<designatorDropdown>FSF_SimplySoilFloor</designatorDropdown>
+    <researchPrerequisites>
+		<li>FSFResearchGardenSoil</li>
+	</researchPrerequisites>
+    <texturePath>Terrain/Surfaces/SoilRich</texturePath>
+    <edgeType>Hard</edgeType>
+    <renderPrecedence>335</renderPrecedence>
+    <pathCost>2</pathCost>
+    <statBases>
+      <Beauty>0</Beauty>
+      <Cleanliness>-1</Cleanliness>
+      <WorkToBuild>800</WorkToBuild>
+	  <FilthMultiplier>0.05</FilthMultiplier>
+    </statBases>
+    <costList>
+      <FSFItemSoilRich>10</FSFItemSoilRich>
+    </costList>
+    <designationCategory>Floors</designationCategory>
+    <constructEffect>ConstructDirt</constructEffect>
+    <affordances>
+      <li>Light</li>
+      <li>Medium</li>
+      <li>Heavy</li>
+      <li>GrowSoil</li>
+      <li>Diggable</li>
+    </affordances>
+	<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <layerable>true</layerable>
+	<filthAcceptanceMask>
+		<li>Unnatural</li>
+	</filthAcceptanceMask>
+    <fertility>1.4</fertility>
+    <takeFootprints>True</takeFootprints>
+    <tools>
+      <li>
+        <label>dirt</label>
+        <capacities>
+          <li>KickMaterialInEyes</li>
+        </capacities>
+        <hediff>DirtInEyes</hediff>
+        <cooldownTime>1.5</cooldownTime>
+      </li>
+    </tools>
+    <tags>
+      <li>Soil</li>
+    </tags>
+  </TerrainDef>
+
+</Defs>

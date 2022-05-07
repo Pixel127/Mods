@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+
+	<!-- Regular Soil -->
+		
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/TerrainDef[defName = "Soil"]/affordances</xpath>
+					<value>
+						<li>FSFAffordanceSoil</li>
+					</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/TerrainDef[defName = "MossyTerrain"]/affordances</xpath>
+					<value>
+						<li>FSFAffordanceSoil</li>
+					</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/TerrainDef[defName = "MarshyTerrain"]/affordances</xpath>
+					<value>
+						<li>FSFAffordanceSoil</li>
+					</value>
+			</li>
+			
+	<!-- Rich Soil -->
+		
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/TerrainDef[defName = "SoilRich"]/affordances</xpath>
+					<value>
+						<li>FSFAffordanceSoilRich</li>
+					</value>
+			</li>
+			
+		</operations>
+	</Operation>
+	
+</Patch>

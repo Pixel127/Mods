@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Archotech stomach -->
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>ArchotechVanometricStomach</defName>
+    <label>vanometric stomach</label>
+    <labelNoun>a vanometric stomach</labelNoun>
+    <description>An installed vanometric stomach.</description>
+    <descriptionHyperlinks><ThingDef>ArchotechVanometricStomach</ThingDef></descriptionHyperlinks>
+    <spawnThingOnRemoved>ArchotechVanometricStomach</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.5</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+    <stages>
+      <li>
+        <hungerRateFactor>0.25</hungerRateFactor>
+        <foodPoisoningChanceFactor>0</foodPoisoningChanceFactor>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <ThingDef ParentName="BodyPartArchotechBase">
+    <defName>ArchotechVanometricStomach</defName>
+    <label>vanometric stomach</label>
+    <description>A micro-Archotech reactor combined with complex chemical synthesis replaces the body's need for food energy. Food is required only to replace matter lost from the body, reducing the user's intake needs significantly. This artificial stomach cannot get food poisoning. This incredible archotech device poses no health risk to the user.</description>
+    <descriptionHyperlinks><RecipeDef>InstallArchotechVanometricStomach</RecipeDef></descriptionHyperlinks>
+    <statBases>
+      <MarketValue>2800</MarketValue>
+      <Mass>2.5</Mass>
+    </statBases>
+    <thingSetMakerTags>
+      <li>RewardStandardLowFreq</li>
+    </thingSetMakerTags>
+  </ThingDef>
+
+  <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+    <defName>InstallArchotechVanometricStomach</defName>
+    <label>install vanometric stomach</label>
+    <description>Install a vanometric stomach.</description>
+    <descriptionHyperlinks>
+      <ThingDef>ArchotechVanometricStomach</ThingDef>
+      <HediffDef>ArchotechVanometricStomach</HediffDef>
+    </descriptionHyperlinks>
+    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+    <jobString>Installing vanometric stomach.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ArchotechVanometricStomach</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>ArchotechVanometricStomach</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Stomach</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>ArchotechVanometricStomach</addsHediff>
+  </RecipeDef>
+
+  <!-- Archotech Cerebral Turbocharger -->
+
+  <HediffDef ParentName="ImplantHediffBase">
+    <defName>ArchotechCerebralTurbocharger</defName>
+    <label>cerebral turbocharger</label>
+    <labelNoun>a cerebral turbocharger</labelNoun>
+    <description>An installed cerebral turbocharger implant.</description>
+    <descriptionHyperlinks><ThingDef>ArchotechCerebralTurbocharger</ThingDef></descriptionHyperlinks>
+    <stages>
+      <li>
+        <partEfficiencyOffset>0.25</partEfficiencyOffset>
+        <capMods>
+          <li>
+            <capacity>Moving</capacity>
+            <postFactor>1.10</postFactor>
+          </li>
+        </capMods>
+	  </li>
+    </stages>
+    <spawnThingOnRemoved>ArchotechCerebralTurbocharger</spawnThingOnRemoved>
+  </HediffDef>
+
+  <ThingDef ParentName="BodyPartArchotechBase">
+    <defName>ArchotechCerebralTurbocharger</defName>
+    <label>cerebral turbocharger</label>
+    <description>A brain implant built by an archotech. Beyond any ability for human minds to comprehend, even after installation, the archotech cerebral turbocharger induces a mental state of perfect acuity making nearly any task easier.</description>
+    <descriptionHyperlinks><RecipeDef>InstallArchotechCerebralTurbocharger</RecipeDef></descriptionHyperlinks>
+    <statBases>
+      <MarketValue>3200</MarketValue>
+      <Mass>0.1</Mass>
+    </statBases>
+    <thingSetMakerTags>
+      <li>RewardStandardLowFreq</li>
+    </thingSetMakerTags>
+  </ThingDef>
+
+  <RecipeDef ParentName="SurgeryInstallImplantBase">
+    <defName>InstallArchotechCerebralTurbocharger</defName>
+    <label>install cerebral turbocharger</label>
+    <description>Install a cerebral turbocharger.</description>
+    <descriptionHyperlinks>
+      <ThingDef>ArchotechCerebralTurbocharger</ThingDef>
+      <HediffDef>ArchotechCerebralTurbocharger</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Installing cerebral turbocharger.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ArchotechCerebralTurbocharger</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>ArchotechCerebralTurbocharger</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Brain</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>ArchotechCerebralTurbocharger</addsHediff>
+  </RecipeDef>
+
+  <!-- Archotech Neural Recharger -->
+
+  <HediffDef ParentName="ImplantHediffBase">
+    <defName>ArchotechNeuralRecharger</defName>
+    <label>neural recharger</label>
+    <labelNoun>a neural recharger</labelNoun>
+    <description>An installed neural recharger implant.</description>
+    <descriptionHyperlinks><ThingDef>ArchotechNeuralRecharger</ThingDef></descriptionHyperlinks>
+    <stages>
+      <li>
+        <restFallFactorOffset>-0.75</restFallFactorOffset>
+	  </li>
+    </stages>
+    <spawnThingOnRemoved>ArchotechNeuralRecharger</spawnThingOnRemoved>
+  </HediffDef>
+
+  <ThingDef ParentName="BodyPartArchotechBase">
+    <defName>ArchotechNeuralRecharger</defName>
+    <label>neural recharger</label>
+    <description>A brain implant built by an archotech. Utilizing means beyond human conception, this device once installed nearly eliminates the need for sleep with no known side effects.</description>
+    <descriptionHyperlinks><RecipeDef>InstallArchotechNeuralRecharger</RecipeDef></descriptionHyperlinks>
+    <statBases>
+      <MarketValue>2800</MarketValue>
+      <Mass>0.1</Mass>
+    </statBases>
+    <thingSetMakerTags>
+      <li>RewardStandardLowFreq</li>
+    </thingSetMakerTags>
+  </ThingDef>
+
+  <RecipeDef ParentName="SurgeryInstallImplantBase">
+    <defName>InstallArchotechNeuralRecharger</defName>
+    <label>install neural recharger</label>
+    <description>Install a neural recharger.</description>
+    <descriptionHyperlinks>
+      <ThingDef>ArchotechNeuralRecharger</ThingDef>
+      <HediffDef>ArchotechNeuralRecharger</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Installing neural recharger.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ArchotechNeuralRecharger</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>ArchotechNeuralRecharger</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Brain</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>ArchotechNeuralRecharger</addsHediff>
+  </RecipeDef>
+
+  <!-- Archotech Joywire -->
+
+  <HediffDef ParentName="ImplantHediffBase">
+    <defName>ArchotechJoywire</defName>
+    <label>archotech joywire</label>
+    <labelNoun>an archotech joywire</labelNoun>
+    <description>An installed archotech joywire implant.</description>
+    <descriptionHyperlinks><ThingDef>ArchotechJoywire</ThingDef></descriptionHyperlinks>
+    <spawnThingOnRemoved>ArchotechJoywire</spawnThingOnRemoved>
+  </HediffDef>
+
+  <ThingDef ParentName="BodyPartArchotechBase">
+    <defName>ArchotechJoywire</defName>
+    <label>archotech joywire</label>
+    <description>A brain implant built by an archotech.  It stimulates the brain's pleasure centers dramatically improving a user's mood. While joywires of human origin are known for destroying whole cultures, archotech joywires manage to stimulate the mind while maintaining clarity.</description>
+    <descriptionHyperlinks><RecipeDef>InstallArchotechJoywire</RecipeDef></descriptionHyperlinks>
+    <statBases>
+      <MarketValue>2800</MarketValue>
+      <Mass>0.2</Mass>
+    </statBases>
+    <thingSetMakerTags>
+      <li>RewardStandardLowFreq</li>
+    </thingSetMakerTags>
+  </ThingDef>
+
+  <RecipeDef ParentName="SurgeryInstallImplantBase">
+    <defName>InstallArchotechJoywire</defName>
+    <label>install archotech joywire</label>
+    <description>Install an archotech joywire.</description>
+    <descriptionHyperlinks>
+      <ThingDef>ArchotechJoywire</ThingDef>
+      <HediffDef>ArchotechJoywire</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Installing archotech joywire.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ArchotechJoywire</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>ArchotechJoywire</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Brain</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>ArchotechJoywire</addsHediff>
+  </RecipeDef>
+
+  <ThoughtDef>
+    <defName>ArchotechJoywire</defName>
+    <workerClass>ArchotechJoywire.ThoughtWorker_ArchotechJoywire</workerClass>
+    <hediff>ArchotechJoywire</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>Archotech joywire</label>
+        <description>This is living.</description>
+        <baseMoodEffect>25</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!-- Archotech Skin -->
+
+  <HediffDef ParentName="ImplantHediffBase">
+    <defName>ArchotechNanoskin</defName>
+    <label>archotech nanoskin</label>
+    <labelNoun>an archotech nanoskin</labelNoun>
+    <description>An installed archotech nanoskin.</description>
+    <descriptionHyperlinks><ThingDef>ArchotechNanoskin</ThingDef></descriptionHyperlinks>
+    <spawnThingOnRemoved>ArchotechNanoskin</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <painFactor>0.75</painFactor>
+		<statOffsets>
+          <ArmorRating_Sharp>0.70</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.50</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.50</ArmorRating_Heat>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <ThingDef ParentName="BodyPartArchotechBase">
+    <defName>ArchotechNanoskin</defName>
+    <label>archotech nanoskin</label>
+    <description>A genetically modified skin built by an archotech. The remarkable self-replicating archotech naturally replaces the skin with an advanced pseudoskin that is nearly imperceptibly different to the naked eye but which is much more resistent to damage while also subtly aesthetically pleasing. It is far beyond human means to understand let alone manufacture.</description>
+    <descriptionHyperlinks><RecipeDef>InstallArchotechNanoskin</RecipeDef></descriptionHyperlinks>
+    <statBases>
+      <MarketValue>2800</MarketValue>
+      <Mass>0.2</Mass>
+    </statBases>
+    <thingSetMakerTags><li>RewardStandardLowFreq</li></thingSetMakerTags>
+  </ThingDef>
+
+  <RecipeDef ParentName="SurgeryInstallImplantBase">
+    <defName>InstallArchotechNanoskin</defName>
+    <label>install archotech nanoskin</label>
+    <description>Install an archotech nanoskin.</description>
+    <descriptionHyperlinks>
+      <ThingDef>ArchotechNanoskin</ThingDef>
+      <HediffDef>ArchotechNanoskin</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Installing archotech nanoskin.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ArchotechNanoskin</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>ArchotechNanoskin</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Torso</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>ArchotechNanoskin</addsHediff>
+    <incompatibleWithHediffTags>
+      <li>ArmorGland</li>
+    </incompatibleWithHediffTags>
+  </RecipeDef>
+ 
+</Defs>

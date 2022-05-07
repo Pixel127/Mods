@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8" ?>
+    <Defs>
+        <!-- Base -->
+        <TerrainDef Abstract="True" ParentName="FloorBase" Name="LTS_WoodBase">
+            <renderPrecedence>250</renderPrecedence>
+            <description>Wood plank flooring for that warm, homey feeling. While it is quick to lay, it is also very flammable.</description>
+            <burnedDef>BurnedWoodPlankFloor</burnedDef>
+            <color>(108,78,55)</color>
+            <uiIconColor>(108,78,55)</uiIconColor>
+            <designatorDropdown>LTS_Plank</designatorDropdown>
+            <statBases>
+                <WorkToBuild>100</WorkToBuild>
+                <Flammability>0.25</Flammability>
+                <Beauty>1</Beauty>
+            </statBases>
+            <costList>
+                <WoodLog>6</WoodLog>
+            </costList>
+            <constructEffect>ConstructWood</constructEffect>
+        </TerrainDef>
+        <TerrainDef Abstract="True" ParentName="FloorBase" Name="LTS_StoneBase">
+            <renderPrecedence>220</renderPrecedence>
+            <description>Carefully-cut and fit stone tiles for a castle feeling. They are pretty to look at, but they take a long time to lay.</description>
+            <statBases>
+                <WorkToBuild>1100</WorkToBuild>
+                <Beauty>2</Beauty>
+            </statBases>
+            <researchPrerequisites>
+                <li>Stonecutting</li>
+            </researchPrerequisites>
+            <constructionSkillPrerequisite>3</constructionSkillPrerequisite>
+        </TerrainDef>
+        <TerrainDef Abstract="True" ParentName="FloorBase" Name="LTS_GravelBase">
+            <renderPrecedence>220</renderPrecedence>
+            <description>Rocks and more rocks make a perfect path.</description>
+            <texturePath>Terrain/Gravel_Floor</texturePath>
+            <designatorDropdown>LTS_Gravel</designatorDropdown>
+            <statBases>
+                <WorkToBuild>400</WorkToBuild>
+            </statBases>
+            <researchPrerequisites>
+                <li>Stonecutting</li>
+            </researchPrerequisites>
+        </TerrainDef>
+
+        <!-- Wood -->
+        <TerrainDef ParentName="LTS_WoodBase">
+            <label>plank floor</label>
+            <defName>LTS_PlankFloor</defName>
+            <texturePath>Terrain/Plank_Floor</texturePath>
+        </TerrainDef>
+        <TerrainDef ParentName="LTS_WoodBase">
+            <label>plank floor</label>
+            <defName>LTS_PlankFloorTwo</defName>
+            <texturePath>Terrain/Plank_Floor2</texturePath>
+        </TerrainDef>
+        <TerrainDef ParentName="LTS_WoodBase">
+            <label>larger plank floor</label>
+            <defName>LTS_PlankFloorLarge</defName>
+            <texturePath>Terrain/Plank2x1-3_Floor</texturePath>
+        </TerrainDef>
+        <TerrainDef ParentName="LTS_WoodBase">
+            <label>larger plank floor</label>
+            <defName>LTS_PlankFloorLargeTwo</defName>
+            <texturePath>Terrain/Plank2x1-3_Floor2</texturePath>
+        </TerrainDef>
+        <!--Stone Pattern Even-->
+        <TerrainDef Abstract="True" ParentName="LTS_StoneBase" Name="LTS_EvenBase">
+            <texturePath>Terrain/TilePatternEven_Floor</texturePath>
+            <designatorDropdown>LTS_StoneEven</designatorDropdown>
+        </TerrainDef>
+        <TerrainDef ParentName="LTS_EvenBase">
+            <defName>LTS_PatternEvenSandstone</defName>
+            <label>sandstone large tile</label>
+            <color>(126,104,94)</color>
+            <costList>
+                <BlocksSandstone>4</BlocksSandstone>
+            </costList>
+        </TerrainDef>
+        <TerrainDef ParentName="LTS_EvenBase">
+            <defName>LTS_PatternEvenGranite</defName>
+            <label>granite large tile</label>
+            <color>(105,95,97)</color>
+            <costList>
+                <BlocksGranite>4</BlocksGranite>
+            </costList>
+        </TerrainDef>
+        <TerrainDef ParentName="LTS_EvenBase">
+            <defName>LTS_PatternEvenLimestone</defName>
+            <label>limestone large tile</label>
+            <color>(158,153,135)</color>
+            <costList>
+                <BlocksLimestone>4</BlocksLimestone>
+            </costList>
+        </TerrainDef>
+        <TerrainDef ParentName="LTS_EvenBase">
+            <defName>LTS_PatternEvenSlate</defName>
+            <label>slate large tile</label>
+            <color>(100,100,100)</color>
+            <costList>
+                <BlocksSlate>4</BlocksSlate>
+            </costList>
+        </TerrainDef>
+        <TerrainDef ParentName="LTS_EvenBase">
+            <defName>LTS_PatternEvenMarble</defName>
+            <label>marble large tile</label>
+            <color>(132,135,132)</color>
+            <costList>
+                <BlocksMarble>4</BlocksMarble>
+            </costList>
+        </TerrainDef>
+
+        <!--Stone Pattern Uneven-->
+        <TerrainDef Abstract="True" ParentName="LTS_StoneBase" Name="LTS_UnevenBase">
+            <texturePath>Terrain/TilePatternUneven_Floor</texturePath>
+            <designatorDropdown>LTS_StoneUneven</designatorDropdown>
+        </TerrainDef>
+        <TerrainDef ParentName="LTS_UnevenBase">
+            <defName>LTS_PatternUnevenSandstone</defName>
+            <label>sandstone elaborate tile</label>
+            <color>(126,104,94)</color>
+            <costList>
+                <BlocksSandstone>4</BlocksSandstone>
+            </costList>
+        </TerrainDef>
+
+        <TerrainDef ParentName="LTS_UnevenBase">
+            <defName>LTS_PatternUnevenGranite</defName>
+            <label>granite elaborate tile</label>
+            <color>(105,95,97)</color>
+            <costList>
+                <BlocksGranite>4</BlocksGranite>
+            </costList>
+        </TerrainDef>
+
+        <TerrainDef ParentName="LTS_UnevenBase">
+            <defName>LTS_PatternUnevenLimestone</defName>
+            <label>limestone elaborate tile</label>
+            <color>(158,153,135)</color>
+            <costList>
+                <BlocksLimestone>4</BlocksLimestone>
+            </costList>
+        </TerrainDef>
+
+        <TerrainDef ParentName="LTS_UnevenBase">
+            <defName>LTS_PatternUnevenSlate</defName>
+            <label>slate elaborate tile</label>
+            <color>(100,100,100)</color>
+            <costList>
+                <BlocksSlate>4</BlocksSlate>
+            </costList>
+        </TerrainDef>
+
+        <TerrainDef ParentName="LTS_UnevenBase">
+            <defName>LTS_PatternUnevenMarble</defName>
+            <label>marble elaborate tile</label>
+            <color>(132,135,132)</color>
+            <costList>
+                <BlocksMarble>4</BlocksMarble>
+            </costList>
+        </TerrainDef>
+
+
+        <!--Gravel-->
+        <TerrainDef ParentName="LTS_GravelBase">
+            <defName>LTS_GravelSandstone</defName>
+            <label>sandstone gravel</label>
+            <color>(126,104,94)</color>
+            <costList>
+                <BlocksSandstone>2</BlocksSandstone>
+            </costList>
+        </TerrainDef>
+        <TerrainDef ParentName="LTS_GravelBase">
+            <defName>LTS_GravelGranite</defName>
+            <label>granite gravel</label>
+            <color>(105,95,97)</color>
+            <costList>
+                <BlocksGranite>2</BlocksGranite>
+            </costList>
+        </TerrainDef>
+        <TerrainDef ParentName="LTS_GravelBase">
+            <defName>LTS_GravelLimestone</defName>
+            <label>limestone gravel</label>
+            <color>(158,153,135)</color>
+            <costList>
+                <BlocksLimestone>2</BlocksLimestone>
+            </costList>
+        </TerrainDef>
+        <TerrainDef ParentName="LTS_GravelBase">
+            <defName>LTS_GravelSlate</defName>
+            <label>slate gravel</label>
+            <color>(100,100,100)</color>
+            <costList>
+                <BlocksSlate>2</BlocksSlate>
+            </costList>
+        </TerrainDef>
+        <TerrainDef ParentName="LTS_GravelBase">
+            <defName>LTS_GravelMarble</defName>
+            <label>marble gravel</label>
+            <color>(132,135,132)</color>
+            <costList>
+                <BlocksMarble>2</BlocksMarble>
+            </costList>
+        </TerrainDef>
+    </Defs>

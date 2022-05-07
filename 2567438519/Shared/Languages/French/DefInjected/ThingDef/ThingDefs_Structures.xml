@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: arched door -->
+  <LTS_ArchedDoor.label>porte cintrée</LTS_ArchedDoor.label>
+  <!-- EN: A homely door, meant to be nice to look at, not to defend. -->
+  <LTS_ArchedDoor.description>Une porte simple, censée être agréable à regarder, pas à défendre.</LTS_ArchedDoor.description>
+  
+  <!-- EN: stone arch -->
+  <LTS_ArchStone.label>arche en pierre</LTS_ArchStone.label>
+  <!-- EN: An arch made out of stone. -->
+  <LTS_ArchStone.description>Une arche faite de pierre</LTS_ArchStone.description>
+  
+  <!-- EN: wooden arch -->
+  <LTS_ArchWood.label>arche en bois</LTS_ArchWood.label>
+  <!-- EN: An arch made out of wood. -->
+  <LTS_ArchWood.description>Une arche faite de bois</LTS_ArchWood.description>
+  
+  <!-- EN: prison bars -->
+  <LTS_Bars.label>barreaux de prison</LTS_Bars.label>
+  <!-- EN: Prison bars are used to contain scoundrels and their likes. -->
+  <LTS_Bars.description>Les barreaux des prisons sont utilisés pour contenir des scélérats et leurs semblables.</LTS_Bars.description>
+  
+  <!-- EN: prison gate -->
+  <LTS_BarsGate.label>porte de prison</LTS_BarsGate.label>
+  <!-- EN: Prison bars are used to contain scoundrels and their likes. -->
+  <LTS_BarsGate.description>Les portes de prisons sont utilisées pour contenir des scélérats et leurs semblables.</LTS_BarsGate.description>
+  
+  <!-- EN: hedge -->
+  <LTS_Hedge.label>haie</LTS_Hedge.label>
+  <!-- EN: A hedge that can be used as a fence! Fences only block certain kinds of animals. -->
+  <LTS_Hedge.description>Une haie qui peut servir de clôture ! Les clôtures ne bloquent que certains types d'animaux.</LTS_Hedge.description>
+  
+  <!-- EN: ornate fence -->
+  <LTS_OrnateFence.label>clôture ornée</LTS_OrnateFence.label>
+  <!-- EN: An ornate fence with aesthetics in mind. Fences only block certain kinds of animals. -->
+  <LTS_OrnateFence.description>Une clôture ornée avec l'esthétique à l'esprit. Les clôtures ne bloquent que certains types d'animaux.</LTS_OrnateFence.description>
+  
+  <!-- EN: ornate fence gate -->
+  <LTS_OrnateFenceGate.label>porte ornée</LTS_OrnateFenceGate.label>
+  <!-- EN: An ornate gate with aesthetics in mind. It blocks some animals like a fence. Handlers can lead animals in and out of the pen through these gates. -->
+  <LTS_OrnateFenceGate.description>Une porte ornée avec l'esthétique à l'esprit. Elle bloque certains animaux comme une clôture. Les éleveurs peuvent faire entrer et sortir les animaux de l'enclos par ces portes.</LTS_OrnateFenceGate.description>
+  
+  <!-- EN: thick door -->
+  <LTS_ThickDoor.label>porte épaisse</LTS_ThickDoor.label>
+  <!-- EN: An imposing door, meant to keep outsiders outside. -->
+  <LTS_ThickDoor.description>Une porte imposante, destinée à garder les étrangers à l'extérieur.</LTS_ThickDoor.description>
+
+  <!-- EN: pillar -->
+  <LTS_Pillar.label>pilier</LTS_Pillar.label>
+  <!-- EN: A hard pillar capable of holding a roof. Impassable and an alternative to cover like shown in a certain movie. -->
+  <LTS_Pillar.description>Un solide pilier capable de supporter un toit. Infranchissable et une alternative pour se mettre à couvert comme le montre un certain film.</LTS_Pillar.description>
+  
+</LanguageData>

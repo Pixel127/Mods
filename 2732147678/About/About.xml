@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Passive Cover</name>
+	<author>Atkana</author>
+	<packageId>Atkana.PassiveCover</packageId>
+	<supportedVersions>
+			<li>1.3</li>
+	</supportedVersions>
+	<description>Enables cover in the path of a shot to provide some protection even when pawns aren't actively taking cover.
+
+Requires Harmony.
+</description>
+	
+	<modDependencies>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>brrainz.harmony</li>
+	</loadAfter>
+	
+</ModMetaData>

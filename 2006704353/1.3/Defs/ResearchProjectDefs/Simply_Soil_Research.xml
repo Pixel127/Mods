@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- Regular Soil -->
+
+	<ResearchProjectDef>
+		<defName>FSFResearchGardenSoil</defName>
+		<label>garden soil</label>
+		<description>Learn various techniques that allow you to collect and layer growable soil over any type of terrain.</description>
+		<baseCost>700</baseCost>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>0.00</researchViewX>
+		<researchViewY>5.00</researchViewY>
+	</ResearchProjectDef>
+
+	<!-- Rich Soil -->
+
+	<ResearchProjectDef>
+		<defName>FSFResearchFertilizer</defName>
+		<label>Fertilizer</label>
+		<description>Learn various techniques to enrich your layered soil to make it more fertile.</description>
+		<baseCost>700</baseCost>
+		<techLevel>Medieval</techLevel>
+		<prerequisites>
+			<li>FSFResearchGardenSoil</li>
+		</prerequisites>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>5.00</researchViewY>
+	</ResearchProjectDef>
+
+</Defs>

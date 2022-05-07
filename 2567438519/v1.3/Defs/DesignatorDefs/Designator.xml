@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+    <Defs>
+        <DesignatorDropdownGroupDef>
+            <defName>LTS_Plank</defName>
+            <label>plank</label>
+        </DesignatorDropdownGroupDef>
+        <DesignatorDropdownGroupDef>
+            <defName>LTS_StoneEven</defName>
+            <label>tiles</label>
+        </DesignatorDropdownGroupDef>
+        <DesignatorDropdownGroupDef>
+            <defName>LTS_StoneUneven</defName>
+            <label>tiles</label>
+        </DesignatorDropdownGroupDef>
+        <DesignatorDropdownGroupDef>
+            <defName>LTS_Gravel</defName>
+            <label>gravel</label>
+        </DesignatorDropdownGroupDef>
+    </Defs>

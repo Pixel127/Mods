@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+
+	<Operation Class="PatchOperationFindMod">
+		
+		<mods>
+			<li>Dubs Bad Hygiene</li>
+		</mods>
+
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+
+				<li Class="PatchOperationAdd"> 
+					<success>Always</success>
+					<xpath>/Defs/RecipeDef[defName="FSFRecipeFertilizer"]/ingredients/li/filter/thingDefs</xpath>
+					<value>
+						<li>Biosolids</li>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationAdd"> 
+					<success>Always</success>
+					<xpath>/Defs/RecipeDef[defName="FSFRecipeFertilizer"]/fixedIngredientFilter/thingDefs</xpath>
+					<value>
+						<li>Biosolids</li>
+					</value>
+				</li>
+
+			</operations>
+		</match>
+		
+	</Operation>
+
+</Patch>

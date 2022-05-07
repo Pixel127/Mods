@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Advanced drill arm -->
+
+  <EPIA_UpgradeAdvancedDrillArm.label>Stelle Fortschrittlicher Bohrarm her</EPIA_UpgradeAdvancedDrillArm.label>
+  <EPIA_UpgradeAdvancedDrillArm.description>Verbessere einen Bohrarm in einen Fortschrittlichen Bohrarm.</EPIA_UpgradeAdvancedDrillArm.description>
+  <EPIA_UpgradeAdvancedDrillArm.jobString>Stellt Fortschrittlicher Bohrarm her.</EPIA_UpgradeAdvancedDrillArm.jobString>
+
+  <InstallEPOE_AdvancedDrillArm.label>Implantiere Fortschrittlicher Bohrarm</InstallEPOE_AdvancedDrillArm.label>
+  <InstallEPOE_AdvancedDrillArm.description>Implantiere einen Fortschrittlichen Bohrarm.</InstallEPOE_AdvancedDrillArm.description>
+  <InstallEPOE_AdvancedDrillArm.jobString>Implantiert Fortschrittlicher Bohrarm.</InstallEPOE_AdvancedDrillArm.jobString>
+
+
+  <!-- Advanced field hand -->
+
+  <EPIA_UpgradeAdvancedFieldHand.label>Stelle Fortschrittliche Feldhand her</EPIA_UpgradeAdvancedFieldHand.label>
+  <EPIA_UpgradeAdvancedFieldHand.description>Verbessere eine Feldhand in eine Fortschrittliche Feldhand.</EPIA_UpgradeAdvancedFieldHand.description>
+  <EPIA_UpgradeAdvancedFieldHand.jobString>Stellt Fortschrittliche Feldhand her.</EPIA_UpgradeAdvancedFieldHand.jobString>
+
+  <InstallEPOE_AdvancedFieldHand.label>Implantiere Fortschrittliche Feldhand</InstallEPOE_AdvancedFieldHand.label>
+  <InstallEPOE_AdvancedFieldHand.description>Implantiere eine Fortschrittliche Feldhand.</InstallEPOE_AdvancedFieldHand.description>
+  <InstallEPOE_AdvancedFieldHand.jobString>Implantiert Fortschrittliche Feldhand.</InstallEPOE_AdvancedFieldHand.jobString>
+
+
+  <!-- Advanced hand talon (Ironic this version now uses the Scyther blades to make, rather then the previous def version.) -->
+
+  <EPIA_UpgradeAdvancedHandTalon.label>Stelle Fortschrittliche bionische Krallenhand her</EPIA_UpgradeAdvancedHandTalon.label>
+  <EPIA_UpgradeAdvancedHandTalon.description>Verbessere eine Krallenhand zu einer Fortschrittlichen bionischen Krallenhand.</EPIA_UpgradeAdvancedHandTalon.description>
+  <EPIA_UpgradeAdvancedHandTalon.jobString>Stellt Fortschrittliche bionische Krallenhand her.</EPIA_UpgradeAdvancedHandTalon.jobString>
+
+  <InstallEPOE_AdvancedHandTalon.label>Implantiere Fortschrittliche bionische Krallenhand</InstallEPOE_AdvancedHandTalon.label>
+  <InstallEPOE_AdvancedHandTalon.description>Implantiere eine Fortschrittliche bionische Krallenhand.</InstallEPOE_AdvancedHandTalon.description>
+  <InstallEPOE_AdvancedHandTalon.jobString>Implantiert Fortschrittliche bionische Krallenhand.</InstallEPOE_AdvancedHandTalon.jobString>
+
+
+  <!-- Advanced elbow blade (Ironic this version now uses the Scyther blades to make, rather then the previous def version.) -->
+
+  <EPIA_UpgradeAdvancedElbowBlade.label>Stelle Fortschrittliche bionische Ellenbogenklinge her</EPIA_UpgradeAdvancedElbowBlade.label>
+  <EPIA_UpgradeAdvancedElbowBlade.description>Verbessere eine bionische Ellenbogenklinge zu einer Fortschrittlichen bionischen Ellenbogenklinge.</EPIA_UpgradeAdvancedElbowBlade.description>
+  <EPIA_UpgradeAdvancedElbowBlade.jobString>Stellt Fortschrittliche bionische Ellenbogenklinge her.</EPIA_UpgradeAdvancedElbowBlade.jobString>
+
+  <InstallEPOE_AdvancedElbowBlade.label>Implantiere Fortschrittliche bionische Ellenbogenklinge</InstallEPOE_AdvancedElbowBlade.label>
+  <InstallEPOE_AdvancedElbowBlade.description>Implantiere eine Fortschrittliche bionische Ellenbogenklinge.</InstallEPOE_AdvancedElbowBlade.description>
+  <InstallEPOE_AdvancedElbowBlade.jobString>Implantiert Fortschrittliche bionische Ellenbogenklinge.</InstallEPOE_AdvancedElbowBlade.jobString>
+
+
+  <!-- Advanced knee spike (Ironic this version now uses the Scyther blades to make, rather then the previous def version.) -->
+
+  <EPIA_UpgradeAdvancedKneeSpike.label>Stelle Fortschrittlicher bionischer Knie-Stachel her</EPIA_UpgradeAdvancedKneeSpike.label>
+  <EPIA_UpgradeAdvancedKneeSpike.description>Verbessere eine bionischen Knie-Stachel zu einem Fortschrittlichen bionischen Knie-Stachel.</EPIA_UpgradeAdvancedKneeSpike.description>
+  <EPIA_UpgradeAdvancedKneeSpike.jobString>Stellt Fortschrittlichen bionischen Knie-Stachel her.</EPIA_UpgradeAdvancedKneeSpike.jobString>
+
+  <InstallEPOE_AdvancedKneeSpike.label>Implantiere Fortschrittlicher bionischer Knie-Stachel</InstallEPOE_AdvancedKneeSpike.label>
+  <InstallEPOE_AdvancedKneeSpike.description>Implantiere einen Fortschrittlichen bionischen Knie-Stachel.</InstallEPOE_AdvancedKneeSpike.description>
+  <InstallEPOE_AdvancedKneeSpike.jobString>Implantiert Fortschrittlicher bionischer Knie-Stachel.</InstallEPOE_AdvancedKneeSpike.jobString>
+
+
+</LanguageData>

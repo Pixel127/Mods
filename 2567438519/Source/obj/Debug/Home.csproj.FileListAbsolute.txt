@@ -1,0 +1,11 @@
+C:\Users\rikar\Desktop\GIT\Home\v1.2\Assemblies\Home.dll
+C:\Users\rikar\Desktop\GIT\Home\Source\obj\Debug\Home.csproj.CoreCompileInputs.cache
+C:\Users\rikar\Desktop\GIT\Home\Source\obj\Debug\Home.dll
+C:\Users\rikar\Desktop\GIT\LTSMods\Home\v1.2\Assemblies\Home.dll
+C:\Users\rikar\Desktop\GIT\LTSMods\Home\Source\obj\Debug\Home.csproj.CoreCompileInputs.cache
+C:\Users\rikar\Desktop\GIT\LTSMods\Home\Source\obj\Debug\Home.dll
+C:\Users\rikar\Desktop\GIT\LTSMods\[LTS] Home\v1.2\Assemblies\Home.dll
+C:\Users\rikar\Desktop\GIT\LTSMods\[LTS] Home\Source\obj\Debug\Home.csprojAssemblyReference.cache
+C:\Users\rikar\Desktop\GIT\LTSMods\[LTS] Home\Source\obj\Debug\Home.csproj.CoreCompileInputs.cache
+C:\Users\rikar\Desktop\GIT\LTSMods\[LTS] Home\Source\obj\Debug\Home.dll
+C:\Users\rikar\Desktop\GIT\LTSMods\[LTS] Home\v1.3\Assemblies\Home.dll

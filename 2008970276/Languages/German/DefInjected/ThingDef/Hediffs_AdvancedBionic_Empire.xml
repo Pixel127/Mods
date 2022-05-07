@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Advanced drill arm -->
+
+  <EPOE_AdvancedDrillArm.label>Fortschrittlicher Bohrarm</EPOE_AdvancedDrillArm.label>
+  <EPOE_AdvancedDrillArm.description>Ein verbesserter mechanischer Armersatz zur Beschleunigung des Bergbaus. Er verfügt über einen eingebauten Schlangenbohrer, mit dem der Kolonist schwache Linien im Gestein schnell finden und ausnutzen kann. Er hat auch einen Allzweckmanipulator. Kann sich beim nicht Gebrauch in eine handliche, kompakte Form umwandeln, die nicht mehr so unansehnlich ist und dadurch die Bewegung nicht einschränkt.</EPOE_AdvancedDrillArm.description>
+
+
+  <!-- Advanced field hand -->
+
+  <EPOE_AdvancedFieldHand.label>Fortschrittliche Feldhand</EPOE_AdvancedFieldHand.label>
+  <EPOE_AdvancedFieldHand.description>Dieser verbesserte mechanische Handaustausch beschleunigt die Aussaat und Ernte eines Landwirts. Mehrere teleskopierbare fingerartige Vorsprünge können gleichzeitig an mehreren Stellen derselben Pflanze ernten oder mehrere Löcher gleichzeitig präzise säen. Sie hat auch einen Allzweckmanipulator. Kann sich beim nicht Gebrauch in eine handliche, kompakte Form umwandeln, die nicht mehr so unansehnlich ist und dadurch die Bewegung nicht einschränkt.</EPOE_AdvancedFieldHand.description>
+
+
+  <!-- Advanced hand talon (Ironic this version now uses the Scyther blades to make, rather then the previous def version.) -->
+
+  <EPOE_AdvancedHandTalon.label>Fortschrittliche bionische Krallenhand</EPOE_AdvancedHandTalon.label>
+  <EPOE_AdvancedHandTalon.description>Eine modifizierte messerscharfe Kralle, die sich aus einer verborgenen Öffnung zwischen Mittel- und Ringfinger erstreckt. Die Kralle ist länger als die Handfläche, wird jedoch beim Zurückziehen flexibel, sodass der Benutzer sie zusammenrollen und in der Handfläche der bionischen Hand verbergen kann.\n\nDas Material der Krallenhand wird durch ein spezielles flexibles Stück ersetzt. Die erhöhte Flexibilität, ein neu hinzugefügter Mikrocomputer zur weiteren Unterstützung der bionischen Handbewegungen im Nahkampf, hat diese bionische Waffe zu einer tödlich genauen Nahkampfunterstützungswaffe gemacht.</EPOE_AdvancedHandTalon.description>
+
+
+  <!-- Advanced elbow blade (Ironic this version now uses the Scyther blades to make, rather then the previous def version.) -->
+
+  <EPOE_AdvancedElbowBlade.label>Fortschrittliche bionische Ellenbogenklinge</EPOE_AdvancedElbowBlade.label>
+  <EPOE_AdvancedElbowBlade.description>Eine messerscharfe Klinge, ursprünglich von einem tödlichen Schnitter-Mechanoid, die sich nach Belieben aus einer verborgenen Öffnung am Ende der Ulna erstreckt. Sie erscheint ohne Vorwarnung und kann für verheerende Angriffe verwendet werden.\n\nDie effizientere Schnitter-Klinge hat die ursprüngliche Klinge des vorherigen Modells der bionische Ellbogenklingen ersetzt und ist im Nahkampf tödlicher.</EPOE_AdvancedElbowBlade.description>
+
+
+  <!-- Advanced knee spike (Ironic this version now uses the Scyther blades to make, rather then the previous def version.) -->
+
+  <EPOE_AdvancedKneeSpike.label>Fortschrittlicher bionischer Knie-Stachel</EPOE_AdvancedKneeSpike.label>
+  <EPOE_AdvancedKneeSpike.description>Ein modifizierter Stachel, der sich nach Belieben aus einer verborgenen Öffnung an der Vorderseite des Knies erstreckt. Er erscheint ohne Vorwarnung und kann für verheerende Stichangriffe verwendet werden.\n\nDurch die Umformung der tödlicheren Schnitter-Klinge in einen Dorn wird die Durchschlagskraft dieser bionischen Waffe erhöht und verursacht mehr Schaden.</EPOE_AdvancedKneeSpike.description>
+
+
+</LanguageData>

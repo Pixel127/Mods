@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Bionic hand talon (Formerly Scyther hand talon before Royalty hotfix changed hand talons to implant status) -->
+
+  <EPOE_ScytherHandTalon.label>Bionische Krallenhand</EPOE_ScytherHandTalon.label>
+  <EPOE_ScytherHandTalon.description>Eine installierte bionische Krallenhand.</EPOE_ScytherHandTalon.description>
+  <EPOE_ScytherHandTalon.comps.0.tools.0.label>Kralle</EPOE_ScytherHandTalon.comps.0.tools.0.label>
+  <EPOE_ScytherHandTalon.labelNoun>Eine bionische Krallenhand</EPOE_ScytherHandTalon.labelNoun>
+
+
+  <!-- Bionic elbow blade (Formerly Scyther elbow blade before Royalty hotfix changed elbow blades to implant status) -->
+
+  <EPOE_ScytherElbowBlade.label>Bionische Ellenbogenklinge</EPOE_ScytherElbowBlade.label>
+  <EPOE_ScytherElbowBlade.description>Eine installierte bionische Ellenbogenklinge.</EPOE_ScytherElbowBlade.description>
+  <EPOE_ScytherElbowBlade.comps.0.tools.0.label>Klinge</EPOE_ScytherElbowBlade.comps.0.tools.0.label>
+  <EPOE_ScytherElbowBlade.labelNoun>Eine bionische Ellenbogenklinge</EPOE_ScytherElbowBlade.labelNoun>
+
+
+  <!-- Bionic knee spike (Formerly Scyther knee spike before Royalty hotfix changed knee spike to implant status) -->
+
+  <EPOE_ScytherKneeSpike.label>Bionischer Knie-Stachel</EPOE_ScytherKneeSpike.label>
+  <EPOE_ScytherKneeSpike.description>Ein installierter bionischer Knie-Stachel.</EPOE_ScytherKneeSpike.description>
+  <EPOE_ScytherKneeSpike.comps.0.tools.0.label>Stachel</EPOE_ScytherKneeSpike.comps.0.tools.0.label>
+  <EPOE_ScytherKneeSpike.labelNoun>Ein bionischer Knie-Stachel</EPOE_ScytherKneeSpike.labelNoun>
+
+
+  <!-- Circadian Refresher -->
+
+  <EPIA_CircadianRefresher.label>Circadianische Auffrischung</EPIA_CircadianRefresher.label>
+  <EPIA_CircadianRefresher.description>Eine installierte Circadianische Auffrischung.</EPIA_CircadianRefresher.description>
+  <EPIA_CircadianRefresher.labelNoun>Eine Circadianische Auffrischung</EPIA_CircadianRefresher.labelNoun>
+
+
+</LanguageData>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+	<!-- Regular Soil -->
+	
+	<TerrainAffordanceDef>
+		<defName>FSFAffordanceSoil</defName>
+		<label>soil</label>
+		<order>3410</order>
+	</TerrainAffordanceDef>
+	
+	<!-- Rich Soil -->
+	
+	<TerrainAffordanceDef>
+		<defName>FSFAffordanceSoilRich</defName>
+		<label>rich soil</label>
+		<order>3420</order>
+	</TerrainAffordanceDef>
+
+</Defs>

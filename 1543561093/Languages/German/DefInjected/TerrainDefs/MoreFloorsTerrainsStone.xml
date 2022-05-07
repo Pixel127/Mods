@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+<!-- Square slab flooring -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+  <FloorStoneSlabsSandstone.label>Sandstein Platte</FloorStoneSlabsSandstone.label>
+  <FloorStoneSlabsGranite.label>Granitplatte</FloorStoneSlabsGranite.label>
+  <FloorStoneSlabsLimestone.label>Kalkstein Platte</FloorStoneSlabsLimestone.label>
+  <FloorStoneSlabsSlate.label>Schiefer Platte</FloorStoneSlabsSlate.label>
+  <FloorStoneSlabsMarble.label>Marmorplatte</FloorStoneSlabsMarble.label>
+
+  <FloorStoneSlabsSandstone.description>Steinboden mit unscheinbaren Platten. Leicht zu bauen und funktionell.</FloorStoneSlabsSandstone.description>
+  <FloorStoneSlabsGranite.description>Steinboden mit unscheinbaren Platten. Leicht zu bauen und funktionell.</FloorStoneSlabsGranite.description>
+  <FloorStoneSlabsLimestone.description>Steinboden mit unscheinbaren Platten. Leicht zu bauen und funktionell.</FloorStoneSlabsLimestone.description>
+  <FloorStoneSlabsSlate.description>Steinboden mit unscheinbaren Platten. Leicht zu bauen und funktionell.</FloorStoneSlabsSlate.description>
+  <FloorStoneSlabsMarble.description>Steinboden mit unscheinbaren Platten. Leicht zu bauen und funktionell.</FloorStoneSlabsMarble.description>
+
+<!-- Rough stone flooring -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+  <FloorStoneRoughSandstone.label>Raues Sandstein Pflaster</FloorStoneRoughSandstone.label>
+  <FloorStoneRoughGranite.label>Raues Granit Pflaster</FloorStoneRoughGranite.label>
+  <FloorStoneRoughLimestone.label>Raues Kalkstein Pflaster</FloorStoneRoughLimestone.label>
+  <FloorStoneRoughSlate.label>Raues Schiefer Pflaster</FloorStoneRoughSlate.label>
+  <FloorStoneRoughMarble.label>Raues Marmor Pflaster</FloorStoneRoughMarble.label>
+
+  <FloorStoneRoughSandstone.description>Raues Pflaster, das mit sehr wenig Stein gebaut werden kann, allerdings benötigt es mehr Arbeitszeit und vom Aussehen her ist er eher neutral.</FloorStoneRoughSandstone.description>
+  <FloorStoneRoughGranite.description>Raues Pflaster, das mit sehr wenig Stein gebaut werden kann, allerdings benötigt es mehr Arbeitszeit und vom Aussehen her ist er eher neutral.</FloorStoneRoughGranite.description>
+  <FloorStoneRoughLimestone.description>Raues Pflaster, das mit sehr wenig Stein gebaut werden kann, allerdings benötigt es mehr Arbeitszeit und vom Aussehen her ist er eher neutral.</FloorStoneRoughLimestone.description>
+  <FloorStoneRoughSlate.description>Raues Pflaster, das mit sehr wenig Stein gebaut werden kann, allerdings benötigt es mehr Arbeitszeit und vom Aussehen her ist er eher neutral.</FloorStoneRoughSlate.description>
+  <FloorStoneRoughMarble.description>Raues Pflaster, das mit sehr wenig Stein gebaut werden kann, allerdings benötigt es mehr Arbeitszeit und vom Aussehen her ist er eher neutral.</FloorStoneRoughMarble.description>
+
+<!-- Hexagonal flooring -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+  <FloorStoneHexSandstone.label>Hex- Sandstein Pflaster</FloorStoneHexSandstone.label>
+  <FloorStoneHexGranite.label>Hex- Granit Pflaster</FloorStoneHexGranite.label>
+  <FloorStoneHexLimestone.label>Hex- Kalkstein Pflaster</FloorStoneHexLimestone.label>
+  <FloorStoneHexSlate.label>Hex- Schiefer Pflaster</FloorStoneHexSlate.label>
+  <FloorStoneHexMarble.label>Hex- Marmor Pflaster</FloorStoneHexMarble.label>
+
+  <FloorStoneHexSandstone.description>Steinpflaster mit ansehnlichem hexagonalem Muster.</FloorStoneHexSandstone.description>
+  <FloorStoneHexGranite.description>Steinpflaster mit ansehnlichem hexagonalem Muster.</FloorStoneHexGranite.description>
+  <FloorStoneHexLimestone.description>Steinpflaster mit ansehnlichem hexagonalem Muster.</FloorStoneHexLimestone.description>
+  <FloorStoneHexSlate.description>Steinpflaster mit ansehnlichem hexagonalem Muster.</FloorStoneHexSlate.description>
+  <FloorStoneHexMarble.description>Steinpflaster mit ansehnlichem hexagonalem Muster.</FloorStoneHexMarble.description>
+
+<!-- Mosaic flooring -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+  <FloorStoneMosaicSandstone.label>Mosaik Sandstein Pflaster</FloorStoneMosaicSandstone.label>
+  <FloorStoneMosaicGranite.label>Mosaik Granit Pflaster</FloorStoneMosaicGranite.label>
+  <FloorStoneMosaicLimestone.label>Mosaik Kalkstein Pflaster</FloorStoneMosaicLimestone.label>
+  <FloorStoneMosaicSlate.label>Mosaik Schiefer Pflaster</FloorStoneMosaicSlate.label>
+  <FloorStoneMosaicMarble.label>Mosaik Marmor Pflaster</FloorStoneMosaicMarble.label>
+
+  <FloorStoneMosaicSandstone.description>Gepflasterter Steinboden mit schönem Mosaikmuster.</FloorStoneMosaicSandstone.description>
+  <FloorStoneMosaicGranite.description>Gepflasterter Steinboden mit schönem Mosaikmuster.</FloorStoneMosaicGranite.description>
+  <FloorStoneMosaicLimestone.description>Gepflasterter Steinboden mit schönem Mosaikmuster.</FloorStoneMosaicLimestone.description>
+  <FloorStoneMosaicSlate.description>Gepflasterter Steinboden mit schönem Mosaikmuster.</FloorStoneMosaicSlate.description>
+  <FloorStoneMosaicMarble.description>Gepflasterter Steinboden mit schönem Mosaikmuster.</FloorStoneMosaicMarble.description>
+
+<!-- Random stone flooring -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+  <FloorStoneRandomSandstone.label>Zufalls Sandstein Pflaster</FloorStoneRandomSandstone.label>
+  <FloorStoneRandomGranite.label>Zufalls Granit Pflaster</FloorStoneRandomGranite.label>
+  <FloorStoneRandomLimestone.label>Zufalls Kalkstein Pflaster</FloorStoneRandomLimestone.label>
+  <FloorStoneRandomSlate.label>Zufalls Schiefer Pflaster</FloorStoneRandomSlate.label>
+  <FloorStoneRandomMarble.label>Zufalls Marmor Pflaster</FloorStoneRandomMarble.label>
+
+  <FloorStoneRandomSandstone.description>Sorgfältig gelegter Steinboden mit einem zufälligen Plattenmuster. Benötigt weniger Materialien als der Mosaikboden, ist aber schwerer zu verlegen.</FloorStoneRandomSandstone.description>
+  <FloorStoneRandomGranite.description>Sorgfältig gelegter Steinboden mit einem zufälligen Plattenmuster. Benötigt weniger Materialien als der Mosaikboden, ist aber schwerer zu verlegen.</FloorStoneRandomGranite.description>
+  <FloorStoneRandomLimestone.description>Sorgfältig gelegter Steinboden mit einem zufälligen Plattenmuster. Benötigt weniger Materialien als der Mosaikboden, ist aber schwerer zu verlegen.</FloorStoneRandomLimestone.description>
+  <FloorStoneRandomSlate.description>Sorgfältig gelegter Steinboden mit einem zufälligen Plattenmuster. Benötigt weniger Materialien als der Mosaikboden, ist aber schwerer zu verlegen.</FloorStoneRandomSlate.description>
+  <FloorStoneRandomMarble.description>Sorgfältig gelegter Steinboden mit einem zufälligen Plattenmuster. Benötigt weniger Materialien als der Mosaikboden, ist aber schwerer zu verlegen.</FloorStoneRandomMarble.description>
+  
+<!-- Chequered floors -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+  <FloorStoneChequerMarbleSlate.label>Marmor Schiefer Kachel</FloorStoneChequerMarbleSlate.label>
+  <FloorStoneChequerMarbleSandstone.label>Marmor Sandstein Kachel</FloorStoneChequerMarbleSandstone.label>
+  <FloorStoneChequerMarbleGranite.label>Marmor Granit Kachel</FloorStoneChequerMarbleGranite.label>
+  <FloorStoneChequerLimestoneSlate.label>Kalkstein Schiefer Kachel</FloorStoneChequerLimestoneSlate.label>
+  <FloorStoneChequerLimestoneSandstone.label>Kalkstein Sandstein Kachel</FloorStoneChequerLimestoneSandstone.label>
+  <FloorStoneChequerLimestoneGranite.label>Kalkstein Granit Kachel</FloorStoneChequerLimestoneGranite.label>
+  <FloorStoneChequerSlateSandstone.label>Schiefer Sandstein Kachel</FloorStoneChequerSlateSandstone.label>
+  <FloorStoneChequerSlateGranite.label>Schiefer Granit Kachel</FloorStoneChequerSlateGranite.label>
+
+  <FloorStoneChequerMarbleSlate.description>Gekachelter Steinboden, der zwei Steinarten zu einem angenehmen Muster kombiniert.</FloorStoneChequerMarbleSlate.description>
+  <FloorStoneChequerMarbleSandstone.description>Gekachelter Steinboden, der zwei Steinarten zu einem angenehmen Muster kombiniert.</FloorStoneChequerMarbleSandstone.description>
+  <FloorStoneChequerMarbleGranite.description>Gekachelter Steinboden, der zwei Steinarten zu einem angenehmen Muster kombiniert.</FloorStoneChequerMarbleGranite.description>
+  <FloorStoneChequerLimestoneSlate.description>Gekachelter Steinboden, der zwei Steinarten zu einem angenehmen Muster kombiniert.</FloorStoneChequerLimestoneSlate.description>
+  <FloorStoneChequerLimestoneSandstone.description>Gekachelter Steinboden, der zwei Steinarten zu einem angenehmen Muster kombiniert.</FloorStoneChequerLimestoneSandstone.description>
+  <FloorStoneChequerLimestoneGranite.description>Gekachelter Steinboden, der zwei Steinarten zu einem angenehmen Muster kombiniert.</FloorStoneChequerLimestoneGranite.description>
+  <FloorStoneChequerSlateSandstone.description>Gekachelter Steinboden, der zwei Steinarten zu einem angenehmen Muster kombiniert.</FloorStoneChequerSlateSandstone.description>
+  <FloorStoneChequerSlateGranite.description>Gekachelter Steinboden, der zwei Steinarten zu einem angenehmen Muster kombiniert.</FloorStoneChequerSlateGranite.description>
+
+</LanguageData>

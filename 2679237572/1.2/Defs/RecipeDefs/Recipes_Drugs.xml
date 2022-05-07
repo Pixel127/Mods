@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+ 
+  <!-- Beer -->
+  <RecipeDef>
+		<defName>Make_WortBulk</defName>
+		<label>make wort in bulk</label>
+		<description>Make wort in bulk from hops.</description>
+		<jobString>Making wort.</jobString>
+		<workSpeedStat>DrugCookingSpeed</workSpeedStat>
+		<workSkill>Cooking</workSkill>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_Brewing</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<workAmount>1250</workAmount> <!-- work amount is +25% longer than original -->
+		<targetCountAdjustment>1</targetCountAdjustment>
+    <recipeUsers> <!-- A lot quicker than trying to patch production buildings -->
+        <li>Brewery</li>
+    </recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawHops</li>
+					</thingDefs>
+				</filter>
+				<count>75</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>RawHops</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Wort>15</Wort>
+		</products>
+	</RecipeDef>
+</Defs>

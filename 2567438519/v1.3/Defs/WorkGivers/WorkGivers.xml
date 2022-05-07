@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+    <Defs>
+        <WorkGiverDef>
+            <defName>DoBillsCookLTSFireplace</defName>
+            <label>cook meals at fireplace</label>
+            <giverClass>WorkGiver_DoBill</giverClass>
+            <workType>Cooking</workType>
+            <priorityInType>98</priorityInType>
+            <fixedBillGiverDefs>
+                <li>LTS_Firepit</li>
+                <li>LTS_FirepitRound</li>
+                <li>LTS_Fireplace</li>
+            </fixedBillGiverDefs>
+            <verb>cook</verb>
+            <gerund>cooking at</gerund>
+            <requiredCapacities>
+                <li>Manipulation</li>
+            </requiredCapacities>
+            <prioritizeSustains>true</prioritizeSustains>
+        </WorkGiverDef>
+
+        <WorkGiverDef>
+            <defName>DoBillsHaulLTSFireplace</defName>
+            <label>do bills at fireplace</label>
+            <giverClass>WorkGiver_DoBill</giverClass>
+            <workType>Hauling</workType>
+            <priorityInType>31</priorityInType>
+            <fixedBillGiverDefs>
+                <li>LTS_Firepit</li>
+                <li>LTS_FirepitRound</li>
+                <li>LTS_Fireplace</li>
+            </fixedBillGiverDefs>
+            <verb>work at</verb>
+            <gerund>working at</gerund>
+            <requiredCapacities>
+                <li>Manipulation</li>
+            </requiredCapacities>
+            <prioritizeSustains>true</prioritizeSustains>
+        </WorkGiverDef>
+    </Defs>

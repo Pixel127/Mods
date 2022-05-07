@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: fire pit -->
+  <LTS_Firepit.label>foyer</LTS_Firepit.label>
+  <!-- EN: A pit made to house a fire. -->
+  <LTS_Firepit.description>Une fosse faite pour abriter un feu.</LTS_Firepit.description>
+  
+  <!-- EN: fire pit -->
+  <LTS_FirepitRound.label>foyer rond</LTS_FirepitRound.label>
+  <!-- EN: A pit made to house a fire. -->
+  <LTS_FirepitRound.description>Une fosse faite pour abriter un feu.</LTS_FirepitRound.description>
+  
+  <!-- EN: fireplace -->
+  <LTS_Fireplace.label>cheminée</LTS_Fireplace.label>
+  <!-- EN: A place to house a fire. -->
+  <LTS_Fireplace.description>Un endroit pour abriter un feu.</LTS_Fireplace.description>
+  
+  <!-- EN: Lanternpost -->
+  <LTS_Lanternpost.label>lanterne</LTS_Lanternpost.label>
+  <!-- EN: A place to house light. -->
+  <LTS_Lanternpost.description>Une lanterne qui éclaire une zone.</LTS_Lanternpost.description>
+  
+  <!-- EN: Lanternpost -->
+  <LTS_Lightpost.label>lampadaire</LTS_Lightpost.label>
+  <!-- EN: A place to house light. -->
+  <LTS_Lightpost.description>Un lampadaire qui éclaire une zone.</LTS_Lightpost.description>
+  
+</LanguageData>

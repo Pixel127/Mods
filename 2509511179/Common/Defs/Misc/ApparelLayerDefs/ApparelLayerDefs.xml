@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ApparelLayerDef>
+		<defName>PacksAreNotBelts_Tactical</defName>
+		<label>tactical</label>
+		<drawOrder>515</drawOrder>
+	</ApparelLayerDef>
+	
+	<ApparelLayerDef>
+		<defName>PacksAreNotBelts_Ammo</defName>
+		<label>ammunition</label>
+		<drawOrder>517</drawOrder>
+		<modExtensions>
+			<li Class="HeavyWeaponsAcceptAllUtilities.DefExtension_IsUtilityLayer"/>
+		</modExtensions>
+	</ApparelLayerDef>
+	
+	<ApparelLayerDef>
+		<defName>PacksAreNotBelts_Exoskeleton</defName>
+		<label>exoskeleton</label>
+		<!--Combat Extended, why!?-->
+		<drawOrder>119</drawOrder>
+		<modExtensions>
+			<li Class="HeavyWeaponsAcceptAllUtilities.DefExtension_IsUtilityLayer"/>
+		</modExtensions>
+	</ApparelLayerDef>
+</Defs>

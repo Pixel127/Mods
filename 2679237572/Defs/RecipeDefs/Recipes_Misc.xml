@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RecipeDef>
+    <defName>Make_MedicineBulk</defName>
+    <label>make medicine in bulk</label>
+    <description>Make medicine in bulk.</description>
+    <jobString>Making medicine.</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <workAmount>875</workAmount>
+    <!-- work amount is +25% longer than original -->
+    <recipeUsers>
+      <!-- A lot quicker than trying to patch production buildings -->
+      <li>DrugLab</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MedicineHerbal</li>
+          </thingDefs>
+        </filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Neutroamine</li>
+          </thingDefs>
+        </filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Cloth</li>
+          </thingDefs>
+        </filter>
+        <count>9</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>MedicineHerbal</li>
+        <li>Neutroamine</li>
+        <li>Cloth</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <MedicineIndustrial>3</MedicineIndustrial>
+    </products>
+    <researchPrerequisite>MedicineProduction</researchPrerequisite>
+    <skillRequirements>
+      <Crafting>4</Crafting>
+      <Intellectual>8</Intellectual>
+    </skillRequirements>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>Make_Shell_HighExplosiveBulk</defName>
+    <label>make high-explosive shells in bulk</label>
+    <description>Make high-explosive shells in bulk.</description>
+    <jobString>Making high-explosive shells.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>1000</workAmount>
+    <!-- work amount is +25% longer than original -->
+    <recipeUsers>
+      <!-- A lot quicker than trying to patch production buildings -->
+      <li>TableMachining</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>45</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Chemfuel</li>
+          </thingDefs>
+        </filter>
+        <count>30</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+        <li>Chemfuel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Shell_HighExplosive>3</Shell_HighExplosive>
+    </products>
+    <skillRequirements>
+      <Crafting>6</Crafting>
+    </skillRequirements>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>Make_Shell_IncendiaryBulk</defName>
+    <label>make incendiary shells in bulk</label>
+    <description>Make incendiary shells in bulk.</description>
+    <jobString>Making incendiary shells.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>1000</workAmount>
+    <!-- work amount is +25% longer than original -->
+    <recipeUsers>
+      <!-- A lot quicker than trying to patch production buildings -->
+      <li>TableMachining</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>30</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Chemfuel</li>
+          </thingDefs>
+        </filter>
+        <count>45</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+        <li>Chemfuel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Shell_Incendiary>3</Shell_Incendiary>
+    </products>
+    <skillRequirements>
+      <Crafting>6</Crafting>
+    </skillRequirements>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>Make_Shell_EMPBulk</defName>
+    <label>make EMP shells in bulk</label>
+    <description>Make EMP shells in bulk.</description>
+    <jobString>Making EMP shells.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>1000</workAmount>
+    <!-- work amount is +25% longer than original -->
+    <recipeUsers>
+      <!-- A lot quicker than trying to patch production buildings -->
+      <li>TableMachining</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>45</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>3</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Shell_EMP>3</Shell_EMP>
+    </products>
+    <skillRequirements>
+      <Crafting>6</Crafting>
+    </skillRequirements>
+  </RecipeDef>
+</Defs>

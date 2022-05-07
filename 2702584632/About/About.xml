@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Convert Then Recruit</name>
+  <packageId>Mlie.ConvertThenRecruit</packageId>
+  <author>Mlie</author>
+  <url>https://github.com/emipa606/ConvertThenRecruit</url>
+  <supportedVersions>
+    <li>1.3</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+      <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+    </li>
+    <li>
+      <packageId>Ludeon.Rimworld.Ideology</packageId>
+      <displayName>Rimworld Ideology</displayName>
+      <downloadUrl>https://store.steampowered.com/app/1392840/RimWorld__Ideology/</downloadUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+    <li>Ludeon.Rimworld.Ideology</li>
+    <li>avius.prisonlabor</li>
+  </loadAfter>
+  <description>[img]https://i.imgur.com/buuPQel.png[/img]
+
+Adds a prisoner-interaction to first convert prisoner and then recruit them.
+When they get converted their interaction mode is automatically set to Recruit.
+
+Due to requests there is also an option to first reduce resistance before converting. 
+This can be disabled in the options.
+
+If you like this one, take a look at my other prisoner interaction-mods
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2705395014]Convert Then Enslave[/url]
+and
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2506029522]Release When Healthy[/url]
+
+Idea by: Blorpmeister
+
+Russian translation by: Vyacheslav
+Turkish translation by: Kegrine
+Japanese translation from: [url=https://rimworld.2game.info/detail.php?id=2702584632]RimWorld Mod database[/url]
+
+[table]
+	[tr]
+		[td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
+		[td][url=https://github.com/emipa606/ConvertThenRecruit][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+	[/tr]
+[/table]
+
+[img]https://i.imgur.com/O0IIlYj.png[/img]
+Since modding is just a hobby for me I expect no donations to keep modding. If you still want to show your support you can gift me anything from my [url=https://store.steampowered.com/wishlist/id/Mlie]Wishlist[/url] or buy me a cup of tea.
+
+[url=https://ko-fi.com/G2G55DDYD][img]https://i.imgur.com/Utx6OIH.png[/img][/url]
+
+[img]https://i.imgur.com/PwoNOj4.png[/img]
+[list]
+[*] See if the the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] and command Ctrl+F12
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[/list]
+</description>
+</ModMetaData>

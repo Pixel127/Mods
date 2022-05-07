@@ -1,0 +1,37 @@
+# Changelog for ConvertThenRecruit
+
+1.3.11 - Wild pawns must now be tamed before the convert option is shown, the same as in vanilla
+
+
+1.3.10 - More unique defname for the HugLib-news base-definition, to avoid conflicts with other mods
+
+
+1.3.9 - Typo
+
+
+1.3.8 - Added japanese translation from [url=https://rimworld.2game.info/detail.php?id=2702584632]RimWorld Mod database[/url]
+
+
+1.3.7 - Should now only modify interraction mode for prisoners, not wild pawns
+
+
+1.3.6 - Reduce resistance should now be turned off by default to not confuse things for new users
+
+
+1.3.5 - Turkish translation added, thanks Kegrine!
+
+
+1.3.4 - Russian translation added, thanks Vyacheslav!
+
+
+1.3.3 - If prisoners change ideology on their own it will not count as a success unless its the same as the colonys ideology
+
+
+1.3.2 - Fixed an issue when prisoner already had the same ideology. Updated logo
+
+
+1.3.1 - Added reduce resistance as an option
+
+
+1.3.0 - First publish
+

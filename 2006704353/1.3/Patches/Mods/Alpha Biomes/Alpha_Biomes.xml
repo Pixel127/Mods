@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+
+	<!-- Advanced Biomes -->
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			
+			<li Class="PatchOperationTest">
+				<xpath>/Defs/TerrainDef[defName = "AB_DenseMud"]</xpath>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/TerrainDef[defName = "AB_DenseMud"]/affordances</xpath>
+				<value>
+					<li>FSFAffordanceSoilStony</li>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/TerrainDef[defName = "AB_DenseGrass"]/affordances</xpath>
+				<value>
+					<li>FSFAffordanceSoil</li>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/TerrainDef[defName = "AB_WebbedMarshyTerrain"]/affordances</xpath>
+				<value>
+					<li>FSFAffordanceSoilStony</li>
+				</value>
+			</li>
+			
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			
+			<li Class="PatchOperationTest">
+				<xpath>/Defs/TerrainDef[defName = "AB_ForsakenSand"]</xpath>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/TerrainDef[defName = "AB_ForsakenSand"]/affordances</xpath>
+				<value>
+					<li>FSFAffordanceSoil</li>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/TerrainDef[defName = "AB_ForsakenRock"]/affordances</xpath>
+				<value>
+					<li>FSFAffordanceSoilStony</li>
+				</value>
+			</li>
+			
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			
+			<li Class="PatchOperationTest">
+				<xpath>/Defs/TerrainDef[defName = "AB_CrackedMud"]</xpath>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/TerrainDef[defName = "AB_CrackedMud"]/affordances</xpath>
+				<value>
+					<li>FSFAffordanceSoilStony</li>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/TerrainDef[defName = "AB_RichCrackedMud"]/affordances</xpath>
+				<value>
+					<li>FSFAffordanceSoilRich</li>
+				</value>
+			</li>
+			
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			
+			<li Class="PatchOperationTest">
+				<xpath>/Defs/TerrainDef[defName = "AB_SlimeGrass"]</xpath>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/TerrainDef[defName = "AB_SlimeGrass"]/affordances</xpath>
+				<value>
+					<li>FSFAffordanceSoil</li>
+				</value>
+			</li>
+			
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			
+			<li Class="PatchOperationTest">
+				<xpath>/Defs/TerrainDef[defName = "AB_MycoticSoil"]</xpath>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/TerrainDef[defName = "AB_MycoticSoil"]/affordances</xpath>
+				<value>
+					<li>FSFAffordanceSoil</li>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/TerrainDef[defName = "AB_MycoticSoilRich"]/affordances</xpath>
+				<value>
+					<li>FSFAffordanceSoilRich</li>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/TerrainDef[defName = "AB_MycoticGrass"]/affordances</xpath>
+				<value>
+					<li>FSFAffordanceSoil</li>
+				</value>
+			</li>
+			
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			
+			<li Class="PatchOperationTest">
+				<xpath>/Defs/TerrainDef[defName = "GU_AlienSand"]</xpath>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/TerrainDef[defName = "GU_AlienSand"]/affordances</xpath>
+				<value>
+					<li>FSFAffordanceSoil</li>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/TerrainDef[defName = "GU_RichAlienSand"]/affordances</xpath>
+				<value>
+					<li>FSFAffordanceSoilRich</li>
+				</value>
+			</li>
+			
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			
+			<li Class="PatchOperationTest">
+				<xpath>/Defs/TerrainDef[defName = "AB_SnowOverRocks"]</xpath>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/TerrainDef[defName = "AB_SnowOverRocks"]/affordances</xpath>
+				<value>
+					<li>FSFAffordanceSoilStony</li>
+				</value>
+			</li>
+			
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			
+			<li Class="PatchOperationTest">
+				<xpath>/Defs/TerrainDef[defName = "AB_HardenedGrass"]</xpath>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/TerrainDef[defName = "AB_HardenedGrass"]/affordances</xpath>
+				<value>
+					<li>FSFAffordanceSoilStony</li>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/TerrainDef[defName = "AB_HardenedGrassFertile"]/affordances</xpath>
+				<value>
+					<li>FSFAffordanceSoilRich</li>
+				</value>
+			</li>
+			
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			
+			<li Class="PatchOperationTest">
+				<xpath>/Defs/TerrainDef[defName = "AB_LushGrass"]</xpath>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/TerrainDef[defName = "AB_LushGrass"]/affordances</xpath>
+				<value>
+					<li>FSFAffordanceSoil</li>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/TerrainDef[defName = "AB_ParchedEarth"]/affordances</xpath>
+				<value>
+					<li>FSFAffordanceSoilStony</li>
+				</value>
+			</li>
+			
+		</operations>
+	</Operation>
+	
+</Patch>

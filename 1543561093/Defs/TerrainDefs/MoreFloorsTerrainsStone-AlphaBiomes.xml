@@ -1,0 +1,502 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Floors with different material def data in Alpha Biomes                -->
+  <!--  - these defs are patched during load time to remove the Abstract      -->
+  <!--  attribute if the appropriate mod is active, otherwise, they           -->
+  <!--  harmlessly disappear into the ether                                   -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+
+
+  <!-- Slabs -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+  <TerrainDef ParentName="TFloorBaseStoneSlabs" Abstract="true">
+    <defName>FloorStoneSlabsABRoseQuartz</defName>
+    <label>stone slabs (rose quartz)</label>
+    <color>(120,50,50)</color>
+    <costList>
+      <GU_BlocksRoseQuartz>3</GU_BlocksRoseQuartz>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneSlabs" Abstract="true">
+    <defName>FloorStoneSlabsABCragstone</defName>
+    <label>stone slabs (cragstone)</label>
+    <color>(36,35,40)</color>
+    <costList>
+      <AB_BlocksCragstone>3</AB_BlocksCragstone>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneSlabs" Abstract="true">
+    <defName>FloorStoneSlabsABObsidian</defName>
+    <label>stone slabs (obsidian)</label>
+    <color>(50,50,50)</color>
+    <costList>
+      <AB_BlocksObsidian>3</AB_BlocksObsidian>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneSlabs" Abstract="true">
+    <defName>FloorStoneSlabsABMudstone</defName>
+    <label>stone slabs (mudstone)</label>
+    <color>(31,25,21)</color>
+    <costList>
+      <AB_BlocksMudstone>3</AB_BlocksMudstone>
+    </costList>
+  </TerrainDef>
+  
+  
+  
+  <!-- Staggered -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  
+  <TerrainDef ParentName="TFloorBaseStoneStaggered" Abstract="true">
+    <defName>FloorStoneStaggeredABRoseQuartz</defName>
+    <label>staggered stone tiles (rose quartz)</label>
+    <color>(120,50,50)</color>
+    <costList>
+      <GU_BlocksRoseQuartz>3</GU_BlocksRoseQuartz>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneStaggered" Abstract="true">
+    <defName>FloorStoneStaggeredABCragstone</defName>
+    <label>staggered stone tiles (cragstone)</label>
+    <color>(36,35,40)</color>
+    <costList>
+      <AB_BlocksCragstone>3</AB_BlocksCragstone>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneStaggered" Abstract="true">
+    <defName>FloorStoneStaggeredABObsidian</defName>
+    <label>staggered stone tiles (obsidian)</label>
+    <color>(50,50,50)</color>
+    <costList>
+      <AB_BlocksObsidian>3</AB_BlocksObsidian>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneStaggered" Abstract="true">
+    <defName>FloorStoneStaggeredABMudstone</defName>
+    <label>staggered stone tiles (mudstone)</label>
+    <color>(31,25,21)</color>
+    <costList>
+      <AB_BlocksMudstone>3</AB_BlocksMudstone>
+    </costList>
+  </TerrainDef>
+  
+  
+  
+  <!-- Rough -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  
+  <TerrainDef ParentName="TFloorBaseStoneRough" Abstract="true">
+    <defName>FloorStoneRoughABRoseQuartz</defName>
+    <label>rough paving (rose quartz)</label>
+    <color>(120,50,50)</color>
+    <costList>
+      <GU_BlocksRoseQuartz>2</GU_BlocksRoseQuartz>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneRough" Abstract="true">
+    <defName>FloorStoneRoughABCragstone</defName>
+    <label>rough paving (cragstone)</label>
+    <color>(36,35,40)</color>
+    <costList>
+      <AB_BlocksCragstone>2</AB_BlocksCragstone>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneRough" Abstract="true">
+    <defName>FloorStoneRoughABObsidian</defName>
+    <label>rough paving (obsidian)</label>
+    <color>(50,50,50)</color>
+    <costList>
+      <AB_BlocksObsidian>2</AB_BlocksObsidian>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneRough" Abstract="true">
+    <defName>FloorStoneRoughABMudstone</defName>
+    <label>rough paving (mudstone)</label>
+    <color>(31,25,21)</color>
+    <costList>
+      <AB_BlocksMudstone>2</AB_BlocksMudstone>
+    </costList>
+  </TerrainDef>
+  
+  
+  
+  <!-- Alternating -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+  <TerrainDef ParentName="TFloorBaseStoneAlternating" Abstract="true">
+    <defName>FloorStoneAlternatingABRoseQuartz</defName>
+    <label>alternating brick paving (rose quartz)</label>
+    <color>(120,50,50)</color>
+    <costList>
+      <GU_BlocksRoseQuartz>3</GU_BlocksRoseQuartz>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneAlternating" Abstract="true">
+    <defName>FloorStoneAlternatingABCragstone</defName>
+    <label>alternating brick paving (cragstone)</label>
+    <color>(36,35,40)</color>
+    <costList>
+      <AB_BlocksCragstone>3</AB_BlocksCragstone>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneAlternating" Abstract="true">
+    <defName>FloorStoneAlternatingABObsidian</defName>
+    <label>alternating brick paving (obsidian)</label>
+    <color>(50,50,50)</color>
+    <costList>
+      <AB_BlocksObsidian>3</AB_BlocksObsidian>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneAlternating" Abstract="true">
+    <defName>FloorStoneAlternatingABMudstone</defName>
+    <label>alternating brick paving (mudstone)</label>
+    <color>(31,25,21)</color>
+    <costList>
+      <AB_BlocksMudstone>3</AB_BlocksMudstone>
+    </costList>
+  </TerrainDef>
+  
+  
+  
+  <!-- Chequered -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  
+  <TerrainDef ParentName="TFloorBaseStoneChequeredSingle" Abstract="true">
+    <defName>FloorStoneChequeredABRoseQuartz</defName>
+    <label>chequered slabs (rose quartz)</label>
+    <color>(120,50,50)</color>
+    <costList>
+      <GU_BlocksRoseQuartz>3</GU_BlocksRoseQuartz>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneChequeredSingle" Abstract="true">
+    <defName>FloorStoneChequeredABCragstone</defName>
+    <label>chequered slabs (cragstone)</label>
+    <color>(36,35,40)</color>
+    <costList>
+      <AB_BlocksCragstone>3</AB_BlocksCragstone>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneChequeredSingle" Abstract="true">
+    <defName>FloorStoneChequeredABObsidian</defName>
+    <label>chequered slabs (obsidian)</label>
+    <color>(50,50,50)</color>
+    <costList>
+      <AB_BlocksObsidian>3</AB_BlocksObsidian>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneChequeredSingle" Abstract="true">
+    <defName>FloorStoneChequeredABMudstone</defName>
+    <label>chequered slabs (mudstone)</label>
+    <color>(31,25,21)</color>
+    <costList>
+      <AB_BlocksMudstone>3</AB_BlocksMudstone>
+    </costList>
+  </TerrainDef>
+  
+  
+  
+  <!-- Herringbone -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  
+  <TerrainDef ParentName="TFloorBaseStoneHerringbone" Abstract="true">
+    <defName>FloorStoneHerringboneABRoseQuartz</defName>
+    <label>herringbone paving (rose quartz)</label>
+    <color>(120,50,50)</color>
+    <costList>
+      <GU_BlocksRoseQuartz>3</GU_BlocksRoseQuartz>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneHerringbone" Abstract="true">
+    <defName>FloorStoneHerringboneABCragstone</defName>
+    <label>herringbone paving (cragstone)</label>
+    <color>(36,35,40)</color>
+    <costList>
+      <AB_BlocksCragstone>3</AB_BlocksCragstone>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneHerringbone" Abstract="true">
+    <defName>FloorStoneHerringboneABObsidian</defName>
+    <label>herringbone paving (obsidian)</label>
+    <color>(50,50,50)</color>
+    <costList>
+      <AB_BlocksObsidian>3</AB_BlocksObsidian>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneHerringbone" Abstract="true">
+    <defName>FloorStoneHerringboneABMudstone</defName>
+    <label>herringbone paving (mudstone)</label>
+    <color>(31,25,21)</color>
+    <costList>
+      <AB_BlocksMudstone>3</AB_BlocksMudstone>
+    </costList>
+  </TerrainDef>
+  
+  
+  
+  <!-- Hexagonal -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  
+  <TerrainDef ParentName="TFloorBaseStoneHex" Abstract="true">
+    <defName>FloorStoneHexABRoseQuartz</defName>
+    <label>hex paving (rose quartz)</label>
+    <color>(120,50,50)</color>
+    <costList>
+      <GU_BlocksRoseQuartz>3</GU_BlocksRoseQuartz>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneHex" Abstract="true">
+    <defName>FloorStoneHexABCragstone</defName>
+    <label>hex paving (cragstone)</label>
+    <color>(36,35,40)</color>
+    <costList>
+      <AB_BlocksCragstone>3</AB_BlocksCragstone>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneHex" Abstract="true">
+    <defName>FloorStoneHexABObsidian</defName>
+    <label>hex paving (obsidian)</label>
+    <color>(50,50,50)</color>
+    <costList>
+      <AB_BlocksObsidian>3</AB_BlocksObsidian>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneHex" Abstract="true">
+    <defName>FloorStoneHexABMudstone</defName>
+    <label>hex paving (mudstone)</label>
+    <color>(31,25,21)</color>
+    <costList>
+      <AB_BlocksMudstone>3</AB_BlocksMudstone>
+    </costList>
+  </TerrainDef>
+  
+  
+  
+  <!-- Digital -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  
+  <TerrainDef ParentName="TFloorBaseStoneDigital" Abstract="true">
+    <defName>FloorStoneDigitalABRoseQuartz</defName>
+    <label>digital paving (rose quartz)</label>
+    <color>(120,50,50)</color>
+    <costList>
+      <GU_BlocksRoseQuartz>4</GU_BlocksRoseQuartz>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneDigital" Abstract="true">
+    <defName>FloorStoneDigitalABCragstone</defName>
+    <label>digital paving (cragstone)</label>
+    <color>(36,35,40)</color>
+    <costList>
+      <AB_BlocksCragstone>4</AB_BlocksCragstone>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneDigital" Abstract="true">
+    <defName>FloorStoneDigitalABObsidian</defName>
+    <label>digital paving (obsidian)</label>
+    <color>(50,50,50)</color>
+    <costList>
+      <AB_BlocksObsidian>4</AB_BlocksObsidian>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneDigital" Abstract="true">
+    <defName>FloorStoneDigitalABMudstone</defName>
+    <label>digital paving (mudstone)</label>
+    <color>(31,25,21)</color>
+    <costList>
+      <AB_BlocksMudstone>4</AB_BlocksMudstone>
+    </costList>
+  </TerrainDef>
+  
+  
+  
+  <!-- Mosaic -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  
+  <TerrainDef ParentName="TFloorBaseStoneMosaic" Abstract="true">
+    <defName>FloorStoneMosaicABRoseQuartz</defName>
+    <label>mosaic paving (rose quartz)</label>
+    <color>(120,50,50)</color>
+    <costList>
+      <GU_BlocksRoseQuartz>5</GU_BlocksRoseQuartz>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneMosaic" Abstract="true">
+    <defName>FloorStoneMosaicABCragstone</defName>
+    <label>mosaic paving (cragstone)</label>
+    <color>(36,35,40)</color>
+    <costList>
+      <AB_BlocksCragstone>5</AB_BlocksCragstone>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneMosaic" Abstract="true">
+    <defName>FloorStoneMosaicABObsidian</defName>
+    <label>mosaic paving (obsidian)</label>
+    <color>(50,50,50)</color>
+    <costList>
+      <AB_BlocksObsidian>5</AB_BlocksObsidian>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneMosaic" Abstract="true">
+    <defName>FloorStoneMosaicABMudstone</defName>
+    <label>mosaic paving (mudstone)</label>
+    <color>(31,25,21)</color>
+    <costList>
+      <AB_BlocksMudstone>5</AB_BlocksMudstone>
+    </costList>
+  </TerrainDef>
+  
+  
+  
+  <!-- Random -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  
+  <TerrainDef ParentName="TFloorBaseStoneRandom" Abstract="true">
+    <defName>FloorStoneRandomABRoseQuartz</defName>
+    <label>random paving (rose quartz)</label>
+    <color>(120,50,50)</color>
+    <costList>
+      <GU_BlocksRoseQuartz>4</GU_BlocksRoseQuartz>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneRandom" Abstract="true">
+    <defName>FloorStoneRandomABCragstone</defName>
+    <label>random paving (cragstone)</label>
+    <color>(36,35,40)</color>
+    <costList>
+      <AB_BlocksCragstone>4</AB_BlocksCragstone>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneRandom" Abstract="true">
+    <defName>FloorStoneRandomABObsidian</defName>
+    <label>random paving (obsidian)</label>
+    <color>(50,50,50)</color>
+    <costList>
+      <AB_BlocksObsidian>4</AB_BlocksObsidian>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneRandom" Abstract="true">
+    <defName>FloorStoneRandomABMudstone</defName>
+    <label>random paving (mudstone)</label>
+    <color>(31,25,21)</color>
+    <costList>
+      <AB_BlocksMudstone>4</AB_BlocksMudstone>
+    </costList>
+  </TerrainDef>
+  
+  
+  
+  <!-- Diamond -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  
+  <TerrainDef ParentName="TFloorBaseStoneDiamond" Abstract="true">
+    <defName>FloorStoneDiamondABRoseQuartz</defName>
+    <label>diamond paving (rose quartz)</label>
+    <color>(120,50,50)</color>
+    <costList>
+      <GU_BlocksRoseQuartz>4</GU_BlocksRoseQuartz>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneDiamond" Abstract="true">
+    <defName>FloorStoneDiamondABCragstone</defName>
+    <label>diamond paving (cragstone)</label>
+    <color>(36,35,40)</color>
+    <costList>
+      <AB_BlocksCragstone>4</AB_BlocksCragstone>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneDiamond" Abstract="true">
+    <defName>FloorStoneDiamondABObsidian</defName>
+    <label>diamond paving (obsidian)</label>
+    <color>(50,50,50)</color>
+    <costList>
+      <AB_BlocksObsidian>4</AB_BlocksObsidian>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneDiamond" Abstract="true">
+    <defName>FloorStoneDiamondABMudstone</defName>
+    <label>diamond paving (mudstone)</label>
+    <color>(31,25,21)</color>
+    <costList>
+      <AB_BlocksMudstone>4</AB_BlocksMudstone>
+    </costList>
+  </TerrainDef>
+  
+  
+  
+  <!-- Arabesque -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  
+  <TerrainDef ParentName="TFloorBaseStoneArabesque" Abstract="true">
+    <defName>FloorStoneArabesqueABRoseQuartz</defName>
+    <label>arabesque flooring (rose quartz)</label>
+    <color>(120,50,50)</color>
+    <costList>
+      <GU_BlocksRoseQuartz>4</GU_BlocksRoseQuartz>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneArabesque" Abstract="true">
+    <defName>FloorStoneArabesqueABCragstone</defName>
+    <label>arabesque flooring (cragstone)</label>
+    <color>(36,35,40)</color>
+    <costList>
+      <AB_BlocksCragstone>4</AB_BlocksCragstone>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneArabesque" Abstract="true">
+    <defName>FloorStoneArabesqueABObsidian</defName>
+    <label>arabesque flooring (obsidian)</label>
+    <color>(50,50,50)</color>
+    <costList>
+      <AB_BlocksObsidian>4</AB_BlocksObsidian>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TFloorBaseStoneArabesque" Abstract="true">
+    <defName>FloorStoneArabesqueABMudstone</defName>
+    <label>arabesque flooring (mudstone)</label>
+    <color>(31,25,21)</color>
+    <costList>
+      <AB_BlocksMudstone>4</AB_BlocksMudstone>
+    </costList>
+  </TerrainDef>
+
+</Defs>

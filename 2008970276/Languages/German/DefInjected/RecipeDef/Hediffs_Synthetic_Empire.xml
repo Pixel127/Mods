@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Detoxifier enhancer -->
+
+  <InstallEPOE_DetoxifierEnhancer.label>Implantiere Entgiftungsverstärker</InstallEPOE_DetoxifierEnhancer.label>
+  <InstallEPOE_DetoxifierEnhancer.description>Implantiere einen Entgiftungsverstärker.</InstallEPOE_DetoxifierEnhancer.description>
+  <InstallEPOE_DetoxifierEnhancer.jobString>Installert Entgiftungsverstärker.</InstallEPOE_DetoxifierEnhancer.jobString>
+
+  <EPIA_RemoveDetoxifierEnhancer.label>Entferne Entgiftungsverstärker</EPIA_RemoveDetoxifierEnhancer.label>
+  <EPIA_RemoveDetoxifierEnhancer.description>Entferne einen Entgiftungsverstärker.</EPIA_RemoveDetoxifierEnhancer.description>
+  <EPIA_RemoveDetoxifierEnhancer.jobString>Entfernt Entgiftungsverstärker.</EPIA_RemoveDetoxifierEnhancer.jobString>
+
+
+  <!-- Synthetic detoxifier liver -->
+
+  <EPIA_UpgradeDetoxifierSyntheticLiver.label>Stelle Synthetische Entgiftungsleber her</EPIA_UpgradeDetoxifierSyntheticLiver.label>
+  <EPIA_UpgradeDetoxifierSyntheticLiver.description>Verbessere eine synthetische Leber in eine synthetische Entgiftungsleber.</EPIA_UpgradeDetoxifierSyntheticLiver.description>
+  <EPIA_UpgradeDetoxifierSyntheticLiver.jobString>Stellt Synthetische Entgiftungsleber her.</EPIA_UpgradeDetoxifierSyntheticLiver.jobString>
+
+  <InstallEPOE_DetoxifierSyntheticLiver.label>Installere Synthetische Entgiftungsleber</InstallEPOE_DetoxifierSyntheticLiver.label>
+  <InstallEPOE_DetoxifierSyntheticLiver.description>Implantiere eine synthetische Entgiftungsleber.</InstallEPOE_DetoxifierSyntheticLiver.description>
+  <InstallEPOE_DetoxifierSyntheticLiver.jobString>Installert Synthetische Entgiftungsleber.</InstallEPOE_DetoxifierSyntheticLiver.jobString>
+
+
+  <!-- Synthetic immunoenhanced kidney -->
+
+  <EPIA_UpgradeImmunoenhancerSyntheticKidney.label>Stelle Synthetische immunverstärkte Niere her</EPIA_UpgradeImmunoenhancerSyntheticKidney.label>
+  <EPIA_UpgradeImmunoenhancerSyntheticKidney.description>Verbessere eine synthetische Niere in eine synthetische immunverstärkte Niere.</EPIA_UpgradeImmunoenhancerSyntheticKidney.description>
+  <EPIA_UpgradeImmunoenhancerSyntheticKidney.jobString>Stellt Synthetische immunverstärkte Niere her.</EPIA_UpgradeImmunoenhancerSyntheticKidney.jobString>
+
+  <InstallEPOE_ImmunoenhancerSyntheticKidney.label>Implantiere Synthetische immunverstärkte Niere</InstallEPOE_ImmunoenhancerSyntheticKidney.label>
+  <InstallEPOE_ImmunoenhancerSyntheticKidney.description>Implantiere eine Synthetische immunverstärkte Niere.</InstallEPOE_ImmunoenhancerSyntheticKidney.description>
+  <InstallEPOE_ImmunoenhancerSyntheticKidney.jobString>Installert Synthetische immunverstärkte Niere.</InstallEPOE_ImmunoenhancerSyntheticKidney.jobString>
+
+
+</LanguageData>

@@ -1,0 +1,8 @@
+<Patch>
+<Operation Class="PatchOperationReplace">
+<xpath>*/ThingDef[defName = "PowerConduit"]/statBases/Flammability</xpath>
+<value>
+<Flammability>0.0</Flammability>
+</value>
+</Operation>
+</Patch>

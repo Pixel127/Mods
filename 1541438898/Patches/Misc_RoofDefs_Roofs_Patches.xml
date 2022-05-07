@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!-- Make overhead mountain removable -->
+
+	<Operation Class="PatchOperationReplace"> 
+		<xpath>/Defs/RoofDef[defName = "RoofRockThick"]/isThickRoof</xpath>
+		<value>
+			<isThickRoof>false</isThickRoof>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace"> 
+		<xpath>/Defs/RoofDef[defName = "RoofRockThick"]/collapseLeavingThingDef</xpath>
+		<value>
+			<collapseLeavingThingDef>Filth_RubbleRock</collapseLeavingThingDef>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationInsert"> 
+		<xpath>/Defs/RoofDef[defName = "RoofRockThick"]</xpath>
+		<value>
+			<soundPunchThrough>RoofCollapse</soundPunchThrough>
+		</value>
+	</Operation>
+
+</Patch>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+<!-- Normal cloth carpet - new colours -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+
+	<CarpetOrange.label>Oranger Teppich</CarpetOrange.label>
+	<CarpetOrange.description>Weicher Teppich mit einem kräftigen Ringelblumenfarbton.</CarpetOrange.description>
+
+	<CarpetYellow.label>Gelber Teppich</CarpetYellow.label>
+	<CarpetYellow.description>Ein sommerlicher gelb gefärbter Teppich.</CarpetYellow.description>
+
+	<CarpetTurquoise.label>Türkiser Teppich</CarpetTurquoise.label>
+	<CarpetTurquoise.description>Ein beruhigender blau-grüner Teppich.</CarpetTurquoise.description>
+
+	<CarpetPurple.label>Violetter Teppich</CarpetPurple.label>
+	<CarpetPurple.description>Teppich in einem majestätischem Purpur.</CarpetPurple.description>
+
+	<CarpetWhite.label>Weißer Teppich</CarpetWhite.label>
+	<CarpetWhite.description>Ungefärbter weißer Teppich. Angenehm für die Füße, aber verschmutzt schnell.</CarpetWhite.description>
+
+	<CarpetBlack.label>Schwarzer Teppich</CarpetBlack.label>
+	<CarpetBlack.description>Ein Teppich in düsterem Schwarz.</CarpetBlack.description>
+
+<!-- Checkered cloth carpet - all colours -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+	<CheckCarpetRed.label>Rot karierter Teppich</CheckCarpetRed.label>
+	<CheckCarpetRed.description>Karierter Teppich in einem lieblichen Rotton.</CheckCarpetRed.description>
+
+	<CheckCarpetOrange.label>Orange karierter Teppich</CheckCarpetOrange.label>
+	<CheckCarpetOrange.description>Karierter Teppich in einem Ringelblumenfarbton.</CheckCarpetOrange.description>
+
+	<CheckCarpetYellow.label>Gelb karierter Teppich</CheckCarpetYellow.label>
+	<CheckCarpetYellow.description>Sommerlich gelb gefärbter karierter Teppich.</CheckCarpetYellow.description>
+
+	<CheckCarpetCream.label>Creme karierter Teppich</CheckCarpetCream.label>
+	<CheckCarpetCream.description>Karierter Teppich in einem cremefarbenen Weißton.</CheckCarpetCream.description>
+
+	<CheckCarpetGreen.label>Grün karierter Teppich</CheckCarpetGreen.label>
+	<CheckCarpetGreen.description>Ein karierter Teppich in natürlichem Grün.</CheckCarpetGreen.description>
+
+	<CheckCarpetTurquoise.label>Türkis karierter Teppich</CheckCarpetTurquoise.label>
+	<CheckCarpetTurquoise.description>Ein beruhigender blau-grün karierter Teppich.</CheckCarpetTurquoise.description>
+
+	<CheckCarpetBlue.label>Blau karierter Teppich</CheckCarpetBlue.label>
+	<CheckCarpetBlue.description>Plüschiger karierter Teppich in einem kühlen Blau.</CheckCarpetBlue.description>
+
+	<CheckCarpetPurple.label>Violett karierter Teppich</CheckCarpetPurple.label>
+	<CheckCarpetPurple.description>Karierter Teppich in einem majestätischem Purpur.</CheckCarpetPurple.description>
+
+    <CheckCarpetWhite.label>Weiß karierter Teppich</CheckCarpetWhite.label>
+    <CheckCarpetWhite.description>Ungefärbter weiß karierter Teppich. Angenehm für die Füße, aber verschmutzt schnell.</CheckCarpetWhite.description>
+
+	<CheckCarpetDark.label>Grau karierter Teppich</CheckCarpetDark.label>
+	<CheckCarpetDark.description>Karierter Teppich in hellem Schwarz - oder dunklem Weiß?</CheckCarpetDark.description>
+
+	<CheckCarpetBlack.label>Schwarz karierter Teppich</CheckCarpetBlack.label>
+	<CheckCarpetBlack.description>Ein karierter Teppich in düsterem Schwarz.</CheckCarpetBlack.description>
+	
+<!-- Wool carpet - all colours -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+	
+	<WoolCarpetRed.label>Roter Wollteppich</WoolCarpetRed.label>
+	<WoolCarpetRed.description>Wollteppich in einem lieblichen Rotton.</WoolCarpetRed.description>
+	
+	<WoolCarpetOrange.label>Oranger Wollteppich</WoolCarpetOrange.label>
+	<WoolCarpetOrange.description>Wollteppich mit einem kräftigen Ringelblumenfarbton.</WoolCarpetOrange.description>
+	
+	<WoolCarpetYellow.label>Gelber Wollteppich</WoolCarpetYellow.label>
+	<WoolCarpetYellow.description>Ein sommerlicher gelb gefärbter Wollteppich.</WoolCarpetYellow.description>
+	
+	<WoolCarpetCream.label>Creme Wollteppich</WoolCarpetCream.label>
+	<WoolCarpetCream.description>Wolliger Teppich in einem cremefarbenen Weißton.</WoolCarpetCream.description>
+	
+	<WoolCarpetGreen.label>Grüner Wollteppich</WoolCarpetGreen.label>
+	<WoolCarpetGreen.description>Ein wolliger Teppich in natürlichem Grün.</WoolCarpetGreen.description>
+	
+	<WoolCarpetTurquoise.label>Türkiser Wollteppich</WoolCarpetTurquoise.label>
+	<WoolCarpetTurquoise.description>Ein beruhigender blau-grüner Wollteppich.</WoolCarpetTurquoise.description>
+	
+	<WoolCarpetBlue.label>Blauer Wollteppich</WoolCarpetBlue.label>
+	<WoolCarpetBlue.description>Plüschiger Wollteppich in einem kühlen Blau.</WoolCarpetBlue.description>
+	
+	<WoolCarpetPurple.label>Violetter Wollteppich</WoolCarpetPurple.label>
+	<WoolCarpetPurple.description>Wollteppich in einem majestätischem Purpur.</WoolCarpetPurple.description>
+	
+	<WoolCarpetWhite.label>Weißer Wollteppich</WoolCarpetWhite.label>
+	<WoolCarpetWhite.description>Weißer Wollteppich. Wie Schnee, nur wärmer!</WoolCarpetWhite.description>
+	
+	<WoolCarpetDark.label>Grauer Wollteppich</WoolCarpetDark.label>
+	<WoolCarpetDark.description>Wollteppich in hellem Schwarz - oder dunklem Weiß?</WoolCarpetDark.description>
+	
+	<WoolCarpetBlack.label>Schwarzer Wollteppich</WoolCarpetBlack.label>
+	<WoolCarpetBlack.description>Ein Wollteppich in düsterem Schwarz.</WoolCarpetBlack.description>
+
+</LanguageData>

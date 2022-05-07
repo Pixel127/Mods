@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+  
+	<!-- Regular Soil -->
+  
+	<ThingDef ParentName="ResourceBase">
+		<defName>FSFItemSoil</defName>
+		<label>soil</label>
+		<description>Soil is a mixture of organic matter, minerals, gases, liquids and organisms that together support life.</description>
+		<graphicData>
+		<texPath>Things/Item/Resource/FSFItemSoil</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.90</drawSize>
+		</graphicData>
+		<useHitPoints>false</useHitPoints>
+		<tradeability>Buyable</tradeability>
+		<stackLimit>250</stackLimit>
+		<healthAffectsPrice>false</healthAffectsPrice>
+		<statBases>
+			<MarketValue>0.5</MarketValue>
+			<Mass>0.1</Mass>
+			<Flammability>0.0</Flammability>
+			<DeteriorationRate>0.0</DeteriorationRate>
+		</statBases>
+		<thingCategories>
+			<li>ResourcesRaw</li>
+		</thingCategories>
+		<techHediffsTags>
+			<li>Poor</li>
+		</techHediffsTags>
+	</ThingDef>
+	
+	<!-- Rich Soil -->
+	
+	<ThingDef ParentName="ResourceBase">
+		<defName>FSFItemSoilRich</defName>
+		<label>rich soil</label>
+		<description>Rich Soil is a mixture of organic matter, minerals, gases, liquids and organisms that together support life. Unlike normal soil its incredibly fertile allowing plants to grow faster and stronger.</description>
+		<graphicData>
+		<texPath>Things/Item/Resource/FSFItemSoilRich</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.90</drawSize>
+		</graphicData>
+		<useHitPoints>false</useHitPoints>
+		<tradeability>Buyable</tradeability>
+		<stackLimit>250</stackLimit>
+		<healthAffectsPrice>false</healthAffectsPrice>
+		<statBases>
+			<MarketValue>1.0</MarketValue>
+			<Mass>0.1</Mass>
+			<Flammability>0.0</Flammability>
+			<DeteriorationRate>0.0</DeteriorationRate>
+		</statBases>
+		<thingCategories>
+			<li>ResourcesRaw</li>
+		</thingCategories>
+		<techHediffsTags>
+			<li>Poor</li>
+		</techHediffsTags>
+	</ThingDef>
+  
+</Defs>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Packs Are Not Belts</name>
+	<packageId>turnovus.submod.backpacksarenotbelts</packageId>
+	<author>Turnovus</author>
+	
+	<supportedVersions>
+		<li>1.2</li>
+		<li>1.3</li>
+	</supportedVersions>
+	
+	<modDependencies>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+		</li>
+	</modDependencies>
+	
+	<loadAfter>
+		<li>Ludeon.RimWorld.Royalty</li>
+		<li>VanillaExpanded.VWEHW</li>
+		<li>SGC.moreutilitypacks</li>
+		<li>Dubwise.DubsRimkit</li>
+		<li>CP.RimmuNation.Clothing</li>
+	</loadAfter>
+	
+	<description>Moves the jump pack, low-shield, and some modded packs to the torso slot so they can be worn with belts.
+	
+Also moves the exoskeleton frame from VWE Heavy to its own layer, and some Rimmu-Nation items away from the torso, so they can still be worn with other utilities.</description>
+</ModMetaData>

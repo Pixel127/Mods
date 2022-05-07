@@ -1,0 +1,57 @@
+<Patch>
+
+	<!-- ================ Sandstone ================ -->
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>*/ThingDef[defName = "BlocksSandstone"]/stuffProps/statFactors/MaxHitPoints</xpath>
+		<value>
+		<MaxHitPoints>1.3</MaxHitPoints>
+		</value>
+		</Operation>
+
+	<!-- ================ Granite ================ -->
+	
+		<Operation Class="PatchOperationAdd">
+		<xpath>*/ThingDef[defName = "BlocksGranite"]/stuffProps</xpath>
+		<value>
+		<statOffsets>
+	    <Beauty>1</Beauty>	
+		</statOffsets>
+		</value>
+		</Operation>
+		
+	<!-- ================ Limestone ================ -->
+	
+		<Operation Class="PatchOperationReplace">
+		<xpath>*/ThingDef[defName = "BlocksLimestone"]/stuffProps/statFactors/MaxHitPoints</xpath>
+		<value>
+        <MaxHitPoints>1.4</MaxHitPoints>
+		</value>
+		</Operation>
+		
+	<!-- ================ Slate ================ -->
+	
+		<Operation Class="PatchOperationReplace">
+		<xpath>*/ThingDef[defName = "BlocksSlate"]/stuffProps/statFactors/MaxHitPoints</xpath>
+		<value>
+        <MaxHitPoints>1.2</MaxHitPoints>
+		</value>
+		</Operation>		
+		
+	<!-- ================ Marble ================ -->
+	
+		<Operation Class="PatchOperationReplace">
+		<xpath>*/ThingDef[defName = "BlocksMarble"]/stuffProps/statFactors/MaxHitPoints</xpath>
+		<value>
+        <MaxHitPoints>1.5</MaxHitPoints>
+		</value>
+		</Operation>
+		
+		<Operation Class="PatchOperationReplace">
+		<xpath>*/ThingDef[defName = "BlocksMarble"]/stuffProps/statOffsets/Beauty</xpath>
+		<value>
+        <Beauty>2</Beauty>
+		</value>
+		</Operation>
+		
+</Patch>
