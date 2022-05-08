@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+
+    <Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Vanilla Plants Expanded</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+		    <li Class="PatchOperationReplace">
+                <xpath>/Defs/TerrainDef[defName="VCE_TilledSoil"]/statBases/Beauty/text()</xpath>
+                <value>0</value>
+            </li>
+			
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="VCE_AppleTree"]/statBases/Beauty/text()</xpath>
+                <value>3</value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="VCE_PeachTree"]/statBases/Beauty/text()</xpath>
+                <value>3</value>
+            </li>	
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="VCE_CherryTree"]/statBases/Beauty/text()</xpath>
+                <value>8</value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="VCE_PlumTree"]/statBases/Beauty/text()</xpath>
+                <value>3</value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="VCE_PearTree"]/statBases/Beauty/text()</xpath>
+                <value>3</value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="VCE_Opuntia"]/statBases/Beauty/text()</xpath>
+                <value>3</value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="VCE_BearBerryBush"]/statBases/Beauty/text()</xpath>
+                <value>1</value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="VCE_BananaTree"]/statBases/Beauty/text()</xpath>
+                <value>3</value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="VCE_OrangeTree"]/statBases/Beauty/text()</xpath>
+                <value>3</value>
+            </li>			
+			
+        </operations>
+    </match>
+    </Operation>
+</Patch>

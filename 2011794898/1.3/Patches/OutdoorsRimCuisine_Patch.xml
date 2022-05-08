@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+
+    <Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>[1.0, 1.1] RimCuisine 2 Core</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+		
+			<li Class="PatchOperationConditional">
+				<xpath>/Defs/ThingDef[@Name="RC2_PlantBase"]/statBases</xpath>
+				<match Class="PatchOperationConditional">
+					<xpath>/Defs/ThingDef[@Name="RC2_PlantBase"]/statBases/Beauty</xpath>
+					<match Class="PatchOperationReplace">
+					    <xpath>/Defs/ThingDef[@Name="RC2_PlantBase"]/statBases/Beauty/text()</xpath>
+                        <value>1</value>
+				    </match>
+					<nomatch Class="PatchOperationAdd">
+					    <xpath>/Defs/ThingDef[@Name="RC2_PlantBase"]/statBases</xpath>
+                        <value>
+			      		    <Beauty>1</Beauty>
+						</value>
+				    </nomatch>
+				</match>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[@Name="RC2_PlantBase"]</xpath>
+					<value>
+                        <statBases>
+     					    <Beauty>1</Beauty>
+			            </statBases>
+                    </value>
+			    </nomatch>
+			</li>
+			
+			<li Class="PatchOperationConditional">
+				<xpath>/Defs/ThingDef[@Name="RC2_FruitTreeBase"]/statBases</xpath>
+				<match Class="PatchOperationConditional">
+					<xpath>/Defs/ThingDef[@Name="RC2_FruitTreeBase"]/statBases/Beauty</xpath>
+					<match Class="PatchOperationReplace">
+					    <xpath>/Defs/ThingDef[@Name="RC2_FruitTreeBase"]/statBases/Beauty/text()</xpath>
+                        <value>3</value>
+				    </match>
+					<nomatch Class="PatchOperationAdd">
+					    <xpath>/Defs/ThingDef[@Name="RC2_FruitTreeBase"]/statBases</xpath>
+                        <value>
+			      		    <Beauty>3</Beauty>
+						</value>
+				    </nomatch>
+				</match>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[@Name="RC2_FruitTreeBase"]</xpath>
+					<value>
+                        <statBases>
+     					    <Beauty>3</Beauty>
+			            </statBases>
+                    </value>
+			    </nomatch>
+			</li>
+			
+			<li Class="PatchOperationConditional">
+				<xpath>/Defs/ThingDef[@Name="RC2_WildFruitTreeBase"]/statBases</xpath>
+				<match Class="PatchOperationConditional">
+					<xpath>/Defs/ThingDef[@Name="RC2_WildFruitTreeBase"]/statBases/Beauty</xpath>
+					<match Class="PatchOperationReplace">
+					    <xpath>/Defs/ThingDef[@Name="RC2_WildFruitTreeBase"]/statBases/Beauty/text()</xpath>
+                        <value>4</value>
+				    </match>
+					<nomatch Class="PatchOperationAdd">
+					    <xpath>/Defs/ThingDef[@Name="RC2_WildFruitTreeBase"]/statBases</xpath>
+                        <value>
+			      		    <Beauty>4</Beauty>
+						</value>
+				    </nomatch>
+				</match>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[@Name="RC2_WildFruitTreeBase"]</xpath>
+					<value>
+                        <statBases>
+     					    <Beauty>4</Beauty>
+			            </statBases>
+                    </value>
+			    </nomatch>
+			</li>		
+			
+        </operations>
+    </match>
+    </Operation>
+</Patch>

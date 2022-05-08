@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+
+    <Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>VGP Vegetable Garden</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+		    <li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[@Name="VG_WildFruitTree"]/statBases/Beauty/text()</xpath>
+                <value>4</value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/ThingDef[defName="VG_PlantAmbrosia"]/statBases</xpath>
+                <value>
+                    <Beauty>2</Beauty>
+                </value>
+            </li>
+			<li Class="PatchOperationAdd">
+                <xpath>/Defs/ThingDef[defName="Plantgooseberry"]</xpath>
+                <value>
+				    <statBases>
+                        <Beauty>2</Beauty>
+                    </statBases>
+				</value>
+            </li>
+			<li Class="PatchOperationAdd">
+                <xpath>/Defs/ThingDef[defName="WildPlantgooseberry"]</xpath>
+                <value>
+				    <statBases>
+                        <Beauty>2</Beauty>
+                    </statBases>
+				</value>
+            </li>
+			<li Class="PatchOperationAdd">
+                <xpath>/Defs/ThingDef[defName="Plantcloudberry"]</xpath>
+                <value>
+				    <statBases>
+                        <Beauty>2</Beauty>
+                    </statBases>
+				</value>
+            </li>
+			<li Class="PatchOperationAdd">
+                <xpath>/Defs/ThingDef[defName="WildPlantcloudberry"]</xpath>
+                <value>
+				    <statBases>
+                        <Beauty>2</Beauty>
+                    </statBases>
+				</value>
+            </li>
+			<li Class="PatchOperationAdd">
+                <xpath>/Defs/ThingDef[defName="Plantgrape"]</xpath>
+                <value>
+				    <statBases>
+                        <Beauty>2</Beauty>
+                    </statBases>
+				</value>
+            </li>
+			<li Class="PatchOperationAdd">
+                <xpath>/Defs/ThingDef[defName="Plantblueberry"]</xpath>
+                <value>
+				    <statBases>
+                        <Beauty>2</Beauty>
+                    </statBases>
+				</value>
+            </li>
+			
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="PlantPlumeria"]/statBases/Beauty/text()</xpath>
+                <value>23</value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="Wild_PlantPlumeria"]/statBases/Beauty/text()</xpath>
+                <value>25</value>
+            </li>
+			
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="PlantTreeIronwood"]/statBases/Beauty/text()</xpath>
+                <value>4</value>
+            </li>
+			
+        </operations>
+    </match>
+    </Operation>
+</Patch>

@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+
+    <Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Alpha Biomes</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+		  
+		  <!-- ========== Patching Plants_Cold ========== -->
+		  
+		    <li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="AB_FrostLeaf"]/statBases/Beauty/text()</xpath>
+                <value>3</value>
+            </li>
+		    <li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="AB_CrystalFlower"]/statBases/Beauty/text()</xpath>
+                <value>6</value>
+            </li>
+			
+		  <!-- ========== Patching Plants_Conflagration ========== -->
+		  
+		    <li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="AB_BrownBarrelCactus"]/statBases/Beauty/text()</xpath>
+                <value>0</value>
+            </li>
+			
+		  <!-- ========== Patching Plants_Darkness ========== -->
+		  
+		    <li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="AB_GiantStikehr"]/statBases/Beauty/text()</xpath>
+                <value>6</value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="AB_GiantSeptimum"]/statBases/Beauty/text()</xpath>
+                <value>-8</value>
+            </li>
+			
+		  <!-- ========== Patching Plants_Graveyard ========== -->
+		  
+		  <!-- ========== Patching Plants_Jungle ========== -->
+		  
+		    <li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="AB_Gomphoeria"]/statBases/Beauty/text()</xpath>
+                <value>3</value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="AB_Aaklac"]/statBases/Beauty/text()</xpath>
+                <value>16</value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="AB_JungleTree"]/statBases/Beauty/text()</xpath>
+                <value>3</value>
+            </li>
+			
+		  <!-- ========== Patching Plants_Mechanical ========== -->
+		  
+		    <li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="AB_SessileMechanoid"]/statBases/Beauty/text()</xpath>
+                <value>-3</value>
+            </li>
+			<li Class="PatchOperationConditional">
+				<xpath>/Defs/ThingDef[defName="AB_HardyGrass"]/statBases</xpath>
+				<match Class="PatchOperationConditional">
+					<xpath>/Defs/ThingDef[defName="AB_HardyGrass"]/statBases/Beauty</xpath>
+					<match Class="PatchOperationReplace">
+					    <xpath>/Defs/ThingDef[defName="AB_HardyGrass"]/statBases/Beauty/text()</xpath>
+                        <value>0</value>
+				    </match>
+					<nomatch Class="PatchOperationAdd">
+					    <xpath>/Defs/ThingDef[defName="AB_HardyGrass"]/statBases</xpath>
+                        <value>
+			      		    <Beauty>0</Beauty>
+						</value>
+				    </nomatch>
+				</match>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="AB_HardyGrass"]</xpath>
+					<value>
+                        <statBases>
+     					    <Beauty>0</Beauty>
+			            </statBases>
+                    </value>
+			    </nomatch>
+			</li>
+			
+		  <!-- ========== Patching Plants_Mycotic ========== -->
+		  
+		    <li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="AB_Glowstool"]/statBases/Beauty/text()</xpath>
+                <value>3</value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="AB_LilacBeacon"]/statBases/Beauty/text()</xpath>
+                <value>3</value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="AB_Agarilux"]/statBases/Beauty/text()</xpath>
+                <value>5</value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="AB_GiantAgarilux"]/statBases/Beauty/text()</xpath>
+                <value>5</value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="AB_ArbuscularMycorrhiza"]/statBases/Beauty/text()</xpath>
+                <value>6</value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="AB_RecurvedStropharia"]/statBases/Beauty/text()</xpath>
+                <value>5</value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="AB_SlimyPholiota"]/statBases/Beauty/text()</xpath>
+                <value>5</value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="AB_GlowingAgarilux"]/statBases/Beauty/text()</xpath>
+                <value>6</value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="AB_AgariluxPrime"]/statBases/Beauty/text()</xpath>
+                <value>8</value>
+            </li>
+			
+		  <!-- ========== Patching Plants_Slimy ========== -->
+		  
+		    <li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="AB_LargeSlimyTree"]/statBases/Beauty/text()</xpath>
+                <value>3</value>
+            </li>
+			
+		  <!-- ========== Patching Plants_TarPits ========== -->
+		  
+		    <li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="AB_Iashiphus"]/statBases/Beauty/text()</xpath>
+                <value>3</value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="AB_SugarFamewort"]/statBases/Beauty/text()</xpath>
+                <value>3</value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="AB_KeeningCordax"]/statBases/Beauty/text()</xpath>
+                <value>-12</value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="AB_TarPuddle"]/statBases/Beauty/text()</xpath>
+                <value>-4</value>
+            </li>
+			
+		  <!-- ========== Patching Plants_Wild_Alien ========== -->
+		
+		  <!-- ========== Patching Terrain_FeraliskInfestedJungle ========== -->
+			
+		    <li Class="PatchOperationReplace">
+                <xpath>/Defs/TerrainDef[defName="AB_DenseMud"]/statBases/Beauty/text()</xpath>
+                <value>-3</value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/TerrainDef[defName="AB_DenseGrass"]/statBases/Beauty/text()</xpath>
+                <value>0</value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/TerrainDef[defName="AB_WebbedMarshyTerrain"]/statBases/Beauty/text()</xpath>
+                <value>-4</value>
+            </li>
+			
+		  <!-- ========== Patching Terrain_Forsaken ========== -->
+			
+		    <li Class="PatchOperationReplace">
+                <xpath>/Defs/TerrainDef[defName="AB_ForsakenSand"]/statBases/Beauty/text()</xpath>
+                <value>0</value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/TerrainDef[defName="AB_FineForsakenSand"]/statBases/Beauty/text()</xpath>
+                <value>0</value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/TerrainDef[defName="AB_ForsakenRock"]/statBases/Beauty/text()</xpath>
+                <value>-2</value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/TerrainDef[defName="AB_DarkMud"]/statBases/Beauty/text()</xpath>
+                <value>-4</value>
+            </li>
+			
+		  <!-- ========== Patching Terrain_GallatrossGraveyard ========== -->
+		    
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/TerrainDef[defName="AB_CrackedMud"]/statBases/Beauty/text()</xpath>
+                <value>-3</value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/TerrainDef[defName="AB_FineSand"]/statBases/Beauty/text()</xpath>
+                <value>0</value>
+            </li>
+			
+		  <!-- ========== Patching Terrain_GelatinousSuperorganism ========== -->
+		    
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/TerrainDef[defName="AB_Slime"]/statBases/Beauty/text()</xpath>
+                <value>-2</value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/TerrainDef[defName="AB_SlimyMud"]/statBases/Beauty/text()</xpath>
+                <value>-5</value>
+            </li>
+		
+		  <!-- ========== Patching Terrain_MechanoidIntrusion ========== -->
+		    
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/TerrainDef[defName="GU_MetalFloor1"]/statBases/Beauty/text()</xpath>
+                <value>0</value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/TerrainDef[defName="GU_MetalFloor2"]/statBases/Beauty/text()</xpath>
+                <value>0</value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/TerrainDef[defName="GU_MetalFloor3"]/statBases/Beauty/text()</xpath>
+                <value>0</value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/TerrainDef[defName="AB_SoilOnCrackedMetal"]/statBases/Beauty/text()</xpath>
+                <value>0</value>
+            </li>
+			
+		  <!-- ========== Patching Terrain_MycoticJungle ========== -->
+		    
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/TerrainDef[defName="AB_MycoticSoilRich"]/statBases/Beauty/text()</xpath>
+                <value>0</value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/TerrainDef[defName="AB_MycoticGrass"]/statBases/Beauty/text()</xpath>
+                <value>0</value>
+            </li>
+
+		  <!-- ========== Patching Terrain_OcularForest ========== -->
+		    
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/TerrainDef[defName="GU_RichAlienSand"]/statBases/Beauty/text()</xpath>
+                <value>0</value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/TerrainDef[defName="GU_AlienSandFine"]/statBases/Beauty/text()</xpath>
+                <value>0</value>
+            </li>
+			
+		  <!-- ========== Patching Terrain_PropaneLakes ========== -->
+		    
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/TerrainDef[defName="AB_PackedSnow"]/statBases/Beauty/text()</xpath>
+                <value>0</value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/TerrainDef[defName="AB_PackedIce"]/statBases/Beauty/text()</xpath>
+                <value>0</value>
+            </li>
+			
+		  <!-- ========== Patching Terrain_PyroclasticConflagration ========== -->
+		    
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/TerrainDef[defName="AB_BlackPebbles"]/statBases/Beauty/text()</xpath>
+                <value>0</value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/TerrainDef[defName="AB_HardenedGrass"]/statBases/Beauty/text()</xpath>
+                <value>-2</value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/TerrainDef[defName="AB_HardenedGrassFertile"]/statBases/Beauty/text()</xpath>
+                <value>-1</value>
+            </li>
+			
+		  <!-- ========== Patching Terrain_TarPits ========== -->
+		    
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/TerrainDef[defName="AB_LushGrass"]/statBases/Beauty/text()</xpath>
+                <value>0</value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/TerrainDef[defName="AB_GrassySand"]/statBases/Beauty/text()</xpath>
+                <value>0</value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/TerrainDef[defName="AB_ParchedEarth"]/statBases/Beauty/text()</xpath>
+                <value>-3</value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/TerrainDef[defName="AB_TarMud"]/statBases/Beauty/text()</xpath>
+                <value>-4</value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/TerrainDef[defName="AB_ArtificialTar"]/statBases/Beauty/text()</xpath>
+                <value>-18</value>
+            </li>
+			
+        </operations>
+    </match>
+    </Operation>
+</Patch>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+
+    <Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>ReGrowth: Tundra Expansion</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+		    
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="RG-T_Plant_Saxifraga"]/statBases/Beauty/text()</xpath>
+                <value>9</value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="RG-T_Plant_LupineIceland"]/statBases/Beauty/text()</xpath>
+                <value>9</value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="RG-T_Plant_TundraCotton"]/statBases/Beauty/text()</xpath>
+                <value>7</value>
+            </li>	
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="RG-T_Plant_YellowTreePine"]/statBases/Beauty/text()</xpath>
+                <value>5</value>
+            </li>
+			
+			<li Class="PatchOperationConditional">
+				<xpath>/Defs/ThingDef[defName="RG-T_Plant_RimbayWillow"]/statBases</xpath>
+				<match Class="PatchOperationConditional">
+					<xpath>/Defs/ThingDef[defName="RG-T_Plant_RimbayWillow"]/statBases/Beauty</xpath>
+					<match Class="PatchOperationReplace">
+					    <xpath>/Defs/ThingDef[defName="RG-T_Plant_RimbayWillow"]/statBases/Beauty/text()</xpath>
+                        <value>2</value>
+				    </match>
+					<nomatch Class="PatchOperationAdd">
+					    <xpath>/Defs/ThingDef[defName="RG-T_Plant_RimbayWillow"]/statBases</xpath>
+                        <value>
+			      		    <Beauty>2</Beauty>
+						</value>
+				    </nomatch>
+				</match>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="RG-T_Plant_RimbayWillow"]</xpath>
+					<value>
+                        <statBases>
+     					    <Beauty>2</Beauty>
+			            </statBases>
+                    </value>
+			    </nomatch>
+			</li>
+			
+        </operations>
+    </match>
+    </Operation>
+</Patch>

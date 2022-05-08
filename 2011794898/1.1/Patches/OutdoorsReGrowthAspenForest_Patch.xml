@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+
+    <Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>ReGrowth: Aspen Forests</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+		
+		    <li Class="PatchOperationAdd">
+     	     <xpath>/Defs/ThingDef[defName="RG-AF_Filth_LeavesAspenRedTree"]</xpath>
+    		    <value>
+				    <statBases>
+			            <Beauty>0</Beauty>
+						<Cleanliness>-4</Cleanliness>
+    		        </statBases>
+				</value>
+		    </li>
+			<li Class="PatchOperationAdd">
+     	     <xpath>/Defs/ThingDef[defName="RG-AF_Filth_LeavesAspenYellowTree"]</xpath>
+    		    <value>
+				    <statBases>
+			            <Beauty>0</Beauty>
+						<Cleanliness>-4</Cleanliness>
+    		        </statBases>
+				</value>
+		    </li>
+		    
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="RG-AF_Plant_TreeAspenRed"]/statBases/Beauty/text()</xpath>
+                <value>3</value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="RG-AF_Plant_TreeAspenYellow"]/statBases/Beauty/text()</xpath>
+                <value>3</value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="RG-AF_Plant_Deathbell"]/statBases/Beauty/text()</xpath>
+                <value>8</value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="RG-AF_Plant_RedMountainFlower"]/statBases/Beauty/text()</xpath>
+                <value>8</value>
+            </li>
+		
+        </operations>
+    </match>
+    </Operation>
+</Patch>

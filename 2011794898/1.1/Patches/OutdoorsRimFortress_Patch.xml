@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+
+    <Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>RimFortress: Dwarven Plants</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+		
+		    <!-- ========== Patching DF_Plants_Cave ========== -->
+			
+		    <li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="Plant_DimpleCup"]/statBases/Beauty/text()</xpath>
+                <value>17</value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="DF_PlantQuarryBush"]/statBases/Beauty/text()</xpath>
+                <value>1</value>
+            </li>			
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="DF_PlantSweetPod"]/statBases/Beauty/text()</xpath>
+                <value>1</value>
+            </li>
+			
+			<!-- ========== Patching DF_Trees ========== -->
+			
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="DF_TreeTowerCap"]/statBases/Beauty/text()</xpath>
+                <value>4</value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="DF_TreeFungiWood"]/statBases/Beauty/text()</xpath>
+                <value>3</value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="DF_TreeBloodThorn"]/statBases/Beauty/text()</xpath>
+                <value>-10</value>
+            </li>
+			
+        </operations>
+    </match>
+    </Operation>
+</Patch>

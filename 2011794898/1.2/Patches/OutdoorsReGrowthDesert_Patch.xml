@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+
+    <Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>ReGrowth: Desert Expansion</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+		    
+			<li Class="PatchOperationAdd">
+     		 <xpath>/Defs/ThingDef[defName="RG-D_Plant_PitahayaCactus"]/statBases</xpath>
+    		    <value>
+			        <Beauty>2</Beauty>
+    		    </value>
+		    </li>
+			<li Class="PatchOperationAdd">
+     		 <xpath>/Defs/ThingDef[defName="RG-D_Plant_AngelWingsCactus"]/statBases</xpath>
+    		    <value>
+			        <Beauty>1</Beauty>
+    		    </value>
+		    </li>
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="RG-D_Plant_DesertPalmTree"]/statBases/Beauty/text()</xpath>
+                <value>3</value>
+            </li>
+		
+        </operations>
+    </match>
+    </Operation>
+</Patch>

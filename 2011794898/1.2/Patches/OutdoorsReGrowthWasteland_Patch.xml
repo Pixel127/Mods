@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+
+    <Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>ReGrowth: Wastelands</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+		    
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="RG-W_Plant_MutatedFungus"]/statBases/Beauty/text()</xpath>
+                <value>-1</value>
+            </li>
+			<li Class="PatchOperationAdd">
+     		    <xpath>/Defs/ThingDef[defName="RG-W_Plant_GlowBloom"]/statBases</xpath>
+    		    <value>
+			        <Beauty>2</Beauty>
+    		    </value>
+    		</li>
+			<li Class="PatchOperationAdd">
+     		    <xpath>/Defs/ThingDef[defName="RG-W_Plant_GlowWeed"]/statBases</xpath>
+    		    <value>
+			        <Beauty>2</Beauty>
+    		    </value>
+    		</li>
+			<li Class="PatchOperationAdd">
+     		    <xpath>/Defs/ThingDef[defName="RG-W_Plant_GlowLeaf"]/statBases</xpath>
+    		    <value>
+			        <Beauty>2</Beauty>
+    		    </value>
+    		</li>
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="RG-W_Tripaloski"]/statBases/Beauty/text()</xpath>
+                <value>1</value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="RG-W_Plant_DryTreePine"]/statBases/Beauty/text()</xpath>
+                <value>2</value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="RG-W_Plant_TreeMutatedDryPine"]/statBases/Beauty/text()</xpath>
+                <value>2</value>
+            </li>	
+			
+        </operations>
+    </match>
+    </Operation>
+</Patch>

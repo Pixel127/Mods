@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Simply More Colored Lamps</name>
+  <author>ToddEStan</author>
+  <supportedVersions>
+    <li>1.0</li>
+    <li>1.1</li>
+    <li>1.2</li>
+    <li>1.3</li>
+  </supportedVersions>
+  <packageId>ToddEStan.SimplyMoreColoredLamps</packageId>
+  <description>
+      This mod simply adds more colored standing lamps to the game.
+
+      These new standing lamps maintain the vanilla game balance.  They cost the same amount of resources, use the same amount of power, and produce the same amount of light as the vanilla standing lamps.  To your colonists, they work exactly the same as any other standing lamp.
+
+      These new standing lamps, along with the vanilla standing lamps, will become available once Colored Lights have been researched.
+
+      New colors added:
+        Yellow
+        Orange
+        Magenta
+        Cyan
+
+      In addition, a "warm" colored lamp has been added for that warm, homely, feel, and a new "cool" colored lamp has been added for that cold, industrial look.
+
+      Mod compatibility:
+        This mod should work with other lighting mods, but is likely redundant with many of them.  If another mod modifies StandingLampBase (power usage, etc.), it will also affect the standing lamps added by this mod.
+
+      This mod is safe to add to an existing save game.  If you want to remove this mod from an existing save, you'll first have to get rid of all of the new colored lamps off of the map.
+  </description>
+</ModMetaData>

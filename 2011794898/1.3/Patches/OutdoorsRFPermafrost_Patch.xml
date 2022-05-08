@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+
+    <Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>[RF] Permafrost 1.1</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+		    <li Class="PatchOperationReplace">
+                <xpath>/Defs/TerrainDef[defName="IceST"]/statBases/Beauty/text()</xpath>
+                <value>0</value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/TerrainDef[defName="IceS"]/statBases/Beauty/text()</xpath>
+                <value>0</value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>/Defs/TerrainDef[defName="IceDT"]/statBases/Beauty/text()</xpath>
+                <value>0</value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>/Defs/TerrainDef[defName="IceD"]/statBases/Beauty/text()</xpath>
+                <value>0</value>
+            </li>   
+            <li Class="PatchOperationReplace">
+                <xpath>/Defs/TerrainDef[defName="IceSMT"]/statBases/Beauty/text()</xpath>
+                <value>0</value>
+            </li>  	
+            <li Class="PatchOperationReplace">
+                <xpath>/Defs/TerrainDef[defName="IceSM"]/statBases/Beauty/text()</xpath>
+                <value>0</value>
+            </li> 
+            <li Class="PatchOperationReplace">
+                <xpath>/Defs/TerrainDef[defName="IceDMT"]/statBases/Beauty/text()</xpath>
+                <value>0</value>
+            </li> 
+            <li Class="PatchOperationReplace">
+                <xpath>/Defs/TerrainDef[defName="IceDM"]/statBases/Beauty/text()</xpath>
+                <value>0</value>
+            </li> 			
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/TerrainDef[defName="IceMarshT"]/statBases/Beauty/text()</xpath>
+                <value>-2</value>
+            </li> 
+            <li Class="PatchOperationReplace">
+                <xpath>/Defs/TerrainDef[defName="IceMarsh"]/statBases/Beauty/text()</xpath>
+                <value>-1</value>
+            </li> 				
+
+        </operations>
+    </match>
+    </Operation>
+</Patch>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+
+    <Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>ReGrowth: Core and Framework</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+		    
+			<li Class="PatchOperationAdd">
+     	     <xpath>/Defs/ThingDef[defName="RG_Filth_LeavesTreeOak"]</xpath>
+    		    <value>
+				    <statBases>
+			            <Beauty>0</Beauty>
+						<Cleanliness>-4</Cleanliness>
+    		        </statBases>
+				</value>
+		    </li>
+			<li Class="PatchOperationAdd">
+     		 <xpath>/Defs/ThingDef[defName="RG_Filth_LeavesTreePopolar"]</xpath>
+    		    <value>
+				    <statBases>
+			            <Beauty>0</Beauty>
+						<Cleanliness>-4</Cleanliness>
+    		        </statBases>
+				</value>
+		    </li>
+			<li Class="PatchOperationAdd">
+     		 <xpath>/Defs/ThingDef[defName="RG_Filth_LeavesTreeBirch"]</xpath>
+    		    <value>
+				    <statBases>
+			            <Beauty>0</Beauty>
+						<Cleanliness>-4</Cleanliness>
+    		        </statBases>
+				</value>
+		    </li>
+			
+			
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/ReGrowthCore.ActiveTerrainDef[defName="RG_Lava"]/statBases/Beauty/text()</xpath>
+                <value>-8</value>
+            </li>
+			
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/TerrainDef[defName="RG_LavaRock"]/statBases/Beauty/text()</xpath>
+                <value>-2</value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/TerrainDef[defName="RG_HotSpringSand"]/statBases/Beauty/text()</xpath>
+                <value>0</value>
+            </li>
+			
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/TerrainDef[defName="RG_DepletedSoil"]/statBases/Beauty/text()</xpath>
+                <value>-1</value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/TerrainDef[defName="RG_RubbleSoil"]/statBases/Beauty/text()</xpath>
+                <value>-3</value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/TerrainDef[defName="RG_DepletedMossy"]/statBases/Beauty/text()</xpath>
+                <value>-2</value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/TerrainDef[defName="RG_DepletedGravel"]/statBases/Beauty/text()</xpath>
+                <value>-2</value>
+            </li>
+			
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/TerrainDef[defName="RG_ToxicWaste"]/statBases/Beauty/text()</xpath>
+                <value>-12</value>
+            </li>
+			
+        </operations>
+    </match>
+    </Operation>
+</Patch>

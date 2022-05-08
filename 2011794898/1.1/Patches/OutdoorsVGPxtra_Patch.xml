@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+
+    <Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>VGP Xtra Trees and Flowers</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+		    <li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="PlantAlliumGiganteum"]/statBases/Beauty/text()</xpath>
+                <value>16</value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="PlantAnthurium"]/statBases/Beauty/text()</xpath>
+                <value>29</value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="PlantNymphHair"]/statBases/Beauty/text()</xpath>
+                <value>26</value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="PlantPinkRimstalk"]/statBases/Beauty/text()</xpath>
+                <value>29</value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="PlantPlumeria"]/statBases/Beauty/text()</xpath>
+                <value>24</value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="PlantSunflower"]/statBases/Beauty/text()</xpath>
+                <value>18</value>
+            </li>
+        </operations>
+    </match>
+    </Operation>
+</Patch>

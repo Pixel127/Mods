@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+
+    <Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Vanilla Plants Expanded - Succulents</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+		    		
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="VCE_Plant_AloeVera"]/statBases/Beauty/text()</xpath>
+                <value>9</value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="VCE_Plant_BunnyEarsCactus"]/statBases/Beauty/text()</xpath>
+                <value>9</value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="VCE_Plant_Echeveria"]/statBases/Beauty/text()</xpath>
+                <value>9</value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="VCE_Plant_FairyWashboard"]/statBases/Beauty/text()</xpath>
+                <value>9</value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="VCE_Plant_JadePlant"]/statBases/Beauty/text()</xpath>
+                <value>9</value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="VCE_Plant_PeyotePlant"]/statBases/Beauty/text()</xpath>
+                <value>9</value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="VCE_Plant_PincushionPlant"]/statBases/Beauty/text()</xpath>
+                <value>9</value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="VCE_Plant_Schlumbergera"]/statBases/Beauty/text()</xpath>
+                <value>9</value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="VCE_Plant_SnakePlant"]/statBases/Beauty/text()</xpath>
+                <value>9</value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="VCE_Plant_SweetheartPlant"]/statBases/Beauty/text()</xpath>
+                <value>9</value>
+            </li>
+			
+        </operations>
+    </match>
+    </Operation>
+</Patch>

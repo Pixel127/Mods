@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+
+    <Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>ReGrowth: Temperate Forest Expansion</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+		    
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="RG-TF_Plant_MountainDandelion"]/statBases/Beauty/text()</xpath>
+                <value>8</value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="RG-TF_Plant_NordicDandelion"]/statBases/Beauty/text()</xpath>
+                <value>8</value>
+            </li>
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="RG-TF_Plant_Cathedralis"]/statBases/Beauty/text()</xpath>
+                <value>9</value>
+            </li>
+			
+			<li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="RG-TF_Cibarius"]/statBases/Beauty/text()</xpath>
+                <value>3</value>
+            </li>
+		
+        </operations>
+    </match>
+    </Operation>
+</Patch>

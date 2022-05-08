@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef ParentName="StandingLampBase">
+    <defName>SMSLC_StandingLamp_Yellow</defName>
+    <label>standing lamp (yellow)</label>
+    <description>A standing lamp that lights an area in yellow.</description>
+    <designatorDropdown>StandingLampColored</designatorDropdown>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>12</glowRadius>
+        <glowColor>(217,217,80,0)</glowColor>
+      </li>
+    </comps>
+    <researchPrerequisites>
+      <li>ColoredLights</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="StandingLampBase">
+    <defName>SMSLC_StandingLamp_Orange</defName>
+    <label>standing lamp (orange)</label>
+    <description>A standing lamp that lights an area in orange.</description>
+    <designatorDropdown>StandingLampColored</designatorDropdown>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>12</glowRadius>
+        <glowColor>(217,137,40,0)</glowColor>
+      </li>
+    </comps>
+    <researchPrerequisites>
+      <li>ColoredLights</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="StandingLampBase">
+    <defName>SMSLC_StandingLamp_Magenta</defName>
+    <label>standing lamp (magenta)</label>
+    <description>A standing lamp that lights an area in magenta.</description>
+    <designatorDropdown>StandingLampColored</designatorDropdown>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>12</glowRadius>
+        <glowColor>(217,80,217,0)</glowColor>
+      </li>
+    </comps>
+    <researchPrerequisites>
+      <li>ColoredLights</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="StandingLampBase">
+    <defName>SMSLC_StandingLamp_Cyan</defName>
+    <label>standing lamp (cyan)</label>
+    <description>A standing lamp that lights an area in cyan.</description>
+    <designatorDropdown>StandingLampColored</designatorDropdown>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>12</glowRadius>
+        <glowColor>(80,217,217,0)</glowColor>
+      </li>
+    </comps>
+    <researchPrerequisites>
+      <li>ColoredLights</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="StandingLampBase">
+    <defName>SMSLC_StandingLamp_Warm</defName>
+    <label>standing lamp (warm)</label>
+    <description>A standing lamp that lights an area in a homely warm color.</description>
+    <designatorDropdown>StandingLampColored</designatorDropdown>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>12</glowRadius>
+        <glowColor>(252,200,140,0)</glowColor>
+      </li>
+    </comps>
+    <researchPrerequisites>
+      <li>ColoredLights</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="StandingLampBase">
+    <defName>SMSLC_StandingLamp_Cool</defName>
+    <label>standing lamp (cool)</label>
+    <description>A standing lamp that lights an area in a cool blue color.</description>
+    <designatorDropdown>StandingLampColored</designatorDropdown>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>12</glowRadius>
+        <glowColor>(140,200,252,0)</glowColor>
+      </li>
+    </comps>
+    <researchPrerequisites>
+      <li>ColoredLights</li>
+  </researchPrerequisites>
+  </ThingDef>
+</Defs>

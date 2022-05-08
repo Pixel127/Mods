@@ -1,0 +1,45 @@
+<Patch>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Royalty</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+		<success>Always</success>
+		    <operations>
+			
+			    <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="Plant_TreeAnima"]/statBases/Beauty/text()</xpath>
+                    <value>12</value>
+                </li>
+            	
+		    	<li Class="PatchOperationConditional">
+		    		<xpath>/Defs/ThingDef[defName="Plant_GrassAnima"]/statBases</xpath>
+		    		<match Class="PatchOperationConditional">
+		    			<xpath>/Defs/ThingDef[defName="Plant_GrassAnima"]/statBases/Beauty</xpath>
+		    			<match Class="PatchOperationReplace">
+		    			    <xpath>/Defs/ThingDef[defName="Plant_GrassAnima"]/statBases/Beauty/text()</xpath>
+                            <value>2</value>
+		    		    </match>
+		    			<nomatch Class="PatchOperationAdd">
+		    			    <xpath>/Defs/ThingDef[defName="Plant_GrassAnima"]/statBases</xpath>
+                            <value>
+		    	      		    <Beauty>2</Beauty>
+		    				</value>
+		    		    </nomatch>
+		    		</match>
+		    		<nomatch Class="PatchOperationAdd">
+		    			<xpath>/Defs/ThingDef[defName="Plant_GrassAnima"]</xpath>
+		    			<value>
+                            <statBases>
+     	    				    <Beauty>2</Beauty>
+		    	            </statBases>
+                        </value>
+		    	    </nomatch>
+		    	</li>                
+	
+	        </operations>
+        </match>
+    </Operation>
+	
+</Patch>
