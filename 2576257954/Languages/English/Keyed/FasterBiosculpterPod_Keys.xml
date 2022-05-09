@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<Inglix.Installed_Version>Installed Version</Inglix.Installed_Version>
+	<Inglix.Faster_Biosculpter_Pod>Faster Biosculpter Pod</Inglix.Faster_Biosculpter_Pod>
+	
+	<Inglix.Medic_Cycle>Medic Cycle</Inglix.Medic_Cycle>
+	<Inglix.Bioregeneration_Cycle>Bioregeneration Cycle</Inglix.Bioregeneration_Cycle>
+	<Inglix.Age_Reversal_Cycle>Age Reversal Cycle</Inglix.Age_Reversal_Cycle>
+	<Inglix.Pleasure_Cycle>Pleasure Cycle</Inglix.Pleasure_Cycle>
+	<Inglix.Miscellaneous_Options>Miscellaneous Options</Inglix.Miscellaneous_Options>
+	<Inglix.Biotuning_Duration>Biotuning Duration</Inglix.Biotuning_Duration>
+	<Inglix.Biotuned_Speed>Biotuned Cycle Speed Factor</Inglix.Biotuned_Speed>
+	<Inglix.Power_Consumption>Active Power Consumption</Inglix.Power_Consumption>
+	<Inglix.Standby_Consumption>Standby Power Consumption</Inglix.Standby_Consumption>
+	<Inglix.Building_Cost>Building Cost</Inglix.Building_Cost>
+	<Inglix.Research_Cost>Research Cost</Inglix.Research_Cost>
+	
+	<Inglix.Biosculpting_Research>Biosculpting Research</Inglix.Biosculpting_Research>
+	<Inglix.Bioregeneration_Research>Bioregeneration Research</Inglix.Bioregeneration_Research>
+	<Inglix.Require_HiTechBench>Requires Hi-tech Research Bench</Inglix.Require_HiTechBench>
+	<Inglix.Require_MultiAnalyzer>Requires Multi-analyzer</Inglix.Require_MultiAnalyzer>
+	
+	<Inglix.Cycle_Duration>Cycle Duration</Inglix.Cycle_Duration>
+	<Inglix.Nutrition_Required>Nutrition Required</Inglix.Nutrition_Required>
+	<Inglix.MedicineUltratech_Required>Glitterworld Medicine Required</Inglix.MedicineUltratech_Required>
+	<Inglix.Age_Reversed>Age Reversed</Inglix.Age_Reversed>
+	<Inglix.Mood_Duration>Mood Duration</Inglix.Mood_Duration>
+	<Inglix.Mood_Effect>Mood Effect</Inglix.Mood_Effect>
+	
+	<Inglix.Use_Quadrums>Use quadrums in durations</Inglix.Use_Quadrums>
+	<Inglix.Use_Hours>Use hours in durations</Inglix.Use_Hours>
+	
+	<Inglix.Apply_Custom_Values>Apply Custom Values</Inglix.Apply_Custom_Values>
+	<Inglix.Apply_Recommended_Values>Apply Recommended Values</Inglix.Apply_Recommended_Values>
+	<Inglix.Apply_Vanilla_Values>Apply Vanilla Values</Inglix.Apply_Vanilla_Values>
+	
+	<Inglix.Biosculpter_Description>An immersive pod equipped with a biosculpting fluid injector and attached control system. It can perform a variety of biological alterations including age reversal and pleasure-giving. Each pod becomes biotuned to its user, and cannot be used by anyone else. Biotuning resets after {0} days. Believers in transhumanism believe biosculpter pods are of critical importance in their quest to transcend normal human physical limitations.</Inglix.Biosculpter_Description>
+	<Inglix.Biosculpter_Description_No_Biotuning>An immersive pod equipped with a biosculpting fluid injector and attached control system. It can perform a variety of biological alterations including age reversal and pleasure-giving. Believers in transhumanism believe biosculpter pods are of critical importance in their quest to transcend normal human physical limitations.</Inglix.Biosculpter_Description_No_Biotuning>
+	
+	<BiosculpterAutoAgeReversalDescription>Automatically satisfy {PAWN_labelShort}'s desire to run an age reversal treatment in this pod, in accordance with {PAWN_possessive} beliefs. {NEXTTREATMENT}</BiosculpterAutoAgeReversalDescription>
+	
+</LanguageData>
